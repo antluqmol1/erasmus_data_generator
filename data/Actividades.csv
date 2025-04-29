@@ -1,0 +1,19 @@
+ActividadID,NombreActividad,Fase,TipoActividad,ActorDefecto,OrdenSecuencial
+1,Solicitud presentada,Fase inicial,Manual,Estudiante,1
+2,Envío de documentación,Fase inicial,Manual,Estudiante,2
+3,Revisión de documentación,Fase inicial,Automática,Administración,3
+4,Solicitud validada,Fase inicial,Automática,Administración,4
+5,Adjudicación provisional,Fase de adjudicación,Automática,Administración,5
+6,Notificación de plaza asignada,Fase de adjudicación,Automática,Administración,6
+7,Aceptación de plaza,Fase de aceptación,Manual,Estudiante,7
+8,Confirmación de aceptación,Fase de aceptación,Manual,Estudiante,8
+9,Renuncia a plaza,Fase de renuncia,Manual,Estudiante,9
+10,Cancelación por baja voluntaria,Fase de renuncia,Manual,Estudiante,10
+11,Cancelación de destino,Fase de reubicación,Automática,Administración,11
+12,Reasignación de destino,Fase de reubicación,Automática,Administración,12
+13,Alegación presentada,Fase de alegaciones,Manual,Estudiante,13
+14,Resolución de alegación,Fase de alegaciones,Automática,Administración,14
+15,Solicitud de modificación de destino,Fase de alegaciones,Manual,Estudiante,15
+16,Resolución modificación de destino,Fase de alegaciones,Automática,Administración,16
+17,Firma de compromiso Erasmus,Fase final,Manual,Estudiante,17
+18,Emisión de certificado de movilidad,Fase final,Automática,Administración,18

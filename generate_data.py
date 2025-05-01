@@ -19,15 +19,23 @@ os.makedirs(RUTA_DATA, exist_ok=True)
 # ---- Plazos Clave (Curso 23-24 de ejemplo) ----
 PLAZOS = {
     # ID Actividad: (Fecha Inicio Plazo, Fecha Fin Plazo)
-    1: (datetime(2022, 11, 2), datetime(2022, 11, 28)), # Presentación Solicitudes (y Convalidación Idioma)
-    5: (datetime(2022, 11, 2), datetime(2022, 11, 30)), # Inscripción Programa Erasmus Registrada
-    8: (datetime(2022, 12, 12), datetime(2022, 12, 27)), # Alegaciones (desde pub prov hasta deadline)
-    12: (datetime(2023, 1, 11), datetime(2023, 1, 17)), # Respuesta 1ª Adj (desde pub 1ª adj hasta deadline)
-    13: (datetime(2023, 1, 11), datetime(2023, 1, 17)), # Respuesta 1ª Adj (Renuncia)
-    16: (datetime(2023, 1, 19), datetime(2023, 1, 23)), # Respuesta 2ª Adj (desde pub 2ª adj hasta deadline)
-    17: (datetime(2023, 1, 19), datetime(2023, 1, 23)), # Respuesta 2ª Adj (Renuncia)
-    20: (datetime(2023, 1, 25), datetime(2023, 1, 30)), # Respuesta 3ª Adj (desde pub 3ª adj hasta deadline)
-    21: (datetime(2023, 1, 25), datetime(2023, 1, 30)), # Respuesta 3ª Adj (Renuncia)
+    # -- IDs Nuevos (Original - 1, IDs >=2) --
+    # Actividad "Inscripción Programa Erasmus Registrada" (Original ID 5) -> Nuevo ID 4
+    4: (datetime(2022, 11, 2), datetime(2022, 11, 30)),
+    # Actividad "Alegación Presentada" (Original ID 8) -> Nuevo ID 7
+    7: (datetime(2022, 12, 12), datetime(2022, 12, 27)),
+    # Actividad "Respuesta Recibida (Aceptación/Reserva 1ª Adj.)" (Original ID 12) -> Nuevo ID 11
+    11: (datetime(2023, 1, 11), datetime(2023, 1, 17)),
+    # Actividad "Respuesta Recibida (Renuncia 1ª Adj.)" (Original ID 13) -> Nuevo ID 12
+    12: (datetime(2023, 1, 11), datetime(2023, 1, 17)),
+    # Actividad "Respuesta Recibida (Aceptación/Reserva 2ª Adj.)" (Original ID 16) -> Nuevo ID 15
+    15: (datetime(2023, 1, 19), datetime(2023, 1, 23)),
+    # Actividad "Respuesta Recibida (Renuncia 2ª Adj.)" (Original ID 17) -> Nuevo ID 16
+    16: (datetime(2023, 1, 19), datetime(2023, 1, 23)),
+    # Actividad "Respuesta Recibida (Aceptación/Reserva 3ª Adj.)" (Original ID 20) -> Nuevo ID 19
+    19: (datetime(2023, 1, 25), datetime(2023, 1, 30)),
+    # Actividad "Respuesta Recibida (Renuncia 3ª Adj.)" (Original ID 21) -> Nuevo ID 20
+    20: (datetime(2023, 1, 25), datetime(2023, 1, 30)),
 }
 
 # ---- Funciones Auxiliares ----
@@ -134,7 +142,10 @@ def generar_destinos(num_destinos):
                 fecha_cancelacion_dt = inicio_solicitudes + timedelta(days=delta_cancelacion.days // 2)
                 fecha_cancelacion = fecha_cancelacion_dt.strftime('%Y-%m-%d')
             
-        destinos.append([i, nombre, pais, plazas, cancelado, fecha_cancelacion])
+        # --- Añadir columna RequiereIdioma ---
+        requiere_idioma = random.random() < 0.65 # Aproximadamente 65% requieren idioma
+        
+        destinos.append([i, nombre, pais, plazas, cancelado, fecha_cancelacion, requiere_idioma])
     
     # Advertencia si el número generado es menor que el solicitado
     if len(universidades_con_pais) < num_destinos:
@@ -144,7 +155,7 @@ def generar_destinos(num_destinos):
         destinos,
         columns=[
             "DestinoID", "NombreDestino", "País", "NúmeroPlazas",
-            "Cancelado", "FechaCancelación"
+            "Cancelado", "FechaCancelación", "RequiereIdioma"
         ]
     )
 
@@ -170,7 +181,7 @@ def generar_estudiantes(num_estudiantes, destinos_df):
         expediente = round(random.uniform(5.0, 10.0), 1)
         # Fecha de solicitud dentro del plazo de INSCRIPCIÓN (Actividad 5)
         fecha_solicitud_dt = generar_timestamp_en_plazo(
-            PLAZOS[5][0], PLAZOS[5][1], PLAZOS[5][0] - timedelta(days=1)
+            PLAZOS[4][0], PLAZOS[4][1], PLAZOS[4][0] - timedelta(days=1)
         )
         fecha_solicitud = fecha_solicitud_dt.strftime('%Y-%m-%d')
         destino_solicitado = random.choice(destinos_df["DestinoID"].tolist())
@@ -211,61 +222,61 @@ def generar_estudiantes(num_estudiantes, destinos_df):
     return pd.DataFrame(estudiantes, columns=["EstudianteID", "Grado", "Sexo", "Expediente", "FechaSolicitud", "DestinoSolicitado", "DestinoAsignado", "EstadoFinal"])
 
 def generar_actividades():
+    # Los IDs se reajustan para empezar en 1. El OrdenSecuencial también se ajusta.
     actividades = [
-        # Fase Inicial / Convalidación Idioma (IDs 1-4, Orden 1-3)
-        (1, "Solicitud Convalidación Idioma Presentada", "Fase Inicial", "Manual", "Estudiante", 1),
-        (2, "Solicitud Convalidación Idioma Recibida", "Fase Inicial", "Automática", "Instituto de Idiomas", 2),
-        (3, "Resolución Convalidación Idioma (Rechazada)", "Fase Inicial", "Automática", "Instituto de Idiomas", 3),
-        (4, "Resolución Convalidación Idioma (Aceptada)", "Fase Inicial", "Automática", "Instituto de Idiomas", 3),
+        # Fase Inicial / Convalidación Idioma (IDs 1-3, Orden 1-2)
+        (1, "Solicitud Convalidación Idioma Recibida", "Fase Inicial", "Automática", "Instituto de Idiomas", 1),
+        (2, "Resolución Convalidación Idioma (Rechazada)", "Fase Inicial", "Automática", "Instituto de Idiomas", 2),
+        (3, "Resolución Convalidación Idioma (Aceptada)", "Fase Inicial", "Automática", "Instituto de Idiomas", 2),
 
-        # Inscripción y Listado Provisional (IDs 5-7, Orden 4-6)
-        (5, "Inscripción Programa Erasmus Registrada", "Inscripción", "Manual", "Estudiante", 4),
-        (6, "Cálculo Notas Participantes Realizado", "Adjudicación Provisional", "Automática", "SEVIUS", 5),
-        (7, "Publicación Listado Provisional", "Adjudicación Provisional", "Automática", "SEVIUS", 6),
+        # Inscripción y Listado Provisional (IDs 4-6, Orden 3-5)
+        (4, "Inscripción Programa Erasmus Registrada", "Inscripción", "Manual", "Estudiante", 3),
+        (5, "Cálculo Notas Participantes Realizado", "Adjudicación Provisional", "Automática", "SEVIUS", 4),
+        (6, "Publicación Listado Provisional", "Adjudicación Provisional", "Automática", "SEVIUS", 5),
 
-        # Alegaciones (IDs 8-10, Orden 7-9)
-        (8, "Alegación Presentada", "Alegaciones", "Manual", "Estudiante", 7),
-        (9, "Alegación Recibida", "Alegaciones", "Automática", "SEVIUS", 8),
-        (10, "Resolución Alegación Emitida", "Alegaciones", "Automática", "SEVIUS", 9),
+        # Alegaciones (IDs 7-9, Orden 6-8)
+        (7, "Alegación Presentada", "Alegaciones", "Manual", "Estudiante", 6),
+        (8, "Alegación Recibida", "Alegaciones", "Automática", "SEVIUS", 7),
+        (9, "Resolución Alegación Emitida", "Alegaciones", "Automática", "SEVIUS", 8),
 
-        # --- 1ª Adjudicación y Respuesta (IDs 11-14, Orden 10-12) ---
-        (11, "Publicación 1ª Adjudicación", "Adjudicaciones", "Automática", "SEVIUS", 10),
-        (12, "Respuesta Recibida (Aceptación/Reserva 1ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 11),
-        (13, "Respuesta Recibida (Renuncia 1ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 11),
-        (14, "Actualización Orden Preferencias (Post-1ª Adj.)", "Adjudicaciones", "Automática", "SEVIUS", 12), # Ocurre si hubo renuncias (ID 13)
+        # --- 1ª Adjudicación y Respuesta (IDs 10-13, Orden 9-11) ---
+        (10, "Publicación 1ª Adjudicación", "Adjudicaciones", "Automática", "SEVIUS", 9),
+        (11, "Respuesta Recibida (Aceptación/Reserva 1ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 10),
+        (12, "Respuesta Recibida (Renuncia 1ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 10),
+        (13, "Actualización Orden Preferencias (Post-1ª Adj.)", "Adjudicaciones", "Automática", "SEVIUS", 11),
 
-        # --- 2ª Adjudicación y Respuesta (IDs 15-18, Orden 13-15) ---
-        (15, "Publicación 2ª Adjudicación", "Adjudicaciones", "Automática", "SEVIUS", 13),
-        (16, "Respuesta Recibida (Aceptación/Reserva 2ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 14),
-        (17, "Respuesta Recibida (Renuncia 2ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 14),
-        (18, "Actualización Orden Preferencias (Post-2ª Adj.)", "Adjudicaciones", "Automática", "SEVIUS", 15), # Ocurre si hubo renuncias (ID 17)
+        # --- 2ª Adjudicación y Respuesta (IDs 14-17, Orden 12-14) ---
+        (14, "Publicación 2ª Adjudicación", "Adjudicaciones", "Automática", "SEVIUS", 12),
+        (15, "Respuesta Recibida (Aceptación/Reserva 2ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 13),
+        (16, "Respuesta Recibida (Renuncia 2ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 13),
+        (17, "Actualización Orden Preferencias (Post-2ª Adj.)", "Adjudicaciones", "Automática", "SEVIUS", 14),
 
-        # --- 3ª Adjudicación y Respuesta (IDs 19-22, Orden 16-18) ---
-        (19, "Publicación 3ª Adjudicación", "Adjudicaciones", "Automática", "SEVIUS", 16),
-        (20, "Respuesta Recibida (Aceptación/Reserva 3ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 17),
-        (21, "Respuesta Recibida (Renuncia 3ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 17),
-        (22, "Actualización Orden Preferencias (Post-3ª Adj.)", "Adjudicaciones", "Automática", "SEVIUS", 18), # Ocurre si hubo renuncias (ID 21)
+        # --- 3ª Adjudicación y Respuesta (IDs 18-21, Orden 15-17) ---
+        (18, "Publicación 3ª Adjudicación", "Adjudicaciones", "Automática", "SEVIUS", 15),
+        (19, "Respuesta Recibida (Aceptación/Reserva 3ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 16),
+        (20, "Respuesta Recibida (Renuncia 3ª Adj.)", "Adjudicaciones", "Manual", "Estudiante", 16),
+        (21, "Actualización Orden Preferencias (Post-3ª Adj.)", "Adjudicaciones", "Automática", "SEVIUS", 17),
 
-        # Listado Definitivo (ID 23, Orden 19)
-        (23, "Publicación Listado Definitivo", "Adjudicación Final", "Automática", "SEVIUS", 19),
+        # Listado Definitivo (ID 22, Orden 18)
+        (22, "Publicación Listado Definitivo", "Adjudicación Final", "Automática", "SEVIUS", 18),
 
-        # Learning Agreement (IDs 24-31, Orden 20-23)
-        (24, "Envío LA a Responsable Destino", "Learning Agreement", "Manual", "Estudiante", 20),
-        (25, "LA Recibido por Responsable", "Learning Agreement", "Automática", "Responsable Destino", 21),
-        (26, "LA Validado por Responsable", "Learning Agreement", "Manual", "Responsable Destino", 22),
-        (27, "LA Rechazado por Responsable", "Learning Agreement", "Manual", "Responsable Destino", 22),
-        (28, "Envío LA a Subdirectora RRII", "Learning Agreement", "Manual", "Estudiante", 23),
-        (29, "LA Recibido por Subdirectora", "Learning Agreement", "Automática", "Subdirectora RRII", 24),
-        (30, "LA Validado por Subdirectora", "Learning Agreement", "Manual", "Subdirectora RRII", 25),
-        (31, "LA Rechazado por Subdirectora", "Learning Agreement", "Manual", "Subdirectora RRII", 25),
+        # Learning Agreement (IDs 23-30, Orden 19-24)
+        (23, "Envío LA a Responsable Destino", "Learning Agreement", "Manual", "Estudiante", 19),
+        (24, "LA Recibido por Responsable", "Learning Agreement", "Automática", "Responsable Destino", 20),
+        (25, "LA Validado por Responsable", "Learning Agreement", "Manual", "Responsable Destino", 21),
+        (26, "LA Rechazado por Responsable", "Learning Agreement", "Manual", "Responsable Destino", 21),
+        (27, "Envío LA a Subdirectora RRII", "Learning Agreement", "Manual", "Estudiante", 22),
+        (28, "LA Recibido por Subdirectora", "Learning Agreement", "Automática", "Subdirectora RRII", 23),
+        (29, "LA Validado por Subdirectora", "Learning Agreement", "Manual", "Subdirectora RRII", 24),
+        (30, "LA Rechazado por Subdirectora", "Learning Agreement", "Manual", "Subdirectora RRII", 24),
 
-        # Formalización y Fin (IDs 32-33, Orden 26-27)
-        (32, "Formalización Acuerdo SEVIUS", "Formalización", "Manual", "Estudiante", 26),
-        (33, "Proceso Erasmus Finalizado", "Finalizado", "Automática", "Sistema", 27),
+        # Formalización y Fin (IDs 31-32, Orden 25-26)
+        (31, "Formalización Acuerdo SEVIUS", "Formalización", "Manual", "Estudiante", 25),
+        (32, "Proceso Erasmus Finalizado", "Finalizado", "Automática", "Sistema", 26),
 
-        # Evento de Cancelación Administrativa (ID 34, Orden ~10)
-        # El orden 10 indica que puede ocurrir alrededor del tiempo de las adjudicaciones.
-        (34, "Cancelación Plaza (Admin)", "Cancelación", "Automática", "SEVIUS", 10)
+        # Evento de Cancelación Administrativa (ID 33, Orden ~9)
+        # (Original 34 -> Nuevo 33). El orden 9 indica que puede ocurrir alrededor de las adjudicaciones.
+        (33, "Cancelación Plaza (Admin)", "Cancelación", "Automática", "SEVIUS", 9)
     ]
     return pd.DataFrame(actividades, columns=["ActividadID", "NombreActividad", "Fase", "TipoActividad", "ActorDefecto", "OrdenSecuencial"])
 
@@ -282,76 +293,111 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
     mapa_fechas_cancelacion = destinos_cancelados_temprano['FechaCancelacion_dt'].to_dict()
     ids_destinos_cancelados_temprano = set(mapa_fechas_cancelacion.keys())
 
-    # --- Rutas de actividades (ACTUALIZADAS con opcionalidad y rondas) ---
-    # Se añadirán más variaciones programáticamente abajo
+    # --- Rutas de actividades (ACTUALIZADAS con IDs renumerados desde 1) ---
     rutas_base = {
+        # ESTADO FINAL: ACEPTADO
         "Aceptado": [
-            # Base: Idioma OK, Sin Alegación, Acepta 1ª, LA OK
-            [1, 2, 4, 5, 6, 7, 11, 12, 15, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33],
-            # Base: Idioma OK, Sin Alegación, Renuncia 1ª, Acepta 2ª, LA OK
-            [1, 2, 4, 5, 6, 7, 11, 13, 14, 15, 16, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33],
-            # Base: Idioma OK, Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA OK
-            [1, 2, 4, 5, 6, 7, 11, 13, 14, 15, 17, 18, 19, 20, 23, 24, 25, 26, 28, 29, 30, 32, 33],
+            # --- CON IDIOMA (Rutas con 1 y 3, 3 antes de 4) ---
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA OK
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Renuncia 1ª, Acepta 2ª, LA OK
+            [1, 3, 4, 5, 6, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA OK
+            [1, 3, 4, 5, 6, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma REINTENTO (1->2->1->3), Sin Alegación, Acepta 1ª, LA OK
+            [1, 2, 1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            
+            # --- SIN IDIOMA (Rutas sin 1, 2, 3) ---
+            # Sin Idioma, Sin Alegación, Acepta 1ª, LA OK
+            [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Sin Idioma, Sin Alegación, Renuncia 1ª, Acepta 2ª, LA OK
+            [4, 5, 6, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Sin Idioma, Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA OK
+            [4, 5, 6, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 27, 28, 29, 31, 32],
         ],
+        # ESTADO FINAL: RENUNCIA
         "Renuncia": [
-            # Base: Idioma OK, Sin Alegación, Renuncia en 1ª
-            [1, 2, 4, 5, 6, 7, 11, 13, 14],
-            # Base: Idioma OK, Sin Alegación, Acepta 1ª, Renuncia en 2ª
-            [1, 2, 4, 5, 6, 7, 11, 12, 15, 17, 18],
-             # Base: Idioma OK, Sin Alegación, Acepta 1ª/2ª, Renuncia en 3ª
-            [1, 2, 4, 5, 6, 7, 11, 12, 15, 16, 19, 21, 22],
+            # --- CON IDIOMA ---
+            # Idioma OK (1->3), Sin Alegación, Renuncia en 1ª
+            [1, 3, 4, 5, 6, 10, 12, 13],
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, Renuncia en 2ª
+            [1, 3, 4, 5, 6, 10, 11, 14, 16, 17],
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª/2ª, Renuncia en 3ª
+            [1, 3, 4, 5, 6, 10, 11, 14, 15, 18, 20, 21],
+            # Idioma REINTENTO OK (1->2->1->3), Sin Alegación, Renuncia en 1ª
+            [1, 2, 1, 3, 4, 5, 6, 10, 12, 13],
+            
+            # --- SIN IDIOMA ---
+            # Sin Idioma, Sin Alegación, Renuncia en 1ª
+            [4, 5, 6, 10, 12, 13],
+            # Sin Idioma, Sin Alegación, Acepta 1ª, Renuncia en 2ª
+            [4, 5, 6, 10, 11, 14, 16, 17],
+            # Sin Idioma, Sin Alegación, Acepta 1ª/2ª, Renuncia en 3ª
+            [4, 5, 6, 10, 11, 14, 15, 18, 20, 21],
         ],
+        # ESTADO FINAL: NO ASIGNADO
         "No asignado": [
-            # Base: Idioma OK, Sin Alegación, Pasa todas las rondas sin plaza
-            [1, 2, 4, 5, 6, 7, 11, 14, 15, 18, 19, 22, 23],
-            # Base: Idioma OK, Sin Alegación, No pasa de provisional
-            [1, 2, 4, 5, 6, 7],
+            # --- CON IDIOMA ---
+            # Idioma OK (1->3), Sin Alegación, Pasa todas las rondas sin plaza
+            [1, 3, 4, 5, 6, 10, 13, 14, 17, 18, 21, 22],
+            # Idioma REINTENTO OK (1->2->1->3), Sin Alegación, No pasa de provisional
+            [1, 2, 1, 3, 4, 5, 6],
+            # Idioma REINTENTO FALLIDO (1->2->1->2) -> Equivalente a Excluido
+            [1, 2, 1, 2],
+
+            # --- SIN IDIOMA ---
+            # Sin Idioma, Sin Alegación, Pasa todas las rondas sin plaza
+            [4, 5, 6, 10, 13, 14, 17, 18, 21, 22],
+            # Sin Idioma, Sin Alegación, No pasa de provisional
+            [4, 5, 6],
         ],
+        # ESTADO FINAL: EXCLUIDO
         "Excluido": [
-            # Base: Rechazado en Idioma
-            [1, 2, 3],
+            # Base: Rechazado en Idioma (primer intento)
+            [1, 2],
+            # Base: Rechazado en Idioma (segundo intento)
+            [1, 2, 1, 2],
         ]
     }
 
-    # --- Lógica para generar variaciones de rutas (opcionalidad) ---
+    # --- Lógica para generar variaciones de rutas (ACTUALIZADA con IDs renumerados) ---
     rutas_completas_por_estado = {}
     for estado, lista_rutas_base in rutas_base.items():
         variaciones = []
         for ruta_base in lista_rutas_base:
-            # 1. Ruta Original (con idioma si aplica, sin alegación)
             variaciones.append(ruta_base)
-            # 2. Sin Idioma (si la original lo tenía)
-            if ruta_base[0] == 1:
-                variaciones.append(ruta_base[3:])
-            # 3. Con Alegación (añadir 8, 9, 10 después del paso 7)
-            if 7 in ruta_base:
-                idx_7 = ruta_base.index(7)
-                ruta_con_alegacion = ruta_base[:idx_7+1] + [8, 9, 10] + ruta_base[idx_7+1:]
-                variaciones.append(ruta_con_alegacion)
-                # 4. Sin Idioma y Con Alegación (si aplica)
-                if ruta_base[0] == 1:
-                     ruta_sin_idioma_con_alegacion = ruta_con_alegacion[3:]
-                     variaciones.append(ruta_sin_idioma_con_alegacion)
+            # Añadir versión con Alegación si la ruta base llega hasta la fase (contiene ID 6, pub prov)
+            # Y si NO ES una ruta corta de exclusión por idioma ([1,2] o [1,2,1,2])
+            if 6 in ruta_base and ruta_base != [1, 2] and ruta_base != [1, 2, 1, 2]:
+                try:
+                    idx_6 = ruta_base.index(6)
+                    # Alegaciones van después de ID 6 (Pub Prov): IDs 7, 8, 9
+                    ruta_con_alegacion = ruta_base[:idx_6+1] + [7, 8, 9] + ruta_base[idx_6+1:]
+                    variaciones.append(ruta_con_alegacion)
+                except ValueError: 
+                    pass
+                    
+        rutas_unicas = set(tuple(v) for v in variaciones if v)
+        rutas_completas_por_estado[estado] = [list(t) for t in rutas_unicas]
 
-        # Eliminar duplicados y rutas vacías si las hubiera
-        rutas_completas_por_estado[estado] = [list(t) for t in set(tuple(v) for v in variaciones if v)]
-
-    # Añadir rutas de Cancelación Administrativa (ID 34)
-    # Se añade como posibilidad a estados donde tendría sentido (ej. antes de finalizar)
+    # --- Rutas de Cancelación Administrativa (ACTUALIZADAS con IDs renumerados) ---
+    # Cancelación ID es ahora 33
+    rutas_cancelacion = {
+        "con_idioma": [1, 3, 4, 5, 6, 10, 33],       # Idioma OK (1->3) -> Cancelación post-1ªAdj (10)
+        "sin_idioma": [4, 5, 6, 10, 33],           # Sin Idioma -> Cancelación post-1ªAdj (10)
+        "idioma_rechazo": [1, 2, 33],              # Idioma Rechazado (1->2) -> Cancelación
+        "idioma_reintento_ok": [1, 2, 1, 3, 4, 33] # Reintento OK (1->2->1->3) -> Cancelación post-Inscripción (4)
+    }
+    # Añadir rutas de cancelación como posibilidad
     for estado in ["Aceptado", "Renuncia", "No asignado"]:
         if estado in rutas_completas_por_estado:
-            # Ejemplo: Cancelación después de 1ª Adjudicación
-            ruta_cancelacion = [1, 2, 4, 5, 6, 7, 11, 34]
-            rutas_completas_por_estado[estado].append(ruta_cancelacion)
-            # Ejemplo: Cancelación sin pasos de idioma
-            ruta_cancelacion_sin_idioma = [5, 6, 7, 11, 34]
-            rutas_completas_por_estado[estado].append(ruta_cancelacion_sin_idioma)
+            rutas_completas_por_estado[estado].extend(rutas_cancelacion.values())
 
+    # --- Ruta default (ACTUALIZADA) ---
+    # Inscripción (4), Cálculo Notas (5), Pub Prov (6)
+    rutas_default = [[4, 5, 6]]
 
-    # Ruta default (simplificada)
-    rutas_default = [[5, 6, 7]] # Asume que al menos se inscribe
-
-    # Mezclar patrones LLM si se usan
+    # --- Mezclar patrones LLM (La lógica de mezcla se mantiene) ---
     if USE_LLM:
         print("🔄 Obteniendo patrones de proceso desde el LLM...")
         try:
@@ -365,6 +411,15 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
         except Exception as e:
             print(f"❌ Error obteniendo o procesando patrones LLM: {e}")
 
+    # --- Definir fechas fijas para publicaciones --- 
+    FECHAS_PUBLICACION = {
+        6: datetime(2022, 12, 12, 0, 1, 0), # Pub Provisional (Inicio plazo Alegaciones ID 7)
+        10: datetime(2023, 1, 11, 0, 1, 0), # Pub 1ª Adj (Inicio plazo Respuesta 1ª ID 11)
+        14: datetime(2023, 1, 19, 0, 1, 0), # Pub 2ª Adj (Inicio plazo Respuesta 2ª ID 15)
+        18: datetime(2023, 1, 25, 0, 1, 0), # Pub 3ª Adj (Inicio plazo Respuesta 3ª ID 19)
+        22: datetime(2023, 2, 1, 0, 1, 0),  # Pub Definitiva
+    }
+
     for idx, row in estudiantes_df.iterrows():
         estudiante_id = row["EstudianteID"]
         fecha_evento_anterior_base = datetime.strptime(row["FechaSolicitud"], '%Y-%m-%d')
@@ -377,83 +432,121 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
 
         ruta_seleccionada = None
         fecha_cancelacion_destino = None
+        requiere_idioma = False # Valor por defecto
 
-        # --- Comprobar si el DESTINO SOLICITADO fue cancelado tempranamente ---
+        # --- Obtener si el destino SOLICITADO requiere idioma ---
+        try:
+            destino_info = destinos_df.loc[destinos_df['DestinoID'] == destino_solicitado].iloc[0]
+            requiere_idioma = destino_info['RequiereIdioma']
+        except IndexError:
+            print(f"⚠️ Advertencia: No se encontró información del destino {destino_solicitado} para Estudiante {estudiante_id}. Asumiendo que NO requiere idioma.")
+
+        # --- Comprobar si el DESTINO SOLICITADO fue cancelado tempranamente (ACTUALIZADO) ---
         if destino_solicitado in ids_destinos_cancelados_temprano:
             print(f"ℹ️ Estudiante {estudiante_id}: Destino solicitado {destino_solicitado} cancelado tempranamente.")
             fecha_cancelacion_destino = mapa_fechas_cancelacion[destino_solicitado]
-            # Forzar una ruta corta de cancelación
-            # ¿Necesitó idioma? Lo simulamos para ver si incluir 1-4
-            necesita_idioma = random.random() < 0.7
-            if necesita_idioma:
-                # Verificar si la cancelación ocurre después de la posible fecha de resolución idioma
-                fecha_resol_idioma_aprox = fecha_evento_anterior + timedelta(days=random.randint(3,10))
-                if fecha_cancelacion_destino > fecha_resol_idioma_aprox:
-                    ruta_seleccionada = [1, 2, 4, 5, 34] # Idioma OK -> Inscripción -> Cancelación
+            # Seleccionar ruta de cancelación basada en si requería idioma
+            if requiere_idioma:
+                # ¿Tuvo tiempo de ser rechazado antes de cancelar?
+                # Simplificación: Si cancela pronto, asumimos rechazo. Si tarda, asumimos OK.
+                pub_provisional = datetime(2022, 12, 12) # Fecha ref. para "tarde"
+                if fecha_cancelacion_destino < pub_provisional:
+                    ruta_seleccionada = rutas_cancelacion["idioma_rechazo"] # [1, 2, 33]
                 else:
-                    ruta_seleccionada = [1, 2, 3, 34] # Idioma Rechazado -> Cancelación (o justo después de recibir)
+                    # Podría ser ok o reintento ok, elegimos aleatoriamente
+                    ruta_seleccionada = random.choice([
+                        rutas_cancelacion["con_idioma"], # [1, 3, 4, 5, 6, 10, 33]
+                        rutas_cancelacion["idioma_reintento_ok"] #[1, 2, 1, 3, 4, 33]
+                    ])
             else:
-                 ruta_seleccionada = [5, 34] # Inscripción -> Cancelación
+                 ruta_seleccionada = rutas_cancelacion["sin_idioma"] # [4, 5, 6, 10, 33]
             
-            # Opcional: Podríamos ajustar el estado final aquí si quisiéramos forzar "No asignado",
-            # pero lo dejamos para mantener la distribución original de estados finales por ahora.
-            # estado_final = "No asignado" # Descomentar para forzar
+            # estado_final = "No asignado" # Opcional: forzar estado
 
-        # --- Si no hay cancelación temprana, proceder con la lógica normal --- 
+        # --- Si no hay cancelación temprana, proceder con la lógica normal (ACTUALIZADA) --- 
         if ruta_seleccionada is None:
+            # 1. Obtener todas las rutas posibles para el estado final del estudiante
             lista_rutas_estado = rutas_completas_por_estado.get(estado_final, rutas_default)
-            if not lista_rutas_estado: lista_rutas_estado = rutas_default
+            if not lista_rutas_estado: lista_rutas_estado = rutas_default # Fallback
+
+            # 2. Filtrar por requerimiento de idioma
+            rutas_filtradas_idioma = []
+            if requiere_idioma:
+                # Seleccionar rutas que SÍ contienen pasos de idioma (empiezan con 1 o tienen [..., 1, 2, ...])
+                rutas_filtradas_idioma = [r for r in lista_rutas_estado if r and (r[0] == 1 or (1 in r and 2 in r))]
+            else:
+                # Seleccionar rutas que NO contienen pasos de idioma (1, 2, 3)
+                rutas_filtradas_idioma = [r for r in lista_rutas_estado if r and not any(act_id in r for act_id in [1, 2, 3])]
+
+            # 3. Filtrar por alegaciones
             tiene_alegacion = estudiante_id in estudiantes_con_alegaciones_ids
             rutas_filtradas_final = []
             if tiene_alegacion:
-                # Solo rutas que contengan la secuencia de alegación (8, 9, 10)
-                rutas_filtradas_final = [r for r in lista_rutas_estado if 8 in r and 9 in r and 10 in r]
+                # Solo rutas (ya filtradas por idioma) que contengan la secuencia de alegación (7, 8, 9)
+                rutas_filtradas_final = [r for r in rutas_filtradas_idioma if 7 in r and 8 in r and 9 in r]
             else:
-                # Solo rutas que NO contengan la secuencia de alegación
-                rutas_filtradas_final = [r for r in lista_rutas_estado if not (8 in r and 9 in r and 10 in r)]
+                # Solo rutas (ya filtradas por idioma) que NO contengan la secuencia de alegación
+                rutas_filtradas_final = [r for r in rutas_filtradas_idioma if not (7 in r and 8 in r and 9 in r)]
 
-            # --- Selección de Ruta Final ---
+            # --- Selección de Ruta Final (con fallbacks mejorados) ---
             if rutas_filtradas_final:
                 ruta_seleccionada = random.choice(rutas_filtradas_final)
-            else:
-                # Fallback MUY robusto: si el filtrado eliminó todas las rutas
-                # Intentar seleccionar de la lista original del estado sin filtrar por alegación
-                print(f"⚠️ Advertencia: No se encontraron rutas filtradas por alegación ({tiene_alegacion}) para Estudiante {estudiante_id} (Estado: {estado_final}). Seleccionando de la lista completa del estado.")
-                if lista_rutas_estado:
-                    ruta_seleccionada = random.choice(lista_rutas_estado)
-                else:
-                    # Fallback ÚLTIMO: usar la default global
-                    print(f"🆘 Error Crítico: No hay rutas disponibles para Estudiante {estudiante_id}. Usando ruta default global.")
-                    ruta_seleccionada = random.choice(rutas_default)
+            elif rutas_filtradas_idioma: # Fallback 1: No había rutas con/sin alegación, pero sí para el idioma
+                 print(f"⚠️ Advertencia: No se encontraron rutas filtradas por alegación ({tiene_alegacion}) para Estudiante {estudiante_id} (Estado: {estado_final}, Idioma: {requiere_idioma}). Seleccionando ruta compatible con idioma.")
+                 ruta_seleccionada = random.choice(rutas_filtradas_idioma)
+            elif lista_rutas_estado: # Fallback 2: No había rutas para el idioma, usar las del estado
+                 print(f"⚠️ Advertencia: No se encontraron rutas filtradas por idioma ({requiere_idioma}) para Estudiante {estudiante_id} (Estado: {estado_final}). Seleccionando de la lista completa del estado.")
+                 ruta_seleccionada = random.choice(lista_rutas_estado)
+            else: # Fallback 3: Usar default global
+                 print(f"🆘 Error Crítico: No hay rutas disponibles para Estudiante {estudiante_id}. Usando ruta default global.")
+                 ruta_seleccionada = random.choice(rutas_default)
 
         # ---- Fin Selección Ruta ----
-        ruta = ruta_seleccionada 
+        ruta = ruta_seleccionada
 
         # --- Bucle principal de eventos --- 
         for actividad_id in ruta:
-            # --- Lógica Timestamp (modificada para manejar fecha de cancelación) ---
-            if actividad_id == 34 and fecha_cancelacion_destino is not None:
-                # Usar la fecha específica de cancelación para el evento 34
-                # Asegurarse que es posterior al evento anterior
+            # --- Lógica Timestamp (ACTUALIZADA para publicaciones fijas) ---
+            fecha_actual = None # Inicializar
+
+            # 1. Evento de Cancelación Admin (ID 33) con fecha conocida
+            if actividad_id == 33 and fecha_cancelacion_destino is not None:
                 fecha_minima = fecha_evento_anterior + timedelta(seconds=1)
                 fecha_actual = max(fecha_cancelacion_destino, fecha_minima)
-                # Añadir hora realista
                 fecha_actual = datetime.combine(fecha_actual.date(), generar_hora_realista())
-                 # Asegurar de nuevo que es posterior
-                fecha_actual = max(fecha_actual, fecha_minima) 
+                fecha_actual = max(fecha_actual, fecha_minima)
+            
+            # 2. Eventos de Publicación Fija (IDs 6, 10, 14, 18, 22)
+            elif actividad_id in FECHAS_PUBLICACION:
+                fecha_fija = FECHAS_PUBLICACION[actividad_id]
+                fecha_minima = fecha_evento_anterior + timedelta(seconds=1)
+                # Asegurar que la fecha fija es posterior al evento anterior
+                fecha_actual = max(fecha_fija, fecha_minima)
+                # Si la fecha fija tuvo que adelantarse, al menos mantener la hora 00:01
+                if fecha_actual > fecha_fija:
+                    # Comprobar si al menos es el mismo día
+                    if fecha_actual.date() == fecha_fija.date():
+                         # Mantener la hora 00:01 si es posible, sino la hora mínima
+                         hora_minima = fecha_minima.time()
+                         hora_fija = time(0, 1, 0)
+                         fecha_actual = datetime.combine(fecha_actual.date(), max(hora_fija, hora_minima))
+                    # Si tuvo que cambiar el día, ya no podemos forzar la hora 00:01
+                    # y se queda con el timestamp mínimo (fecha_actual ya tiene ese valor)
+                
+            # 3. Eventos con Plazo definido en PLAZOS
             elif actividad_id in PLAZOS:
                  inicio_plazo, fin_plazo = PLAZOS[actividad_id]
                  fecha_actual = generar_timestamp_en_plazo(inicio_plazo, fin_plazo, fecha_evento_anterior)
+            
+            # 4. Resto de eventos (sin plazo fijo ni publicación fija)
             else:
-                # Lógica de delta para eventos sin plazo (igual que antes)
-                delta_dias = random.randint(0, 2) # 0 a 2 días para eventos intermedios
-                delta_horas = random.randint(1, 12) # Algunas horas de diferencia
+                # Lógica de delta aleatorio (sin cambios)
+                delta_dias = random.randint(0, 2)
+                delta_horas = random.randint(1, 12)
                 delta_total = timedelta(days=delta_dias, hours=delta_horas, minutes=random.randint(0,59))
-                
                 fecha_propuesta = fecha_evento_anterior + delta_total
                 
-                # Asegurar que no nos adelantamos a un plazo futuro conocido cercano (heurística)
-                # Buscar el próximo plazo en la ruta del estudiante
+                # Heurística para evitar adelantar plazos (sin cambios)
                 proximo_plazo_inicio = None
                 try:
                     indice_actual = ruta.index(actividad_id)
@@ -461,28 +554,34 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
                         if act_futura_id in PLAZOS:
                             proximo_plazo_inicio = PLAZOS[act_futura_id][0]
                             break
-                except ValueError: # actividad_id no está en ruta (raro)
+                except ValueError:
                     pass 
-                    
-                # Si hay un próximo plazo y la fecha propuesta lo supera, acortar el delta
                 if proximo_plazo_inicio and fecha_propuesta >= proximo_plazo_inicio:
-                    fecha_actual = fecha_evento_anterior + timedelta(hours=random.randint(1,3)) # Acortar mucho
-                    # Asegurarse de no quedar *justo antes* del plazo
+                    fecha_actual = fecha_evento_anterior + timedelta(hours=random.randint(1,3))
                     if fecha_actual >= proximo_plazo_inicio:
                        fecha_actual = proximo_plazo_inicio - timedelta(minutes=random.randint(1,30))
                 else:
                     fecha_actual = fecha_propuesta
 
-            # Actualizar fecha evento anterior
+            # Actualizar fecha evento anterior para el siguiente ciclo
             fecha_evento_anterior = fecha_actual
-            # --- Fin Lógica Timestamp ---
+            # --- Fin Lógica Timestamp ---            
             
-            # --- Resto del bucle (actor, detalle, append) sin cambios --- 
             actor = actividad_actor_map.get(actividad_id, "Desconocido")
             detalle = actividades_df.loc[actividades_df['ActividadID'] == actividad_id, 'NombreActividad'].iloc[0] # Detalle base
-            if actividad_id in [12, 16, 20]: detalle = f"Respuesta {int((actividad_id-12)/4)+1}ª Adj: Aceptación/Reserva"
-            if actividad_id in [13, 17, 21]: detalle = f"Respuesta {int((actividad_id-13)/4)+1}ª Adj: Renuncia"
-            if actividad_id == 34: detalle = "Destino Solicitado Cancelado (Admin)" # Detalle específico
+            
+            # --- Actualizar IDs en la generación de detalles específicos --- 
+            # IDs originales eran 12, 16, 20. Nuevos IDs son 11, 15, 19.
+            if actividad_id in [11, 15, 19]: 
+                ronda_adj = (actividad_id - 11) // 4 + 1
+                detalle = f"Respuesta {ronda_adj}ª Adj: Aceptación/Reserva"
+            # IDs originales eran 13, 17, 21. Nuevos IDs son 12, 16, 20.
+            elif actividad_id in [12, 16, 20]: 
+                ronda_adj = (actividad_id - 12) // 4 + 1
+                detalle = f"Respuesta {ronda_adj}ª Adj: Renuncia"
+            # ID original era 34. Nuevo ID es 33.
+            elif actividad_id == 33: 
+                detalle = "Destino Solicitado Cancelado (Admin)"
 
             eventos.append([
                 estudiante_id,

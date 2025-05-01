@@ -149,56 +149,61 @@ def get_process_patterns(n=10):
         print("Cliente OpenAI no inicializado. Usando fallback para patrones de proceso.")
         return fallback_process_patterns()
         
-    # Obtener descripción de actividades para el prompt (ACTUALIZADA con opcionalidad)
+    # Obtener descripción de actividades para el prompt (ACTUALIZADA con IDs renumerados)
     actividades_desc = """
-    1: Solicitud Convalidación Idioma Presentada
-    2: Solicitud Convalidación Idioma Recibida
-    3: Resolución Convalidación Idioma (Rechazada)
-    4: Resolución Convalidación Idioma (Aceptada)
-    5: Inscripción Programa Erasmus Registrada
-    6: Cálculo Notas Participantes Realizado
-    7: Publicación Listado Provisional
-    8: Alegación Presentada
-    9: Alegación Recibida
-    10: Resolución Alegación Emitida
-    11: Publicación 1ª Adjudicación
-    12: Respuesta Recibida (Aceptación/Reserva 1ª Adj.)
-    13: Respuesta Recibida (Renuncia 1ª Adj.)
-    14: Actualización Orden Preferencias (Post-1ª Adj.)
-    15: Publicación 2ª Adjudicación
-    16: Respuesta Recibida (Aceptación/Reserva 2ª Adj.)
-    17: Respuesta Recibida (Renuncia 2ª Adj.)
-    18: Actualización Orden Preferencias (Post-2ª Adj.)
-    19: Publicación 3ª Adjudicación
-    20: Respuesta Recibida (Aceptación/Reserva 3ª Adj.)
-    21: Respuesta Recibida (Renuncia 3ª Adj.)
-    22: Actualización Orden Preferencias (Post-3ª Adj.)
-    23: Publicación Listado Definitivo
-    24: Envío LA a Responsable Destino
-    25: LA Recibido por Responsable
-    26: LA Validado por Responsable
-    27: LA Rechazado por Responsable
-    28: Envío LA a Subdirectora RRII
-    29: LA Recibido por Subdirectora
-    30: LA Validado por Subdirectora
-    31: LA Rechazado por Subdirectora
-    32: Formalización Acuerdo SEVIUS
-    33: Proceso Erasmus Finalizado
-    34: Cancelación Plaza (Admin)
+    1: Solicitud Convalidación Idioma Recibida
+    2: Resolución Convalidación Idioma (Rechazada)
+    3: Resolución Convalidación Idioma (Aceptada)
+    4: Inscripción Programa Erasmus Registrada
+    5: Cálculo Notas Participantes Realizado
+    6: Publicación Listado Provisional
+    7: Alegación Presentada
+    8: Alegación Recibida
+    9: Resolución Alegación Emitida
+    10: Publicación 1ª Adjudicación
+    11: Respuesta Recibida (Aceptación/Reserva 1ª Adj.)
+    12: Respuesta Recibida (Renuncia 1ª Adj.)
+    13: Actualización Orden Preferencias (Post-1ª Adj.)
+    14: Publicación 2ª Adjudicación
+    15: Respuesta Recibida (Aceptación/Reserva 2ª Adj.)
+    16: Respuesta Recibida (Renuncia 2ª Adj.)
+    17: Actualización Orden Preferencias (Post-2ª Adj.)
+    18: Publicación 3ª Adjudicación
+    19: Respuesta Recibida (Aceptación/Reserva 3ª Adj.)
+    20: Respuesta Recibida (Renuncia 3ª Adj.)
+    21: Actualización Orden Preferencias (Post-3ª Adj.)
+    22: Publicación Listado Definitivo
+    23: Envío LA a Responsable Destino
+    24: LA Recibido por Responsable
+    25: LA Validado por Responsable
+    26: LA Rechazado por Responsable
+    27: Envío LA a Subdirectora RRII
+    28: LA Recibido por Subdirectora
+    29: LA Validado por Subdirectora
+    30: LA Rechazado por Subdirectora
+    31: Formalización Acuerdo SEVIUS
+    32: Proceso Erasmus Finalizado
+    33: Cancelación Plaza (Admin)
     """
 
-    prompt = (
-        f"Eres un experto en procesos de movilidad estudiantil Erasmus. "
-        f"Basándote en la siguiente lista de posibles actividades y sus IDs:\n{actividades_desc}\n"
-        f"Genera {n} patrones (secuencias de IDs) realistas que podría seguir un estudiante. "
-        f"TEN EN CUENTA LO SIGUIENTE:\n"
-        f"- Los pasos de convalidación de idioma (1-4) son OPCIONALES. Aproximadamente el 70% de los estudiantes los necesitan, el 30% no."
-        f"- Los pasos de alegaciones (8-10) son OPCIONALES. Aproximadamente el 15-20% de los estudiantes presentan una."
-        f"- Incluye variaciones comunes como aceptación/reserva/renuncia en las diferentes rondas de adjudicación (1ª: 11-14, 2ª: 15-18, 3ª: 19-22), la finalización con Learning Agreement (24-31) y formalización (32-33), o finales abruptos (exclusión, renuncia temprana, no asignación, cancelación admin 34)."
-        f"Asegúrate de que el orden de las actividades en cada patrón sea lógicamente correcto. "
-        f"Formatea CADA patrón como una lista de Python de enteros. Ejemplo: [5, 6, 7, 11, 12, 15, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33]"
-        f"Devuelve SOLO las listas, una por línea."
-    )
+    # Reescribir prompt usando una única f-string multilínea con triple comillas
+    prompt = f"""Eres un experto en procesos de movilidad estudiantil Erasmus. 
+Basándote en la siguiente lista de posibles actividades y sus IDs (renumerados desde 1):
+{actividades_desc}
+
+Genera {n} patrones (secuencias de IDs) realistas que podría seguir un estudiante. 
+TEN EN CUENTA LO SIGUIENTE:
+
+- Los pasos de convalidación de idioma (1, 2, 3) son OPCIONALES (si el destino requiere idioma, ~65%).
+- SI OCURREN los pasos de idioma, la actividad 4 (Inscripción) DEBE ser POSTERIOR a la 3 (Aceptación Idioma).
+- SI OCURRE la actividad 2 (Rechazo Idioma), puede haber un REINTENTO (añadir otra secuencia 1 -> 2 ó 1 -> 3) o el proceso puede terminar ahí (exclusión).
+- Los pasos de alegaciones (7, 8, 9) son OPCIONALES (~15-20%). Van DESPUÉS de la publicación provisional (ID 6).
+- Incluye variaciones comunes como aceptación/reserva/renuncia en adjudicaciones (1ª: 10-13, 2ª: 14-17, 3ª: 18-21), finalización con LA (23-30) y formalización (31-32), o finales abruptos (exclusión [ej. 1,2 o 1,2,1,2], renuncia [ej. 1,3,4,...,10,12], no asignación [ej. 1,3,4,...,21,22], cancelación admin [ej. ..., 33]).
+
+Asegúrate de que el orden de las actividades en cada patrón sea lógicamente correcto. 
+Formatea CADA patrón como una lista de Python de enteros. Ejemplo: [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32]
+Devuelve SOLO las listas, una por línea.
+"""
 
     try:
         # Usar la nueva sintaxis
@@ -239,37 +244,43 @@ def get_process_patterns(n=10):
         return fallback_process_patterns()
 
 def fallback_process_patterns():
-    """Función helper para el fallback de patrones de proceso (ACTUALIZADA con opcionalidad)."""
+    """Función helper para el fallback de patrones de proceso."""
     return [
-        # --- Aceptados ---
-        # Completo: Idioma OK, Sin Alegación, Acepta 1ª, LA OK
-        [1, 2, 4, 5, 6, 7, 11, 12, 15, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33],
+        # --- Aceptados --- 
+        # Con Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA OK
+        [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
         # Sin Idioma, Sin Alegación, Acepta 2ª, LA OK
-        [5, 6, 7, 11, 13, 14, 15, 16, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33],
-        # Idioma OK, Con Alegación, Acepta 3ª, LA OK
-        [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 19, 20, 23, 24, 25, 26, 28, 29, 30, 32, 33],
+        [4, 5, 6, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+        # Con Idioma REINTENTO OK (1->2->1->3), Con Alegación, Acepta 3ª, LA OK
+        [1, 2, 1, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 27, 28, 29, 31, 32],
         # Sin Idioma, Con Alegación, Acepta 1ª, LA con problemas resueltos
-        [5, 6, 7, 8, 9, 10, 11, 12, 15, 19, 23, 24, 25, 27, 28, 29, 31, 28, 29, 30, 32, 33], # LA Rechazado->Reintentado
+        [4, 5, 6, 7, 8, 9, 10, 11, 14, 18, 22, 23, 24, 26, 27, 28, 30, 27, 28, 29, 31, 32], # LA Rechazado->Reintentado
 
-        # --- Renuncias ---
-        # Idioma OK, Sin Alegación, Renuncia en 1ª
-        [1, 2, 4, 5, 6, 7, 11, 13, 14],
+        # --- Renuncias --- 
+        # Con Idioma OK (1->3), Sin Alegación, Renuncia en 1ª
+        [1, 3, 4, 5, 6, 10, 12, 13],
         # Sin Idioma, Sin Alegación, Acepta 1ª, Renuncia en 2ª
-        [5, 6, 7, 11, 12, 15, 17, 18],
-        # Idioma OK, Con Alegación, Renuncia en 3ª
-        [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 19, 21, 22],
+        [4, 5, 6, 10, 11, 14, 16, 17],
+        # Con Idioma OK (1->3), Con Alegación, Renuncia en 3ª
+        [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 18, 20, 21],
+        # Con Idioma REINTENTO OK (1->2->1->3), Sin Alegación, Renuncia en 2ª
+        [1, 2, 1, 3, 4, 5, 6, 10, 11, 14, 16, 17],
 
         # --- No Asignados / Excluidos --- 
-        # Idioma OK, Sin Alegación, No asignado final
-        [1, 2, 4, 5, 6, 7, 11, 14, 15, 18, 19, 22, 23],
+        # Con Idioma OK (1->3), Sin Alegación, No asignado final
+        [1, 3, 4, 5, 6, 10, 13, 14, 17, 18, 21, 22],
         # Sin Idioma, Sin Alegación, No asignado final
-        [5, 6, 7, 11, 14, 15, 18, 19, 22, 23],
-        # Excluido en Idioma
-        [1, 2, 3],
+        [4, 5, 6, 10, 13, 14, 17, 18, 21, 22],
+        # Excluido en Idioma (primer intento)
+        [1, 2],
+        # Excluido en Idioma (segundo intento)
+        [1, 2, 1, 2],
 
-        # --- Cancelación Admin ---
-        # Idioma OK, Sin Alegación, Cancelado tras 1ª Adj
-        [1, 2, 4, 5, 6, 7, 11, 34],
+        # --- Cancelación Admin --- 
+        # Con Idioma OK (1->3), Sin Alegación, Cancelado tras 1ª Adj
+        [1, 3, 4, 5, 6, 10, 33],
         # Sin Idioma, Sin Alegación, Cancelado tras provisional
-        [5, 6, 7, 34]
+        [4, 5, 6, 33],
+        # Con Idioma Rechazo (1->2), Cancelado
+        [1, 2, 33]
     ]

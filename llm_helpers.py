@@ -76,15 +76,17 @@ def fallback_universities(n):
 
 def get_alegation_motives(n=20):
     """
-    Llama a GPT para generar motivos realistas de alegaciones Erasmus.
+    Llama a GPT para generar motivos realistas y específicos de alegaciones Erasmus.
     """
     if not client:
         print("Cliente OpenAI no inicializado. Usando fallback para motivos de alegación.")
         return fallback_alegation_motives()
         
     prompt = (
-        f"Genera {n} motivos realistas por los cuales un estudiante de la Universidad de Sevilla podría presentar una alegación en un programa Erasmus. "
-        "Proporciona solo la lista de motivos."
+        f"Genera una lista de {n} motivos específicos y realistas por los cuales un estudiante de la Universidad de Sevilla podría presentar una alegación relacionada con su solicitud Erasmus. "
+        f"Incluye diferentes categorías como: errores administrativos (ej. 'Error en cálculo de nota media', 'Documentación traspapelada'), problemas con destinos (ej. 'Destino cancelado sin alternativa viable', 'Información errónea sobre asignaturas en destino X'), motivos personales justificados (ej. 'Enfermedad sobrevenida documentada', 'Situación familiar grave inesperada'), problemas académicos (ej. 'No reconocimiento de créditos específicos', 'Error en baremación por idioma')."
+        f"Evita motivos demasiado genéricos como 'Problemas personales'. "
+        f"Formatea la respuesta como una lista simple, un motivo por línea, sin numeración ni guiones iniciales."
     )
     try:
         # Usar la nueva sintaxis
@@ -115,11 +117,28 @@ def get_alegation_motives(n=20):
         return fallback_alegation_motives()
 
 def fallback_alegation_motives():
-    """Función helper para el fallback de motivos de alegación."""
+    """Función helper para el fallback de motivos de alegación (MEJORADA)."""
     return [
-        "Error en nota media", "Cambio de destino no solicitado", "Fallo administrativo", 
-        "Revisión de expediente", "Problemas médicos", "No contabilización de créditos",
-        # ... (resto de motivos por defecto) ...
+        "Error en cálculo de nota media expediente",
+        "No consideración de certificado de idioma B2 presentado",
+        "Asignación incorrecta de destino según preferencias",
+        "Destino cancelado sin ofrecimiento de alternativa adecuada",
+        "Problemas médicos graves sobrevenidos (documentados)",
+        "Situación familiar crítica inesperada (justificada)",
+        "Discrepancia en información sobre plan de estudios de universidad destino",
+        "Error en la baremación de méritos adicionales",
+        "Incidencia técnica durante aceptación/reserva de plaza",
+        "Falta de actualización de nota media tras revisión",
+        "Problema con reconocimiento de créditos de asignatura específica",
+        "Retraso injustificado en notificación administrativa",
+        "Error en publicación de listado provisional",
+        "Conflicto de fechas con prácticas curriculares obligatorias",
+        "Denegación de visado por causas ajenas al estudiante",
+        "Incompatibilidad académica sobrevenida con destino asignado",
+        "Fallo en la plataforma al adjuntar documentación requerida",
+        "No inclusión en listado provisional por error administrativo",
+        "Reclamación sobre el número de plazas ofertadas para un destino",
+        "Solicitud de cambio de destino por causa mayor documentada"
     ]
 
 def get_process_patterns(n=10):
@@ -130,35 +149,54 @@ def get_process_patterns(n=10):
         print("Cliente OpenAI no inicializado. Usando fallback para patrones de proceso.")
         return fallback_process_patterns()
         
-    # Obtener descripción de actividades para el prompt (simplificado)
+    # Obtener descripción de actividades para el prompt (ACTUALIZADA con opcionalidad)
     actividades_desc = """
-    1: Solicitud presentada
-    2: Envío documentación
-    3: Revisión documentación
-    4: Solicitud validada
-    5: Adjudicación provisional
-    6: Notificación plaza asignada
-    7: Aceptación de plaza
-    8: Confirmación aceptación
-    9: Renuncia a plaza
-    10: Cancelación por baja voluntaria
-    11: Cancelación de destino (Admin)
-    12: Reasignación de destino (Admin)
-    13: Alegación presentada
-    14: Resolución alegación
-    15: Solicitud modificación destino
-    16: Resolución modificación destino
-    17: Firma compromiso Erasmus
-    18: Emisión certificado movilidad
+    1: Solicitud Convalidación Idioma Presentada
+    2: Solicitud Convalidación Idioma Recibida
+    3: Resolución Convalidación Idioma (Rechazada)
+    4: Resolución Convalidación Idioma (Aceptada)
+    5: Inscripción Programa Erasmus Registrada
+    6: Cálculo Notas Participantes Realizado
+    7: Publicación Listado Provisional
+    8: Alegación Presentada
+    9: Alegación Recibida
+    10: Resolución Alegación Emitida
+    11: Publicación 1ª Adjudicación
+    12: Respuesta Recibida (Aceptación/Reserva 1ª Adj.)
+    13: Respuesta Recibida (Renuncia 1ª Adj.)
+    14: Actualización Orden Preferencias (Post-1ª Adj.)
+    15: Publicación 2ª Adjudicación
+    16: Respuesta Recibida (Aceptación/Reserva 2ª Adj.)
+    17: Respuesta Recibida (Renuncia 2ª Adj.)
+    18: Actualización Orden Preferencias (Post-2ª Adj.)
+    19: Publicación 3ª Adjudicación
+    20: Respuesta Recibida (Aceptación/Reserva 3ª Adj.)
+    21: Respuesta Recibida (Renuncia 3ª Adj.)
+    22: Actualización Orden Preferencias (Post-3ª Adj.)
+    23: Publicación Listado Definitivo
+    24: Envío LA a Responsable Destino
+    25: LA Recibido por Responsable
+    26: LA Validado por Responsable
+    27: LA Rechazado por Responsable
+    28: Envío LA a Subdirectora RRII
+    29: LA Recibido por Subdirectora
+    30: LA Validado por Subdirectora
+    31: LA Rechazado por Subdirectora
+    32: Formalización Acuerdo SEVIUS
+    33: Proceso Erasmus Finalizado
+    34: Cancelación Plaza (Admin)
     """
 
     prompt = (
         f"Eres un experto en procesos de movilidad estudiantil Erasmus. "
         f"Basándote en la siguiente lista de posibles actividades y sus IDs:\n{actividades_desc}\n"
         f"Genera {n} patrones (secuencias de IDs) realistas que podría seguir un estudiante. "
-        f"Incluye variaciones comunes como aceptación normal, renuncia, alegaciones, cancelaciones/reasignaciones, etc. "
+        f"TEN EN CUENTA LO SIGUIENTE:\n"
+        f"- Los pasos de convalidación de idioma (1-4) son OPCIONALES. Aproximadamente el 70% de los estudiantes los necesitan, el 30% no."
+        f"- Los pasos de alegaciones (8-10) son OPCIONALES. Aproximadamente el 15-20% de los estudiantes presentan una."
+        f"- Incluye variaciones comunes como aceptación/reserva/renuncia en las diferentes rondas de adjudicación (1ª: 11-14, 2ª: 15-18, 3ª: 19-22), la finalización con Learning Agreement (24-31) y formalización (32-33), o finales abruptos (exclusión, renuncia temprana, no asignación, cancelación admin 34)."
         f"Asegúrate de que el orden de las actividades en cada patrón sea lógicamente correcto. "
-        f"Formatea CADA patrón como una lista de Python de enteros. Ejemplo: [1, 2, 3, 4, 5, 6, 7, 8, 17, 18]"
+        f"Formatea CADA patrón como una lista de Python de enteros. Ejemplo: [5, 6, 7, 11, 12, 15, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33]"
         f"Devuelve SOLO las listas, una por línea."
     )
 
@@ -201,11 +239,37 @@ def get_process_patterns(n=10):
         return fallback_process_patterns()
 
 def fallback_process_patterns():
-    """Función helper para el fallback de patrones de proceso."""
+    """Función helper para el fallback de patrones de proceso (ACTUALIZADA con opcionalidad)."""
     return [
-        [1, 2, 3, 4, 5, 6, 7, 8, 17, 18],
-        [1, 2, 3, 4, 5, 9, 10],
-        [1, 2, 3, 4, 5, 11, 12, 6, 7, 8, 17, 18],
-        [1, 2, 3, 4, 5, 6, 13, 14, 7, 8, 17, 18],
-        [1, 2, 3, 4, 10],
+        # --- Aceptados ---
+        # Completo: Idioma OK, Sin Alegación, Acepta 1ª, LA OK
+        [1, 2, 4, 5, 6, 7, 11, 12, 15, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33],
+        # Sin Idioma, Sin Alegación, Acepta 2ª, LA OK
+        [5, 6, 7, 11, 13, 14, 15, 16, 19, 23, 24, 25, 26, 28, 29, 30, 32, 33],
+        # Idioma OK, Con Alegación, Acepta 3ª, LA OK
+        [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 19, 20, 23, 24, 25, 26, 28, 29, 30, 32, 33],
+        # Sin Idioma, Con Alegación, Acepta 1ª, LA con problemas resueltos
+        [5, 6, 7, 8, 9, 10, 11, 12, 15, 19, 23, 24, 25, 27, 28, 29, 31, 28, 29, 30, 32, 33], # LA Rechazado->Reintentado
+
+        # --- Renuncias ---
+        # Idioma OK, Sin Alegación, Renuncia en 1ª
+        [1, 2, 4, 5, 6, 7, 11, 13, 14],
+        # Sin Idioma, Sin Alegación, Acepta 1ª, Renuncia en 2ª
+        [5, 6, 7, 11, 12, 15, 17, 18],
+        # Idioma OK, Con Alegación, Renuncia en 3ª
+        [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 19, 21, 22],
+
+        # --- No Asignados / Excluidos --- 
+        # Idioma OK, Sin Alegación, No asignado final
+        [1, 2, 4, 5, 6, 7, 11, 14, 15, 18, 19, 22, 23],
+        # Sin Idioma, Sin Alegación, No asignado final
+        [5, 6, 7, 11, 14, 15, 18, 19, 22, 23],
+        # Excluido en Idioma
+        [1, 2, 3],
+
+        # --- Cancelación Admin ---
+        # Idioma OK, Sin Alegación, Cancelado tras 1ª Adj
+        [1, 2, 4, 5, 6, 7, 11, 34],
+        # Sin Idioma, Sin Alegación, Cancelado tras provisional
+        [5, 6, 7, 34]
     ]

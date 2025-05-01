@@ -1,5 +1,4 @@
 openai
 pandas
 numpy
-faker
-python-dotenv
+fakerpython-dotenv

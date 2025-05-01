@@ -1,427 +1,2108 @@
 EstudianteID,Grado,Sexo,Expediente,FechaSolicitud,DestinoSolicitado,DestinoAsignado,EstadoFinal
-1,GII - Ingeniería de Computadores,M,6.0,2023-01-22,48,48,Aceptado
-2,GII - Ingeniería de la Salud,M,9.7,2023-01-13,199,199,Aceptado
-3,GII - Tecnologías Informáticas,M,5.4,2023-01-19,130,130,Aceptado
-4,GII - Ingeniería de Computadores,F,8.9,2023-01-23,275,,No asignado
-5,GII - Tecnologías Informáticas,M,9.2,2023-01-22,111,111,Renuncia
-6,GII - Tecnologías Informáticas,M,9.3,2023-01-16,112,112,Aceptado
-7,GII - Ingeniería del Software,F,9.0,2023-01-29,28,28,Renuncia
-8,GII - Ingeniería del Software,M,7.1,2023-01-31,280,280,Aceptado
-9,GII - Ingeniería de Computadores,M,7.1,2023-01-14,272,272,Aceptado
-10,GII - Ingeniería del Software,F,8.4,2023-01-13,38,38,Aceptado
-11,GII - Ingeniería del Software,F,7.6,2023-01-25,274,274,Aceptado
-12,GII - Tecnologías Informáticas,M,9.8,2023-01-18,171,,No asignado
-13,GII - Ingeniería de Computadores,F,7.2,2023-01-14,17,,Excluido
-14,GII - Ingeniería de la Salud,M,7.0,2023-01-25,250,,No asignado
-15,GII - Ingeniería del Software,M,6.2,2023-01-31,167,167,Aceptado
-16,GII - Ingeniería de Computadores,F,6.6,2023-01-24,149,,Excluido
-17,GII - Ingeniería de Computadores,M,8.1,2023-01-12,203,203,Aceptado
-18,GII - Tecnologías Informáticas,M,9.5,2023-01-14,178,178,Renuncia
-19,GII - Ingeniería del Software,F,9.0,2023-01-15,200,200,Aceptado
-20,GII - Ingeniería de Computadores,F,5.0,2023-01-26,229,229,Aceptado
-21,GII - Tecnologías Informáticas,M,6.7,2023-01-13,155,155,Aceptado
-22,GII - Ingeniería de la Salud,F,7.3,2023-01-27,178,178,Aceptado
-23,GII - Ingeniería de la Salud,F,10.0,2023-01-26,184,184,Aceptado
-24,GII - Tecnologías Informáticas,F,6.5,2023-01-19,152,152,Aceptado
-25,GII - Ingeniería de la Salud,F,5.6,2023-01-23,136,136,Aceptado
-26,GII - Ingeniería de la Salud,F,7.6,2023-01-31,83,83,Aceptado
-27,GII - Ingeniería de la Salud,F,9.8,2023-01-11,85,85,Aceptado
-28,GII - Tecnologías Informáticas,M,6.0,2023-01-30,246,246,Aceptado
-29,GII - Ingeniería del Software,F,5.3,2023-01-15,120,120,Aceptado
-30,GII - Ingeniería de la Salud,M,7.9,2023-01-24,183,,No asignado
-31,GII - Ingeniería de Computadores,F,6.8,2023-01-29,262,262,Aceptado
-32,GII - Tecnologías Informáticas,F,7.8,2023-01-15,15,15,Aceptado
-33,GII - Ingeniería de Computadores,F,8.3,2023-01-22,121,121,Aceptado
-34,GII - Ingeniería de Computadores,M,5.9,2023-01-21,141,141,Aceptado
-35,GII - Ingeniería del Software,M,8.0,2023-01-16,94,94,Aceptado
-36,GII - Ingeniería del Software,M,6.9,2023-01-21,290,290,Aceptado
-37,GII - Ingeniería del Software,M,9.8,2023-01-15,77,,Excluido
-38,GII - Ingeniería del Software,F,7.1,2023-01-23,135,135,Aceptado
-39,GII - Ingeniería de Computadores,M,7.4,2023-01-28,175,175,Aceptado
-40,GII - Ingeniería del Software,F,8.2,2023-01-31,108,108,Aceptado
-41,GII - Ingeniería de Computadores,F,6.7,2023-01-28,295,295,Aceptado
-42,GII - Ingeniería de Computadores,F,7.0,2023-01-28,149,149,Aceptado
-43,GII - Ingeniería del Software,M,7.8,2023-01-20,15,15,Aceptado
-44,GII - Ingeniería de Computadores,M,6.8,2023-01-10,248,248,Aceptado
-45,GII - Ingeniería de la Salud,M,9.5,2023-01-10,169,169,Aceptado
-46,GII - Ingeniería de Computadores,M,9.4,2023-01-17,175,175,Aceptado
-47,GII - Ingeniería del Software,M,8.2,2023-01-29,66,66,Aceptado
-48,GII - Ingeniería del Software,M,8.7,2023-01-21,8,8,Renuncia
-49,GII - Tecnologías Informáticas,F,9.8,2023-01-24,121,121,Aceptado
-50,GII - Ingeniería de la Salud,M,7.7,2023-01-10,34,34,Renuncia
-51,GII - Ingeniería de la Salud,F,5.7,2023-01-23,56,56,Aceptado
-52,GII - Tecnologías Informáticas,M,10.0,2023-01-31,30,30,Aceptado
-53,GII - Ingeniería de la Salud,M,9.1,2023-01-16,93,93,Aceptado
-54,GII - Ingeniería de la Salud,M,9.0,2023-01-18,226,226,Aceptado
-55,GII - Ingeniería del Software,F,7.3,2023-01-31,236,,No asignado
-56,GII - Ingeniería de la Salud,M,8.5,2023-01-27,285,285,Renuncia
-57,GII - Ingeniería de Computadores,F,5.9,2023-01-21,18,18,Aceptado
-58,GII - Tecnologías Informáticas,F,5.5,2023-01-15,277,277,Renuncia
-59,GII - Ingeniería del Software,M,6.5,2023-01-31,3,3,Aceptado
-60,GII - Tecnologías Informáticas,F,6.0,2023-01-30,260,260,Aceptado
-61,GII - Ingeniería del Software,F,8.0,2023-01-15,284,284,Aceptado
-62,GII - Tecnologías Informáticas,F,7.5,2023-01-11,251,251,Aceptado
-63,GII - Tecnologías Informáticas,M,9.8,2023-01-11,51,51,Aceptado
-64,GII - Ingeniería del Software,M,6.9,2023-01-28,87,,Excluido
-65,GII - Ingeniería de Computadores,M,8.2,2023-01-16,50,50,Aceptado
-66,GII - Ingeniería de Computadores,M,5.1,2023-01-23,218,218,Aceptado
-67,GII - Ingeniería de Computadores,F,8.6,2023-01-28,218,218,Aceptado
-68,GII - Ingeniería de Computadores,M,9.5,2023-01-29,273,273,Aceptado
-69,GII - Ingeniería del Software,F,8.6,2023-01-30,4,4,Aceptado
-70,GII - Ingeniería del Software,F,8.7,2023-01-27,177,,No asignado
-71,GII - Ingeniería del Software,F,5.9,2023-01-21,208,208,Aceptado
-72,GII - Ingeniería del Software,M,5.5,2023-01-21,255,255,Renuncia
-73,GII - Ingeniería de Computadores,M,8.8,2023-01-31,233,233,Aceptado
-74,GII - Ingeniería de la Salud,F,5.1,2023-01-27,40,40,Aceptado
-75,GII - Ingeniería de Computadores,F,9.9,2023-01-18,41,41,Aceptado
-76,GII - Ingeniería de la Salud,M,9.4,2023-01-13,218,,Excluido
-77,GII - Ingeniería del Software,F,8.1,2023-01-30,76,76,Aceptado
-78,GII - Ingeniería de Computadores,F,5.6,2023-01-17,91,91,Aceptado
-79,GII - Tecnologías Informáticas,F,6.4,2023-01-31,19,19,Aceptado
-80,GII - Tecnologías Informáticas,F,6.3,2023-01-13,244,244,Aceptado
-81,GII - Tecnologías Informáticas,M,6.2,2023-01-16,285,285,Renuncia
-82,GII - Ingeniería del Software,F,8.0,2023-01-29,249,249,Aceptado
-83,GII - Ingeniería de Computadores,M,9.4,2023-01-15,66,66,Aceptado
-84,GII - Ingeniería del Software,F,9.8,2023-01-14,15,15,Aceptado
-85,GII - Ingeniería del Software,F,7.4,2023-01-25,220,,No asignado
-86,GII - Ingeniería de Computadores,M,6.8,2023-01-25,221,221,Renuncia
-87,GII - Ingeniería de Computadores,F,7.0,2023-01-22,26,26,Aceptado
-88,GII - Ingeniería de Computadores,F,6.4,2023-01-11,51,51,Renuncia
-89,GII - Ingeniería del Software,F,8.2,2023-01-13,148,,No asignado
-90,GII - Ingeniería del Software,M,5.7,2023-01-27,23,23,Aceptado
-91,GII - Ingeniería de Computadores,F,6.5,2023-01-30,16,,No asignado
-92,GII - Ingeniería del Software,M,5.1,2023-01-30,276,276,Aceptado
-93,GII - Ingeniería del Software,M,8.5,2023-01-31,18,18,Aceptado
-94,GII - Ingeniería de Computadores,F,10.0,2023-01-16,94,,No asignado
-95,GII - Ingeniería del Software,F,6.7,2023-01-14,177,177,Aceptado
-96,GII - Ingeniería del Software,F,5.7,2023-01-11,100,100,Aceptado
-97,GII - Ingeniería del Software,M,7.4,2023-01-26,191,191,Aceptado
-98,GII - Ingeniería de Computadores,M,6.7,2023-01-19,125,125,Aceptado
-99,GII - Ingeniería de Computadores,F,9.9,2023-01-11,218,218,Aceptado
-100,GII - Ingeniería de Computadores,F,6.9,2023-01-20,100,100,Aceptado
-101,GII - Ingeniería del Software,F,5.6,2023-01-28,145,145,Aceptado
-102,GII - Tecnologías Informáticas,F,9.4,2023-01-12,271,271,Aceptado
-103,GII - Ingeniería del Software,M,5.3,2023-01-12,133,133,Aceptado
-104,GII - Ingeniería del Software,M,7.7,2023-01-30,125,125,Aceptado
-105,GII - Ingeniería de Computadores,F,8.8,2023-01-22,63,,No asignado
-106,GII - Ingeniería de la Salud,M,9.6,2023-01-26,213,213,Aceptado
-107,GII - Ingeniería del Software,F,9.9,2023-01-24,296,,No asignado
-108,GII - Ingeniería de la Salud,F,8.4,2023-01-17,14,14,Aceptado
-109,GII - Ingeniería del Software,F,7.1,2023-01-14,89,89,Aceptado
-110,GII - Ingeniería del Software,M,9.0,2023-01-20,297,297,Aceptado
-111,GII - Ingeniería del Software,M,9.8,2023-01-27,39,39,Renuncia
-112,GII - Ingeniería de la Salud,F,9.8,2023-01-20,80,80,Aceptado
-113,GII - Tecnologías Informáticas,M,8.4,2023-01-28,263,263,Aceptado
-114,GII - Ingeniería del Software,F,8.3,2023-01-15,4,4,Aceptado
-115,GII - Ingeniería del Software,M,8.1,2023-01-23,51,51,Aceptado
-116,GII - Ingeniería de Computadores,M,8.3,2023-01-12,260,260,Aceptado
-117,GII - Ingeniería del Software,M,5.4,2023-01-10,138,138,Renuncia
-118,GII - Ingeniería del Software,M,6.4,2023-01-24,19,,No asignado
-119,GII - Ingeniería de Computadores,M,6.0,2023-01-29,121,,No asignado
-120,GII - Ingeniería de la Salud,M,5.1,2023-01-21,274,274,Aceptado
-121,GII - Ingeniería de la Salud,M,6.6,2023-01-10,142,142,Aceptado
-122,GII - Tecnologías Informáticas,M,10.0,2023-01-13,223,223,Aceptado
-123,GII - Tecnologías Informáticas,M,6.5,2023-01-29,52,52,Aceptado
-124,GII - Ingeniería de Computadores,M,7.5,2023-01-22,213,213,Aceptado
-125,GII - Tecnologías Informáticas,F,8.8,2023-01-14,26,26,Aceptado
-126,GII - Ingeniería del Software,M,6.6,2023-01-10,188,188,Aceptado
-127,GII - Ingeniería del Software,F,8.2,2023-01-16,96,96,Aceptado
-128,GII - Ingeniería de Computadores,F,6.6,2023-01-30,71,71,Aceptado
-129,GII - Tecnologías Informáticas,M,7.9,2023-01-26,155,155,Aceptado
-130,GII - Ingeniería de Computadores,F,7.9,2023-01-24,47,47,Aceptado
-131,GII - Ingeniería de la Salud,M,8.5,2023-01-12,67,,Excluido
-132,GII - Tecnologías Informáticas,F,8.5,2023-01-15,292,292,Aceptado
-133,GII - Ingeniería del Software,M,6.0,2023-01-17,111,111,Aceptado
-134,GII - Ingeniería de la Salud,M,8.4,2023-01-24,248,248,Aceptado
-135,GII - Ingeniería del Software,F,7.4,2023-01-24,196,196,Aceptado
-136,GII - Ingeniería de la Salud,M,7.5,2023-01-19,277,,No asignado
-137,GII - Tecnologías Informáticas,M,8.8,2023-01-30,12,12,Aceptado
-138,GII - Ingeniería de la Salud,M,5.1,2023-01-27,57,,No asignado
-139,GII - Ingeniería del Software,F,6.8,2023-01-31,278,278,Renuncia
-140,GII - Ingeniería del Software,M,6.5,2023-01-17,9,9,Aceptado
-141,GII - Ingeniería del Software,F,7.7,2023-01-14,104,104,Aceptado
-142,GII - Ingeniería del Software,F,9.3,2023-01-30,290,290,Aceptado
-143,GII - Ingeniería del Software,F,7.7,2023-01-13,224,224,Aceptado
-144,GII - Ingeniería de Computadores,F,8.0,2023-01-20,141,141,Aceptado
-145,GII - Ingeniería del Software,F,9.1,2023-01-30,171,171,Aceptado
-146,GII - Ingeniería de la Salud,M,7.1,2023-01-24,283,283,Renuncia
-147,GII - Ingeniería de la Salud,M,5.9,2023-01-26,258,258,Aceptado
-148,GII - Ingeniería del Software,M,8.9,2023-01-22,96,96,Aceptado
-149,GII - Ingeniería de Computadores,M,9.7,2023-01-28,251,251,Aceptado
-150,GII - Ingeniería del Software,F,9.0,2023-01-27,7,,No asignado
-151,GII - Tecnologías Informáticas,M,9.5,2023-01-29,293,293,Aceptado
-152,GII - Tecnologías Informáticas,F,6.2,2023-01-29,294,,Excluido
-153,GII - Ingeniería de Computadores,M,8.6,2023-01-14,72,72,Aceptado
-154,GII - Tecnologías Informáticas,F,7.7,2023-01-24,4,,No asignado
-155,GII - Tecnologías Informáticas,F,9.8,2023-01-26,177,177,Aceptado
-156,GII - Ingeniería de Computadores,M,9.1,2023-01-18,13,13,Aceptado
-157,GII - Ingeniería de la Salud,M,7.1,2023-01-21,27,27,Aceptado
-158,GII - Ingeniería de la Salud,F,6.5,2023-01-10,168,168,Renuncia
-159,GII - Tecnologías Informáticas,F,9.1,2023-01-23,97,97,Renuncia
-160,GII - Tecnologías Informáticas,M,6.0,2023-01-26,132,132,Aceptado
-161,GII - Ingeniería del Software,M,6.5,2023-01-16,41,41,Aceptado
-162,GII - Ingeniería del Software,F,8.0,2023-01-14,98,98,Aceptado
-163,GII - Ingeniería de Computadores,M,6.6,2023-01-11,133,133,Aceptado
-164,GII - Ingeniería de Computadores,M,8.3,2023-01-21,183,,No asignado
-165,GII - Ingeniería del Software,F,5.9,2023-01-16,270,270,Renuncia
-166,GII - Ingeniería de Computadores,M,9.8,2023-01-30,111,111,Renuncia
-167,GII - Ingeniería de la Salud,M,5.4,2023-01-27,165,165,Aceptado
-168,GII - Ingeniería de Computadores,M,9.4,2023-01-31,180,,Excluido
-169,GII - Tecnologías Informáticas,M,6.7,2023-01-15,225,225,Aceptado
-170,GII - Ingeniería del Software,M,7.4,2023-01-25,163,,No asignado
-171,GII - Ingeniería del Software,M,6.8,2023-01-10,244,244,Aceptado
-172,GII - Ingeniería del Software,F,9.1,2023-01-24,235,235,Aceptado
-173,GII - Ingeniería de Computadores,F,8.7,2023-01-29,39,39,Renuncia
-174,GII - Tecnologías Informáticas,F,5.4,2023-01-22,255,255,Aceptado
-175,GII - Ingeniería de Computadores,F,6.5,2023-01-24,76,,No asignado
-176,GII - Ingeniería de Computadores,M,9.2,2023-01-24,9,9,Aceptado
-177,GII - Ingeniería de Computadores,F,9.4,2023-01-27,203,,No asignado
-178,GII - Ingeniería del Software,M,6.5,2023-01-10,92,,No asignado
-179,GII - Tecnologías Informáticas,M,8.8,2023-01-27,11,11,Aceptado
-180,GII - Ingeniería del Software,F,6.0,2023-01-27,185,185,Aceptado
-181,GII - Ingeniería del Software,M,7.1,2023-01-19,50,50,Renuncia
-182,GII - Ingeniería de Computadores,F,5.0,2023-01-28,252,,No asignado
-183,GII - Tecnologías Informáticas,F,6.7,2023-01-13,118,118,Aceptado
-184,GII - Tecnologías Informáticas,F,6.8,2023-01-27,134,134,Aceptado
-185,GII - Ingeniería del Software,F,9.7,2023-01-18,237,237,Aceptado
-186,GII - Ingeniería de Computadores,F,5.7,2023-01-19,255,255,Renuncia
-187,GII - Ingeniería de Computadores,M,5.1,2023-01-19,279,,Excluido
-188,GII - Ingeniería del Software,M,7.7,2023-01-28,71,71,Aceptado
-189,GII - Tecnologías Informáticas,F,5.7,2023-01-23,238,238,Aceptado
-190,GII - Ingeniería del Software,M,7.2,2023-01-17,107,107,Aceptado
-191,GII - Tecnologías Informáticas,M,9.8,2023-01-17,49,49,Aceptado
-192,GII - Tecnologías Informáticas,F,5.7,2023-01-10,88,88,Aceptado
-193,GII - Ingeniería de Computadores,F,7.7,2023-01-11,95,95,Aceptado
-194,GII - Ingeniería de Computadores,M,9.2,2023-01-30,210,210,Aceptado
-195,GII - Ingeniería de Computadores,F,5.9,2023-01-29,172,172,Aceptado
-196,GII - Ingeniería del Software,F,6.3,2023-01-20,215,215,Aceptado
-197,GII - Ingeniería de Computadores,M,9.2,2023-01-25,4,4,Aceptado
-198,GII - Ingeniería de Computadores,M,8.0,2023-01-13,219,219,Aceptado
-199,GII - Ingeniería del Software,F,5.1,2023-01-21,222,222,Aceptado
-200,GII - Ingeniería del Software,M,8.5,2023-01-24,36,36,Aceptado
-201,GII - Ingeniería del Software,M,7.9,2023-01-20,227,227,Aceptado
-202,GII - Tecnologías Informáticas,M,9.6,2023-01-17,301,301,Aceptado
-203,GII - Ingeniería del Software,F,7.4,2023-01-13,163,163,Aceptado
-204,GII - Ingeniería de Computadores,M,6.5,2023-01-19,230,230,Aceptado
-205,GII - Ingeniería del Software,F,5.8,2023-01-12,212,,Excluido
-206,GII - Ingeniería de Computadores,M,7.2,2023-01-13,51,51,Aceptado
-207,GII - Ingeniería del Software,F,5.4,2023-01-13,274,274,Aceptado
-208,GII - Tecnologías Informáticas,M,6.1,2023-01-24,280,280,Aceptado
-209,GII - Ingeniería de Computadores,F,6.1,2023-01-15,178,178,Aceptado
-210,GII - Ingeniería del Software,M,7.9,2023-01-17,80,80,Aceptado
-211,GII - Ingeniería del Software,F,5.7,2023-01-19,268,268,Aceptado
-212,GII - Ingeniería del Software,M,8.3,2023-01-27,161,161,Aceptado
-213,GII - Ingeniería del Software,F,8.1,2023-01-21,189,189,Aceptado
-214,GII - Ingeniería del Software,M,8.9,2023-01-12,122,122,Aceptado
-215,GII - Ingeniería del Software,F,8.7,2023-01-10,11,11,Aceptado
-216,GII - Ingeniería de la Salud,M,7.8,2023-01-11,296,296,Aceptado
-217,GII - Ingeniería de la Salud,M,7.9,2023-01-13,106,106,Aceptado
-218,GII - Ingeniería del Software,M,7.6,2023-01-26,253,253,Aceptado
-219,GII - Ingeniería del Software,F,7.1,2023-01-13,1,1,Aceptado
-220,GII - Ingeniería del Software,F,7.2,2023-01-10,158,158,Aceptado
-221,GII - Ingeniería de la Salud,F,5.5,2023-01-12,196,196,Aceptado
-222,GII - Ingeniería del Software,F,9.4,2023-01-24,64,64,Renuncia
-223,GII - Ingeniería de Computadores,F,8.7,2023-01-21,154,154,Aceptado
-224,GII - Tecnologías Informáticas,F,9.4,2023-01-16,168,168,Renuncia
-225,GII - Ingeniería del Software,F,6.9,2023-01-15,209,209,Aceptado
-226,GII - Ingeniería del Software,F,9.3,2023-01-26,3,,No asignado
-227,GII - Ingeniería del Software,F,6.5,2023-01-21,113,113,Aceptado
-228,GII - Ingeniería de Computadores,F,8.9,2023-01-15,99,99,Aceptado
-229,GII - Ingeniería del Software,F,9.8,2023-01-30,237,237,Aceptado
-230,GII - Ingeniería de la Salud,F,5.1,2023-01-21,209,209,Aceptado
-231,GII - Ingeniería del Software,F,7.1,2023-01-29,80,80,Renuncia
-232,GII - Tecnologías Informáticas,M,6.2,2023-01-14,241,241,Aceptado
-233,GII - Tecnologías Informáticas,F,6.1,2023-01-24,146,146,Aceptado
-234,GII - Ingeniería de la Salud,F,6.3,2023-01-17,170,170,Aceptado
-235,GII - Ingeniería del Software,F,5.6,2023-01-28,220,220,Aceptado
-236,GII - Ingeniería del Software,F,8.1,2023-01-11,233,233,Renuncia
-237,GII - Ingeniería de Computadores,M,6.7,2023-01-26,31,31,Renuncia
-238,GII - Ingeniería del Software,F,7.6,2023-01-29,279,279,Aceptado
-239,GII - Ingeniería de la Salud,F,6.5,2023-01-30,288,,No asignado
-240,GII - Ingeniería de la Salud,M,7.3,2023-01-29,184,184,Aceptado
-241,GII - Ingeniería del Software,F,5.8,2023-01-28,219,219,Aceptado
-242,GII - Ingeniería de Computadores,F,5.5,2023-01-28,66,66,Aceptado
-243,GII - Tecnologías Informáticas,F,5.7,2023-01-15,234,234,Aceptado
-244,GII - Ingeniería de la Salud,M,8.9,2023-01-15,146,146,Aceptado
-245,GII - Ingeniería de la Salud,M,7.2,2023-01-27,291,291,Renuncia
-246,GII - Ingeniería de la Salud,F,6.0,2023-01-20,83,83,Aceptado
-247,GII - Ingeniería de la Salud,F,8.3,2023-01-16,107,,No asignado
-248,GII - Ingeniería del Software,F,8.2,2023-01-16,102,102,Aceptado
-249,GII - Ingeniería del Software,M,6.0,2023-01-18,243,243,Renuncia
-250,GII - Tecnologías Informáticas,F,9.4,2023-01-25,281,281,Aceptado
-251,GII - Ingeniería de Computadores,F,6.1,2023-01-22,38,38,Aceptado
-252,GII - Ingeniería de Computadores,M,5.6,2023-01-31,288,288,Aceptado
-253,GII - Tecnologías Informáticas,F,9.6,2023-01-16,69,69,Aceptado
-254,GII - Ingeniería de Computadores,M,9.7,2023-01-28,97,97,Aceptado
-255,GII - Tecnologías Informáticas,M,5.9,2023-01-20,23,23,Aceptado
-256,GII - Ingeniería de Computadores,F,8.1,2023-01-20,154,154,Aceptado
-257,GII - Ingeniería del Software,M,9.7,2023-01-23,77,77,Aceptado
-258,GII - Tecnologías Informáticas,F,9.8,2023-01-19,199,,Excluido
-259,GII - Ingeniería del Software,F,7.4,2023-01-24,225,,No asignado
-260,GII - Ingeniería del Software,F,6.6,2023-01-12,69,69,Renuncia
-261,GII - Ingeniería del Software,M,7.2,2023-01-24,150,,No asignado
-262,GII - Ingeniería del Software,F,10.0,2023-01-15,40,40,Aceptado
-263,GII - Ingeniería de la Salud,M,9.3,2023-01-22,51,51,Renuncia
-264,GII - Ingeniería de Computadores,F,7.2,2023-01-22,210,210,Aceptado
-265,GII - Ingeniería de Computadores,F,8.3,2023-01-14,59,59,Aceptado
-266,GII - Ingeniería de Computadores,F,9.2,2023-01-14,165,165,Aceptado
-267,GII - Tecnologías Informáticas,M,6.3,2023-01-16,24,,No asignado
-268,GII - Ingeniería del Software,F,8.7,2023-01-10,117,117,Aceptado
-269,GII - Ingeniería de Computadores,M,8.3,2023-01-28,218,,No asignado
-270,GII - Ingeniería de Computadores,M,5.4,2023-01-27,251,251,Aceptado
-271,GII - Ingeniería de la Salud,M,7.7,2023-01-15,4,4,Aceptado
-272,GII - Ingeniería de Computadores,M,8.9,2023-01-11,15,15,Aceptado
-273,GII - Ingeniería de la Salud,F,6.7,2023-01-23,191,191,Aceptado
-274,GII - Tecnologías Informáticas,F,6.0,2023-01-24,81,81,Aceptado
-275,GII - Ingeniería de Computadores,M,9.0,2023-01-23,176,,No asignado
-276,GII - Ingeniería del Software,M,5.1,2023-01-26,294,294,Aceptado
-277,GII - Ingeniería de Computadores,F,8.0,2023-01-24,28,28,Aceptado
-278,GII - Ingeniería de Computadores,M,7.4,2023-01-13,27,27,Aceptado
-279,GII - Tecnologías Informáticas,F,5.5,2023-01-12,52,,No asignado
-280,GII - Ingeniería del Software,M,7.0,2023-01-16,51,51,Aceptado
-281,GII - Ingeniería del Software,F,7.9,2023-01-15,192,192,Aceptado
-282,GII - Ingeniería de la Salud,F,6.1,2023-01-13,161,161,Aceptado
-283,GII - Ingeniería de la Salud,M,5.1,2023-01-23,246,246,Aceptado
-284,GII - Ingeniería de la Salud,F,8.8,2023-01-10,203,203,Aceptado
-285,GII - Tecnologías Informáticas,M,5.2,2023-01-11,232,232,Aceptado
-286,GII - Tecnologías Informáticas,M,7.8,2023-01-25,111,,Excluido
-287,GII - Ingeniería de Computadores,F,6.0,2023-01-24,28,28,Renuncia
-288,GII - Tecnologías Informáticas,F,7.5,2023-01-22,82,82,Aceptado
-289,GII - Ingeniería de Computadores,F,9.5,2023-01-12,111,111,Aceptado
-290,GII - Ingeniería de la Salud,M,5.7,2023-01-10,258,258,Renuncia
-291,GII - Ingeniería del Software,M,9.5,2023-01-29,30,30,Aceptado
-292,GII - Ingeniería de Computadores,M,6.7,2023-01-24,114,114,Aceptado
-293,GII - Ingeniería del Software,F,5.3,2023-01-16,301,301,Aceptado
-294,GII - Tecnologías Informáticas,M,8.9,2023-01-18,198,198,Renuncia
-295,GII - Ingeniería del Software,M,5.3,2023-01-17,278,,Excluido
-296,GII - Ingeniería de Computadores,M,9.9,2023-01-29,27,27,Aceptado
-297,GII - Tecnologías Informáticas,M,5.7,2023-01-19,48,48,Aceptado
-298,GII - Ingeniería del Software,M,7.0,2023-01-22,78,78,Aceptado
-299,GII - Tecnologías Informáticas,F,9.1,2023-01-22,130,130,Aceptado
-300,GII - Ingeniería de Computadores,M,7.5,2023-01-26,33,,Excluido
-301,GII - Ingeniería de la Salud,M,9.2,2023-01-15,183,183,Aceptado
-302,GII - Ingeniería de Computadores,F,7.7,2023-01-22,81,81,Aceptado
-303,GII - Ingeniería del Software,M,6.3,2023-01-24,68,,No asignado
-304,GII - Ingeniería de Computadores,F,5.9,2023-01-22,59,59,Aceptado
-305,GII - Ingeniería de Computadores,M,6.5,2023-01-27,109,109,Aceptado
-306,GII - Ingeniería del Software,F,7.1,2023-01-31,196,196,Aceptado
-307,GII - Ingeniería de Computadores,M,8.1,2023-01-18,295,295,Aceptado
-308,GII - Ingeniería de Computadores,F,8.4,2023-01-25,167,167,Aceptado
-309,GII - Ingeniería de la Salud,F,8.4,2023-01-21,127,127,Aceptado
-310,GII - Ingeniería del Software,F,9.7,2023-01-10,164,164,Aceptado
-311,GII - Ingeniería del Software,F,7.0,2023-01-14,250,250,Aceptado
-312,GII - Ingeniería de Computadores,M,6.1,2023-01-21,283,283,Aceptado
-313,GII - Tecnologías Informáticas,M,5.0,2023-01-22,93,93,Aceptado
-314,GII - Tecnologías Informáticas,F,8.3,2023-01-25,286,286,Aceptado
-315,GII - Tecnologías Informáticas,F,5.6,2023-01-13,159,159,Aceptado
-316,GII - Ingeniería de Computadores,M,9.9,2023-01-29,223,223,Renuncia
-317,GII - Ingeniería de Computadores,F,7.1,2023-01-29,112,112,Aceptado
-318,GII - Tecnologías Informáticas,F,8.6,2023-01-25,44,44,Renuncia
-319,GII - Ingeniería del Software,M,6.8,2023-01-28,175,175,Aceptado
-320,GII - Ingeniería de la Salud,M,9.6,2023-01-31,141,,Excluido
-321,GII - Ingeniería de Computadores,M,9.3,2023-01-17,273,273,Aceptado
-322,GII - Tecnologías Informáticas,F,7.6,2023-01-17,241,241,Aceptado
-323,GII - Ingeniería del Software,M,6.1,2023-01-30,157,157,Aceptado
-324,GII - Tecnologías Informáticas,F,5.2,2023-01-31,293,293,Aceptado
-325,GII - Ingeniería del Software,M,7.5,2023-01-30,126,,No asignado
-326,GII - Ingeniería de la Salud,M,9.8,2023-01-27,105,105,Aceptado
-327,GII - Ingeniería del Software,M,9.5,2023-01-22,254,254,Aceptado
-328,GII - Ingeniería de la Salud,F,8.2,2023-01-11,229,229,Renuncia
-329,GII - Ingeniería de la Salud,M,8.3,2023-01-23,127,127,Aceptado
-330,GII - Ingeniería de Computadores,F,9.3,2023-01-13,280,280,Renuncia
-331,GII - Ingeniería de la Salud,M,6.3,2023-01-22,269,269,Aceptado
-332,GII - Ingeniería del Software,M,6.9,2023-01-16,136,,Excluido
-333,GII - Ingeniería de Computadores,F,6.8,2023-01-29,192,192,Aceptado
-334,GII - Ingeniería de la Salud,F,7.5,2023-01-10,64,64,Aceptado
-335,GII - Ingeniería del Software,F,5.7,2023-01-31,239,239,Aceptado
-336,GII - Tecnologías Informáticas,M,5.4,2023-01-31,162,162,Aceptado
-337,GII - Ingeniería del Software,M,5.1,2023-01-11,183,183,Renuncia
-338,GII - Ingeniería del Software,M,5.3,2023-01-13,182,182,Aceptado
-339,GII - Ingeniería de la Salud,M,8.3,2023-01-11,84,84,Renuncia
-340,GII - Tecnologías Informáticas,M,6.1,2023-01-21,243,243,Aceptado
-341,GII - Ingeniería de Computadores,M,7.1,2023-01-27,258,258,Aceptado
-342,GII - Ingeniería del Software,M,6.4,2023-01-11,270,270,Aceptado
-343,GII - Ingeniería de Computadores,F,5.8,2023-01-19,42,42,Aceptado
-344,GII - Tecnologías Informáticas,F,6.4,2023-01-26,276,276,Aceptado
-345,GII - Ingeniería de la Salud,M,6.1,2023-01-18,294,294,Aceptado
-346,GII - Ingeniería de Computadores,F,6.2,2023-01-15,166,166,Aceptado
-347,GII - Ingeniería de Computadores,M,9.4,2023-01-30,122,122,Renuncia
-348,GII - Ingeniería del Software,F,5.9,2023-01-13,282,282,Renuncia
-349,GII - Ingeniería de la Salud,F,6.0,2023-01-26,238,238,Aceptado
-350,GII - Tecnologías Informáticas,M,6.9,2023-01-22,77,77,Aceptado
-351,GII - Ingeniería de Computadores,M,6.7,2023-01-15,149,149,Aceptado
-352,GII - Ingeniería de Computadores,M,5.4,2023-01-11,97,97,Aceptado
-353,GII - Ingeniería del Software,M,5.9,2023-01-17,25,25,Aceptado
-354,GII - Ingeniería del Software,F,7.4,2023-01-20,137,137,Aceptado
-355,GII - Ingeniería del Software,M,7.1,2023-01-11,100,100,Aceptado
-356,GII - Tecnologías Informáticas,F,7.6,2023-01-31,209,209,Aceptado
-357,GII - Ingeniería de Computadores,F,9.8,2023-01-26,194,194,Aceptado
-358,GII - Ingeniería de Computadores,F,6.2,2023-01-21,230,230,Aceptado
-359,GII - Ingeniería de Computadores,F,6.5,2023-01-10,204,,Excluido
-360,GII - Tecnologías Informáticas,F,5.5,2023-01-29,236,,No asignado
-361,GII - Ingeniería del Software,F,10.0,2023-01-25,96,96,Aceptado
-362,GII - Ingeniería del Software,F,9.2,2023-01-22,193,193,Aceptado
-363,GII - Ingeniería de Computadores,F,9.7,2023-01-26,280,280,Aceptado
-364,GII - Ingeniería del Software,F,7.9,2023-01-17,123,123,Aceptado
-365,GII - Ingeniería del Software,F,8.0,2023-01-14,161,,No asignado
-366,GII - Ingeniería de Computadores,F,7.8,2023-01-14,143,143,Aceptado
-367,GII - Ingeniería del Software,M,6.3,2023-01-12,11,11,Aceptado
-368,GII - Tecnologías Informáticas,M,7.0,2023-01-15,189,189,Renuncia
-369,GII - Ingeniería del Software,M,9.6,2023-01-25,79,79,Aceptado
-370,GII - Ingeniería del Software,M,9.5,2023-01-20,5,5,Renuncia
-371,GII - Ingeniería del Software,F,7.3,2023-01-29,56,56,Aceptado
-372,GII - Ingeniería del Software,F,5.6,2023-01-11,49,49,Aceptado
-373,GII - Ingeniería de Computadores,F,9.8,2023-01-18,125,125,Renuncia
-374,GII - Ingeniería del Software,F,8.5,2023-01-14,16,16,Renuncia
-375,GII - Tecnologías Informáticas,F,7.6,2023-01-11,54,54,Aceptado
-376,GII - Ingeniería del Software,F,9.9,2023-01-10,250,250,Renuncia
-377,GII - Ingeniería del Software,F,5.0,2023-01-27,204,204,Aceptado
-378,GII - Ingeniería de la Salud,M,5.8,2023-01-24,208,208,Aceptado
-379,GII - Ingeniería de la Salud,F,6.0,2023-01-13,299,,No asignado
-380,GII - Ingeniería de Computadores,F,5.5,2023-01-19,241,,Excluido
-381,GII - Ingeniería del Software,F,7.6,2023-01-14,283,283,Aceptado
-382,GII - Tecnologías Informáticas,M,8.0,2023-01-19,124,124,Aceptado
-383,GII - Ingeniería de la Salud,F,6.6,2023-01-20,254,254,Aceptado
-384,GII - Ingeniería del Software,F,5.3,2023-01-16,224,224,Aceptado
-385,GII - Ingeniería del Software,F,8.2,2023-01-20,31,31,Aceptado
-386,GII - Tecnologías Informáticas,F,8.7,2023-01-20,278,278,Aceptado
-387,GII - Tecnologías Informáticas,F,8.7,2023-01-29,219,,Excluido
-388,GII - Tecnologías Informáticas,F,5.2,2023-01-23,235,235,Aceptado
-389,GII - Tecnologías Informáticas,M,6.4,2023-01-26,166,166,Renuncia
-390,GII - Tecnologías Informáticas,F,9.4,2023-01-10,270,270,Renuncia
-391,GII - Tecnologías Informáticas,F,9.7,2023-01-12,55,55,Aceptado
-392,GII - Ingeniería del Software,F,8.2,2023-01-26,8,8,Aceptado
-393,GII - Tecnologías Informáticas,F,8.1,2023-01-19,104,104,Aceptado
-394,GII - Ingeniería del Software,M,6.6,2023-01-17,143,143,Aceptado
-395,GII - Ingeniería del Software,M,6.1,2023-01-28,8,8,Aceptado
-396,GII - Ingeniería de Computadores,F,6.5,2023-01-12,259,259,Aceptado
-397,GII - Ingeniería del Software,F,5.4,2023-01-11,198,198,Aceptado
-398,GII - Ingeniería del Software,F,9.2,2023-01-17,228,228,Aceptado
-399,GII - Ingeniería del Software,M,8.6,2023-01-23,6,6,Aceptado
-400,GII - Ingeniería del Software,F,9.7,2023-01-11,260,260,Aceptado
-401,GII - Ingeniería del Software,M,6.7,2023-01-17,100,100,Renuncia
-402,GII - Tecnologías Informáticas,M,7.2,2023-01-11,41,41,Aceptado
-403,GII - Ingeniería de Computadores,F,8.1,2023-01-11,90,90,Aceptado
-404,GII - Ingeniería del Software,M,9.0,2023-01-10,292,292,Renuncia
-405,GII - Ingeniería de Computadores,M,6.3,2023-01-17,299,299,Aceptado
-406,GII - Ingeniería del Software,M,7.5,2023-01-27,185,185,Aceptado
-407,GII - Ingeniería de Computadores,M,9.0,2023-01-24,219,219,Aceptado
-408,GII - Ingeniería del Software,M,8.7,2023-01-31,60,60,Aceptado
-409,GII - Tecnologías Informáticas,M,5.3,2023-01-19,173,173,Aceptado
-410,GII - Ingeniería de Computadores,F,7.5,2023-01-16,47,47,Renuncia
-411,GII - Ingeniería del Software,F,6.1,2023-01-13,239,239,Aceptado
-412,GII - Tecnologías Informáticas,F,9.1,2023-01-25,70,70,Renuncia
-413,GII - Ingeniería de Computadores,F,9.6,2023-01-17,211,211,Aceptado
-414,GII - Tecnologías Informáticas,M,6.5,2023-01-31,258,258,Renuncia
-415,GII - Ingeniería de Computadores,M,7.9,2023-01-23,208,208,Aceptado
-416,GII - Ingeniería de Computadores,M,8.8,2023-01-13,19,19,Aceptado
-417,GII - Tecnologías Informáticas,M,5.4,2023-01-18,95,95,Aceptado
-418,GII - Ingeniería de la Salud,M,5.6,2023-01-18,32,32,Renuncia
-419,GII - Tecnologías Informáticas,F,8.2,2023-01-17,298,298,Aceptado
-420,GII - Ingeniería de la Salud,M,9.1,2023-01-26,302,302,Aceptado
-421,GII - Ingeniería del Software,F,8.4,2023-01-14,161,161,Aceptado
-422,GII - Ingeniería de la Salud,F,6.4,2023-01-17,42,42,Aceptado
-423,GII - Ingeniería de Computadores,F,6.1,2023-01-21,254,254,Renuncia
-424,GII - Tecnologías Informáticas,F,9.0,2023-01-16,174,174,Aceptado
-425,GII - Ingeniería de Computadores,M,9.7,2023-01-15,138,138,Aceptado
-426,GII - Tecnologías Informáticas,M,7.6,2023-01-21,291,291,Aceptado
+1,GII - Ingeniería del Software,F,8.6,2022-11-27,54,,No asignado
+2,GII - Tecnologías Informáticas,F,8.5,2022-11-02,308,50,Renuncia
+3,GII - Ingeniería de Computadores,F,7.5,2022-11-03,285,285,Aceptado
+4,GII - Ingeniería de Computadores,F,8.1,2022-11-16,236,236,Aceptado
+5,GII - Ingeniería de Computadores,F,9.2,2022-11-27,248,248,Aceptado
+6,GII - Ingeniería del Software,F,6.5,2022-11-29,13,13,Aceptado
+7,GII - Ingeniería de Computadores,M,9.6,2022-11-29,10,10,Aceptado
+8,GII - Ingeniería de Computadores,F,7.8,2022-11-29,102,,No asignado
+9,GII - Ingeniería del Software,F,7.6,2022-11-02,22,22,Aceptado
+10,GII - Ingeniería del Software,M,6.6,2022-11-29,272,201,Aceptado
+11,GII - Tecnologías Informáticas,F,9.8,2022-11-05,250,250,Aceptado
+12,GII - Ingeniería del Software,F,5.9,2022-11-29,140,13,Aceptado
+13,GII - Ingeniería de Computadores,F,9.9,2022-11-05,273,,Excluido
+14,GII - Ingeniería de Computadores,F,7.7,2022-11-29,333,333,Aceptado
+15,GII - Ingeniería de Computadores,M,5.7,2022-11-24,348,21,Aceptado
+16,GII - Ingeniería de la Salud,M,6.3,2022-11-16,50,50,Aceptado
+17,GII - Tecnologías Informáticas,M,8.8,2022-11-15,166,166,Aceptado
+18,GII - Tecnologías Informáticas,F,7.5,2022-11-29,108,104,Renuncia
+19,GII - Tecnologías Informáticas,M,7.5,2022-11-11,287,312,Renuncia
+20,GII - Ingeniería de la Salud,M,6.2,2022-11-04,315,,Excluido
+21,GII - Ingeniería de Computadores,M,5.1,2022-11-10,17,17,Aceptado
+22,GII - Ingeniería de Computadores,M,6.4,2022-11-30,98,116,Aceptado
+23,GII - Ingeniería del Software,F,5.5,2022-11-07,187,187,Renuncia
+24,GII - Ingeniería de la Salud,M,9.2,2022-11-03,30,30,Aceptado
+25,GII - Ingeniería del Software,M,7.9,2022-11-30,14,14,Aceptado
+26,GII - Ingeniería del Software,F,6.8,2022-11-03,58,58,Aceptado
+27,GII - Ingeniería del Software,F,8.7,2022-11-03,70,,No asignado
+28,GII - Tecnologías Informáticas,F,6.6,2022-11-18,38,333,Aceptado
+29,GII - Tecnologías Informáticas,F,8.3,2022-11-03,56,,Excluido
+30,GII - Ingeniería del Software,M,9.7,2022-11-19,265,265,Aceptado
+31,GII - Ingeniería del Software,M,8.1,2022-11-22,257,264,Renuncia
+32,GII - Ingeniería de Computadores,F,6.8,2022-11-13,20,20,Aceptado
+33,GII - Ingeniería de Computadores,F,7.8,2022-11-26,129,269,Renuncia
+34,GII - Tecnologías Informáticas,F,7.7,2022-11-10,132,,No asignado
+35,GII - Ingeniería del Software,F,5.2,2022-11-18,314,314,Aceptado
+36,GII - Ingeniería de la Salud,F,5.9,2022-11-04,333,333,Renuncia
+37,GII - Ingeniería de la Salud,M,5.4,2022-11-02,175,76,Aceptado
+38,GII - Ingeniería de Computadores,M,6.0,2022-11-07,102,102,Renuncia
+39,GII - Ingeniería de la Salud,M,5.7,2022-11-21,159,159,Aceptado
+40,GII - Ingeniería del Software,M,9.1,2022-11-29,21,21,Aceptado
+41,GII - Ingeniería del Software,M,7.9,2022-11-03,179,179,Aceptado
+42,GII - Ingeniería del Software,F,6.5,2022-11-04,307,307,Renuncia
+43,GII - Ingeniería de Computadores,M,8.1,2022-11-18,45,266,Aceptado
+44,GII - Ingeniería de Computadores,M,7.9,2022-11-12,211,211,Aceptado
+45,GII - Ingeniería de Computadores,M,6.6,2022-11-29,304,304,Aceptado
+46,GII - Tecnologías Informáticas,F,6.1,2022-11-26,267,267,Aceptado
+47,GII - Ingeniería de la Salud,F,5.1,2022-11-25,174,174,Aceptado
+48,GII - Tecnologías Informáticas,M,8.7,2022-11-29,157,157,Aceptado
+49,GII - Ingeniería del Software,F,8.2,2022-11-28,126,126,Aceptado
+50,GII - Ingeniería de Computadores,M,5.3,2022-11-02,181,181,Aceptado
+51,GII - Ingeniería de Computadores,M,6.0,2022-11-14,22,22,Renuncia
+52,GII - Ingeniería de Computadores,M,7.7,2022-11-12,276,276,Aceptado
+53,GII - Tecnologías Informáticas,M,6.3,2022-11-12,95,95,Aceptado
+54,GII - Ingeniería de la Salud,F,9.5,2022-11-02,328,,No asignado
+55,GII - Ingeniería del Software,M,9.4,2022-11-03,55,55,Renuncia
+56,GII - Ingeniería de Computadores,F,7.1,2022-11-25,152,152,Aceptado
+57,GII - Ingeniería de la Salud,F,9.4,2022-11-26,214,214,Aceptado
+58,GII - Ingeniería de la Salud,M,8.6,2022-11-12,36,36,Aceptado
+59,GII - Ingeniería de Computadores,F,5.4,2022-11-03,105,52,Aceptado
+60,GII - Ingeniería de la Salud,M,6.9,2022-11-11,344,344,Aceptado
+61,GII - Tecnologías Informáticas,M,6.2,2022-11-02,152,158,Aceptado
+62,GII - Ingeniería del Software,M,8.3,2022-11-16,15,,No asignado
+63,GII - Ingeniería del Software,F,8.5,2022-11-02,349,349,Aceptado
+64,GII - Ingeniería de la Salud,F,6.1,2022-11-30,194,194,Aceptado
+65,GII - Ingeniería del Software,M,7.2,2022-11-27,106,106,Renuncia
+66,GII - Tecnologías Informáticas,M,6.2,2022-11-03,327,327,Aceptado
+67,GII - Ingeniería del Software,F,7.2,2022-11-17,128,128,Aceptado
+68,GII - Ingeniería del Software,M,8.6,2022-11-30,319,319,Aceptado
+69,GII - Ingeniería de la Salud,F,9.4,2022-11-02,266,,No asignado
+70,GII - Ingeniería del Software,M,5.2,2022-11-21,237,237,Aceptado
+71,GII - Ingeniería de Computadores,F,7.3,2022-11-29,331,,No asignado
+72,GII - Ingeniería del Software,M,6.6,2022-11-03,209,297,Renuncia
+73,GII - Ingeniería del Software,M,5.9,2022-11-27,156,156,Renuncia
+74,GII - Ingeniería de Computadores,F,9.1,2022-11-03,94,94,Aceptado
+75,GII - Ingeniería del Software,M,6.5,2022-11-04,265,265,Aceptado
+76,GII - Tecnologías Informáticas,M,9.8,2022-11-02,163,163,Aceptado
+77,GII - Ingeniería de la Salud,M,7.9,2022-11-30,172,172,Aceptado
+78,GII - Ingeniería de Computadores,F,5.4,2022-11-20,6,6,Aceptado
+79,GII - Tecnologías Informáticas,M,6.0,2022-11-30,183,106,Renuncia
+80,GII - Tecnologías Informáticas,F,8.7,2022-11-03,265,265,Aceptado
+81,GII - Tecnologías Informáticas,F,9.8,2022-11-04,347,347,Aceptado
+82,GII - Ingeniería de Computadores,F,5.6,2022-11-11,23,,No asignado
+83,GII - Ingeniería del Software,M,6.6,2022-11-10,122,122,Aceptado
+84,GII - Ingeniería de la Salud,F,9.9,2022-11-02,265,265,Renuncia
+85,GII - Tecnologías Informáticas,F,7.1,2022-11-13,219,219,Aceptado
+86,GII - Ingeniería del Software,M,6.8,2022-11-03,76,76,Aceptado
+87,GII - Tecnologías Informáticas,F,5.7,2022-11-24,243,201,Aceptado
+88,GII - Ingeniería del Software,F,5.6,2022-11-15,158,98,Aceptado
+89,GII - Ingeniería del Software,F,7.7,2022-11-30,144,144,Aceptado
+90,GII - Ingeniería del Software,F,8.4,2022-11-23,322,322,Aceptado
+91,GII - Ingeniería del Software,M,9.9,2022-11-29,103,102,Aceptado
+92,GII - Tecnologías Informáticas,F,6.3,2022-11-14,85,,No asignado
+93,GII - Tecnologías Informáticas,M,7.3,2022-11-03,204,204,Aceptado
+94,GII - Ingeniería de Computadores,F,9.7,2022-11-18,250,86,Aceptado
+95,GII - Ingeniería de Computadores,F,9.7,2022-11-05,343,343,Aceptado
+96,GII - Ingeniería del Software,M,7.1,2022-11-09,352,86,Aceptado
+97,GII - Ingeniería del Software,M,9.6,2022-11-12,233,233,Renuncia
+98,GII - Ingeniería de Computadores,F,6.2,2022-11-29,328,305,Aceptado
+99,GII - Ingeniería del Software,F,5.9,2022-11-04,173,173,Aceptado
+100,GII - Ingeniería del Software,M,5.2,2022-11-30,259,259,Aceptado
+101,GII - Ingeniería de la Salud,F,7.3,2022-11-24,325,,No asignado
+102,GII - Ingeniería de Computadores,F,7.0,2022-11-26,66,66,Renuncia
+103,GII - Ingeniería del Software,F,7.1,2022-11-18,251,286,Aceptado
+104,GII - Ingeniería de Computadores,F,8.9,2022-11-21,129,129,Aceptado
+105,GII - Tecnologías Informáticas,F,5.1,2022-11-03,299,197,Aceptado
+106,GII - Ingeniería de Computadores,M,9.4,2022-11-21,9,314,Aceptado
+107,GII - Ingeniería de Computadores,F,5.4,2022-11-28,36,36,Aceptado
+108,GII - Ingeniería de la Salud,F,7.1,2022-11-03,103,103,Aceptado
+109,GII - Ingeniería de Computadores,M,9.8,2022-11-29,55,55,Renuncia
+110,GII - Ingeniería de Computadores,F,6.4,2022-11-02,292,292,Aceptado
+111,GII - Ingeniería del Software,M,9.6,2022-11-29,167,167,Aceptado
+112,GII - Ingeniería del Software,M,6.3,2022-11-30,172,172,Aceptado
+113,GII - Ingeniería del Software,F,5.2,2022-11-02,41,41,Aceptado
+114,GII - Ingeniería del Software,M,9.3,2022-11-11,253,32,Aceptado
+115,GII - Ingeniería del Software,M,9.3,2022-11-15,318,318,Aceptado
+116,GII - Ingeniería del Software,F,9.4,2022-11-19,267,4,Aceptado
+117,GII - Ingeniería de Computadores,M,5.3,2022-11-28,80,80,Aceptado
+118,GII - Ingeniería de la Salud,F,9.7,2022-11-29,134,134,Aceptado
+119,GII - Ingeniería del Software,M,5.2,2022-11-04,275,156,Aceptado
+120,GII - Ingeniería de Computadores,F,5.2,2022-11-03,177,177,Renuncia
+121,GII - Ingeniería del Software,M,7.3,2022-11-30,236,236,Aceptado
+122,GII - Ingeniería del Software,M,8.7,2022-11-18,137,137,Aceptado
+123,GII - Tecnologías Informáticas,F,8.5,2022-11-25,79,352,Aceptado
+124,GII - Tecnologías Informáticas,F,6.4,2022-11-02,256,256,Aceptado
+125,GII - Ingeniería del Software,M,6.9,2022-11-13,12,12,Aceptado
+126,GII - Tecnologías Informáticas,F,5.8,2022-11-06,192,345,Aceptado
+127,GII - Tecnologías Informáticas,F,7.5,2022-11-21,299,299,Aceptado
+128,GII - Ingeniería de Computadores,F,7.0,2022-11-30,283,283,Aceptado
+129,GII - Ingeniería del Software,M,7.0,2022-11-02,304,304,Aceptado
+130,GII - Tecnologías Informáticas,F,5.4,2022-11-25,95,95,Aceptado
+131,GII - Ingeniería de la Salud,M,6.6,2022-11-20,207,207,Aceptado
+132,GII - Ingeniería de Computadores,F,6.7,2022-11-19,350,350,Aceptado
+133,GII - Tecnologías Informáticas,F,8.4,2022-11-29,17,17,Aceptado
+134,GII - Tecnologías Informáticas,F,5.3,2022-11-02,81,81,Aceptado
+135,GII - Ingeniería del Software,F,6.2,2022-11-30,177,177,Renuncia
+136,GII - Ingeniería del Software,F,7.9,2022-11-10,194,,No asignado
+137,GII - Tecnologías Informáticas,F,9.3,2022-11-13,272,272,Renuncia
+138,GII - Ingeniería del Software,M,7.5,2022-11-18,100,100,Aceptado
+139,GII - Tecnologías Informáticas,M,8.7,2022-11-20,82,351,Aceptado
+140,GII - Ingeniería del Software,F,5.7,2022-11-30,222,222,Aceptado
+141,GII - Tecnologías Informáticas,F,9.4,2022-11-30,42,266,Aceptado
+142,GII - Ingeniería del Software,M,9.1,2022-11-04,49,49,Aceptado
+143,GII - Ingeniería de Computadores,F,7.4,2022-11-08,313,158,Aceptado
+144,GII - Ingeniería de la Salud,F,9.1,2022-11-26,268,268,Aceptado
+145,GII - Ingeniería de la Salud,F,5.0,2022-11-09,13,13,Aceptado
+146,GII - Ingeniería del Software,M,7.0,2022-11-16,94,94,Renuncia
+147,GII - Ingeniería de Computadores,F,5.5,2022-11-30,283,283,Renuncia
+148,GII - Ingeniería de Computadores,F,5.4,2022-11-27,131,131,Aceptado
+149,GII - Tecnologías Informáticas,M,6.3,2022-11-03,76,,Excluido
+150,GII - Ingeniería del Software,F,7.8,2022-11-03,104,104,Aceptado
+151,GII - Ingeniería de Computadores,F,5.8,2022-11-03,314,314,Aceptado
+152,GII - Ingeniería del Software,M,8.2,2022-11-28,151,151,Aceptado
+153,GII - Ingeniería del Software,F,5.4,2022-11-23,307,184,Aceptado
+154,GII - Ingeniería de Computadores,F,9.5,2022-11-03,298,298,Renuncia
+155,GII - Ingeniería de Computadores,M,7.4,2022-11-02,3,164,Renuncia
+156,GII - Ingeniería de la Salud,M,8.6,2022-11-23,41,41,Renuncia
+157,GII - Ingeniería de la Salud,M,6.9,2022-11-29,66,66,Aceptado
+158,GII - Ingeniería de Computadores,F,6.3,2022-11-08,95,95,Aceptado
+159,GII - Ingeniería de la Salud,M,7.3,2022-11-20,152,152,Aceptado
+160,GII - Ingeniería de Computadores,M,5.6,2022-11-29,88,88,Aceptado
+161,GII - Ingeniería del Software,F,6.3,2022-11-07,186,39,Renuncia
+162,GII - Ingeniería de Computadores,F,10.0,2022-11-22,100,65,Aceptado
+163,GII - Ingeniería de la Salud,M,7.5,2022-11-23,302,302,Aceptado
+164,GII - Ingeniería del Software,M,5.2,2022-11-29,321,321,Aceptado
+165,GII - Tecnologías Informáticas,F,7.9,2022-11-05,169,,Excluido
+166,GII - Tecnologías Informáticas,F,9.8,2022-11-04,230,230,Renuncia
+167,GII - Ingeniería de Computadores,M,5.3,2022-11-02,137,137,Renuncia
+168,GII - Ingeniería del Software,M,7.7,2022-11-30,272,272,Aceptado
+169,GII - Ingeniería del Software,M,7.3,2022-11-07,152,152,Aceptado
+170,GII - Tecnologías Informáticas,M,6.0,2022-11-02,65,65,Aceptado
+171,GII - Ingeniería del Software,F,10.0,2022-11-29,324,324,Aceptado
+172,GII - Ingeniería del Software,M,9.8,2022-11-04,61,61,Renuncia
+173,GII - Ingeniería de Computadores,F,5.5,2022-11-03,258,,No asignado
+174,GII - Ingeniería de Computadores,F,5.7,2022-11-02,260,260,Aceptado
+175,GII - Ingeniería del Software,M,9.2,2022-11-03,173,173,Aceptado
+176,GII - Tecnologías Informáticas,M,8.2,2022-11-03,207,207,Aceptado
+177,GII - Tecnologías Informáticas,F,8.4,2022-11-02,166,166,Aceptado
+178,GII - Ingeniería del Software,M,5.9,2022-11-20,93,93,Aceptado
+179,GII - Ingeniería del Software,M,7.3,2022-11-28,145,,Excluido
+180,GII - Ingeniería del Software,M,5.4,2022-11-24,254,254,Renuncia
+181,GII - Ingeniería del Software,F,8.1,2022-11-02,156,221,Aceptado
+182,GII - Tecnologías Informáticas,M,9.0,2022-11-30,343,15,Renuncia
+183,GII - Ingeniería de Computadores,M,6.7,2022-11-03,268,268,Renuncia
+184,GII - Ingeniería del Software,M,5.3,2022-11-29,352,352,Aceptado
+185,GII - Ingeniería del Software,M,6.0,2022-11-30,118,162,Renuncia
+186,GII - Ingeniería de la Salud,F,5.6,2022-11-08,12,12,Aceptado
+187,GII - Ingeniería del Software,F,9.7,2022-11-05,117,117,Aceptado
+188,GII - Ingeniería de la Salud,F,5.4,2022-11-30,109,,No asignado
+189,GII - Ingeniería de Computadores,F,9.6,2022-11-20,182,182,Renuncia
+190,GII - Ingeniería de la Salud,F,9.2,2022-11-02,319,319,Aceptado
+191,GII - Ingeniería del Software,F,8.8,2022-11-30,300,300,Renuncia
+192,GII - Ingeniería de Computadores,M,8.7,2022-11-14,302,302,Aceptado
+193,GII - Ingeniería de Computadores,F,7.7,2022-11-03,116,116,Aceptado
+194,GII - Ingeniería del Software,M,6.5,2022-11-21,121,287,Aceptado
+195,GII - Ingeniería de la Salud,M,8.3,2022-11-27,310,90,Aceptado
+196,GII - Ingeniería de Computadores,M,9.3,2022-11-08,161,97,Aceptado
+197,GII - Ingeniería del Software,M,6.9,2022-11-09,106,,No asignado
+198,GII - Ingeniería del Software,M,9.2,2022-11-15,78,34,Aceptado
+199,GII - Tecnologías Informáticas,M,7.6,2022-11-03,309,309,Aceptado
+200,GII - Tecnologías Informáticas,M,8.9,2022-11-29,179,,No asignado
+201,GII - Ingeniería del Software,M,5.1,2022-11-05,224,316,Aceptado
+202,GII - Ingeniería de Computadores,F,6.6,2022-11-21,204,204,Aceptado
+203,GII - Ingeniería del Software,F,8.7,2022-11-03,112,112,Renuncia
+204,GII - Ingeniería del Software,F,8.1,2022-11-08,203,203,Aceptado
+205,GII - Ingeniería del Software,M,6.7,2022-11-30,143,143,Aceptado
+206,GII - Ingeniería del Software,F,9.2,2022-11-22,155,,No asignado
+207,GII - Ingeniería del Software,M,6.1,2022-11-05,264,264,Aceptado
+208,GII - Ingeniería del Software,M,5.3,2022-11-29,63,146,Aceptado
+209,GII - Ingeniería del Software,F,7.6,2022-11-15,157,166,Renuncia
+210,GII - Ingeniería del Software,M,9.1,2022-11-22,20,148,Renuncia
+211,GII - Ingeniería del Software,M,9.4,2022-11-03,110,83,Renuncia
+212,GII - Ingeniería de la Salud,F,8.8,2022-11-19,169,169,Aceptado
+213,GII - Ingeniería de la Salud,F,9.8,2022-11-25,354,354,Aceptado
+214,GII - Tecnologías Informáticas,F,5.9,2022-11-18,203,203,Renuncia
+215,GII - Ingeniería de Computadores,M,7.8,2022-11-20,298,298,Aceptado
+216,GII - Ingeniería del Software,M,8.4,2022-11-20,341,329,Aceptado
+217,GII - Ingeniería del Software,F,5.9,2022-11-30,36,36,Aceptado
+218,GII - Ingeniería de la Salud,M,5.0,2022-11-02,43,,No asignado
+219,GII - Ingeniería de Computadores,M,9.9,2022-11-18,76,,Excluido
+220,GII - Ingeniería de Computadores,M,8.9,2022-11-13,13,13,Aceptado
+221,GII - Ingeniería de la Salud,M,9.6,2022-11-08,99,99,Aceptado
+222,GII - Ingeniería del Software,F,6.4,2022-11-19,304,304,Aceptado
+223,GII - Ingeniería del Software,F,5.2,2022-11-22,11,,No asignado
+224,GII - Ingeniería de Computadores,F,6.3,2022-11-02,125,337,Aceptado
+225,GII - Ingeniería de Computadores,M,8.5,2022-11-21,250,58,Renuncia
+226,GII - Ingeniería del Software,M,8.3,2022-11-08,200,200,Renuncia
+227,GII - Ingeniería del Software,F,5.1,2022-11-30,13,286,Renuncia
+228,GII - Ingeniería de la Salud,M,5.1,2022-11-05,38,38,Aceptado
+229,GII - Ingeniería del Software,M,5.6,2022-11-30,66,66,Aceptado
+230,GII - Ingeniería del Software,M,7.0,2022-11-29,204,78,Aceptado
+231,GII - Ingeniería del Software,F,5.2,2022-11-03,247,247,Renuncia
+232,GII - Ingeniería del Software,F,9.1,2022-11-30,205,205,Aceptado
+233,GII - Ingeniería de Computadores,M,6.0,2022-11-30,264,,No asignado
+234,GII - Ingeniería del Software,M,9.1,2022-11-15,221,221,Aceptado
+235,GII - Tecnologías Informáticas,M,8.4,2022-11-14,341,341,Aceptado
+236,GII - Ingeniería de Computadores,M,7.4,2022-11-17,313,,No asignado
+237,GII - Tecnologías Informáticas,F,7.1,2022-11-02,299,299,Aceptado
+238,GII - Ingeniería de la Salud,M,7.6,2022-11-30,59,67,Aceptado
+239,GII - Ingeniería de la Salud,M,6.8,2022-11-03,231,287,Aceptado
+240,GII - Ingeniería del Software,F,7.1,2022-11-03,183,206,Renuncia
+241,GII - Tecnologías Informáticas,F,7.1,2022-11-03,254,254,Aceptado
+242,GII - Ingeniería de Computadores,M,9.1,2022-11-20,229,229,Aceptado
+243,GII - Ingeniería del Software,F,6.6,2022-11-23,148,148,Aceptado
+244,GII - Ingeniería de Computadores,F,8.2,2022-11-16,5,5,Aceptado
+245,GII - Ingeniería de Computadores,F,5.1,2022-11-29,146,146,Renuncia
+246,GII - Ingeniería de Computadores,M,5.5,2022-11-27,266,266,Aceptado
+247,GII - Ingeniería de la Salud,F,8.5,2022-11-28,63,63,Aceptado
+248,GII - Ingeniería de Computadores,M,9.5,2022-11-21,42,42,Aceptado
+249,GII - Ingeniería de Computadores,F,6.7,2022-11-13,129,,No asignado
+250,GII - Ingeniería de Computadores,M,6.9,2022-11-26,92,92,Aceptado
+251,GII - Tecnologías Informáticas,M,7.2,2022-11-19,120,62,Aceptado
+252,GII - Ingeniería del Software,F,8.0,2022-11-04,249,249,Renuncia
+253,GII - Tecnologías Informáticas,M,9.5,2022-11-29,206,,No asignado
+254,GII - Ingeniería de Computadores,F,9.2,2022-11-03,121,,No asignado
+255,GII - Tecnologías Informáticas,F,5.6,2022-11-02,185,185,Aceptado
+256,GII - Ingeniería de la Salud,F,9.7,2022-11-23,115,,No asignado
+257,GII - Ingeniería de Computadores,M,5.4,2022-11-29,349,,Excluido
+258,GII - Ingeniería de Computadores,M,7.3,2022-11-22,278,278,Aceptado
+259,GII - Ingeniería de la Salud,M,10.0,2022-11-22,128,,Excluido
+260,GII - Tecnologías Informáticas,M,9.1,2022-11-24,349,349,Renuncia
+261,GII - Ingeniería de la Salud,F,8.8,2022-11-26,63,63,Aceptado
+262,GII - Ingeniería del Software,F,8.9,2022-11-02,341,341,Renuncia
+263,GII - Ingeniería del Software,F,8.9,2022-11-19,212,,Excluido
+264,GII - Ingeniería de Computadores,M,5.2,2022-11-06,110,110,Aceptado
+265,GII - Tecnologías Informáticas,M,8.9,2022-11-10,100,100,Aceptado
+266,GII - Ingeniería de Computadores,F,6.1,2022-11-02,107,107,Aceptado
+267,GII - Tecnologías Informáticas,M,9.9,2022-11-15,174,174,Aceptado
+268,GII - Ingeniería de Computadores,M,7.6,2022-11-17,250,250,Aceptado
+269,GII - Ingeniería del Software,M,6.0,2022-11-02,233,,No asignado
+270,GII - Ingeniería de Computadores,F,10.0,2022-11-14,260,260,Aceptado
+271,GII - Ingeniería del Software,M,6.1,2022-11-17,79,104,Renuncia
+272,GII - Ingeniería del Software,M,5.9,2022-11-17,231,231,Aceptado
+273,GII - Ingeniería del Software,M,5.3,2022-11-14,205,205,Aceptado
+274,GII - Ingeniería del Software,M,5.8,2022-11-05,182,182,Aceptado
+275,GII - Ingeniería del Software,M,6.1,2022-11-15,280,280,Aceptado
+276,GII - Ingeniería del Software,F,6.5,2022-11-06,227,227,Aceptado
+277,GII - Ingeniería del Software,F,8.4,2022-11-22,18,,Excluido
+278,GII - Ingeniería del Software,M,8.7,2022-11-13,322,176,Aceptado
+279,GII - Ingeniería del Software,F,9.4,2022-11-03,147,,Excluido
+280,GII - Ingeniería del Software,F,6.6,2022-11-04,261,261,Renuncia
+281,GII - Tecnologías Informáticas,M,7.2,2022-11-30,17,,No asignado
+282,GII - Ingeniería del Software,F,6.2,2022-11-02,42,,No asignado
+283,GII - Ingeniería del Software,M,8.3,2022-11-02,269,269,Renuncia
+284,GII - Ingeniería del Software,F,5.2,2022-11-27,196,,Excluido
+285,GII - Ingeniería de la Salud,M,9.9,2022-11-03,151,151,Aceptado
+286,GII - Ingeniería de Computadores,M,5.6,2022-11-05,294,,Excluido
+287,GII - Ingeniería del Software,M,6.1,2022-11-14,282,,Excluido
+288,GII - Ingeniería de la Salud,M,9.6,2022-11-05,210,210,Aceptado
+289,GII - Ingeniería de Computadores,M,6.0,2022-11-09,173,,No asignado
+290,GII - Tecnologías Informáticas,F,6.8,2022-11-02,331,331,Renuncia
+291,GII - Tecnologías Informáticas,F,5.5,2022-11-05,291,291,Aceptado
+292,GII - Ingeniería de Computadores,F,8.9,2022-11-02,314,314,Aceptado
+293,GII - Tecnologías Informáticas,F,9.9,2022-11-22,164,164,Renuncia
+294,GII - Ingeniería del Software,F,9.9,2022-11-02,165,165,Aceptado
+295,GII - Ingeniería de Computadores,F,7.6,2022-11-06,278,278,Aceptado
+296,GII - Ingeniería del Software,F,8.7,2022-11-25,132,132,Aceptado
+297,GII - Tecnologías Informáticas,M,7.8,2022-11-05,334,334,Renuncia
+298,GII - Ingeniería del Software,F,5.7,2022-11-20,74,,No asignado
+299,GII - Ingeniería del Software,F,5.8,2022-11-02,168,,No asignado
+300,GII - Ingeniería de la Salud,M,6.1,2022-11-27,41,41,Aceptado
+301,GII - Ingeniería del Software,M,9.2,2022-11-03,73,73,Aceptado
+302,GII - Tecnologías Informáticas,M,5.2,2022-11-03,124,124,Aceptado
+303,GII - Ingeniería del Software,M,8.4,2022-11-30,166,166,Aceptado
+304,GII - Ingeniería del Software,F,5.3,2022-11-27,88,88,Aceptado
+305,GII - Ingeniería de Computadores,M,9.3,2022-11-13,209,209,Aceptado
+306,GII - Ingeniería del Software,M,5.3,2022-11-14,333,,No asignado
+307,GII - Ingeniería de la Salud,M,8.4,2022-11-17,174,174,Aceptado
+308,GII - Tecnologías Informáticas,M,9.6,2022-11-16,137,305,Renuncia
+309,GII - Ingeniería de Computadores,F,7.3,2022-11-08,130,130,Aceptado
+310,GII - Ingeniería del Software,M,5.2,2022-11-14,3,3,Renuncia
+311,GII - Tecnologías Informáticas,F,8.8,2022-11-17,160,160,Aceptado
+312,GII - Ingeniería del Software,M,7.3,2022-11-29,69,69,Renuncia
+313,GII - Tecnologías Informáticas,M,9.6,2022-11-03,278,,Excluido
+314,GII - Ingeniería del Software,M,5.5,2022-11-03,215,,No asignado
+315,GII - Ingeniería de la Salud,F,7.6,2022-11-30,227,227,Aceptado
+316,GII - Ingeniería del Software,M,8.3,2022-11-29,299,217,Aceptado
+317,GII - Ingeniería de Computadores,F,6.2,2022-11-12,256,,Excluido
+318,GII - Ingeniería del Software,M,9.5,2022-11-13,224,224,Aceptado
+319,GII - Tecnologías Informáticas,F,5.6,2022-11-16,218,218,Aceptado
+320,GII - Tecnologías Informáticas,F,8.6,2022-11-09,229,229,Renuncia
+321,GII - Ingeniería del Software,F,5.7,2022-11-18,75,75,Aceptado
+322,GII - Ingeniería de Computadores,M,5.8,2022-11-30,114,114,Aceptado
+323,GII - Ingeniería de la Salud,F,9.4,2022-11-14,71,71,Aceptado
+324,GII - Ingeniería de la Salud,F,7.1,2022-11-04,242,242,Aceptado
+325,GII - Ingeniería de Computadores,M,9.1,2022-11-03,354,354,Aceptado
+326,GII - Ingeniería de Computadores,F,6.7,2022-11-30,285,285,Renuncia
+327,GII - Ingeniería de Computadores,F,6.8,2022-11-26,292,141,Aceptado
+328,GII - Ingeniería de Computadores,F,9.3,2022-11-09,81,81,Aceptado
+329,GII - Ingeniería del Software,F,9.5,2022-11-09,297,297,Renuncia
+330,GII - Ingeniería del Software,M,9.5,2022-11-16,328,113,Renuncia
+331,GII - Tecnologías Informáticas,M,9.9,2022-11-24,337,337,Aceptado
+332,GII - Tecnologías Informáticas,F,9.0,2022-11-02,331,331,Aceptado
+333,GII - Tecnologías Informáticas,M,6.8,2022-11-08,287,287,Aceptado
+334,GII - Tecnologías Informáticas,F,5.4,2022-11-03,54,54,Renuncia
+335,GII - Ingeniería del Software,M,6.7,2022-11-17,57,57,Aceptado
+336,GII - Ingeniería de la Salud,F,6.0,2022-11-08,141,141,Aceptado
+337,GII - Tecnologías Informáticas,M,8.4,2022-11-06,36,36,Aceptado
+338,GII - Ingeniería de la Salud,F,9.3,2022-11-20,318,318,Aceptado
+339,GII - Ingeniería de Computadores,F,6.7,2022-11-02,50,50,Aceptado
+340,GII - Ingeniería de Computadores,F,8.5,2022-11-02,211,211,Aceptado
+341,GII - Ingeniería de la Salud,M,7.9,2022-11-24,317,317,Aceptado
+342,GII - Ingeniería del Software,M,6.6,2022-11-29,182,,No asignado
+343,GII - Tecnologías Informáticas,F,8.1,2022-11-30,297,297,Renuncia
+344,GII - Ingeniería del Software,M,7.2,2022-11-30,177,192,Renuncia
+345,GII - Ingeniería de Computadores,F,10.0,2022-11-30,284,284,Aceptado
+346,GII - Ingeniería del Software,F,7.0,2022-11-26,223,,No asignado
+347,GII - Ingeniería del Software,F,9.0,2022-11-30,149,149,Aceptado
+348,GII - Ingeniería de Computadores,F,10.0,2022-11-17,99,99,Aceptado
+349,GII - Ingeniería del Software,F,7.0,2022-11-09,278,278,Aceptado
+350,GII - Ingeniería de la Salud,M,9.2,2022-11-26,197,197,Renuncia
+351,GII - Ingeniería del Software,F,9.6,2022-11-22,259,,No asignado
+352,GII - Ingeniería del Software,M,9.5,2022-11-02,215,215,Aceptado
+353,GII - Ingeniería del Software,F,6.2,2022-11-08,204,204,Aceptado
+354,GII - Ingeniería del Software,F,6.6,2022-11-02,228,228,Aceptado
+355,GII - Ingeniería del Software,M,8.2,2022-11-20,44,,No asignado
+356,GII - Ingeniería de Computadores,M,7.5,2022-11-29,168,168,Aceptado
+357,GII - Ingeniería de Computadores,F,7.5,2022-11-24,161,161,Aceptado
+358,GII - Tecnologías Informáticas,F,9.9,2022-11-05,319,319,Aceptado
+359,GII - Ingeniería de la Salud,M,9.0,2022-11-03,48,85,Renuncia
+360,GII - Tecnologías Informáticas,F,9.2,2022-11-29,341,341,Aceptado
+361,GII - Ingeniería del Software,F,8.9,2022-11-29,122,122,Aceptado
+362,GII - Ingeniería de Computadores,M,6.8,2022-11-18,1,170,Aceptado
+363,GII - Ingeniería de Computadores,M,8.1,2022-11-24,180,180,Renuncia
+364,GII - Ingeniería del Software,M,7.1,2022-11-30,122,122,Aceptado
+365,GII - Ingeniería de Computadores,F,7.4,2022-11-24,259,259,Aceptado
+366,GII - Ingeniería del Software,M,7.2,2022-11-29,42,42,Aceptado
+367,GII - Ingeniería de la Salud,M,9.7,2022-11-02,29,29,Aceptado
+368,GII - Ingeniería del Software,F,5.9,2022-11-26,288,288,Aceptado
+369,GII - Ingeniería de Computadores,F,6.0,2022-11-23,73,,Excluido
+370,GII - Ingeniería del Software,M,6.8,2022-11-04,102,272,Aceptado
+371,GII - Tecnologías Informáticas,M,6.6,2022-11-05,229,229,Aceptado
+372,GII - Tecnologías Informáticas,F,6.0,2022-11-30,28,28,Renuncia
+373,GII - Ingeniería del Software,M,5.8,2022-11-19,247,,No asignado
+374,GII - Ingeniería de Computadores,M,5.8,2022-11-29,325,173,Aceptado
+375,GII - Ingeniería de Computadores,F,8.0,2022-11-29,102,271,Aceptado
+376,GII - Ingeniería de Computadores,M,5.7,2022-11-15,39,39,Aceptado
+377,GII - Ingeniería del Software,F,7.2,2022-11-26,266,266,Aceptado
+378,GII - Ingeniería de Computadores,M,5.7,2022-11-29,168,353,Aceptado
+379,GII - Ingeniería de la Salud,M,7.8,2022-11-22,263,263,Aceptado
+380,GII - Tecnologías Informáticas,M,7.7,2022-11-11,145,145,Aceptado
+381,GII - Tecnologías Informáticas,F,8.4,2022-11-03,186,186,Renuncia
+382,GII - Tecnologías Informáticas,M,7.6,2022-11-29,348,348,Renuncia
+383,GII - Ingeniería de la Salud,M,6.6,2022-11-03,201,201,Aceptado
+384,GII - Ingeniería de Computadores,F,9.1,2022-11-26,288,,Excluido
+385,GII - Ingeniería del Software,F,6.5,2022-11-11,288,288,Aceptado
+386,GII - Ingeniería de Computadores,F,6.2,2022-11-30,116,24,Aceptado
+387,GII - Ingeniería del Software,F,9.0,2022-11-11,71,71,Renuncia
+388,GII - Ingeniería de Computadores,F,6.9,2022-11-22,105,105,Renuncia
+389,GII - Ingeniería del Software,M,8.7,2022-11-03,96,,Excluido
+390,GII - Ingeniería del Software,F,6.3,2022-11-12,138,138,Aceptado
+391,GII - Ingeniería de la Salud,M,6.9,2022-11-03,37,215,Renuncia
+392,GII - Ingeniería del Software,F,5.3,2022-11-20,147,222,Aceptado
+393,GII - Ingeniería del Software,M,8.2,2022-11-25,158,158,Renuncia
+394,GII - Ingeniería de Computadores,F,6.2,2022-11-02,28,28,Aceptado
+395,GII - Ingeniería del Software,F,10.0,2022-11-03,76,76,Renuncia
+396,GII - Ingeniería de la Salud,F,6.1,2022-11-08,294,258,Aceptado
+397,GII - Ingeniería de Computadores,M,9.3,2022-11-30,270,,Excluido
+398,GII - Ingeniería del Software,M,6.0,2022-11-03,107,164,Aceptado
+399,GII - Ingeniería del Software,F,9.5,2022-11-12,221,206,Renuncia
+400,GII - Ingeniería del Software,F,9.0,2022-11-29,236,,Excluido
+401,GII - Ingeniería del Software,M,6.3,2022-11-20,166,166,Aceptado
+402,GII - Tecnologías Informáticas,M,5.2,2022-11-03,209,209,Aceptado
+403,GII - Ingeniería de la Salud,F,5.8,2022-11-02,266,266,Aceptado
+404,GII - Ingeniería de la Salud,M,5.2,2022-11-03,4,4,Aceptado
+405,GII - Ingeniería del Software,F,9.1,2022-11-29,73,,No asignado
+406,GII - Ingeniería de Computadores,M,8.2,2022-11-29,279,279,Aceptado
+407,GII - Ingeniería del Software,F,7.0,2022-11-24,147,135,Renuncia
+408,GII - Tecnologías Informáticas,F,7.9,2022-11-11,128,128,Aceptado
+409,GII - Ingeniería del Software,F,8.0,2022-11-06,99,99,Renuncia
+410,GII - Ingeniería de la Salud,M,7.4,2022-11-10,76,76,Aceptado
+411,GII - Ingeniería del Software,M,9.1,2022-11-26,265,,No asignado
+412,GII - Tecnologías Informáticas,F,6.5,2022-11-29,328,,No asignado
+413,GII - Ingeniería de Computadores,F,7.0,2022-11-30,189,189,Aceptado
+414,GII - Ingeniería del Software,M,6.9,2022-11-13,217,129,Aceptado
+415,GII - Ingeniería del Software,M,8.8,2022-11-29,94,,No asignado
+416,GII - Ingeniería de Computadores,M,6.4,2022-11-22,56,56,Aceptado
+417,GII - Tecnologías Informáticas,M,5.8,2022-11-02,325,325,Aceptado
+418,GII - Ingeniería de Computadores,F,6.4,2022-11-23,330,330,Aceptado
+419,GII - Ingeniería del Software,M,8.3,2022-11-29,252,,No asignado
+420,GII - Ingeniería del Software,M,6.6,2022-11-29,49,49,Aceptado
+421,GII - Ingeniería del Software,F,7.7,2022-11-06,136,,No asignado
+422,GII - Tecnologías Informáticas,M,8.2,2022-11-29,301,,No asignado
+423,GII - Tecnologías Informáticas,M,8.5,2022-11-02,206,206,Aceptado
+424,GII - Tecnologías Informáticas,F,9.5,2022-11-03,91,43,Aceptado
+425,GII - Ingeniería del Software,F,7.0,2022-11-04,332,332,Renuncia
+426,GII - Ingeniería del Software,F,9.2,2022-11-30,124,124,Aceptado
+427,GII - Tecnologías Informáticas,F,7.2,2022-11-12,38,38,Aceptado
+428,GII - Ingeniería del Software,F,8.8,2022-11-28,135,135,Renuncia
+429,GII - Ingeniería del Software,F,5.9,2022-11-02,67,67,Aceptado
+430,GII - Ingeniería del Software,M,8.2,2022-11-29,194,,No asignado
+431,GII - Ingeniería de Computadores,M,9.8,2022-11-07,243,243,Aceptado
+432,GII - Tecnologías Informáticas,M,8.0,2022-11-12,283,283,Aceptado
+433,GII - Ingeniería del Software,F,6.4,2022-11-03,237,207,Aceptado
+434,GII - Ingeniería de la Salud,F,5.8,2022-11-03,326,326,Aceptado
+435,GII - Ingeniería de Computadores,F,9.7,2022-11-10,338,338,Aceptado
+436,GII - Ingeniería del Software,M,8.4,2022-11-22,137,137,Renuncia
+437,GII - Ingeniería de la Salud,F,6.0,2022-11-13,330,,Excluido
+438,GII - Ingeniería de la Salud,F,6.9,2022-11-18,44,,No asignado
+439,GII - Ingeniería de la Salud,M,7.6,2022-11-09,305,305,Aceptado
+440,GII - Ingeniería de la Salud,M,9.9,2022-11-22,117,117,Aceptado
+441,GII - Tecnologías Informáticas,M,9.2,2022-11-03,10,10,Aceptado
+442,GII - Ingeniería del Software,M,7.0,2022-11-15,311,257,Aceptado
+443,GII - Ingeniería del Software,F,6.0,2022-11-03,286,286,Aceptado
+444,GII - Ingeniería de Computadores,M,6.3,2022-11-30,132,144,Renuncia
+445,GII - Tecnologías Informáticas,F,9.8,2022-11-30,119,119,Aceptado
+446,GII - Ingeniería del Software,F,9.2,2022-11-23,350,350,Aceptado
+447,GII - Tecnologías Informáticas,F,9.6,2022-11-02,161,161,Aceptado
+448,GII - Tecnologías Informáticas,M,8.4,2022-11-29,299,268,Aceptado
+449,GII - Ingeniería del Software,M,6.3,2022-11-29,291,291,Aceptado
+450,GII - Ingeniería del Software,F,5.8,2022-11-27,352,352,Aceptado
+451,GII - Tecnologías Informáticas,M,8.1,2022-11-26,321,321,Aceptado
+452,GII - Ingeniería de la Salud,M,8.0,2022-11-23,207,,No asignado
+453,GII - Ingeniería de Computadores,F,8.4,2022-11-29,10,10,Aceptado
+454,GII - Ingeniería del Software,F,9.1,2022-11-30,58,58,Aceptado
+455,GII - Ingeniería de la Salud,F,5.6,2022-11-30,57,,Excluido
+456,GII - Ingeniería del Software,M,8.7,2022-11-09,258,258,Aceptado
+457,GII - Ingeniería del Software,F,10.0,2022-11-30,78,78,Aceptado
+458,GII - Ingeniería de Computadores,F,5.3,2022-11-03,155,155,Aceptado
+459,GII - Tecnologías Informáticas,F,9.0,2022-11-13,228,228,Aceptado
+460,GII - Ingeniería del Software,F,8.3,2022-11-10,334,334,Aceptado
+461,GII - Ingeniería del Software,M,9.7,2022-11-30,194,194,Aceptado
+462,GII - Ingeniería de la Salud,M,6.5,2022-11-18,156,156,Aceptado
+463,GII - Ingeniería de la Salud,F,6.3,2022-11-30,156,,Excluido
+464,GII - Ingeniería del Software,M,9.6,2022-11-29,249,,No asignado
+465,GII - Ingeniería del Software,M,7.4,2022-11-02,200,170,Aceptado
+466,GII - Tecnologías Informáticas,M,9.4,2022-11-03,281,281,Aceptado
+467,GII - Ingeniería del Software,M,6.2,2022-11-28,354,354,Aceptado
+468,GII - Ingeniería del Software,F,8.2,2022-11-29,98,,Excluido
+469,GII - Ingeniería de la Salud,M,9.3,2022-11-11,306,,No asignado
+470,GII - Ingeniería del Software,F,7.1,2022-11-02,34,34,Aceptado
+471,GII - Ingeniería de Computadores,F,5.2,2022-11-29,272,272,Aceptado
+472,GII - Ingeniería del Software,F,6.1,2022-11-29,345,,Excluido
+473,GII - Ingeniería de la Salud,F,8.5,2022-11-30,12,12,Aceptado
+474,GII - Ingeniería de la Salud,M,6.4,2022-11-19,274,274,Aceptado
+475,GII - Ingeniería de Computadores,M,6.6,2022-11-22,245,143,Aceptado
+476,GII - Tecnologías Informáticas,M,5.7,2022-11-10,285,285,Aceptado
+477,GII - Ingeniería del Software,F,8.6,2022-11-03,292,292,Renuncia
+478,GII - Ingeniería del Software,M,6.9,2022-11-15,264,264,Aceptado
+479,GII - Ingeniería de la Salud,F,6.4,2022-11-02,159,159,Aceptado
+480,GII - Ingeniería del Software,F,9.8,2022-11-30,226,226,Aceptado
+481,GII - Ingeniería de Computadores,M,7.7,2022-11-06,162,65,Aceptado
+482,GII - Ingeniería del Software,F,7.6,2022-11-20,316,,No asignado
+483,GII - Ingeniería del Software,M,8.3,2022-11-30,104,104,Aceptado
+484,GII - Ingeniería del Software,F,6.0,2022-11-29,4,4,Aceptado
+485,GII - Ingeniería de Computadores,F,6.2,2022-11-30,90,90,Aceptado
+486,GII - Ingeniería de Computadores,F,8.3,2022-11-30,336,336,Aceptado
+487,GII - Ingeniería del Software,M,6.6,2022-11-19,158,,Excluido
+488,GII - Ingeniería del Software,M,7.5,2022-11-02,141,189,Renuncia
+489,GII - Ingeniería del Software,F,9.9,2022-11-30,170,170,Aceptado
+490,GII - Ingeniería de la Salud,F,9.7,2022-11-03,65,65,Aceptado
+491,GII - Ingeniería de Computadores,F,7.1,2022-11-02,142,142,Aceptado
+492,GII - Ingeniería de la Salud,F,8.0,2022-11-22,87,87,Aceptado
+493,GII - Ingeniería del Software,F,9.6,2022-11-03,311,311,Aceptado
+494,GII - Ingeniería del Software,F,10.0,2022-11-30,274,274,Aceptado
+495,GII - Ingeniería del Software,M,5.4,2022-11-28,218,163,Aceptado
+496,GII - Ingeniería del Software,F,6.2,2022-11-19,322,322,Aceptado
+497,GII - Ingeniería del Software,M,6.2,2022-11-12,299,252,Aceptado
+498,GII - Ingeniería del Software,M,7.0,2022-11-02,170,170,Aceptado
+499,GII - Ingeniería de Computadores,M,6.8,2022-11-17,101,101,Aceptado
+500,GII - Ingeniería del Software,M,7.7,2022-11-02,96,96,Aceptado
+501,GII - Tecnologías Informáticas,M,9.9,2022-11-11,96,,No asignado
+502,GII - Ingeniería del Software,M,8.8,2022-11-10,283,283,Aceptado
+503,GII - Ingeniería del Software,F,5.0,2022-11-13,244,244,Aceptado
+504,GII - Tecnologías Informáticas,M,5.3,2022-11-30,24,,Excluido
+505,GII - Ingeniería de Computadores,F,8.5,2022-11-13,169,195,Aceptado
+506,GII - Ingeniería del Software,M,8.4,2022-11-08,131,131,Aceptado
+507,GII - Ingeniería de la Salud,F,8.3,2022-11-23,214,214,Aceptado
+508,GII - Ingeniería del Software,F,6.2,2022-11-21,23,23,Aceptado
+509,GII - Ingeniería de Computadores,M,9.9,2022-11-29,3,3,Aceptado
+510,GII - Ingeniería de la Salud,M,7.8,2022-11-03,57,57,Aceptado
+511,GII - Ingeniería del Software,F,6.0,2022-11-02,52,52,Aceptado
+512,GII - Ingeniería de Computadores,F,6.7,2022-11-03,199,199,Aceptado
+513,GII - Ingeniería de Computadores,F,7.9,2022-11-02,23,,No asignado
+514,GII - Ingeniería de Computadores,M,5.5,2022-11-29,26,26,Aceptado
+515,GII - Ingeniería del Software,F,7.0,2022-11-17,150,,No asignado
+516,GII - Ingeniería de la Salud,F,5.6,2022-11-22,116,116,Aceptado
+517,GII - Tecnologías Informáticas,M,7.7,2022-11-29,321,306,Aceptado
+518,GII - Tecnologías Informáticas,F,9.1,2022-11-30,344,344,Aceptado
+519,GII - Ingeniería del Software,F,5.3,2022-11-15,92,92,Renuncia
+520,GII - Ingeniería del Software,M,8.6,2022-11-10,104,104,Renuncia
+521,GII - Ingeniería de la Salud,F,6.9,2022-11-24,19,19,Aceptado
+522,GII - Ingeniería de Computadores,M,9.9,2022-11-12,353,353,Renuncia
+523,GII - Ingeniería del Software,M,9.3,2022-11-21,179,179,Aceptado
+524,GII - Ingeniería de Computadores,M,6.1,2022-11-17,204,59,Aceptado
+525,GII - Ingeniería del Software,M,6.4,2022-11-19,194,194,Aceptado
+526,GII - Ingeniería de Computadores,M,5.1,2022-11-30,262,330,Renuncia
+527,GII - Ingeniería del Software,F,8.4,2022-11-02,221,221,Aceptado
+528,GII - Ingeniería del Software,F,6.1,2022-11-03,319,319,Aceptado
+529,GII - Ingeniería del Software,M,9.8,2022-11-03,252,252,Aceptado
+530,GII - Ingeniería del Software,M,9.9,2022-11-29,107,107,Aceptado
+531,GII - Ingeniería de la Salud,F,9.6,2022-11-02,25,25,Aceptado
+532,GII - Ingeniería de Computadores,M,5.3,2022-11-29,253,253,Aceptado
+533,GII - Tecnologías Informáticas,M,8.8,2022-11-24,285,285,Renuncia
+534,GII - Ingeniería de Computadores,F,8.5,2022-11-03,139,229,Aceptado
+535,GII - Ingeniería del Software,F,6.4,2022-11-19,316,,Excluido
+536,GII - Ingeniería del Software,F,6.4,2022-11-10,58,58,Renuncia
+537,GII - Tecnologías Informáticas,M,8.1,2022-11-07,192,192,Aceptado
+538,GII - Ingeniería de la Salud,F,9.3,2022-11-09,26,50,Aceptado
+539,GII - Ingeniería de Computadores,F,6.7,2022-11-30,102,102,Aceptado
+540,GII - Ingeniería del Software,F,8.9,2022-11-30,143,165,Aceptado
+541,GII - Ingeniería del Software,M,5.4,2022-11-02,287,287,Renuncia
+542,GII - Ingeniería de Computadores,F,7.5,2022-11-21,218,278,Renuncia
+543,GII - Ingeniería de Computadores,F,5.0,2022-11-29,256,256,Aceptado
+544,GII - Ingeniería de Computadores,F,8.6,2022-11-26,107,107,Renuncia
+545,GII - Tecnologías Informáticas,F,7.1,2022-11-02,153,97,Renuncia
+546,GII - Ingeniería del Software,M,9.4,2022-11-02,180,,No asignado
+547,GII - Ingeniería de Computadores,M,8.3,2022-11-25,197,113,Aceptado
+548,GII - Ingeniería de Computadores,F,5.5,2022-11-23,290,290,Renuncia
+549,GII - Tecnologías Informáticas,F,6.2,2022-11-21,79,,Excluido
+550,GII - Ingeniería del Software,F,7.8,2022-11-21,280,280,Aceptado
+551,GII - Ingeniería de Computadores,M,9.2,2022-11-02,160,42,Aceptado
+552,GII - Ingeniería del Software,F,5.7,2022-11-30,315,331,Aceptado
+553,GII - Ingeniería del Software,F,9.5,2022-11-21,189,,No asignado
+554,GII - Ingeniería del Software,F,6.9,2022-11-30,322,322,Aceptado
+555,GII - Ingeniería del Software,M,9.2,2022-11-05,327,327,Aceptado
+556,GII - Ingeniería de Computadores,M,6.0,2022-11-14,95,95,Aceptado
+557,GII - Tecnologías Informáticas,F,7.4,2022-11-30,346,346,Aceptado
+558,GII - Ingeniería de la Salud,M,5.4,2022-11-11,9,298,Aceptado
+559,GII - Tecnologías Informáticas,M,8.9,2022-11-05,348,97,Aceptado
+560,GII - Ingeniería del Software,M,8.1,2022-11-03,263,103,Aceptado
+561,GII - Ingeniería del Software,M,6.5,2022-11-22,37,37,Aceptado
+562,GII - Ingeniería del Software,F,7.7,2022-11-29,349,349,Aceptado
+563,GII - Ingeniería de la Salud,F,5.5,2022-11-04,327,327,Aceptado
+564,GII - Ingeniería de Computadores,F,10.0,2022-11-18,155,164,Aceptado
+565,GII - Ingeniería de la Salud,M,5.8,2022-11-05,22,,Excluido
+566,GII - Tecnologías Informáticas,M,7.5,2022-11-03,251,251,Aceptado
+567,GII - Ingeniería de la Salud,M,9.7,2022-11-23,79,5,Aceptado
+568,GII - Ingeniería de la Salud,F,7.4,2022-11-15,129,338,Aceptado
+569,GII - Ingeniería de Computadores,F,6.0,2022-11-02,343,343,Aceptado
+570,GII - Ingeniería del Software,M,10.0,2022-11-18,298,298,Aceptado
+571,GII - Ingeniería del Software,M,6.9,2022-11-30,312,312,Aceptado
+572,GII - Ingeniería de la Salud,F,9.5,2022-11-30,180,311,Aceptado
+573,GII - Tecnologías Informáticas,F,7.0,2022-11-05,136,,Excluido
+574,GII - Ingeniería del Software,F,8.0,2022-11-02,279,279,Renuncia
+575,GII - Ingeniería del Software,F,6.2,2022-11-02,337,337,Renuncia
+576,GII - Ingeniería de Computadores,M,5.0,2022-11-27,318,318,Aceptado
+577,GII - Tecnologías Informáticas,M,6.8,2022-11-15,237,,No asignado
+578,GII - Ingeniería de Computadores,M,9.6,2022-11-30,242,242,Aceptado
+579,GII - Ingeniería del Software,M,6.4,2022-11-10,338,265,Renuncia
+580,GII - Ingeniería del Software,M,9.6,2022-11-23,158,342,Renuncia
+581,GII - Tecnologías Informáticas,F,6.6,2022-11-20,218,218,Aceptado
+582,GII - Ingeniería del Software,M,9.2,2022-11-16,345,318,Aceptado
+583,GII - Ingeniería de Computadores,F,6.7,2022-11-05,81,81,Aceptado
+584,GII - Ingeniería de la Salud,F,5.8,2022-11-30,92,92,Aceptado
+585,GII - Ingeniería del Software,M,7.6,2022-11-03,261,261,Aceptado
+586,GII - Ingeniería de Computadores,F,9.5,2022-11-25,279,87,Aceptado
+587,GII - Ingeniería del Software,F,6.2,2022-11-27,345,345,Renuncia
+588,GII - Ingeniería de Computadores,F,6.6,2022-11-30,62,62,Aceptado
+589,GII - Ingeniería de Computadores,M,7.6,2022-11-30,52,52,Renuncia
+590,GII - Ingeniería del Software,F,6.2,2022-11-14,288,288,Aceptado
+591,GII - Ingeniería de la Salud,M,7.0,2022-11-07,302,302,Renuncia
+592,GII - Ingeniería de Computadores,M,9.7,2022-11-30,95,95,Aceptado
+593,GII - Ingeniería de la Salud,M,5.9,2022-11-30,261,261,Aceptado
+594,GII - Ingeniería del Software,F,9.7,2022-11-12,292,292,Aceptado
+595,GII - Ingeniería de la Salud,F,9.7,2022-11-16,87,87,Renuncia
+596,GII - Ingeniería de Computadores,F,9.3,2022-11-23,14,14,Renuncia
+597,GII - Ingeniería de la Salud,M,7.7,2022-11-26,249,75,Aceptado
+598,GII - Ingeniería de Computadores,F,9.5,2022-11-11,125,,No asignado
+599,GII - Ingeniería de Computadores,M,8.3,2022-11-16,88,45,Aceptado
+600,GII - Tecnologías Informáticas,M,6.3,2022-11-29,53,,No asignado
+601,GII - Tecnologías Informáticas,F,9.3,2022-11-02,76,,No asignado
+602,GII - Ingeniería de Computadores,F,9.4,2022-11-29,165,,Excluido
+603,GII - Ingeniería de Computadores,M,8.7,2022-11-28,229,,Excluido
+604,GII - Ingeniería de la Salud,M,8.2,2022-11-08,169,169,Aceptado
+605,GII - Ingeniería del Software,M,7.1,2022-11-29,180,180,Aceptado
+606,GII - Ingeniería de Computadores,M,9.5,2022-11-16,262,262,Aceptado
+607,GII - Ingeniería de la Salud,F,6.8,2022-11-13,279,279,Aceptado
+608,GII - Ingeniería de Computadores,F,9.8,2022-11-30,293,42,Aceptado
+609,GII - Ingeniería de Computadores,M,7.1,2022-11-04,50,50,Aceptado
+610,GII - Ingeniería del Software,M,8.4,2022-11-12,69,69,Renuncia
+611,GII - Tecnologías Informáticas,F,9.4,2022-11-30,206,206,Aceptado
+612,GII - Ingeniería de Computadores,M,5.6,2022-11-02,28,28,Aceptado
+613,GII - Ingeniería de la Salud,M,5.8,2022-11-29,20,20,Aceptado
+614,GII - Ingeniería del Software,M,6.3,2022-11-02,30,30,Aceptado
+615,GII - Tecnologías Informáticas,M,7.1,2022-11-29,327,327,Aceptado
+616,GII - Ingeniería del Software,M,7.1,2022-11-02,61,,Excluido
+617,GII - Ingeniería del Software,F,7.1,2022-11-14,320,320,Aceptado
+618,GII - Ingeniería de la Salud,M,8.1,2022-11-27,353,353,Renuncia
+619,GII - Ingeniería de Computadores,M,5.6,2022-11-03,27,27,Renuncia
+620,GII - Ingeniería de Computadores,M,5.2,2022-11-30,128,167,Aceptado
+621,GII - Ingeniería de la Salud,M,7.8,2022-11-07,172,172,Aceptado
+622,GII - Ingeniería del Software,M,5.2,2022-11-02,292,,No asignado
+623,GII - Ingeniería de Computadores,F,6.6,2022-11-03,247,247,Aceptado
+624,GII - Ingeniería del Software,F,6.8,2022-11-29,273,273,Aceptado
+625,GII - Ingeniería de Computadores,M,9.1,2022-11-12,1,31,Aceptado
+626,GII - Ingeniería del Software,F,9.6,2022-11-16,118,118,Aceptado
+627,GII - Ingeniería de Computadores,F,9.3,2022-11-04,249,249,Aceptado
+628,GII - Ingeniería de la Salud,M,5.9,2022-11-02,13,13,Renuncia
+629,GII - Ingeniería de Computadores,M,5.5,2022-11-15,170,170,Aceptado
+630,GII - Ingeniería de Computadores,F,7.6,2022-11-02,272,272,Renuncia
+631,GII - Ingeniería del Software,F,9.6,2022-11-03,28,,No asignado
+632,GII - Ingeniería del Software,M,7.1,2022-11-13,185,162,Renuncia
+633,GII - Ingeniería del Software,M,8.6,2022-11-10,335,92,Aceptado
+634,GII - Ingeniería de la Salud,M,5.0,2022-11-30,73,,No asignado
+635,GII - Ingeniería de la Salud,M,8.4,2022-11-30,323,323,Aceptado
+636,GII - Ingeniería del Software,F,5.0,2022-11-22,179,146,Renuncia
+637,GII - Ingeniería del Software,M,7.4,2022-11-29,332,332,Aceptado
+638,GII - Ingeniería de Computadores,M,5.5,2022-11-19,33,33,Aceptado
+639,GII - Ingeniería de la Salud,F,8.3,2022-11-06,270,270,Aceptado
+640,GII - Ingeniería del Software,F,6.0,2022-11-03,192,192,Aceptado
+641,GII - Ingeniería de la Salud,M,6.6,2022-11-02,163,163,Aceptado
+642,GII - Ingeniería de Computadores,M,8.6,2022-11-26,220,5,Aceptado
+643,GII - Ingeniería del Software,F,6.0,2022-11-19,11,11,Aceptado
+644,GII - Ingeniería del Software,M,7.3,2022-11-26,34,34,Aceptado
+645,GII - Ingeniería de Computadores,M,8.6,2022-11-03,40,40,Aceptado
+646,GII - Tecnologías Informáticas,F,9.5,2022-11-02,108,,Excluido
+647,GII - Tecnologías Informáticas,M,5.7,2022-11-29,307,307,Renuncia
+648,GII - Ingeniería de Computadores,M,9.1,2022-11-03,60,60,Renuncia
+649,GII - Ingeniería del Software,M,7.8,2022-11-02,177,177,Renuncia
+650,GII - Ingeniería de Computadores,F,6.1,2022-11-30,157,157,Aceptado
+651,GII - Ingeniería de la Salud,F,7.7,2022-11-30,276,276,Aceptado
+652,GII - Ingeniería de la Salud,F,9.0,2022-11-02,322,95,Aceptado
+653,GII - Ingeniería de Computadores,F,5.7,2022-11-28,55,231,Aceptado
+654,GII - Ingeniería de Computadores,M,5.2,2022-11-22,323,323,Aceptado
+655,GII - Tecnologías Informáticas,M,6.9,2022-11-08,299,299,Aceptado
+656,GII - Tecnologías Informáticas,F,7.8,2022-11-18,297,231,Aceptado
+657,GII - Ingeniería de Computadores,F,8.3,2022-11-30,104,,No asignado
+658,GII - Ingeniería de Computadores,F,7.9,2022-11-27,45,220,Aceptado
+659,GII - Ingeniería del Software,M,9.8,2022-11-02,327,327,Aceptado
+660,GII - Ingeniería del Software,F,8.8,2022-11-08,192,192,Aceptado
+661,GII - Ingeniería de la Salud,F,7.6,2022-11-06,167,167,Aceptado
+662,GII - Ingeniería del Software,F,7.5,2022-11-19,128,128,Renuncia
+663,GII - Ingeniería del Software,M,6.8,2022-11-27,222,308,Aceptado
+664,GII - Tecnologías Informáticas,M,7.0,2022-11-30,82,82,Renuncia
+665,GII - Ingeniería de Computadores,F,9.8,2022-11-02,294,,Excluido
+666,GII - Ingeniería de Computadores,M,8.0,2022-11-09,231,231,Aceptado
+667,GII - Tecnologías Informáticas,F,9.6,2022-11-26,113,113,Aceptado
+668,GII - Ingeniería del Software,M,7.2,2022-11-04,120,191,Aceptado
+669,GII - Tecnologías Informáticas,M,9.0,2022-11-21,181,181,Aceptado
+670,GII - Ingeniería de Computadores,F,6.9,2022-11-29,210,210,Aceptado
+671,GII - Ingeniería del Software,F,8.6,2022-11-30,25,,Excluido
+672,GII - Ingeniería del Software,F,5.8,2022-11-24,346,346,Aceptado
+673,GII - Tecnologías Informáticas,M,9.9,2022-11-14,109,109,Renuncia
+674,GII - Ingeniería del Software,M,7.0,2022-11-29,246,,No asignado
+675,GII - Ingeniería del Software,M,5.6,2022-11-02,125,125,Aceptado
+676,GII - Ingeniería del Software,M,6.6,2022-11-02,75,75,Aceptado
+677,GII - Ingeniería del Software,F,8.2,2022-11-04,236,236,Aceptado
+678,GII - Ingeniería de Computadores,F,9.2,2022-11-02,98,221,Renuncia
+679,GII - Ingeniería de Computadores,M,9.1,2022-11-30,325,325,Aceptado
+680,GII - Tecnologías Informáticas,M,9.2,2022-11-02,238,238,Aceptado
+681,GII - Ingeniería del Software,M,5.2,2022-11-30,336,336,Aceptado
+682,GII - Ingeniería de la Salud,M,5.7,2022-11-02,169,169,Renuncia
+683,GII - Ingeniería de la Salud,F,9.4,2022-11-15,80,,No asignado
+684,GII - Ingeniería del Software,F,6.9,2022-11-29,75,75,Aceptado
+685,GII - Tecnologías Informáticas,F,6.1,2022-11-04,271,271,Aceptado
+686,GII - Ingeniería del Software,F,9.8,2022-11-30,231,231,Aceptado
+687,GII - Ingeniería de la Salud,F,8.5,2022-11-14,267,267,Aceptado
+688,GII - Ingeniería del Software,F,6.2,2022-11-07,66,66,Aceptado
+689,GII - Ingeniería del Software,F,6.6,2022-11-02,328,328,Aceptado
+690,GII - Ingeniería del Software,F,7.2,2022-11-14,353,,No asignado
+691,GII - Ingeniería del Software,F,9.7,2022-11-26,303,,Excluido
+692,GII - Ingeniería del Software,M,6.3,2022-11-03,39,39,Aceptado
+693,GII - Tecnologías Informáticas,M,6.1,2022-11-30,192,,No asignado
+694,GII - Ingeniería del Software,F,7.8,2022-11-10,174,,No asignado
+695,GII - Ingeniería de la Salud,F,8.3,2022-11-29,130,145,Aceptado
+696,GII - Ingeniería de Computadores,F,9.8,2022-11-06,177,177,Aceptado
+697,GII - Ingeniería de Computadores,F,8.0,2022-11-19,322,322,Aceptado
+698,GII - Ingeniería de la Salud,M,6.8,2022-11-24,8,8,Aceptado
+699,GII - Tecnologías Informáticas,F,7.9,2022-11-11,352,352,Aceptado
+700,GII - Ingeniería del Software,F,6.4,2022-11-25,197,197,Aceptado
+701,GII - Ingeniería del Software,M,5.8,2022-11-30,20,286,Renuncia
+702,GII - Tecnologías Informáticas,M,7.8,2022-11-12,119,119,Aceptado
+703,GII - Ingeniería del Software,F,9.5,2022-11-14,214,5,Aceptado
+704,GII - Ingeniería de la Salud,F,8.9,2022-11-02,215,123,Aceptado
+705,GII - Tecnologías Informáticas,M,6.0,2022-11-26,213,213,Aceptado
+706,GII - Ingeniería del Software,F,5.9,2022-11-20,36,36,Aceptado
+707,GII - Tecnologías Informáticas,F,8.3,2022-11-23,257,257,Aceptado
+708,GII - Ingeniería del Software,F,9.0,2022-11-03,340,340,Aceptado
+709,GII - Ingeniería del Software,M,7.6,2022-11-07,305,,Excluido
+710,GII - Ingeniería del Software,M,7.0,2022-11-30,295,295,Aceptado
+711,GII - Ingeniería del Software,M,5.5,2022-11-13,108,19,Renuncia
+712,GII - Ingeniería de Computadores,M,8.1,2022-11-02,4,,No asignado
+713,GII - Tecnologías Informáticas,M,5.2,2022-11-25,189,189,Aceptado
+714,GII - Ingeniería del Software,M,7.3,2022-11-02,210,210,Renuncia
+715,GII - Ingeniería del Software,F,8.4,2022-11-06,38,38,Aceptado
+716,GII - Tecnologías Informáticas,M,6.0,2022-11-25,167,167,Aceptado
+717,GII - Ingeniería de la Salud,M,9.3,2022-11-26,114,114,Aceptado
+718,GII - Tecnologías Informáticas,F,8.5,2022-11-28,216,216,Renuncia
+719,GII - Ingeniería de la Salud,M,9.8,2022-11-13,315,315,Aceptado
+720,GII - Ingeniería del Software,M,8.1,2022-11-07,61,61,Aceptado
+721,GII - Ingeniería del Software,F,5.3,2022-11-02,58,58,Aceptado
+722,GII - Ingeniería de la Salud,F,7.5,2022-11-15,162,162,Aceptado
+723,GII - Ingeniería del Software,M,5.0,2022-11-22,193,193,Aceptado
+724,GII - Ingeniería de la Salud,F,9.6,2022-11-19,162,31,Renuncia
+725,GII - Ingeniería de Computadores,M,7.8,2022-11-15,100,100,Aceptado
+726,GII - Ingeniería de la Salud,M,5.3,2022-11-29,75,75,Aceptado
+727,GII - Ingeniería de la Salud,F,5.5,2022-11-18,297,297,Aceptado
+728,GII - Ingeniería del Software,M,7.1,2022-11-29,306,306,Aceptado
+729,GII - Ingeniería de la Salud,M,9.0,2022-11-23,93,,No asignado
+730,GII - Ingeniería del Software,F,8.1,2022-11-13,220,220,Aceptado
+731,GII - Ingeniería de la Salud,F,7.9,2022-11-11,281,281,Aceptado
+732,GII - Ingeniería del Software,F,6.4,2022-11-13,31,31,Aceptado
+733,GII - Ingeniería de Computadores,F,9.8,2022-11-07,18,,Excluido
+734,GII - Ingeniería de Computadores,F,7.3,2022-11-03,209,209,Aceptado
+735,GII - Ingeniería de la Salud,M,8.9,2022-11-02,217,342,Renuncia
+736,GII - Tecnologías Informáticas,F,8.2,2022-11-13,289,289,Aceptado
+737,GII - Tecnologías Informáticas,M,6.3,2022-11-11,324,324,Aceptado
+738,GII - Ingeniería de la Salud,M,5.8,2022-11-28,297,297,Aceptado
+739,GII - Ingeniería del Software,F,6.7,2022-11-29,345,41,Aceptado
+740,GII - Ingeniería de la Salud,F,6.0,2022-11-30,240,240,Renuncia
+741,GII - Ingeniería de la Salud,F,6.4,2022-11-02,52,52,Aceptado
+742,GII - Ingeniería del Software,M,8.7,2022-11-17,90,17,Aceptado
+743,GII - Ingeniería de Computadores,F,9.9,2022-11-03,131,,Excluido
+744,GII - Ingeniería de Computadores,M,7.2,2022-11-02,300,300,Renuncia
+745,GII - Ingeniería del Software,F,7.6,2022-11-26,6,,No asignado
+746,GII - Ingeniería de la Salud,F,7.4,2022-11-30,263,263,Aceptado
+747,GII - Ingeniería del Software,M,5.9,2022-11-08,133,133,Aceptado
+748,GII - Ingeniería del Software,M,8.8,2022-11-08,329,329,Aceptado
+749,GII - Ingeniería de Computadores,F,5.7,2022-11-15,167,154,Aceptado
+750,GII - Ingeniería del Software,M,8.5,2022-11-25,23,,No asignado
+751,GII - Ingeniería de Computadores,M,6.7,2022-11-09,311,311,Aceptado
+752,GII - Ingeniería de Computadores,M,9.9,2022-11-23,64,258,Renuncia
+753,GII - Tecnologías Informáticas,M,5.7,2022-11-25,235,235,Aceptado
+754,GII - Ingeniería de Computadores,M,9.7,2022-11-29,151,147,Aceptado
+755,GII - Ingeniería del Software,M,9.8,2022-11-30,135,135,Aceptado
+756,GII - Ingeniería de Computadores,M,8.5,2022-11-27,126,126,Renuncia
+757,GII - Ingeniería de la Salud,F,8.3,2022-11-13,212,212,Aceptado
+758,GII - Ingeniería del Software,M,8.7,2022-11-28,182,182,Aceptado
+759,GII - Ingeniería del Software,M,7.1,2022-11-02,90,90,Aceptado
+760,GII - Ingeniería del Software,F,8.1,2022-11-09,284,,Excluido
+761,GII - Ingeniería del Software,F,9.9,2022-11-09,240,240,Aceptado
+762,GII - Ingeniería de la Salud,M,7.9,2022-11-26,160,,No asignado
+763,GII - Ingeniería de Computadores,M,9.7,2022-11-11,121,121,Aceptado
+764,GII - Ingeniería de Computadores,F,6.7,2022-11-04,209,209,Aceptado
+765,GII - Ingeniería del Software,M,6.5,2022-11-26,335,,No asignado
+766,GII - Ingeniería de la Salud,F,6.6,2022-11-21,151,151,Aceptado
+767,GII - Ingeniería del Software,M,9.9,2022-11-30,216,216,Aceptado
+768,GII - Ingeniería del Software,F,7.8,2022-11-30,285,285,Aceptado
+769,GII - Ingeniería del Software,M,9.4,2022-11-24,218,218,Aceptado
+770,GII - Ingeniería del Software,F,10.0,2022-11-05,297,59,Renuncia
+771,GII - Ingeniería de Computadores,F,9.5,2022-11-15,28,28,Aceptado
+772,GII - Tecnologías Informáticas,M,10.0,2022-11-10,255,255,Aceptado
+773,GII - Ingeniería de la Salud,M,6.9,2022-11-10,115,115,Aceptado
+774,GII - Ingeniería de la Salud,F,7.2,2022-11-02,107,107,Aceptado
+775,GII - Ingeniería del Software,M,7.1,2022-11-04,35,,No asignado
+776,GII - Ingeniería del Software,M,8.0,2022-11-30,79,79,Aceptado
+777,GII - Ingeniería de Computadores,M,6.1,2022-11-14,272,272,Aceptado
+778,GII - Ingeniería del Software,M,6.3,2022-11-17,4,4,Aceptado
+779,GII - Ingeniería del Software,M,5.5,2022-11-17,315,315,Aceptado
+780,GII - Ingeniería de Computadores,F,8.1,2022-11-04,51,51,Aceptado
+781,GII - Ingeniería del Software,M,7.9,2022-11-30,194,,No asignado
+782,GII - Ingeniería de Computadores,M,8.2,2022-11-26,333,333,Aceptado
+783,GII - Tecnologías Informáticas,F,7.4,2022-11-30,69,69,Renuncia
+784,GII - Ingeniería del Software,M,8.7,2022-11-30,194,194,Aceptado
+785,GII - Tecnologías Informáticas,M,6.3,2022-11-17,280,280,Aceptado
+786,GII - Ingeniería del Software,M,7.5,2022-11-03,113,113,Aceptado
+787,GII - Tecnologías Informáticas,F,5.3,2022-11-17,344,344,Renuncia
+788,GII - Ingeniería del Software,F,7.7,2022-11-13,129,42,Aceptado
+789,GII - Ingeniería de Computadores,M,9.1,2022-11-20,223,223,Aceptado
+790,GII - Ingeniería de Computadores,M,7.0,2022-11-30,329,,No asignado
+791,GII - Tecnologías Informáticas,F,6.9,2022-11-27,37,133,Aceptado
+792,GII - Ingeniería del Software,M,6.1,2022-11-29,174,174,Aceptado
+793,GII - Ingeniería del Software,M,9.2,2022-11-03,63,,Excluido
+794,GII - Ingeniería de la Salud,M,8.4,2022-11-30,233,233,Aceptado
+795,GII - Ingeniería de la Salud,F,5.7,2022-11-09,87,87,Aceptado
+796,GII - Ingeniería de Computadores,M,5.4,2022-11-17,94,115,Aceptado
+797,GII - Ingeniería del Software,F,8.8,2022-11-14,195,195,Aceptado
+798,GII - Ingeniería del Software,F,9.9,2022-11-09,314,223,Aceptado
+799,GII - Ingeniería del Software,M,6.3,2022-11-14,159,159,Aceptado
+800,GII - Ingeniería del Software,F,8.3,2022-11-30,266,266,Renuncia
+801,GII - Ingeniería de la Salud,M,8.0,2022-11-28,4,4,Aceptado
+802,GII - Ingeniería de Computadores,M,9.6,2022-11-21,292,292,Aceptado
+803,GII - Ingeniería de Computadores,F,5.3,2022-11-22,136,136,Aceptado
+804,GII - Ingeniería del Software,M,5.8,2022-11-13,274,,Excluido
+805,GII - Ingeniería del Software,M,8.8,2022-11-18,14,14,Aceptado
+806,GII - Tecnologías Informáticas,F,7.2,2022-11-03,335,348,Aceptado
+807,GII - Tecnologías Informáticas,F,8.7,2022-11-03,126,126,Aceptado
+808,GII - Ingeniería de Computadores,M,8.7,2022-11-02,60,,Excluido
+809,GII - Ingeniería del Software,M,5.2,2022-11-07,162,275,Aceptado
+810,GII - Tecnologías Informáticas,M,8.4,2022-11-29,141,141,Aceptado
+811,GII - Ingeniería de Computadores,F,6.2,2022-11-30,321,321,Aceptado
+812,GII - Ingeniería del Software,M,9.8,2022-11-30,260,323,Aceptado
+813,GII - Ingeniería del Software,M,5.2,2022-11-30,181,181,Aceptado
+814,GII - Ingeniería del Software,F,9.5,2022-11-02,307,307,Aceptado
+815,GII - Ingeniería del Software,M,6.4,2022-11-25,354,354,Aceptado
+816,GII - Ingeniería del Software,M,6.6,2022-11-04,124,124,Aceptado
+817,GII - Ingeniería de Computadores,F,5.4,2022-11-30,120,120,Aceptado
+818,GII - Tecnologías Informáticas,M,7.1,2022-11-29,58,58,Aceptado
+819,GII - Ingeniería del Software,F,9.3,2022-11-02,167,167,Aceptado
+820,GII - Ingeniería de la Salud,F,9.3,2022-11-09,306,306,Renuncia
+821,GII - Tecnologías Informáticas,M,5.4,2022-11-13,22,22,Aceptado
+822,GII - Ingeniería de Computadores,M,7.4,2022-11-28,190,190,Renuncia
+823,GII - Ingeniería del Software,M,6.4,2022-11-02,127,127,Aceptado
+824,GII - Ingeniería del Software,M,7.0,2022-11-30,351,351,Aceptado
+825,GII - Ingeniería del Software,F,5.1,2022-11-29,147,147,Aceptado
+826,GII - Ingeniería del Software,F,9.3,2022-11-30,213,287,Aceptado
+827,GII - Ingeniería del Software,F,9.5,2022-11-03,44,44,Aceptado
+828,GII - Tecnologías Informáticas,F,8.4,2022-11-06,95,95,Aceptado
+829,GII - Ingeniería del Software,M,5.6,2022-11-16,34,20,Aceptado
+830,GII - Tecnologías Informáticas,M,5.4,2022-11-21,56,56,Aceptado
+831,GII - Ingeniería del Software,F,9.3,2022-11-30,46,,No asignado
+832,GII - Tecnologías Informáticas,M,8.0,2022-11-13,204,204,Aceptado
+833,GII - Ingeniería de Computadores,F,5.7,2022-11-29,254,,Excluido
+834,GII - Ingeniería de Computadores,F,5.4,2022-11-03,182,182,Aceptado
+835,GII - Ingeniería de Computadores,M,7.0,2022-11-03,102,37,Aceptado
+836,GII - Ingeniería de la Salud,M,9.8,2022-11-04,206,206,Aceptado
+837,GII - Ingeniería del Software,F,8.5,2022-11-19,100,96,Aceptado
+838,GII - Ingeniería de Computadores,M,7.9,2022-11-30,81,,Excluido
+839,GII - Ingeniería de la Salud,F,9.0,2022-11-09,177,177,Aceptado
+840,GII - Ingeniería del Software,F,6.9,2022-11-30,286,286,Aceptado
+841,GII - Ingeniería de la Salud,F,8.8,2022-11-22,343,107,Renuncia
+842,GII - Ingeniería del Software,F,8.7,2022-11-07,83,83,Aceptado
+843,GII - Ingeniería de Computadores,M,6.4,2022-11-21,214,214,Aceptado
+844,GII - Ingeniería del Software,M,6.0,2022-11-18,203,203,Aceptado
+845,GII - Tecnologías Informáticas,F,9.7,2022-11-29,221,221,Aceptado
+846,GII - Ingeniería del Software,F,8.6,2022-11-29,38,38,Aceptado
+847,GII - Ingeniería de Computadores,M,7.1,2022-11-26,141,141,Aceptado
+848,GII - Ingeniería de Computadores,F,6.6,2022-11-30,139,269,Aceptado
+849,GII - Ingeniería del Software,M,5.5,2022-11-16,324,324,Renuncia
+850,GII - Ingeniería del Software,F,8.7,2022-11-30,288,112,Aceptado
+851,GII - Tecnologías Informáticas,M,6.9,2022-11-26,2,2,Aceptado
+852,GII - Ingeniería de la Salud,F,5.5,2022-11-25,315,315,Aceptado
+853,GII - Ingeniería de la Salud,M,7.0,2022-11-28,209,209,Aceptado
+854,GII - Tecnologías Informáticas,M,7.8,2022-11-19,173,,Excluido
+855,GII - Ingeniería de Computadores,F,5.4,2022-11-30,308,,No asignado
+856,GII - Ingeniería del Software,M,8.4,2022-11-29,190,190,Aceptado
+857,GII - Ingeniería de la Salud,M,9.2,2022-11-15,186,186,Renuncia
+858,GII - Ingeniería del Software,M,7.4,2022-11-21,72,203,Aceptado
+859,GII - Ingeniería del Software,F,8.6,2022-11-02,58,58,Renuncia
+860,GII - Ingeniería del Software,F,5.4,2022-11-13,193,193,Aceptado
+861,GII - Tecnologías Informáticas,M,5.9,2022-11-15,290,290,Aceptado
+862,GII - Tecnologías Informáticas,M,8.2,2022-11-05,328,,Excluido
+863,GII - Ingeniería del Software,F,8.3,2022-11-10,193,,Excluido
+864,GII - Tecnologías Informáticas,F,7.0,2022-11-30,172,172,Aceptado
+865,GII - Ingeniería del Software,M,5.6,2022-11-18,263,263,Aceptado
+866,GII - Ingeniería del Software,M,8.6,2022-11-02,31,31,Renuncia
+867,GII - Ingeniería del Software,F,8.5,2022-11-29,270,270,Aceptado
+868,GII - Ingeniería de Computadores,M,5.7,2022-11-29,268,268,Aceptado
+869,GII - Ingeniería de Computadores,M,7.3,2022-11-02,67,,Excluido
+870,GII - Ingeniería de Computadores,F,9.2,2022-11-09,117,,Excluido
+871,GII - Ingeniería de la Salud,M,7.8,2022-11-03,212,212,Aceptado
+872,GII - Ingeniería del Software,M,9.9,2022-11-24,126,126,Aceptado
+873,GII - Ingeniería del Software,F,7.7,2022-11-07,232,232,Aceptado
+874,GII - Ingeniería de Computadores,F,6.7,2022-11-29,211,211,Aceptado
+875,GII - Ingeniería de Computadores,F,5.1,2022-11-03,51,51,Aceptado
+876,GII - Ingeniería de la Salud,M,9.7,2022-11-03,321,321,Aceptado
+877,GII - Tecnologías Informáticas,F,9.8,2022-11-27,213,213,Aceptado
+878,GII - Ingeniería de Computadores,F,7.6,2022-11-28,309,101,Renuncia
+879,GII - Ingeniería del Software,F,7.9,2022-11-11,211,211,Aceptado
+880,GII - Ingeniería del Software,F,8.2,2022-11-15,27,,Excluido
+881,GII - Ingeniería del Software,M,6.0,2022-11-23,108,108,Aceptado
+882,GII - Ingeniería del Software,F,7.2,2022-11-03,31,260,Aceptado
+883,GII - Ingeniería del Software,M,8.9,2022-11-02,331,331,Aceptado
+884,GII - Ingeniería del Software,M,8.9,2022-11-03,99,,No asignado
+885,GII - Tecnologías Informáticas,M,6.4,2022-11-02,252,252,Aceptado
+886,GII - Ingeniería del Software,F,7.8,2022-11-13,5,5,Renuncia
+887,GII - Ingeniería de la Salud,F,9.0,2022-11-24,125,46,Renuncia
+888,GII - Ingeniería de la Salud,F,5.1,2022-11-30,172,169,Aceptado
+889,GII - Ingeniería de Computadores,F,8.1,2022-11-20,181,181,Aceptado
+890,GII - Ingeniería de Computadores,M,5.5,2022-11-30,317,317,Aceptado
+891,GII - Ingeniería del Software,M,9.4,2022-11-02,18,86,Renuncia
+892,GII - Ingeniería de la Salud,F,8.8,2022-11-22,238,238,Aceptado
+893,GII - Ingeniería de la Salud,F,7.0,2022-11-13,39,34,Renuncia
+894,GII - Ingeniería de Computadores,M,5.5,2022-11-13,344,,No asignado
+895,GII - Ingeniería de la Salud,F,6.0,2022-11-22,344,344,Aceptado
+896,GII - Tecnologías Informáticas,F,9.9,2022-11-13,151,151,Renuncia
+897,GII - Ingeniería del Software,F,9.6,2022-11-30,115,,Excluido
+898,GII - Ingeniería de Computadores,M,5.8,2022-11-30,5,15,Renuncia
+899,GII - Ingeniería del Software,M,8.8,2022-11-12,193,193,Aceptado
+900,GII - Ingeniería del Software,F,9.6,2022-11-14,172,172,Aceptado
+901,GII - Ingeniería de Computadores,M,7.8,2022-11-18,117,117,Aceptado
+902,GII - Ingeniería de Computadores,M,8.1,2022-11-28,129,129,Aceptado
+903,GII - Ingeniería de Computadores,M,8.9,2022-11-29,4,168,Aceptado
+904,GII - Ingeniería del Software,F,8.3,2022-11-03,281,281,Aceptado
+905,GII - Ingeniería del Software,F,8.3,2022-11-16,70,70,Aceptado
+906,GII - Tecnologías Informáticas,F,8.1,2022-11-29,271,,No asignado
+907,GII - Tecnologías Informáticas,F,7.2,2022-11-03,303,303,Aceptado
+908,GII - Tecnologías Informáticas,F,7.4,2022-11-13,162,162,Aceptado
+909,GII - Ingeniería de la Salud,M,9.3,2022-11-09,103,103,Renuncia
+910,GII - Ingeniería de la Salud,M,9.3,2022-11-03,173,173,Aceptado
+911,GII - Ingeniería del Software,M,7.5,2022-11-30,136,25,Aceptado
+912,GII - Tecnologías Informáticas,M,6.6,2022-11-03,323,323,Aceptado
+913,GII - Ingeniería del Software,F,9.3,2022-11-12,176,176,Aceptado
+914,GII - Tecnologías Informáticas,F,8.6,2022-11-06,261,261,Aceptado
+915,GII - Ingeniería de Computadores,M,5.9,2022-11-30,131,131,Aceptado
+916,GII - Ingeniería del Software,F,9.5,2022-11-06,208,208,Aceptado
+917,GII - Ingeniería de Computadores,F,9.7,2022-11-02,226,179,Aceptado
+918,GII - Ingeniería del Software,M,6.2,2022-11-02,311,311,Aceptado
+919,GII - Ingeniería del Software,M,9.2,2022-11-18,45,45,Aceptado
+920,GII - Ingeniería de la Salud,F,5.1,2022-11-26,354,193,Aceptado
+921,GII - Ingeniería del Software,M,9.4,2022-11-02,131,131,Aceptado
+922,GII - Ingeniería del Software,F,5.9,2022-11-03,71,48,Aceptado
+923,GII - Ingeniería de la Salud,M,7.0,2022-11-11,138,,No asignado
+924,GII - Ingeniería de Computadores,M,6.6,2022-11-07,210,,Excluido
+925,GII - Ingeniería del Software,M,10.0,2022-11-04,281,301,Aceptado
+926,GII - Ingeniería de Computadores,M,10.0,2022-11-07,27,27,Aceptado
+927,GII - Ingeniería del Software,F,6.6,2022-11-04,201,,No asignado
+928,GII - Ingeniería de la Salud,F,9.1,2022-11-15,268,268,Aceptado
+929,GII - Tecnologías Informáticas,M,9.7,2022-11-29,124,124,Aceptado
+930,GII - Ingeniería del Software,M,7.3,2022-11-29,174,174,Aceptado
+931,GII - Ingeniería de la Salud,F,8.4,2022-11-27,83,83,Aceptado
+932,GII - Ingeniería de la Salud,F,5.0,2022-11-18,310,310,Aceptado
+933,GII - Ingeniería de la Salud,M,7.9,2022-11-02,215,,Excluido
+934,GII - Ingeniería del Software,M,9.8,2022-11-04,336,336,Aceptado
+935,GII - Ingeniería del Software,F,7.2,2022-11-11,11,11,Aceptado
+936,GII - Tecnologías Informáticas,M,9.0,2022-11-20,44,44,Renuncia
+937,GII - Ingeniería de la Salud,F,5.5,2022-11-03,315,315,Aceptado
+938,GII - Ingeniería del Software,F,7.9,2022-11-02,77,50,Aceptado
+939,GII - Ingeniería de Computadores,F,5.3,2022-11-28,310,,No asignado
+940,GII - Ingeniería de la Salud,F,6.6,2022-11-29,124,124,Renuncia
+941,GII - Tecnologías Informáticas,F,6.4,2022-11-30,269,269,Aceptado
+942,GII - Tecnologías Informáticas,M,9.6,2022-11-03,86,86,Renuncia
+943,GII - Ingeniería de Computadores,M,9.5,2022-11-19,18,103,Aceptado
+944,GII - Tecnologías Informáticas,M,9.9,2022-11-30,173,173,Aceptado
+945,GII - Ingeniería del Software,F,5.6,2022-11-29,332,75,Aceptado
+946,GII - Ingeniería del Software,M,5.2,2022-11-10,178,341,Aceptado
+947,GII - Ingeniería del Software,F,7.5,2022-11-26,293,,Excluido
+948,GII - Ingeniería de Computadores,F,5.4,2022-11-03,239,5,Aceptado
+949,GII - Ingeniería del Software,M,5.0,2022-11-15,217,231,Aceptado
+950,GII - Tecnologías Informáticas,M,8.6,2022-11-03,134,134,Renuncia
+951,GII - Tecnologías Informáticas,M,7.4,2022-11-05,34,34,Aceptado
+952,GII - Ingeniería del Software,M,7.3,2022-11-04,271,,No asignado
+953,GII - Tecnologías Informáticas,F,8.6,2022-11-26,28,28,Renuncia
+954,GII - Ingeniería de Computadores,M,5.9,2022-11-30,22,22,Aceptado
+955,GII - Ingeniería de la Salud,M,6.5,2022-11-18,208,208,Aceptado
+956,GII - Tecnologías Informáticas,F,9.6,2022-11-03,199,,Excluido
+957,GII - Tecnologías Informáticas,F,9.4,2022-11-04,275,275,Aceptado
+958,GII - Ingeniería del Software,M,7.3,2022-11-26,299,299,Aceptado
+959,GII - Ingeniería de Computadores,M,5.1,2022-11-14,188,,No asignado
+960,GII - Ingeniería de la Salud,F,8.0,2022-11-11,336,336,Aceptado
+961,GII - Ingeniería del Software,M,5.8,2022-11-30,241,241,Aceptado
+962,GII - Ingeniería del Software,M,8.1,2022-11-18,66,66,Aceptado
+963,GII - Ingeniería del Software,F,5.5,2022-11-27,166,166,Renuncia
+964,GII - Ingeniería de la Salud,F,5.1,2022-11-07,174,174,Renuncia
+965,GII - Tecnologías Informáticas,F,9.0,2022-11-10,110,,No asignado
+966,GII - Tecnologías Informáticas,M,9.7,2022-11-17,86,298,Aceptado
+967,GII - Ingeniería del Software,F,8.6,2022-11-11,25,25,Aceptado
+968,GII - Ingeniería de la Salud,F,7.7,2022-11-21,325,47,Aceptado
+969,GII - Ingeniería de Computadores,M,7.2,2022-11-17,14,,No asignado
+970,GII - Ingeniería de Computadores,F,7.7,2022-11-03,103,331,Aceptado
+971,GII - Tecnologías Informáticas,M,6.8,2022-11-07,144,144,Aceptado
+972,GII - Tecnologías Informáticas,M,8.6,2022-11-08,308,,No asignado
+973,GII - Ingeniería de la Salud,F,8.1,2022-11-29,9,9,Aceptado
+974,GII - Ingeniería de Computadores,M,9.0,2022-11-02,327,,No asignado
+975,GII - Ingeniería de Computadores,M,5.6,2022-11-05,350,189,Aceptado
+976,GII - Ingeniería del Software,F,9.5,2022-11-02,3,3,Aceptado
+977,GII - Ingeniería del Software,F,5.1,2022-11-03,157,157,Aceptado
+978,GII - Ingeniería de Computadores,F,9.2,2022-11-14,146,146,Aceptado
+979,GII - Tecnologías Informáticas,M,9.5,2022-11-20,159,159,Aceptado
+980,GII - Tecnologías Informáticas,M,8.8,2022-11-22,172,172,Aceptado
+981,GII - Tecnologías Informáticas,M,8.9,2022-11-20,275,160,Aceptado
+982,GII - Ingeniería de Computadores,M,8.5,2022-11-27,259,259,Aceptado
+983,GII - Ingeniería del Software,F,6.1,2022-11-02,183,183,Aceptado
+984,GII - Ingeniería de Computadores,M,5.6,2022-11-20,201,282,Aceptado
+985,GII - Ingeniería del Software,M,7.7,2022-11-29,242,242,Renuncia
+986,GII - Ingeniería del Software,F,5.3,2022-11-09,354,354,Aceptado
+987,GII - Tecnologías Informáticas,F,6.0,2022-11-02,207,207,Aceptado
+988,GII - Ingeniería del Software,M,6.1,2022-11-22,8,,No asignado
+989,GII - Ingeniería de Computadores,M,7.5,2022-11-30,117,117,Renuncia
+990,GII - Tecnologías Informáticas,F,5.1,2022-11-30,28,304,Aceptado
+991,GII - Tecnologías Informáticas,F,6.6,2022-11-29,218,218,Aceptado
+992,GII - Tecnologías Informáticas,M,5.1,2022-11-03,64,64,Renuncia
+993,GII - Ingeniería de Computadores,M,5.9,2022-11-20,296,296,Renuncia
+994,GII - Ingeniería de la Salud,F,7.7,2022-11-30,351,142,Aceptado
+995,GII - Ingeniería del Software,M,7.8,2022-11-09,325,149,Aceptado
+996,GII - Ingeniería del Software,F,5.2,2022-11-27,311,311,Renuncia
+997,GII - Ingeniería del Software,F,7.3,2022-11-02,325,,No asignado
+998,GII - Ingeniería del Software,M,9.9,2022-11-06,15,15,Aceptado
+999,GII - Ingeniería de Computadores,M,8.8,2022-11-30,149,149,Aceptado
+1000,GII - Ingeniería del Software,F,8.9,2022-11-03,71,71,Renuncia
+1001,GII - Tecnologías Informáticas,F,7.5,2022-11-17,66,14,Renuncia
+1002,GII - Ingeniería del Software,M,5.3,2022-11-26,207,207,Aceptado
+1003,GII - Ingeniería del Software,F,6.1,2022-11-09,61,61,Aceptado
+1004,GII - Tecnologías Informáticas,M,5.7,2022-11-20,49,,No asignado
+1005,GII - Ingeniería del Software,F,7.4,2022-11-06,104,214,Aceptado
+1006,GII - Ingeniería del Software,F,8.4,2022-11-29,213,76,Aceptado
+1007,GII - Tecnologías Informáticas,F,6.5,2022-11-23,273,273,Aceptado
+1008,GII - Ingeniería de Computadores,F,6.6,2022-11-14,247,348,Aceptado
+1009,GII - Ingeniería del Software,F,6.8,2022-11-26,261,93,Aceptado
+1010,GII - Ingeniería del Software,M,6.4,2022-11-30,210,254,Aceptado
+1011,GII - Ingeniería del Software,M,9.0,2022-11-29,66,66,Renuncia
+1012,GII - Ingeniería del Software,F,6.4,2022-11-26,202,202,Aceptado
+1013,GII - Ingeniería de la Salud,M,8.4,2022-11-29,145,145,Aceptado
+1014,GII - Ingeniería del Software,M,7.6,2022-11-21,234,234,Renuncia
+1015,GII - Ingeniería del Software,F,5.9,2022-11-02,23,23,Aceptado
+1016,GII - Ingeniería de la Salud,F,8.7,2022-11-12,218,177,Aceptado
+1017,GII - Ingeniería del Software,M,5.7,2022-11-24,328,328,Aceptado
+1018,GII - Ingeniería del Software,F,8.1,2022-11-02,165,,No asignado
+1019,GII - Ingeniería de Computadores,F,7.9,2022-11-27,80,80,Aceptado
+1020,GII - Ingeniería de la Salud,M,8.6,2022-11-07,336,336,Aceptado
+1021,GII - Ingeniería de Computadores,M,9.7,2022-11-23,315,315,Aceptado
+1022,GII - Ingeniería del Software,F,7.6,2022-11-21,283,283,Aceptado
+1023,GII - Ingeniería del Software,M,8.3,2022-11-21,8,90,Aceptado
+1024,GII - Ingeniería del Software,M,7.3,2022-11-02,213,126,Aceptado
+1025,GII - Tecnologías Informáticas,F,9.3,2022-11-18,3,3,Renuncia
+1026,GII - Ingeniería del Software,M,8.1,2022-11-29,331,331,Renuncia
+1027,GII - Ingeniería de Computadores,F,6.1,2022-11-02,123,,Excluido
+1028,GII - Ingeniería de la Salud,M,6.8,2022-11-23,44,,Excluido
+1029,GII - Ingeniería de la Salud,M,7.9,2022-11-08,273,273,Aceptado
+1030,GII - Ingeniería del Software,M,9.0,2022-11-05,254,330,Aceptado
+1031,GII - Tecnologías Informáticas,M,6.8,2022-11-18,254,254,Renuncia
+1032,GII - Tecnologías Informáticas,M,7.1,2022-11-20,241,114,Aceptado
+1033,GII - Ingeniería del Software,F,9.4,2022-11-14,173,173,Aceptado
+1034,GII - Ingeniería de la Salud,F,7.7,2022-11-02,352,314,Aceptado
+1035,GII - Ingeniería del Software,M,6.7,2022-11-29,275,279,Aceptado
+1036,GII - Ingeniería del Software,M,9.5,2022-11-27,108,108,Renuncia
+1037,GII - Tecnologías Informáticas,F,5.8,2022-11-12,207,207,Renuncia
+1038,GII - Ingeniería de Computadores,F,5.1,2022-11-30,20,,Excluido
+1039,GII - Ingeniería del Software,F,9.2,2022-11-10,161,161,Aceptado
+1040,GII - Ingeniería de la Salud,F,5.1,2022-11-04,52,52,Aceptado
+1041,GII - Ingeniería del Software,F,5.4,2022-11-04,332,176,Aceptado
+1042,GII - Ingeniería de la Salud,F,8.6,2022-11-03,259,259,Renuncia
+1043,GII - Ingeniería del Software,M,6.4,2022-11-29,88,88,Aceptado
+1044,GII - Ingeniería del Software,F,6.9,2022-11-28,307,307,Aceptado
+1045,GII - Ingeniería de la Salud,M,6.2,2022-11-28,26,26,Aceptado
+1046,GII - Ingeniería de Computadores,M,6.0,2022-11-12,23,,Excluido
+1047,GII - Ingeniería de Computadores,F,6.9,2022-11-21,39,39,Aceptado
+1048,GII - Ingeniería de Computadores,F,7.2,2022-11-06,12,12,Aceptado
+1049,GII - Ingeniería del Software,M,5.6,2022-11-30,218,347,Aceptado
+1050,GII - Ingeniería del Software,M,6.1,2022-11-03,141,141,Renuncia
+1051,GII - Ingeniería de Computadores,F,5.5,2022-11-30,253,,No asignado
+1052,GII - Ingeniería de Computadores,F,9.4,2022-11-30,191,191,Aceptado
+1053,GII - Ingeniería del Software,M,6.1,2022-11-10,227,228,Aceptado
+1054,GII - Ingeniería del Software,M,7.9,2022-11-07,2,2,Aceptado
+1055,GII - Ingeniería del Software,M,9.7,2022-11-03,89,89,Aceptado
+1056,GII - Ingeniería del Software,F,7.4,2022-11-06,207,207,Aceptado
+1057,GII - Tecnologías Informáticas,M,5.2,2022-11-18,25,25,Aceptado
+1058,GII - Ingeniería de Computadores,F,7.2,2022-11-29,140,140,Aceptado
+1059,GII - Ingeniería del Software,M,9.2,2022-11-30,209,,No asignado
+1060,GII - Ingeniería de la Salud,F,6.0,2022-11-30,267,267,Aceptado
+1061,GII - Ingeniería del Software,F,6.5,2022-11-29,78,78,Aceptado
+1062,GII - Ingeniería del Software,M,6.3,2022-11-09,58,58,Aceptado
+1063,GII - Ingeniería de la Salud,M,5.9,2022-11-02,83,6,Aceptado
+1064,GII - Ingeniería del Software,F,7.6,2022-11-24,312,48,Aceptado
+1065,GII - Ingeniería del Software,F,7.8,2022-11-17,30,,Excluido
+1066,GII - Ingeniería de Computadores,F,7.1,2022-11-03,186,186,Aceptado
+1067,GII - Ingeniería del Software,M,6.2,2022-11-03,150,237,Renuncia
+1068,GII - Tecnologías Informáticas,M,9.0,2022-11-30,62,62,Aceptado
+1069,GII - Tecnologías Informáticas,F,9.1,2022-11-24,350,350,Aceptado
+1070,GII - Ingeniería del Software,M,8.0,2022-11-02,100,337,Renuncia
+1071,GII - Tecnologías Informáticas,F,8.7,2022-11-02,61,304,Aceptado
+1072,GII - Ingeniería de la Salud,M,6.7,2022-11-30,216,216,Aceptado
+1073,GII - Ingeniería del Software,M,6.1,2022-11-30,50,50,Aceptado
+1074,GII - Ingeniería de la Salud,M,7.7,2022-11-16,293,77,Renuncia
+1075,GII - Tecnologías Informáticas,M,8.3,2022-11-10,328,328,Aceptado
+1076,GII - Ingeniería del Software,M,8.0,2022-11-18,131,246,Renuncia
+1077,GII - Tecnologías Informáticas,M,5.2,2022-11-08,123,316,Aceptado
+1078,GII - Ingeniería de Computadores,F,9.9,2022-11-03,57,57,Aceptado
+1079,GII - Ingeniería del Software,F,7.7,2022-11-30,80,80,Aceptado
+1080,GII - Ingeniería del Software,M,8.6,2022-11-04,336,337,Aceptado
+1081,GII - Ingeniería de Computadores,F,8.4,2022-11-02,41,41,Renuncia
+1082,GII - Ingeniería del Software,F,5.6,2022-11-29,232,232,Aceptado
+1083,GII - Ingeniería del Software,M,7.1,2022-11-20,39,39,Aceptado
+1084,GII - Ingeniería de Computadores,M,9.1,2022-11-03,222,171,Renuncia
+1085,GII - Tecnologías Informáticas,M,6.7,2022-11-04,38,38,Aceptado
+1086,GII - Ingeniería del Software,F,8.2,2022-11-22,131,89,Aceptado
+1087,GII - Ingeniería de la Salud,M,7.6,2022-11-08,269,146,Aceptado
+1088,GII - Ingeniería del Software,M,7.0,2022-11-02,162,162,Aceptado
+1089,GII - Ingeniería del Software,F,7.0,2022-11-26,207,6,Renuncia
+1090,GII - Ingeniería del Software,F,6.8,2022-11-20,87,87,Aceptado
+1091,GII - Ingeniería de Computadores,F,6.8,2022-11-07,167,,No asignado
+1092,GII - Ingeniería del Software,M,5.8,2022-11-05,241,241,Aceptado
+1093,GII - Ingeniería del Software,M,6.1,2022-11-30,256,,No asignado
+1094,GII - Tecnologías Informáticas,M,8.6,2022-11-03,255,198,Renuncia
+1095,GII - Ingeniería de Computadores,M,8.4,2022-11-02,168,,No asignado
+1096,GII - Ingeniería de la Salud,M,8.4,2022-11-10,298,298,Renuncia
+1097,GII - Tecnologías Informáticas,F,5.8,2022-11-07,176,176,Aceptado
+1098,GII - Ingeniería de Computadores,M,7.6,2022-11-23,237,237,Aceptado
+1099,GII - Ingeniería del Software,M,8.0,2022-11-15,21,21,Renuncia
+1100,GII - Ingeniería de la Salud,M,5.6,2022-11-16,285,285,Aceptado
+1101,GII - Ingeniería del Software,M,5.7,2022-11-18,181,,No asignado
+1102,GII - Ingeniería de la Salud,F,5.7,2022-11-06,59,,No asignado
+1103,GII - Tecnologías Informáticas,F,8.9,2022-11-29,37,37,Aceptado
+1104,GII - Tecnologías Informáticas,F,9.6,2022-11-04,89,89,Aceptado
+1105,GII - Ingeniería de Computadores,F,6.2,2022-11-03,23,23,Aceptado
+1106,GII - Ingeniería del Software,F,9.5,2022-11-30,346,346,Renuncia
+1107,GII - Ingeniería del Software,M,6.1,2022-11-02,311,311,Renuncia
+1108,GII - Ingeniería de la Salud,F,7.8,2022-11-03,347,347,Renuncia
+1109,GII - Tecnologías Informáticas,F,6.8,2022-11-27,140,140,Renuncia
+1110,GII - Tecnologías Informáticas,F,6.0,2022-11-30,190,190,Aceptado
+1111,GII - Tecnologías Informáticas,M,5.5,2022-11-29,250,,No asignado
+1112,GII - Ingeniería del Software,M,5.1,2022-11-09,83,83,Aceptado
+1113,GII - Ingeniería del Software,F,6.0,2022-11-03,243,,No asignado
+1114,GII - Ingeniería de la Salud,M,9.3,2022-11-12,1,1,Renuncia
+1115,GII - Ingeniería de Computadores,M,5.1,2022-11-08,231,224,Renuncia
+1116,GII - Ingeniería de Computadores,F,5.2,2022-11-30,256,26,Aceptado
+1117,GII - Ingeniería de Computadores,M,10.0,2022-11-10,4,225,Renuncia
+1118,GII - Ingeniería de la Salud,M,9.6,2022-11-30,304,304,Aceptado
+1119,GII - Ingeniería del Software,F,5.1,2022-11-29,322,322,Renuncia
+1120,GII - Ingeniería del Software,M,8.8,2022-11-03,266,266,Aceptado
+1121,GII - Ingeniería de la Salud,F,5.2,2022-11-02,272,272,Aceptado
+1122,GII - Ingeniería de Computadores,M,7.0,2022-11-30,289,289,Aceptado
+1123,GII - Ingeniería de Computadores,M,5.9,2022-11-02,95,95,Aceptado
+1124,GII - Ingeniería de Computadores,M,6.6,2022-11-29,292,292,Aceptado
+1125,GII - Ingeniería de Computadores,F,8.2,2022-11-05,50,50,Aceptado
+1126,GII - Ingeniería de Computadores,M,8.6,2022-11-29,263,263,Aceptado
+1127,GII - Ingeniería de la Salud,F,5.6,2022-11-14,241,241,Aceptado
+1128,GII - Ingeniería del Software,F,8.2,2022-11-22,25,25,Aceptado
+1129,GII - Tecnologías Informáticas,F,8.1,2022-11-30,91,91,Aceptado
+1130,GII - Ingeniería de Computadores,F,9.1,2022-11-29,123,,Excluido
+1131,GII - Ingeniería del Software,M,5.9,2022-11-03,54,54,Aceptado
+1132,GII - Tecnologías Informáticas,F,8.7,2022-11-26,2,2,Aceptado
+1133,GII - Ingeniería del Software,F,7.3,2022-11-30,225,225,Renuncia
+1134,GII - Ingeniería del Software,M,8.2,2022-11-03,177,177,Renuncia
+1135,GII - Ingeniería del Software,F,6.0,2022-11-18,17,17,Aceptado
+1136,GII - Ingeniería de la Salud,F,9.1,2022-11-10,221,221,Aceptado
+1137,GII - Ingeniería de la Salud,M,8.1,2022-11-29,325,325,Aceptado
+1138,GII - Tecnologías Informáticas,F,9.6,2022-11-05,186,186,Aceptado
+1139,GII - Tecnologías Informáticas,M,6.1,2022-11-10,62,39,Aceptado
+1140,GII - Tecnologías Informáticas,F,9.1,2022-11-02,315,42,Aceptado
+1141,GII - Ingeniería del Software,M,7.2,2022-11-24,30,30,Aceptado
+1142,GII - Ingeniería de la Salud,M,9.1,2022-11-12,83,83,Aceptado
+1143,GII - Ingeniería de la Salud,F,8.3,2022-11-22,96,96,Aceptado
+1144,GII - Ingeniería del Software,F,7.0,2022-11-19,35,35,Renuncia
+1145,GII - Ingeniería del Software,M,7.1,2022-11-15,250,250,Aceptado
+1146,GII - Ingeniería de la Salud,M,5.7,2022-11-09,230,,No asignado
+1147,GII - Ingeniería de la Salud,F,8.7,2022-11-30,35,,Excluido
+1148,GII - Ingeniería del Software,F,8.8,2022-11-26,211,211,Aceptado
+1149,GII - Ingeniería del Software,M,7.3,2022-11-29,272,272,Aceptado
+1150,GII - Tecnologías Informáticas,M,6.9,2022-11-02,326,72,Aceptado
+1151,GII - Ingeniería del Software,M,7.6,2022-11-28,54,,Excluido
+1152,GII - Ingeniería del Software,F,8.3,2022-11-30,214,214,Aceptado
+1153,GII - Ingeniería de Computadores,F,9.7,2022-11-02,159,159,Aceptado
+1154,GII - Tecnologías Informáticas,F,6.4,2022-11-14,90,,No asignado
+1155,GII - Ingeniería de Computadores,M,6.1,2022-11-21,123,123,Aceptado
+1156,GII - Ingeniería de la Salud,F,8.5,2022-11-03,292,292,Aceptado
+1157,GII - Ingeniería del Software,F,7.8,2022-11-17,138,138,Aceptado
+1158,GII - Tecnologías Informáticas,F,8.8,2022-11-03,152,,Excluido
+1159,GII - Ingeniería de la Salud,M,8.8,2022-11-27,315,315,Renuncia
+1160,GII - Ingeniería de la Salud,M,8.0,2022-11-21,143,143,Aceptado
+1161,GII - Tecnologías Informáticas,F,5.7,2022-11-30,91,,No asignado
+1162,GII - Ingeniería de Computadores,M,9.2,2022-11-22,324,253,Aceptado
+1163,GII - Ingeniería de la Salud,M,5.1,2022-11-02,226,191,Aceptado
+1164,GII - Ingeniería del Software,M,7.2,2022-11-13,165,165,Aceptado
+1165,GII - Ingeniería del Software,M,9.1,2022-11-30,186,186,Aceptado
+1166,GII - Ingeniería de Computadores,F,7.0,2022-11-08,336,336,Renuncia
+1167,GII - Ingeniería del Software,F,7.8,2022-11-11,204,284,Renuncia
+1168,GII - Ingeniería del Software,F,6.0,2022-11-18,204,204,Aceptado
+1169,GII - Ingeniería de la Salud,M,6.8,2022-11-19,101,,Excluido
+1170,GII - Tecnologías Informáticas,F,5.8,2022-11-03,18,,Excluido
+1171,GII - Ingeniería del Software,F,5.9,2022-11-27,249,249,Aceptado
+1172,GII - Ingeniería del Software,F,5.0,2022-11-09,21,21,Aceptado
+1173,GII - Ingeniería del Software,F,8.6,2022-11-02,86,86,Aceptado
+1174,GII - Tecnologías Informáticas,M,5.8,2022-11-26,123,123,Aceptado
+1175,GII - Tecnologías Informáticas,M,6.6,2022-11-14,103,103,Aceptado
+1176,GII - Ingeniería del Software,F,9.9,2022-11-29,20,20,Aceptado
+1177,GII - Ingeniería de Computadores,M,8.9,2022-11-14,211,211,Aceptado
+1178,GII - Ingeniería de Computadores,M,5.7,2022-11-03,321,321,Aceptado
+1179,GII - Ingeniería de la Salud,M,7.5,2022-11-29,275,,Excluido
+1180,GII - Tecnologías Informáticas,M,9.8,2022-11-03,215,215,Aceptado
+1181,GII - Ingeniería de Computadores,F,5.6,2022-11-03,163,163,Aceptado
+1182,GII - Ingeniería del Software,F,7.0,2022-11-30,137,137,Aceptado
+1183,GII - Ingeniería del Software,M,8.2,2022-11-04,246,246,Aceptado
+1184,GII - Ingeniería de la Salud,F,5.2,2022-11-30,318,48,Aceptado
+1185,GII - Ingeniería de Computadores,M,6.8,2022-11-05,204,329,Aceptado
+1186,GII - Ingeniería de Computadores,M,8.3,2022-11-13,203,203,Aceptado
+1187,GII - Ingeniería del Software,M,7.2,2022-11-23,187,187,Renuncia
+1188,GII - Ingeniería de Computadores,F,7.7,2022-11-18,346,144,Aceptado
+1189,GII - Ingeniería del Software,M,6.8,2022-11-16,154,154,Aceptado
+1190,GII - Ingeniería del Software,M,9.4,2022-11-23,340,340,Aceptado
+1191,GII - Ingeniería de Computadores,M,5.5,2022-11-12,290,290,Aceptado
+1192,GII - Ingeniería del Software,M,9.7,2022-11-24,103,103,Aceptado
+1193,GII - Ingeniería del Software,F,9.5,2022-11-03,55,,No asignado
+1194,GII - Ingeniería de la Salud,M,6.0,2022-11-24,284,,Excluido
+1195,GII - Ingeniería de Computadores,M,5.1,2022-11-17,250,,Excluido
+1196,GII - Tecnologías Informáticas,M,5.1,2022-11-22,110,110,Aceptado
+1197,GII - Ingeniería del Software,M,9.3,2022-11-29,254,254,Aceptado
+1198,GII - Ingeniería del Software,F,6.7,2022-11-03,235,235,Aceptado
+1199,GII - Ingeniería de la Salud,M,8.0,2022-11-16,172,172,Aceptado
+1200,GII - Tecnologías Informáticas,M,7.8,2022-11-29,310,310,Aceptado
+1201,GII - Ingeniería de la Salud,M,8.6,2022-11-02,40,40,Aceptado
+1202,GII - Ingeniería del Software,M,7.8,2022-11-28,63,63,Aceptado
+1203,GII - Ingeniería del Software,F,8.2,2022-11-09,277,277,Aceptado
+1204,GII - Ingeniería de la Salud,F,6.8,2022-11-03,119,,Excluido
+1205,GII - Ingeniería del Software,M,5.4,2022-11-02,201,201,Aceptado
+1206,GII - Ingeniería del Software,M,6.8,2022-11-03,309,276,Aceptado
+1207,GII - Ingeniería del Software,M,7.0,2022-11-02,104,104,Aceptado
+1208,GII - Ingeniería del Software,F,7.4,2022-11-02,56,56,Aceptado
+1209,GII - Ingeniería del Software,F,9.8,2022-11-23,39,,Excluido
+1210,GII - Ingeniería de la Salud,M,9.8,2022-11-30,63,63,Aceptado
+1211,GII - Ingeniería del Software,M,6.6,2022-11-28,187,10,Aceptado
+1212,GII - Ingeniería del Software,F,5.6,2022-11-02,139,139,Aceptado
+1213,GII - Ingeniería del Software,F,5.6,2022-11-11,212,212,Aceptado
+1214,GII - Ingeniería del Software,F,9.4,2022-11-29,305,,Excluido
+1215,GII - Ingeniería del Software,F,6.1,2022-11-19,169,169,Aceptado
+1216,GII - Ingeniería de la Salud,F,9.8,2022-11-24,91,91,Aceptado
+1217,GII - Ingeniería del Software,M,9.6,2022-11-20,267,267,Aceptado
+1218,GII - Ingeniería de Computadores,M,9.2,2022-11-25,320,,No asignado
+1219,GII - Ingeniería del Software,M,9.2,2022-11-11,261,124,Aceptado
+1220,GII - Ingeniería de Computadores,M,7.3,2022-11-03,120,120,Aceptado
+1221,GII - Ingeniería de Computadores,F,7.4,2022-11-13,139,139,Renuncia
+1222,GII - Ingeniería del Software,F,6.5,2022-11-18,169,169,Renuncia
+1223,GII - Tecnologías Informáticas,F,10.0,2022-11-07,173,173,Aceptado
+1224,GII - Ingeniería de Computadores,M,8.6,2022-11-23,95,82,Aceptado
+1225,GII - Tecnologías Informáticas,M,9.2,2022-11-03,23,60,Renuncia
+1226,GII - Ingeniería de Computadores,M,5.3,2022-11-05,159,,No asignado
+1227,GII - Ingeniería del Software,M,9.9,2022-11-30,132,107,Aceptado
+1228,GII - Ingeniería de Computadores,F,6.8,2022-11-24,205,62,Aceptado
+1229,GII - Ingeniería del Software,M,9.2,2022-11-30,194,194,Aceptado
+1230,GII - Ingeniería del Software,M,8.2,2022-11-29,72,72,Aceptado
+1231,GII - Ingeniería de Computadores,F,8.7,2022-11-24,210,,Excluido
+1232,GII - Tecnologías Informáticas,M,7.2,2022-11-05,196,140,Aceptado
+1233,GII - Tecnologías Informáticas,M,8.1,2022-11-29,161,,No asignado
+1234,GII - Ingeniería del Software,M,8.1,2022-11-29,210,210,Renuncia
+1235,GII - Ingeniería del Software,F,8.2,2022-11-13,248,248,Aceptado
+1236,GII - Ingeniería del Software,F,9.2,2022-11-02,185,185,Aceptado
+1237,GII - Tecnologías Informáticas,M,5.6,2022-11-08,119,255,Aceptado
+1238,GII - Ingeniería de la Salud,M,8.2,2022-11-12,218,218,Aceptado
+1239,GII - Ingeniería de la Salud,M,6.3,2022-11-30,71,71,Renuncia
+1240,GII - Ingeniería de la Salud,M,8.7,2022-11-07,197,197,Aceptado
+1241,GII - Ingeniería de Computadores,F,9.5,2022-11-03,23,23,Aceptado
+1242,GII - Tecnologías Informáticas,M,9.4,2022-11-30,186,140,Aceptado
+1243,GII - Tecnologías Informáticas,F,5.5,2022-11-20,81,81,Aceptado
+1244,GII - Ingeniería de Computadores,F,9.7,2022-11-03,65,342,Renuncia
+1245,GII - Tecnologías Informáticas,F,9.8,2022-11-04,12,12,Aceptado
+1246,GII - Ingeniería del Software,M,5.2,2022-11-29,346,346,Aceptado
+1247,GII - Ingeniería del Software,M,8.1,2022-11-16,119,119,Aceptado
+1248,GII - Ingeniería del Software,F,8.8,2022-11-03,204,,Excluido
+1249,GII - Ingeniería del Software,M,5.0,2022-11-02,279,279,Aceptado
+1250,GII - Ingeniería del Software,F,6.4,2022-11-09,261,345,Renuncia
+1251,GII - Ingeniería del Software,M,6.9,2022-11-10,282,,No asignado
+1252,GII - Tecnologías Informáticas,M,7.4,2022-11-03,14,302,Renuncia
+1253,GII - Ingeniería de la Salud,F,7.4,2022-11-03,321,321,Aceptado
+1254,GII - Ingeniería del Software,F,7.7,2022-11-22,341,,Excluido
+1255,GII - Tecnologías Informáticas,F,8.9,2022-11-08,69,,No asignado
+1256,GII - Ingeniería del Software,M,6.4,2022-11-11,174,174,Aceptado
+1257,GII - Ingeniería del Software,M,5.6,2022-11-10,193,193,Aceptado
+1258,GII - Ingeniería de Computadores,M,7.4,2022-11-18,94,270,Aceptado
+1259,GII - Tecnologías Informáticas,F,9.7,2022-11-09,236,236,Renuncia
+1260,GII - Tecnologías Informáticas,F,6.4,2022-11-21,128,128,Aceptado
+1261,GII - Ingeniería de Computadores,M,8.3,2022-11-12,30,30,Aceptado
+1262,GII - Ingeniería de Computadores,M,6.0,2022-11-17,47,47,Aceptado
+1263,GII - Tecnologías Informáticas,F,8.3,2022-11-29,131,107,Aceptado
+1264,GII - Ingeniería del Software,M,5.1,2022-11-25,1,1,Aceptado
+1265,GII - Ingeniería del Software,M,9.9,2022-11-02,162,213,Renuncia
+1266,GII - Ingeniería del Software,F,6.2,2022-11-03,248,245,Aceptado
+1267,GII - Ingeniería de la Salud,F,7.0,2022-11-11,105,105,Renuncia
+1268,GII - Tecnologías Informáticas,M,8.6,2022-11-02,336,336,Aceptado
+1269,GII - Ingeniería del Software,F,5.6,2022-11-30,55,55,Renuncia
+1270,GII - Tecnologías Informáticas,M,8.5,2022-11-26,240,240,Aceptado
+1271,GII - Ingeniería de Computadores,M,5.8,2022-11-03,153,153,Aceptado
+1272,GII - Ingeniería de la Salud,M,9.7,2022-11-09,315,315,Renuncia
+1273,GII - Ingeniería de Computadores,F,5.2,2022-11-06,142,142,Aceptado
+1274,GII - Ingeniería de la Salud,F,9.9,2022-11-30,175,175,Aceptado
+1275,GII - Ingeniería de la Salud,M,9.4,2022-11-03,80,80,Aceptado
+1276,GII - Ingeniería del Software,F,6.3,2022-11-30,334,,No asignado
+1277,GII - Ingeniería del Software,F,8.2,2022-11-03,121,121,Aceptado
+1278,GII - Tecnologías Informáticas,F,7.9,2022-11-29,164,164,Aceptado
+1279,GII - Ingeniería de Computadores,M,8.5,2022-11-30,219,275,Aceptado
+1280,GII - Ingeniería del Software,F,7.8,2022-11-03,321,,No asignado
+1281,GII - Ingeniería de la Salud,M,8.9,2022-11-29,194,194,Aceptado
+1282,GII - Ingeniería del Software,F,8.1,2022-11-15,346,346,Renuncia
+1283,GII - Ingeniería de la Salud,F,5.4,2022-11-25,24,24,Aceptado
+1284,GII - Ingeniería del Software,M,8.2,2022-11-03,299,299,Aceptado
+1285,GII - Tecnologías Informáticas,F,5.7,2022-11-06,263,263,Aceptado
+1286,GII - Tecnologías Informáticas,M,5.9,2022-11-26,189,189,Aceptado
+1287,GII - Ingeniería del Software,M,8.7,2022-11-02,126,42,Renuncia
+1288,GII - Ingeniería del Software,F,6.3,2022-11-02,235,235,Aceptado
+1289,GII - Ingeniería de la Salud,F,9.8,2022-11-11,275,,No asignado
+1290,GII - Ingeniería del Software,M,8.0,2022-11-30,32,,No asignado
+1291,GII - Ingeniería del Software,F,7.0,2022-11-30,283,9,Aceptado
+1292,GII - Ingeniería de Computadores,F,5.5,2022-11-03,270,270,Renuncia
+1293,GII - Ingeniería de Computadores,F,7.4,2022-11-13,268,268,Aceptado
+1294,GII - Ingeniería del Software,M,8.9,2022-11-08,80,1,Aceptado
+1295,GII - Tecnologías Informáticas,M,6.4,2022-11-25,284,284,Aceptado
+1296,GII - Ingeniería de Computadores,F,9.6,2022-11-21,280,280,Aceptado
+1297,GII - Ingeniería del Software,F,6.6,2022-11-16,39,250,Renuncia
+1298,GII - Tecnologías Informáticas,F,5.2,2022-11-03,306,,No asignado
+1299,GII - Ingeniería de la Salud,F,7.0,2022-11-28,283,,Excluido
+1300,GII - Ingeniería del Software,M,7.0,2022-11-15,254,254,Aceptado
+1301,GII - Ingeniería del Software,M,8.2,2022-11-02,300,300,Aceptado
+1302,GII - Ingeniería de Computadores,F,9.7,2022-11-30,114,130,Renuncia
+1303,GII - Ingeniería de Computadores,M,5.7,2022-11-02,105,105,Renuncia
+1304,GII - Tecnologías Informáticas,M,7.9,2022-11-12,102,102,Aceptado
+1305,GII - Ingeniería del Software,M,6.4,2022-11-24,176,,Excluido
+1306,GII - Ingeniería de Computadores,F,7.7,2022-11-29,253,18,Renuncia
+1307,GII - Ingeniería de la Salud,F,7.3,2022-11-23,353,353,Aceptado
+1308,GII - Ingeniería del Software,F,6.7,2022-11-20,224,224,Aceptado
+1309,GII - Tecnologías Informáticas,M,6.9,2022-11-13,47,276,Renuncia
+1310,GII - Ingeniería del Software,M,5.1,2022-11-29,299,299,Aceptado
+1311,GII - Ingeniería de Computadores,M,9.6,2022-11-25,113,,No asignado
+1312,GII - Tecnologías Informáticas,F,9.9,2022-11-02,69,69,Aceptado
+1313,GII - Tecnologías Informáticas,F,9.1,2022-11-11,280,280,Aceptado
+1314,GII - Ingeniería del Software,M,8.3,2022-11-30,4,4,Renuncia
+1315,GII - Ingeniería de la Salud,M,7.6,2022-11-30,225,225,Renuncia
+1316,GII - Ingeniería de Computadores,F,8.0,2022-11-10,221,221,Aceptado
+1317,GII - Ingeniería de la Salud,M,9.0,2022-11-07,97,59,Aceptado
+1318,GII - Ingeniería del Software,F,8.1,2022-11-21,269,,No asignado
+1319,GII - Ingeniería del Software,M,5.3,2022-11-30,125,125,Aceptado
+1320,GII - Tecnologías Informáticas,F,7.6,2022-11-02,315,222,Aceptado
+1321,GII - Ingeniería de la Salud,M,7.5,2022-11-30,332,332,Aceptado
+1322,GII - Tecnologías Informáticas,F,9.5,2022-11-26,293,293,Aceptado
+1323,GII - Ingeniería de Computadores,F,6.4,2022-11-12,239,,Excluido
+1324,GII - Ingeniería del Software,M,6.4,2022-11-23,194,194,Aceptado
+1325,GII - Tecnologías Informáticas,M,6.9,2022-11-30,202,210,Renuncia
+1326,GII - Ingeniería del Software,F,5.7,2022-11-23,189,189,Aceptado
+1327,GII - Ingeniería de la Salud,F,5.1,2022-11-22,32,32,Aceptado
+1328,GII - Tecnologías Informáticas,F,6.5,2022-11-29,146,146,Aceptado
+1329,GII - Ingeniería del Software,M,7.5,2022-11-29,247,141,Aceptado
+1330,GII - Tecnologías Informáticas,M,8.4,2022-11-17,227,227,Aceptado
+1331,GII - Ingeniería de la Salud,F,6.5,2022-11-30,225,225,Aceptado
+1332,GII - Ingeniería de la Salud,F,5.5,2022-11-30,191,255,Aceptado
+1333,GII - Ingeniería del Software,M,9.5,2022-11-30,213,268,Aceptado
+1334,GII - Ingeniería del Software,F,9.5,2022-11-30,286,286,Aceptado
+1335,GII - Ingeniería de Computadores,F,9.7,2022-11-25,310,173,Aceptado
+1336,GII - Ingeniería del Software,F,9.9,2022-11-28,255,255,Aceptado
+1337,GII - Ingeniería del Software,F,9.5,2022-11-29,334,334,Aceptado
+1338,GII - Ingeniería de la Salud,F,9.9,2022-11-12,290,290,Aceptado
+1339,GII - Ingeniería del Software,M,7.2,2022-11-24,98,,No asignado
+1340,GII - Tecnologías Informáticas,M,6.7,2022-11-02,286,286,Aceptado
+1341,GII - Tecnologías Informáticas,F,9.1,2022-11-25,273,273,Renuncia
+1342,GII - Ingeniería de Computadores,M,9.7,2022-11-05,5,,No asignado
+1343,GII - Tecnologías Informáticas,M,6.5,2022-11-29,328,,No asignado
+1344,GII - Ingeniería del Software,F,9.9,2022-11-25,100,93,Aceptado
+1345,GII - Tecnologías Informáticas,M,6.8,2022-11-05,193,193,Aceptado
+1346,GII - Tecnologías Informáticas,F,6.7,2022-11-12,143,143,Aceptado
+1347,GII - Ingeniería de Computadores,F,10.0,2022-11-15,203,203,Aceptado
+1348,GII - Tecnologías Informáticas,M,6.3,2022-11-02,351,351,Aceptado
+1349,GII - Tecnologías Informáticas,F,9.8,2022-11-30,238,238,Renuncia
+1350,GII - Ingeniería de Computadores,M,7.1,2022-11-14,201,201,Aceptado
+1351,GII - Tecnologías Informáticas,M,6.7,2022-11-15,22,,No asignado
+1352,GII - Ingeniería de Computadores,F,7.9,2022-11-22,351,351,Aceptado
+1353,GII - Ingeniería del Software,F,6.8,2022-11-03,216,216,Renuncia
+1354,GII - Ingeniería del Software,F,9.8,2022-11-30,178,178,Aceptado
+1355,GII - Tecnologías Informáticas,F,7.5,2022-11-19,140,86,Aceptado
+1356,GII - Tecnologías Informáticas,F,6.5,2022-11-28,62,62,Aceptado
+1357,GII - Ingeniería del Software,F,5.1,2022-11-02,86,86,Renuncia
+1358,GII - Ingeniería de la Salud,M,7.0,2022-11-02,11,11,Aceptado
+1359,GII - Ingeniería del Software,F,8.8,2022-11-14,161,161,Aceptado
+1360,GII - Ingeniería del Software,F,6.1,2022-11-20,352,352,Aceptado
+1361,GII - Ingeniería de Computadores,F,6.5,2022-11-06,70,210,Aceptado
+1362,GII - Ingeniería del Software,M,9.2,2022-11-29,265,,Excluido
+1363,GII - Ingeniería del Software,F,6.7,2022-11-05,24,24,Aceptado
+1364,GII - Tecnologías Informáticas,F,7.2,2022-11-11,178,178,Aceptado
+1365,GII - Ingeniería de Computadores,F,6.0,2022-11-30,320,320,Aceptado
+1366,GII - Ingeniería de la Salud,M,5.2,2022-11-30,29,29,Aceptado
+1367,GII - Tecnologías Informáticas,M,7.0,2022-11-30,188,188,Aceptado
+1368,GII - Tecnologías Informáticas,M,9.7,2022-11-02,268,268,Aceptado
+1369,GII - Tecnologías Informáticas,M,9.3,2022-11-25,261,261,Aceptado
+1370,GII - Tecnologías Informáticas,M,7.1,2022-11-29,195,195,Renuncia
+1371,GII - Ingeniería del Software,M,9.9,2022-11-07,196,95,Aceptado
+1372,GII - Ingeniería de la Salud,F,8.4,2022-11-10,345,345,Aceptado
+1373,GII - Ingeniería del Software,M,7.2,2022-11-08,162,162,Aceptado
+1374,GII - Ingeniería del Software,F,9.9,2022-11-30,256,168,Aceptado
+1375,GII - Tecnologías Informáticas,F,6.8,2022-11-22,5,15,Aceptado
+1376,GII - Ingeniería de la Salud,F,9.5,2022-11-02,354,,Excluido
+1377,GII - Ingeniería del Software,M,7.5,2022-11-08,43,,Excluido
+1378,GII - Ingeniería del Software,M,8.6,2022-11-07,96,,No asignado
+1379,GII - Ingeniería del Software,F,10.0,2022-11-07,246,246,Renuncia
+1380,GII - Tecnologías Informáticas,M,8.9,2022-11-21,232,232,Aceptado
+1381,GII - Tecnologías Informáticas,F,5.6,2022-11-11,321,82,Renuncia
+1382,GII - Ingeniería del Software,M,7.8,2022-11-29,175,175,Aceptado
+1383,GII - Ingeniería de Computadores,F,8.6,2022-11-03,253,253,Aceptado
+1384,GII - Ingeniería del Software,F,6.2,2022-11-25,271,245,Aceptado
+1385,GII - Tecnologías Informáticas,F,8.1,2022-11-21,296,296,Aceptado
+1386,GII - Ingeniería de Computadores,M,5.4,2022-11-29,79,79,Aceptado
+1387,GII - Ingeniería del Software,M,5.1,2022-11-29,70,70,Aceptado
+1388,GII - Ingeniería del Software,F,6.4,2022-11-02,131,,Excluido
+1389,GII - Ingeniería de la Salud,F,7.8,2022-11-05,208,,Excluido
+1390,GII - Tecnologías Informáticas,M,5.4,2022-11-06,86,86,Aceptado
+1391,GII - Tecnologías Informáticas,M,8.3,2022-11-28,125,125,Aceptado
+1392,GII - Ingeniería del Software,M,6.0,2022-11-22,154,154,Aceptado
+1393,GII - Ingeniería del Software,F,5.9,2022-11-30,270,5,Aceptado
+1394,GII - Ingeniería de Computadores,M,6.7,2022-11-30,257,,No asignado
+1395,GII - Ingeniería de Computadores,M,5.3,2022-11-03,50,50,Aceptado
+1396,GII - Ingeniería del Software,M,9.2,2022-11-27,313,313,Aceptado
+1397,GII - Ingeniería de Computadores,F,6.8,2022-11-15,103,103,Aceptado
+1398,GII - Ingeniería de la Salud,F,6.1,2022-11-22,284,284,Aceptado
+1399,GII - Ingeniería de Computadores,F,9.2,2022-11-25,183,183,Aceptado
+1400,GII - Ingeniería de Computadores,F,5.4,2022-11-29,20,20,Aceptado
+1401,GII - Tecnologías Informáticas,M,6.9,2022-11-22,193,193,Aceptado
+1402,GII - Ingeniería del Software,F,8.1,2022-11-16,35,35,Aceptado
+1403,GII - Ingeniería del Software,M,9.7,2022-11-26,199,199,Aceptado
+1404,GII - Ingeniería de Computadores,M,6.2,2022-11-29,332,332,Aceptado
+1405,GII - Ingeniería del Software,F,8.3,2022-11-02,76,76,Aceptado
+1406,GII - Ingeniería del Software,M,6.7,2022-11-17,172,,No asignado
+1407,GII - Ingeniería de Computadores,F,9.5,2022-11-13,11,11,Aceptado
+1408,GII - Ingeniería de Computadores,F,7.7,2022-11-10,97,309,Aceptado
+1409,GII - Tecnologías Informáticas,F,9.8,2022-11-03,61,225,Aceptado
+1410,GII - Ingeniería del Software,F,5.2,2022-11-02,155,155,Renuncia
+1411,GII - Ingeniería del Software,M,8.3,2022-11-09,40,318,Renuncia
+1412,GII - Tecnologías Informáticas,F,6.0,2022-11-02,125,,No asignado
+1413,GII - Ingeniería de Computadores,F,8.2,2022-11-24,221,,No asignado
+1414,GII - Ingeniería del Software,M,6.6,2022-11-03,283,283,Aceptado
+1415,GII - Ingeniería de Computadores,M,9.0,2022-11-30,293,,No asignado
+1416,GII - Ingeniería del Software,F,7.3,2022-11-30,121,81,Aceptado
+1417,GII - Tecnologías Informáticas,F,7.6,2022-11-02,36,36,Aceptado
+1418,GII - Ingeniería de la Salud,F,9.7,2022-11-19,134,134,Aceptado
+1419,GII - Ingeniería de Computadores,F,5.6,2022-11-15,316,,No asignado
+1420,GII - Ingeniería de la Salud,F,9.0,2022-11-29,171,171,Aceptado
+1421,GII - Ingeniería del Software,F,7.9,2022-11-06,96,,Excluido
+1422,GII - Tecnologías Informáticas,M,8.5,2022-11-24,154,154,Aceptado
+1423,GII - Ingeniería del Software,F,7.4,2022-11-27,255,255,Aceptado
+1424,GII - Ingeniería del Software,M,7.6,2022-11-13,297,51,Aceptado
+1425,GII - Ingeniería de Computadores,F,5.1,2022-11-29,158,20,Aceptado
+1426,GII - Ingeniería de Computadores,F,6.4,2022-11-02,197,197,Aceptado
+1427,GII - Ingeniería del Software,F,5.5,2022-11-18,111,111,Aceptado
+1428,GII - Ingeniería de la Salud,M,9.0,2022-11-29,39,39,Aceptado
+1429,GII - Ingeniería de la Salud,F,9.3,2022-11-29,235,,No asignado
+1430,GII - Ingeniería del Software,F,9.7,2022-11-19,293,293,Renuncia
+1431,GII - Ingeniería de Computadores,M,8.6,2022-11-09,300,300,Aceptado
+1432,GII - Tecnologías Informáticas,M,8.8,2022-11-03,80,276,Renuncia
+1433,GII - Ingeniería del Software,F,9.1,2022-11-23,60,60,Aceptado
+1434,GII - Ingeniería de Computadores,F,8.2,2022-11-06,14,273,Aceptado
+1435,GII - Ingeniería de la Salud,F,5.7,2022-11-21,90,90,Renuncia
+1436,GII - Ingeniería de la Salud,M,9.5,2022-11-29,185,185,Aceptado
+1437,GII - Ingeniería del Software,F,8.7,2022-11-21,225,225,Renuncia
+1438,GII - Tecnologías Informáticas,F,7.3,2022-11-29,289,289,Renuncia
+1439,GII - Tecnologías Informáticas,F,7.0,2022-11-30,183,108,Aceptado
+1440,GII - Tecnologías Informáticas,F,7.5,2022-11-18,330,,No asignado
+1441,GII - Ingeniería del Software,M,9.6,2022-11-23,173,,No asignado
+1442,GII - Ingeniería del Software,M,7.8,2022-11-03,102,,No asignado
+1443,GII - Ingeniería de Computadores,F,7.3,2022-11-06,79,79,Aceptado
+1444,GII - Ingeniería de Computadores,M,7.6,2022-11-15,199,199,Renuncia
+1445,GII - Ingeniería del Software,F,8.6,2022-11-20,51,,Excluido
+1446,GII - Ingeniería del Software,F,9.0,2022-11-19,197,197,Aceptado
+1447,GII - Ingeniería de la Salud,M,5.5,2022-11-03,126,126,Aceptado
+1448,GII - Ingeniería de Computadores,M,6.7,2022-11-18,329,329,Aceptado
+1449,GII - Ingeniería de la Salud,F,5.1,2022-11-02,231,231,Renuncia
+1450,GII - Ingeniería del Software,M,5.6,2022-11-25,305,305,Aceptado
+1451,GII - Ingeniería de Computadores,M,7.2,2022-11-30,8,8,Aceptado
+1452,GII - Ingeniería de Computadores,F,8.7,2022-11-27,325,325,Aceptado
+1453,GII - Ingeniería de la Salud,M,5.4,2022-11-02,303,303,Aceptado
+1454,GII - Tecnologías Informáticas,M,8.6,2022-11-30,201,201,Aceptado
+1455,GII - Tecnologías Informáticas,M,6.3,2022-11-02,193,193,Renuncia
+1456,GII - Ingeniería del Software,M,8.2,2022-11-28,272,,No asignado
+1457,GII - Ingeniería de la Salud,M,8.0,2022-11-02,156,156,Aceptado
+1458,GII - Tecnologías Informáticas,M,8.0,2022-11-30,47,,No asignado
+1459,GII - Ingeniería del Software,F,8.5,2022-11-29,237,,No asignado
+1460,GII - Ingeniería del Software,F,8.3,2022-11-15,89,222,Aceptado
+1461,GII - Tecnologías Informáticas,M,5.5,2022-11-17,44,44,Aceptado
+1462,GII - Ingeniería del Software,F,8.8,2022-11-11,271,,No asignado
+1463,GII - Ingeniería de Computadores,F,7.7,2022-11-02,72,72,Aceptado
+1464,GII - Ingeniería de Computadores,F,5.7,2022-11-08,194,,No asignado
+1465,GII - Tecnologías Informáticas,F,8.7,2022-11-27,292,292,Renuncia
+1466,GII - Ingeniería del Software,M,9.1,2022-11-24,87,,Excluido
+1467,GII - Ingeniería del Software,M,6.2,2022-11-29,297,297,Aceptado
+1468,GII - Ingeniería de Computadores,M,5.6,2022-11-24,206,119,Aceptado
+1469,GII - Tecnologías Informáticas,F,7.9,2022-11-28,199,199,Aceptado
+1470,GII - Ingeniería del Software,F,10.0,2022-11-05,79,79,Aceptado
+1471,GII - Ingeniería del Software,F,6.3,2022-11-03,338,,Excluido
+1472,GII - Ingeniería del Software,F,8.3,2022-11-19,145,145,Aceptado
+1473,GII - Ingeniería de Computadores,M,7.3,2022-11-28,160,160,Aceptado
+1474,GII - Ingeniería de Computadores,M,7.1,2022-11-15,305,156,Aceptado
+1475,GII - Ingeniería de la Salud,M,5.4,2022-11-11,208,,Excluido
+1476,GII - Ingeniería de la Salud,M,6.4,2022-11-07,160,128,Aceptado
+1477,GII - Tecnologías Informáticas,F,7.9,2022-11-19,185,,No asignado
+1478,GII - Ingeniería del Software,F,9.6,2022-11-09,178,178,Aceptado
+1479,GII - Tecnologías Informáticas,F,8.9,2022-11-08,37,90,Aceptado
+1480,GII - Ingeniería de la Salud,F,6.3,2022-11-30,149,149,Aceptado
+1481,GII - Ingeniería del Software,F,5.1,2022-11-22,161,161,Aceptado
+1482,GII - Tecnologías Informáticas,M,7.4,2022-11-26,38,38,Aceptado
+1483,GII - Ingeniería de Computadores,F,6.3,2022-11-25,245,7,Aceptado
+1484,GII - Ingeniería de Computadores,M,5.9,2022-11-19,58,299,Renuncia
+1485,GII - Ingeniería del Software,F,6.4,2022-11-02,303,,No asignado
+1486,GII - Tecnologías Informáticas,M,5.7,2022-11-22,154,154,Aceptado
+1487,GII - Ingeniería de Computadores,M,7.5,2022-11-18,91,91,Renuncia
+1488,GII - Ingeniería de Computadores,M,9.1,2022-11-29,92,257,Renuncia
+1489,GII - Ingeniería de Computadores,M,9.0,2022-11-29,44,,No asignado
+1490,GII - Tecnologías Informáticas,F,8.1,2022-11-03,245,245,Aceptado
+1491,GII - Ingeniería del Software,F,8.2,2022-11-03,189,189,Aceptado
+1492,GII - Tecnologías Informáticas,F,5.6,2022-11-02,328,328,Renuncia
+1493,GII - Tecnologías Informáticas,M,7.4,2022-11-06,176,176,Renuncia
+1494,GII - Ingeniería de Computadores,M,5.1,2022-11-04,150,150,Renuncia
+1495,GII - Ingeniería de Computadores,M,9.6,2022-11-04,52,52,Aceptado
+1496,GII - Ingeniería del Software,M,8.2,2022-11-28,300,300,Aceptado
+1497,GII - Tecnologías Informáticas,M,9.2,2022-11-04,166,125,Renuncia
+1498,GII - Ingeniería de Computadores,F,5.9,2022-11-20,173,,No asignado
+1499,GII - Ingeniería de Computadores,M,6.3,2022-11-03,251,251,Renuncia
+1500,GII - Ingeniería del Software,M,7.9,2022-11-29,258,258,Aceptado
+1501,GII - Ingeniería de Computadores,F,5.3,2022-11-29,85,85,Aceptado
+1502,GII - Ingeniería del Software,F,7.7,2022-11-30,306,306,Renuncia
+1503,GII - Tecnologías Informáticas,F,6.8,2022-11-03,200,,No asignado
+1504,GII - Ingeniería de la Salud,F,7.1,2022-11-03,329,329,Renuncia
+1505,GII - Ingeniería de Computadores,M,5.5,2022-11-29,63,63,Aceptado
+1506,GII - Ingeniería de Computadores,M,5.1,2022-11-15,312,312,Aceptado
+1507,GII - Ingeniería de Computadores,M,5.9,2022-11-19,86,86,Aceptado
+1508,GII - Ingeniería de Computadores,M,5.7,2022-11-05,238,,No asignado
+1509,GII - Ingeniería de la Salud,M,5.8,2022-11-02,230,226,Aceptado
+1510,GII - Ingeniería del Software,F,5.2,2022-11-30,266,289,Renuncia
+1511,GII - Ingeniería del Software,M,7.9,2022-11-26,88,88,Aceptado
+1512,GII - Ingeniería de la Salud,F,5.8,2022-11-29,114,52,Aceptado
+1513,GII - Ingeniería del Software,F,7.1,2022-11-13,128,128,Aceptado
+1514,GII - Tecnologías Informáticas,F,7.5,2022-11-03,217,217,Aceptado
+1515,GII - Ingeniería del Software,M,9.3,2022-11-18,218,218,Aceptado
+1516,GII - Ingeniería de Computadores,F,7.1,2022-11-02,116,116,Renuncia
+1517,GII - Ingeniería del Software,F,9.4,2022-11-03,22,22,Aceptado
+1518,GII - Ingeniería de Computadores,M,5.4,2022-11-18,193,193,Aceptado
+1519,GII - Ingeniería del Software,F,5.5,2022-11-30,3,,Excluido
+1520,GII - Ingeniería del Software,F,7.9,2022-11-09,339,339,Aceptado
+1521,GII - Ingeniería de Computadores,F,5.4,2022-11-29,134,134,Aceptado
+1522,GII - Ingeniería del Software,F,8.0,2022-11-03,25,25,Aceptado
+1523,GII - Ingeniería de la Salud,M,8.6,2022-11-30,199,199,Aceptado
+1524,GII - Tecnologías Informáticas,M,5.3,2022-11-02,346,346,Aceptado
+1525,GII - Ingeniería del Software,F,8.1,2022-11-22,163,,Excluido
+1526,GII - Ingeniería de Computadores,F,6.7,2022-11-09,224,224,Aceptado
+1527,GII - Ingeniería de Computadores,M,7.4,2022-11-03,100,,No asignado
+1528,GII - Tecnologías Informáticas,F,7.5,2022-11-19,270,270,Aceptado
+1529,GII - Ingeniería del Software,F,9.4,2022-11-05,312,312,Aceptado
+1530,GII - Ingeniería de Computadores,F,9.0,2022-11-23,75,75,Renuncia
+1531,GII - Ingeniería del Software,M,5.2,2022-11-15,113,113,Aceptado
+1532,GII - Ingeniería del Software,F,9.1,2022-11-14,185,185,Renuncia
+1533,GII - Ingeniería de Computadores,F,5.9,2022-11-12,49,49,Renuncia
+1534,GII - Ingeniería del Software,F,8.9,2022-11-30,149,,No asignado
+1535,GII - Ingeniería del Software,M,7.7,2022-11-11,6,6,Aceptado
+1536,GII - Ingeniería de Computadores,F,8.0,2022-11-12,354,58,Aceptado
+1537,GII - Ingeniería de Computadores,F,6.4,2022-11-04,353,353,Aceptado
+1538,GII - Ingeniería de Computadores,M,9.3,2022-11-06,212,212,Aceptado
+1539,GII - Ingeniería de Computadores,M,6.4,2022-11-03,156,156,Renuncia
+1540,GII - Ingeniería de la Salud,F,5.4,2022-11-14,280,280,Aceptado
+1541,GII - Tecnologías Informáticas,F,8.5,2022-11-18,68,68,Aceptado
+1542,GII - Ingeniería de la Salud,F,9.6,2022-11-14,93,,Excluido
+1543,GII - Ingeniería del Software,F,8.2,2022-11-21,136,136,Aceptado
+1544,GII - Ingeniería de Computadores,F,6.8,2022-11-18,244,244,Aceptado
+1545,GII - Ingeniería de Computadores,F,7.9,2022-11-30,325,,Excluido
+1546,GII - Ingeniería del Software,F,8.9,2022-11-21,255,40,Renuncia
+1547,GII - Ingeniería del Software,F,7.9,2022-11-04,59,59,Aceptado
+1548,GII - Ingeniería de Computadores,M,8.6,2022-11-30,76,76,Aceptado
+1549,GII - Ingeniería de Computadores,M,5.5,2022-11-26,324,324,Aceptado
+1550,GII - Ingeniería del Software,F,7.0,2022-11-07,306,306,Aceptado
+1551,GII - Ingeniería del Software,M,9.7,2022-11-02,163,163,Renuncia
+1552,GII - Tecnologías Informáticas,F,7.8,2022-11-02,30,,Excluido
+1553,GII - Ingeniería de Computadores,F,8.1,2022-11-27,74,74,Aceptado
+1554,GII - Ingeniería del Software,F,9.4,2022-11-11,41,41,Aceptado
+1555,GII - Ingeniería de la Salud,F,8.3,2022-11-03,167,180,Renuncia
+1556,GII - Ingeniería del Software,M,6.6,2022-11-23,331,143,Aceptado
+1557,GII - Tecnologías Informáticas,F,6.4,2022-11-25,210,210,Aceptado
+1558,GII - Ingeniería del Software,M,8.1,2022-11-25,60,,No asignado
+1559,GII - Ingeniería de Computadores,F,5.2,2022-11-02,48,,Excluido
+1560,GII - Ingeniería de Computadores,F,5.1,2022-11-21,331,331,Renuncia
+1561,GII - Ingeniería de Computadores,M,6.3,2022-11-26,2,2,Aceptado
+1562,GII - Tecnologías Informáticas,M,9.8,2022-11-27,252,252,Aceptado
+1563,GII - Ingeniería del Software,M,5.4,2022-11-03,155,,Excluido
+1564,GII - Ingeniería del Software,F,7.0,2022-11-29,72,72,Aceptado
+1565,GII - Ingeniería del Software,F,5.9,2022-11-12,107,107,Aceptado
+1566,GII - Tecnologías Informáticas,F,6.1,2022-11-03,21,21,Aceptado
+1567,GII - Ingeniería del Software,M,8.4,2022-11-07,162,162,Aceptado
+1568,GII - Ingeniería de Computadores,F,8.4,2022-11-30,290,290,Aceptado
+1569,GII - Ingeniería del Software,F,9.6,2022-11-03,104,104,Aceptado
+1570,GII - Ingeniería del Software,F,5.4,2022-11-16,74,74,Aceptado
+1571,GII - Tecnologías Informáticas,F,8.9,2022-11-29,277,277,Aceptado
+1572,GII - Ingeniería del Software,F,5.8,2022-11-29,226,226,Aceptado
+1573,GII - Ingeniería de Computadores,M,7.4,2022-11-15,318,318,Aceptado
+1574,GII - Ingeniería del Software,M,5.7,2022-11-18,94,94,Aceptado
+1575,GII - Ingeniería de Computadores,F,8.6,2022-11-07,8,8,Aceptado
+1576,GII - Ingeniería del Software,F,6.4,2022-11-30,208,208,Aceptado
+1577,GII - Tecnologías Informáticas,F,5.8,2022-11-04,6,175,Aceptado
+1578,GII - Ingeniería del Software,F,9.5,2022-11-29,247,247,Aceptado
+1579,GII - Ingeniería del Software,M,8.4,2022-11-17,219,219,Renuncia
+1580,GII - Ingeniería del Software,F,8.0,2022-11-11,242,242,Aceptado
+1581,GII - Tecnologías Informáticas,M,9.4,2022-11-02,250,250,Aceptado
+1582,GII - Ingeniería del Software,M,8.3,2022-11-02,354,354,Aceptado
+1583,GII - Ingeniería del Software,M,6.5,2022-11-11,116,226,Aceptado
+1584,GII - Ingeniería de la Salud,F,7.5,2022-11-03,287,287,Aceptado
+1585,GII - Tecnologías Informáticas,F,8.8,2022-11-17,53,53,Aceptado
+1586,GII - Ingeniería de la Salud,M,8.1,2022-11-30,119,119,Aceptado
+1587,GII - Ingeniería del Software,M,7.4,2022-11-02,50,50,Aceptado
+1588,GII - Ingeniería de la Salud,M,9.5,2022-11-24,123,123,Aceptado
+1589,GII - Tecnologías Informáticas,F,9.3,2022-11-26,238,238,Aceptado
+1590,GII - Ingeniería de Computadores,M,9.0,2022-11-28,190,190,Renuncia
+1591,GII - Tecnologías Informáticas,F,6.9,2022-11-20,307,307,Aceptado
+1592,GII - Ingeniería del Software,F,6.4,2022-11-24,14,14,Aceptado
+1593,GII - Ingeniería de Computadores,M,6.4,2022-11-29,266,266,Aceptado
+1594,GII - Ingeniería del Software,M,5.5,2022-11-18,252,252,Aceptado
+1595,GII - Tecnologías Informáticas,F,5.9,2022-11-11,129,129,Aceptado
+1596,GII - Tecnologías Informáticas,M,5.3,2022-11-08,217,,No asignado
+1597,GII - Tecnologías Informáticas,M,8.6,2022-11-29,312,67,Aceptado
+1598,GII - Ingeniería del Software,M,8.1,2022-11-03,113,208,Renuncia
+1599,GII - Ingeniería del Software,M,9.7,2022-11-30,9,9,Aceptado
+1600,GII - Ingeniería del Software,M,8.2,2022-11-30,232,232,Renuncia
+1601,GII - Ingeniería de Computadores,F,6.7,2022-11-03,308,308,Aceptado
+1602,GII - Ingeniería del Software,F,6.1,2022-11-14,135,69,Aceptado
+1603,GII - Ingeniería de Computadores,F,7.4,2022-11-23,300,20,Renuncia
+1604,GII - Ingeniería del Software,F,10.0,2022-11-03,330,330,Aceptado
+1605,GII - Tecnologías Informáticas,M,10.0,2022-11-02,256,256,Aceptado
+1606,GII - Ingeniería de la Salud,F,8.8,2022-11-12,20,20,Aceptado
+1607,GII - Ingeniería del Software,M,9.7,2022-11-26,248,248,Aceptado
+1608,GII - Ingeniería de Computadores,M,9.8,2022-11-03,165,165,Renuncia
+1609,GII - Ingeniería del Software,F,5.4,2022-11-09,275,,Excluido
+1610,GII - Ingeniería de Computadores,F,9.3,2022-11-05,21,11,Aceptado
+1611,GII - Ingeniería del Software,F,7.0,2022-11-07,41,,No asignado
+1612,GII - Ingeniería de Computadores,F,8.7,2022-11-29,192,192,Aceptado
+1613,GII - Tecnologías Informáticas,M,7.0,2022-11-17,31,31,Aceptado
+1614,GII - Ingeniería del Software,F,5.1,2022-11-21,205,205,Renuncia
+1615,GII - Ingeniería del Software,M,8.7,2022-11-03,67,67,Aceptado
+1616,GII - Ingeniería del Software,F,6.2,2022-11-26,94,94,Aceptado
+1617,GII - Ingeniería de la Salud,F,9.4,2022-11-27,337,337,Aceptado
+1618,GII - Ingeniería del Software,F,10.0,2022-11-29,139,139,Renuncia
+1619,GII - Ingeniería del Software,F,9.1,2022-11-25,81,81,Aceptado
+1620,GII - Ingeniería del Software,M,6.5,2022-11-02,186,31,Aceptado
+1621,GII - Ingeniería de Computadores,F,6.0,2022-11-29,17,17,Aceptado
+1622,GII - Ingeniería del Software,M,7.3,2022-11-15,265,265,Aceptado
+1623,GII - Tecnologías Informáticas,M,9.5,2022-11-24,300,,No asignado
+1624,GII - Ingeniería de Computadores,M,9.6,2022-11-16,233,233,Aceptado
+1625,GII - Ingeniería del Software,F,6.3,2022-11-03,1,,Excluido
+1626,GII - Ingeniería del Software,M,8.5,2022-11-19,332,332,Aceptado
+1627,GII - Ingeniería de Computadores,M,6.6,2022-11-12,277,277,Aceptado
+1628,GII - Ingeniería de Computadores,M,7.4,2022-11-30,257,34,Aceptado
+1629,GII - Ingeniería del Software,F,6.2,2022-11-30,94,94,Aceptado
+1630,GII - Ingeniería del Software,M,9.5,2022-11-03,88,88,Aceptado
+1631,GII - Ingeniería de Computadores,M,7.8,2022-11-06,307,32,Aceptado
+1632,GII - Ingeniería de Computadores,F,6.0,2022-11-21,176,176,Aceptado
+1633,GII - Ingeniería del Software,M,7.6,2022-11-18,310,310,Aceptado
+1634,GII - Tecnologías Informáticas,M,5.7,2022-11-02,279,279,Aceptado
+1635,GII - Ingeniería del Software,F,9.1,2022-11-02,154,154,Aceptado
+1636,GII - Ingeniería de Computadores,F,7.2,2022-11-03,293,293,Aceptado
+1637,GII - Ingeniería del Software,F,8.1,2022-11-30,227,227,Aceptado
+1638,GII - Ingeniería de la Salud,M,5.9,2022-11-18,171,171,Aceptado
+1639,GII - Ingeniería del Software,M,6.5,2022-11-29,155,155,Aceptado
+1640,GII - Ingeniería de la Salud,F,5.8,2022-11-17,323,323,Aceptado
+1641,GII - Ingeniería del Software,M,5.7,2022-11-15,165,165,Aceptado
+1642,GII - Ingeniería de Computadores,M,8.1,2022-11-29,59,59,Aceptado
+1643,GII - Ingeniería del Software,F,5.1,2022-11-29,106,106,Renuncia
+1644,GII - Ingeniería del Software,M,7.8,2022-11-02,329,90,Aceptado
+1645,GII - Tecnologías Informáticas,M,7.3,2022-11-25,158,328,Aceptado
+1646,GII - Ingeniería de la Salud,M,5.5,2022-11-29,321,,No asignado
+1647,GII - Ingeniería de Computadores,M,6.2,2022-11-02,136,225,Renuncia
+1648,GII - Ingeniería del Software,F,7.5,2022-11-13,203,,Excluido
+1649,GII - Ingeniería del Software,F,9.6,2022-11-07,234,234,Aceptado
+1650,GII - Ingeniería del Software,M,7.6,2022-11-19,189,189,Aceptado
+1651,GII - Ingeniería del Software,M,6.5,2022-11-26,141,141,Aceptado
+1652,GII - Ingeniería del Software,M,6.0,2022-11-29,162,162,Aceptado
+1653,GII - Ingeniería de la Salud,F,9.5,2022-11-10,181,181,Aceptado
+1654,GII - Ingeniería del Software,M,9.7,2022-11-24,89,89,Aceptado
+1655,GII - Ingeniería de la Salud,M,9.4,2022-11-10,207,37,Aceptado
+1656,GII - Tecnologías Informáticas,M,8.7,2022-11-03,288,288,Aceptado
+1657,GII - Tecnologías Informáticas,F,7.8,2022-11-02,227,227,Aceptado
+1658,GII - Ingeniería de Computadores,F,6.0,2022-11-02,246,254,Aceptado
+1659,GII - Ingeniería del Software,F,5.7,2022-11-30,292,292,Aceptado
+1660,GII - Ingeniería de Computadores,M,6.3,2022-11-09,290,,Excluido
+1661,GII - Tecnologías Informáticas,M,10.0,2022-11-30,229,,No asignado
+1662,GII - Tecnologías Informáticas,M,8.8,2022-11-30,261,261,Aceptado
+1663,GII - Ingeniería del Software,F,9.6,2022-11-24,1,1,Aceptado
+1664,GII - Ingeniería del Software,F,8.7,2022-11-18,233,14,Renuncia
+1665,GII - Ingeniería de la Salud,F,6.7,2022-11-03,190,190,Renuncia
+1666,GII - Ingeniería del Software,M,7.2,2022-11-19,334,334,Aceptado
+1667,GII - Ingeniería del Software,F,6.2,2022-11-24,328,118,Aceptado
+1668,GII - Ingeniería de Computadores,M,9.2,2022-11-03,123,123,Aceptado
+1669,GII - Tecnologías Informáticas,M,8.2,2022-11-10,14,14,Aceptado
+1670,GII - Ingeniería de Computadores,M,5.9,2022-11-02,186,186,Aceptado
+1671,GII - Ingeniería del Software,M,5.3,2022-11-02,199,72,Aceptado
+1672,GII - Ingeniería del Software,F,8.0,2022-11-02,56,56,Aceptado
+1673,GII - Ingeniería del Software,F,6.7,2022-11-29,14,14,Renuncia
+1674,GII - Ingeniería de Computadores,F,9.4,2022-11-02,178,178,Aceptado
+1675,GII - Ingeniería de la Salud,F,8.1,2022-11-27,21,21,Aceptado
+1676,GII - Ingeniería del Software,M,7.6,2022-11-07,232,8,Aceptado
+1677,GII - Ingeniería de Computadores,M,6.4,2022-11-02,280,280,Renuncia
+1678,GII - Ingeniería de Computadores,M,6.3,2022-11-30,216,108,Renuncia
+1679,GII - Ingeniería del Software,F,7.9,2022-11-03,44,,No asignado
+1680,GII - Ingeniería del Software,M,9.3,2022-11-15,140,140,Aceptado
+1681,GII - Tecnologías Informáticas,F,8.8,2022-11-30,51,51,Aceptado
+1682,GII - Ingeniería del Software,M,8.6,2022-11-17,266,193,Renuncia
+1683,GII - Tecnologías Informáticas,F,8.1,2022-11-24,191,191,Aceptado
+1684,GII - Ingeniería del Software,F,6.8,2022-11-21,65,65,Aceptado
+1685,GII - Ingeniería del Software,F,9.5,2022-11-10,347,,Excluido
+1686,GII - Ingeniería del Software,M,9.8,2022-11-09,253,193,Aceptado
+1687,GII - Ingeniería del Software,F,7.4,2022-11-30,219,219,Aceptado
+1688,GII - Ingeniería de la Salud,M,5.5,2022-11-15,19,19,Aceptado
+1689,GII - Ingeniería del Software,F,7.2,2022-11-26,3,3,Aceptado
+1690,GII - Ingeniería de Computadores,F,6.1,2022-11-18,150,150,Aceptado
+1691,GII - Ingeniería del Software,F,7.7,2022-11-30,234,234,Renuncia
+1692,GII - Ingeniería de Computadores,M,7.5,2022-11-03,88,,No asignado
+1693,GII - Tecnologías Informáticas,M,5.5,2022-11-28,37,37,Aceptado
+1694,GII - Ingeniería de la Salud,F,6.8,2022-11-29,102,102,Aceptado
+1695,GII - Ingeniería del Software,M,9.1,2022-11-26,299,299,Renuncia
+1696,GII - Ingeniería del Software,M,9.6,2022-11-28,97,97,Aceptado
+1697,GII - Ingeniería del Software,M,8.8,2022-11-20,289,,No asignado
+1698,GII - Ingeniería del Software,M,6.2,2022-11-18,261,261,Renuncia
+1699,GII - Ingeniería de Computadores,F,9.3,2022-11-13,158,158,Aceptado
+1700,GII - Tecnologías Informáticas,M,9.5,2022-11-29,101,101,Aceptado
+1701,GII - Ingeniería de la Salud,M,9.6,2022-11-02,79,79,Aceptado
+1702,GII - Tecnologías Informáticas,M,6.3,2022-11-11,289,84,Aceptado
+1703,GII - Ingeniería del Software,F,7.8,2022-11-29,58,25,Aceptado
+1704,GII - Ingeniería de Computadores,M,8.6,2022-11-20,112,112,Aceptado
+1705,GII - Ingeniería del Software,F,8.3,2022-11-07,252,193,Aceptado
+1706,GII - Tecnologías Informáticas,F,6.1,2022-11-06,4,,No asignado
+1707,GII - Ingeniería de la Salud,F,5.3,2022-11-13,306,306,Aceptado
+1708,GII - Ingeniería del Software,F,9.4,2022-11-18,200,200,Aceptado
+1709,GII - Ingeniería de Computadores,F,7.5,2022-11-10,21,21,Aceptado
+1710,GII - Ingeniería del Software,M,9.5,2022-11-29,339,339,Renuncia
+1711,GII - Ingeniería del Software,M,8.2,2022-11-20,267,,No asignado
+1712,GII - Ingeniería de Computadores,M,6.5,2022-11-03,103,103,Aceptado
+1713,GII - Ingeniería del Software,F,9.8,2022-11-30,132,199,Renuncia
+1714,GII - Ingeniería del Software,M,8.0,2022-11-20,77,51,Aceptado
+1715,GII - Ingeniería del Software,F,8.4,2022-11-26,318,318,Aceptado
+1716,GII - Ingeniería del Software,F,5.7,2022-11-03,51,51,Aceptado
+1717,GII - Tecnologías Informáticas,M,8.9,2022-11-03,36,36,Aceptado
+1718,GII - Ingeniería de Computadores,F,7.6,2022-11-16,39,39,Aceptado
+1719,GII - Tecnologías Informáticas,F,7.4,2022-11-02,162,162,Aceptado
+1720,GII - Tecnologías Informáticas,F,7.8,2022-11-17,150,150,Aceptado
+1721,GII - Ingeniería de Computadores,M,5.9,2022-11-29,270,53,Renuncia
+1722,GII - Ingeniería del Software,F,8.4,2022-11-03,197,197,Aceptado
+1723,GII - Ingeniería del Software,F,9.6,2022-11-02,284,129,Aceptado
+1724,GII - Ingeniería del Software,F,8.5,2022-11-14,156,70,Renuncia
+1725,GII - Ingeniería del Software,F,9.0,2022-11-16,349,349,Aceptado
+1726,GII - Ingeniería de Computadores,M,7.9,2022-11-12,67,67,Aceptado
+1727,GII - Ingeniería del Software,M,7.2,2022-11-04,202,202,Aceptado
+1728,GII - Ingeniería del Software,M,8.7,2022-11-17,219,219,Aceptado
+1729,GII - Tecnologías Informáticas,F,8.8,2022-11-12,25,25,Aceptado
+1730,GII - Ingeniería del Software,F,8.6,2022-11-02,212,212,Aceptado
+1731,GII - Ingeniería de Computadores,F,5.0,2022-11-07,332,332,Aceptado
+1732,GII - Ingeniería de la Salud,F,6.6,2022-11-21,56,56,Aceptado
+1733,GII - Ingeniería de Computadores,F,6.2,2022-11-23,309,,Excluido
+1734,GII - Tecnologías Informáticas,F,8.3,2022-11-20,306,,Excluido
+1735,GII - Ingeniería de Computadores,F,9.3,2022-11-18,256,256,Aceptado
+1736,GII - Tecnologías Informáticas,M,5.3,2022-11-30,247,257,Aceptado
+1737,GII - Ingeniería del Software,F,9.6,2022-11-30,8,8,Aceptado
+1738,GII - Ingeniería del Software,F,9.0,2022-11-15,29,29,Aceptado
+1739,GII - Ingeniería de Computadores,F,5.7,2022-11-28,209,,Excluido
+1740,GII - Ingeniería del Software,F,9.2,2022-11-03,186,186,Aceptado
+1741,GII - Ingeniería de la Salud,M,8.0,2022-11-02,226,226,Aceptado
+1742,GII - Tecnologías Informáticas,M,6.0,2022-11-14,208,208,Aceptado
+1743,GII - Ingeniería de Computadores,F,5.2,2022-11-02,55,55,Renuncia
+1744,GII - Ingeniería del Software,M,7.2,2022-11-20,279,279,Aceptado
+1745,GII - Ingeniería de Computadores,F,7.1,2022-11-03,57,57,Aceptado
+1746,GII - Ingeniería de Computadores,M,8.7,2022-11-29,208,208,Aceptado
+1747,GII - Ingeniería de Computadores,M,7.1,2022-11-26,9,9,Aceptado
+1748,GII - Ingeniería de Computadores,M,7.4,2022-11-03,167,17,Aceptado
+1749,GII - Ingeniería del Software,M,6.8,2022-11-28,234,234,Aceptado
+1750,GII - Ingeniería de Computadores,F,5.4,2022-11-18,217,217,Aceptado
+1751,GII - Ingeniería de Computadores,F,7.1,2022-11-29,284,284,Aceptado
+1752,GII - Tecnologías Informáticas,F,8.0,2022-11-02,258,258,Aceptado
+1753,GII - Ingeniería del Software,F,9.5,2022-11-03,178,,Excluido
+1754,GII - Ingeniería de la Salud,M,5.2,2022-11-30,145,145,Aceptado
+1755,GII - Ingeniería del Software,M,9.2,2022-11-22,131,,No asignado
+1756,GII - Ingeniería de la Salud,F,8.9,2022-11-02,276,276,Aceptado
+1757,GII - Ingeniería de Computadores,F,9.2,2022-11-21,198,198,Aceptado
+1758,GII - Ingeniería de Computadores,M,8.3,2022-11-03,71,71,Aceptado
+1759,GII - Ingeniería de Computadores,F,7.8,2022-11-11,33,30,Aceptado
+1760,GII - Ingeniería del Software,M,6.2,2022-11-13,144,144,Aceptado
+1761,GII - Ingeniería de Computadores,F,7.3,2022-11-25,263,,Excluido
+1762,GII - Ingeniería de la Salud,F,8.1,2022-11-02,152,217,Aceptado
+1763,GII - Ingeniería de la Salud,M,9.7,2022-11-06,89,89,Aceptado
+1764,GII - Ingeniería del Software,F,8.8,2022-11-22,150,150,Aceptado
+1765,GII - Ingeniería del Software,M,9.3,2022-11-30,142,142,Aceptado
+1766,GII - Ingeniería de la Salud,F,6.9,2022-11-03,7,41,Aceptado
+1767,GII - Ingeniería del Software,M,8.3,2022-11-02,37,37,Aceptado
+1768,GII - Ingeniería del Software,F,5.7,2022-11-29,8,8,Renuncia
+1769,GII - Ingeniería del Software,M,6.7,2022-11-22,238,238,Aceptado
+1770,GII - Tecnologías Informáticas,F,9.1,2022-11-05,12,142,Renuncia
+1771,GII - Ingeniería de la Salud,F,9.1,2022-11-28,307,16,Aceptado
+1772,GII - Ingeniería de Computadores,M,5.2,2022-11-03,145,145,Aceptado
+1773,GII - Ingeniería del Software,F,5.4,2022-11-28,90,90,Aceptado
+1774,GII - Ingeniería del Software,M,6.9,2022-11-29,299,299,Aceptado
+1775,GII - Ingeniería del Software,F,6.0,2022-11-03,127,127,Aceptado
+1776,GII - Ingeniería de la Salud,M,5.5,2022-11-02,269,269,Renuncia
+1777,GII - Ingeniería de la Salud,F,5.5,2022-11-21,252,114,Aceptado
+1778,GII - Ingeniería del Software,M,8.9,2022-11-30,157,157,Aceptado
+1779,GII - Ingeniería del Software,M,7.0,2022-11-24,6,6,Aceptado
+1780,GII - Ingeniería del Software,M,8.7,2022-11-10,250,,No asignado
+1781,GII - Ingeniería del Software,F,9.0,2022-11-12,309,309,Aceptado
+1782,GII - Ingeniería del Software,M,5.0,2022-11-30,51,230,Aceptado
+1783,GII - Tecnologías Informáticas,F,9.8,2022-11-04,49,49,Aceptado
+1784,GII - Ingeniería del Software,F,9.4,2022-11-10,130,238,Aceptado
+1785,GII - Tecnologías Informáticas,F,9.0,2022-11-14,130,130,Aceptado
+1786,GII - Ingeniería del Software,F,8.0,2022-11-09,179,179,Aceptado
+1787,GII - Ingeniería de Computadores,F,7.5,2022-11-29,46,46,Aceptado
+1788,GII - Ingeniería de la Salud,F,5.8,2022-11-02,71,,No asignado
+1789,GII - Ingeniería de Computadores,M,8.4,2022-11-10,142,142,Aceptado
+1790,GII - Ingeniería de Computadores,M,8.9,2022-11-09,336,336,Aceptado
+1791,GII - Ingeniería del Software,F,6.5,2022-11-03,184,,No asignado
+1792,GII - Ingeniería del Software,F,5.5,2022-11-29,206,,No asignado
+1793,GII - Ingeniería del Software,F,9.9,2022-11-21,322,322,Aceptado
+1794,GII - Ingeniería de la Salud,M,6.6,2022-11-09,32,,Excluido
+1795,GII - Ingeniería del Software,F,5.4,2022-11-23,189,,Excluido
+1796,GII - Ingeniería de la Salud,M,9.5,2022-11-15,171,171,Aceptado
+1797,GII - Tecnologías Informáticas,M,7.1,2022-11-23,172,,Excluido
+1798,GII - Ingeniería del Software,M,9.5,2022-11-15,329,329,Aceptado
+1799,GII - Ingeniería de Computadores,M,6.6,2022-11-23,337,276,Aceptado
+1800,GII - Ingeniería del Software,M,8.5,2022-11-22,160,259,Aceptado
+1801,GII - Ingeniería del Software,F,9.5,2022-11-29,41,,No asignado
+1802,GII - Ingeniería de Computadores,M,6.4,2022-11-22,214,214,Aceptado
+1803,GII - Ingeniería de Computadores,F,6.7,2022-11-30,187,187,Aceptado
+1804,GII - Ingeniería de Computadores,M,7.3,2022-11-09,205,205,Aceptado
+1805,GII - Ingeniería del Software,F,7.9,2022-11-08,199,199,Aceptado
+1806,GII - Ingeniería de Computadores,M,6.4,2022-11-15,81,205,Aceptado
+1807,GII - Ingeniería del Software,F,7.1,2022-11-29,198,198,Aceptado
+1808,GII - Tecnologías Informáticas,M,8.5,2022-11-12,107,107,Aceptado
+1809,GII - Ingeniería de la Salud,F,5.9,2022-11-24,33,33,Aceptado
+1810,GII - Ingeniería de Computadores,F,9.6,2022-11-25,233,233,Aceptado
+1811,GII - Ingeniería del Software,F,5.5,2022-11-03,266,,No asignado
+1812,GII - Ingeniería de la Salud,M,7.5,2022-11-21,185,185,Aceptado
+1813,GII - Ingeniería de Computadores,F,9.5,2022-11-03,182,182,Aceptado
+1814,GII - Ingeniería de la Salud,F,9.7,2022-11-29,197,197,Renuncia
+1815,GII - Ingeniería del Software,F,7.7,2022-11-10,31,31,Aceptado
+1816,GII - Ingeniería de la Salud,M,5.9,2022-11-13,118,118,Aceptado
+1817,GII - Ingeniería del Software,M,6.1,2022-11-02,1,135,Aceptado
+1818,GII - Tecnologías Informáticas,M,6.0,2022-11-07,92,92,Aceptado
+1819,GII - Ingeniería de Computadores,M,6.8,2022-11-26,180,180,Aceptado
+1820,GII - Ingeniería de Computadores,M,7.5,2022-11-11,264,123,Aceptado
+1821,GII - Ingeniería de Computadores,M,6.0,2022-11-23,106,150,Aceptado
+1822,GII - Tecnologías Informáticas,M,5.7,2022-11-03,129,129,Aceptado
+1823,GII - Ingeniería del Software,M,7.3,2022-11-26,216,216,Aceptado
+1824,GII - Ingeniería de Computadores,F,7.1,2022-11-30,33,33,Aceptado
+1825,GII - Ingeniería del Software,F,9.4,2022-11-22,66,66,Aceptado
+1826,GII - Tecnologías Informáticas,M,5.8,2022-11-12,59,59,Aceptado
+1827,GII - Ingeniería del Software,M,6.4,2022-11-08,309,309,Aceptado
+1828,GII - Tecnologías Informáticas,F,9.8,2022-11-07,308,308,Aceptado
+1829,GII - Ingeniería de Computadores,M,8.0,2022-11-29,141,141,Aceptado
+1830,GII - Ingeniería de la Salud,M,5.6,2022-11-02,132,132,Aceptado
+1831,GII - Ingeniería de Computadores,F,7.9,2022-11-02,47,,No asignado
+1832,GII - Tecnologías Informáticas,M,5.9,2022-11-11,342,262,Aceptado
+1833,GII - Tecnologías Informáticas,M,8.1,2022-11-28,335,335,Aceptado
+1834,GII - Ingeniería de la Salud,M,7.6,2022-11-30,286,,No asignado
+1835,GII - Tecnologías Informáticas,F,7.7,2022-11-03,164,294,Renuncia
+1836,GII - Ingeniería de la Salud,M,5.8,2022-11-29,10,10,Aceptado
+1837,GII - Tecnologías Informáticas,F,9.6,2022-11-03,80,80,Aceptado
+1838,GII - Ingeniería de Computadores,F,6.6,2022-11-02,133,133,Aceptado
+1839,GII - Ingeniería del Software,F,5.1,2022-11-14,284,284,Aceptado
+1840,GII - Tecnologías Informáticas,M,9.4,2022-11-29,320,232,Aceptado
+1841,GII - Ingeniería del Software,F,6.7,2022-11-02,93,93,Aceptado
+1842,GII - Ingeniería de Computadores,M,8.0,2022-11-03,236,236,Aceptado
+1843,GII - Ingeniería de Computadores,F,5.6,2022-11-02,320,320,Aceptado
+1844,GII - Ingeniería del Software,F,7.5,2022-11-24,75,75,Aceptado
+1845,GII - Ingeniería del Software,M,6.2,2022-11-30,52,,No asignado
+1846,GII - Ingeniería de la Salud,M,9.1,2022-11-30,115,115,Aceptado
+1847,GII - Tecnologías Informáticas,M,8.7,2022-11-17,68,68,Aceptado
+1848,GII - Tecnologías Informáticas,F,8.6,2022-11-02,31,,Excluido
+1849,GII - Ingeniería del Software,M,5.3,2022-11-23,354,354,Aceptado
+1850,GII - Ingeniería de la Salud,F,9.2,2022-11-19,265,265,Aceptado
+1851,GII - Tecnologías Informáticas,M,9.5,2022-11-24,98,98,Aceptado
+1852,GII - Ingeniería de la Salud,F,8.8,2022-11-04,194,194,Renuncia
+1853,GII - Ingeniería de Computadores,M,5.7,2022-11-19,37,142,Renuncia
+1854,GII - Ingeniería de Computadores,F,7.4,2022-11-06,138,,No asignado
+1855,GII - Ingeniería del Software,F,8.0,2022-11-30,136,,Excluido
+1856,GII - Ingeniería de Computadores,F,7.0,2022-11-03,150,,No asignado
+1857,GII - Ingeniería de la Salud,F,7.5,2022-11-27,230,230,Aceptado
+1858,GII - Ingeniería de Computadores,F,8.1,2022-11-26,90,90,Renuncia
+1859,GII - Ingeniería del Software,M,9.9,2022-11-03,11,43,Aceptado
+1860,GII - Ingeniería del Software,M,7.8,2022-11-30,159,159,Aceptado
+1861,GII - Ingeniería de Computadores,M,8.9,2022-11-25,13,13,Renuncia
+1862,GII - Ingeniería de Computadores,M,8.2,2022-11-15,63,91,Aceptado
+1863,GII - Tecnologías Informáticas,F,6.7,2022-11-29,228,158,Aceptado
+1864,GII - Ingeniería de Computadores,M,9.7,2022-11-03,326,326,Aceptado
+1865,GII - Ingeniería de la Salud,F,7.5,2022-11-12,309,309,Aceptado
+1866,GII - Ingeniería del Software,F,6.0,2022-11-26,312,312,Aceptado
+1867,GII - Tecnologías Informáticas,M,5.8,2022-11-27,270,,Excluido
+1868,GII - Tecnologías Informáticas,M,8.5,2022-11-03,259,259,Renuncia
+1869,GII - Tecnologías Informáticas,M,7.9,2022-11-30,138,242,Renuncia
+1870,GII - Ingeniería del Software,M,6.4,2022-11-08,156,156,Aceptado
+1871,GII - Tecnologías Informáticas,F,6.6,2022-11-03,311,311,Aceptado
+1872,GII - Ingeniería del Software,M,7.2,2022-11-20,153,,No asignado
+1873,GII - Tecnologías Informáticas,F,7.7,2022-11-30,55,55,Aceptado
+1874,GII - Ingeniería de la Salud,M,5.7,2022-11-06,80,273,Aceptado
+1875,GII - Ingeniería del Software,F,5.3,2022-11-04,36,,No asignado
+1876,GII - Ingeniería del Software,F,7.2,2022-11-29,283,27,Aceptado
+1877,GII - Ingeniería del Software,F,9.1,2022-11-11,150,150,Aceptado
+1878,GII - Tecnologías Informáticas,M,9.3,2022-11-02,86,86,Aceptado
+1879,GII - Tecnologías Informáticas,F,7.5,2022-11-24,65,65,Aceptado
+1880,GII - Ingeniería de la Salud,M,7.8,2022-11-02,68,276,Aceptado
+1881,GII - Ingeniería de Computadores,F,6.9,2022-11-20,195,195,Aceptado
+1882,GII - Tecnologías Informáticas,M,7.5,2022-11-02,101,343,Aceptado
+1883,GII - Ingeniería de Computadores,M,7.1,2022-11-27,38,,No asignado
+1884,GII - Ingeniería de Computadores,F,9.0,2022-11-28,192,214,Aceptado
+1885,GII - Tecnologías Informáticas,M,6.2,2022-11-11,259,259,Aceptado
+1886,GII - Ingeniería de Computadores,F,6.0,2022-11-23,288,131,Renuncia
+1887,GII - Ingeniería de la Salud,F,8.3,2022-11-29,245,,Excluido
+1888,GII - Ingeniería de Computadores,F,6.3,2022-11-24,216,216,Aceptado
+1889,GII - Ingeniería del Software,M,5.5,2022-11-04,20,20,Aceptado
+1890,GII - Ingeniería del Software,M,9.0,2022-11-27,264,264,Aceptado
+1891,GII - Ingeniería de Computadores,M,6.6,2022-11-10,284,284,Aceptado
+1892,GII - Ingeniería de Computadores,F,8.8,2022-11-22,338,187,Aceptado
+1893,GII - Ingeniería del Software,F,8.6,2022-11-05,187,,No asignado
+1894,GII - Ingeniería de Computadores,M,6.7,2022-11-02,141,141,Aceptado
+1895,GII - Ingeniería de Computadores,F,9.1,2022-11-06,174,174,Aceptado
+1896,GII - Ingeniería del Software,M,8.8,2022-11-05,258,258,Aceptado
+1897,GII - Tecnologías Informáticas,M,8.4,2022-11-08,321,321,Aceptado
+1898,GII - Ingeniería del Software,M,6.0,2022-11-07,249,29,Aceptado
+1899,GII - Ingeniería del Software,M,6.8,2022-11-24,248,248,Aceptado
+1900,GII - Ingeniería del Software,F,6.6,2022-11-22,249,249,Aceptado
+1901,GII - Ingeniería de Computadores,M,7.8,2022-11-11,196,196,Aceptado
+1902,GII - Ingeniería de Computadores,M,8.0,2022-11-30,27,,No asignado
+1903,GII - Ingeniería del Software,F,6.9,2022-11-15,36,36,Aceptado
+1904,GII - Ingeniería del Software,F,8.0,2022-11-29,85,282,Aceptado
+1905,GII - Tecnologías Informáticas,M,10.0,2022-11-30,292,292,Renuncia
+1906,GII - Ingeniería de la Salud,M,8.7,2022-11-13,165,165,Renuncia
+1907,GII - Ingeniería de Computadores,M,9.8,2022-11-03,113,113,Aceptado
+1908,GII - Ingeniería del Software,M,6.3,2022-11-02,345,345,Aceptado
+1909,GII - Ingeniería del Software,M,8.6,2022-11-20,25,25,Aceptado
+1910,GII - Tecnologías Informáticas,F,7.9,2022-11-02,315,315,Aceptado
+1911,GII - Ingeniería de Computadores,F,5.2,2022-11-18,271,271,Aceptado
+1912,GII - Tecnologías Informáticas,F,5.0,2022-11-15,107,107,Aceptado
+1913,GII - Ingeniería del Software,M,6.5,2022-11-30,228,228,Aceptado
+1914,GII - Ingeniería de la Salud,M,7.4,2022-11-03,112,112,Aceptado
+1915,GII - Tecnologías Informáticas,F,7.7,2022-11-16,66,66,Aceptado
+1916,GII - Ingeniería de Computadores,F,7.9,2022-11-24,294,186,Aceptado
+1917,GII - Ingeniería de Computadores,F,5.0,2022-11-06,330,9,Aceptado
+1918,GII - Tecnologías Informáticas,F,6.2,2022-11-03,55,55,Aceptado
+1919,GII - Ingeniería de la Salud,F,8.6,2022-11-29,350,6,Aceptado
+1920,GII - Ingeniería de Computadores,F,5.8,2022-11-11,122,122,Aceptado
+1921,GII - Tecnologías Informáticas,M,8.7,2022-11-29,308,1,Aceptado
+1922,GII - Tecnologías Informáticas,F,5.1,2022-11-15,12,12,Aceptado
+1923,GII - Ingeniería de Computadores,M,5.1,2022-11-16,127,127,Aceptado
+1924,GII - Ingeniería de Computadores,M,6.0,2022-11-03,108,1,Renuncia
+1925,GII - Ingeniería de la Salud,M,5.3,2022-11-12,228,,Excluido
+1926,GII - Ingeniería del Software,F,9.5,2022-11-22,175,338,Aceptado
+1927,GII - Ingeniería del Software,F,9.0,2022-11-20,8,313,Aceptado
+1928,GII - Ingeniería del Software,F,8.9,2022-11-02,234,320,Aceptado
+1929,GII - Ingeniería del Software,F,6.4,2022-11-29,124,124,Aceptado
+1930,GII - Ingeniería de la Salud,M,6.8,2022-11-03,40,40,Renuncia
+1931,GII - Ingeniería de la Salud,F,7.1,2022-11-10,348,348,Renuncia
+1932,GII - Ingeniería del Software,F,7.3,2022-11-03,8,8,Aceptado
+1933,GII - Tecnologías Informáticas,M,6.9,2022-11-03,268,268,Aceptado
+1934,GII - Ingeniería de Computadores,M,9.3,2022-11-11,115,115,Aceptado
+1935,GII - Ingeniería de Computadores,M,8.2,2022-11-29,336,336,Aceptado
+1936,GII - Ingeniería de la Salud,M,6.3,2022-11-05,26,26,Renuncia
+1937,GII - Tecnologías Informáticas,M,9.5,2022-11-18,67,67,Aceptado
+1938,GII - Ingeniería del Software,F,5.4,2022-11-04,266,266,Aceptado
+1939,GII - Ingeniería de Computadores,F,7.7,2022-11-15,115,115,Aceptado
+1940,GII - Ingeniería del Software,M,7.9,2022-11-08,325,325,Aceptado
+1941,GII - Ingeniería del Software,F,5.6,2022-11-02,219,17,Renuncia
+1942,GII - Ingeniería del Software,F,6.0,2022-11-03,152,89,Renuncia
+1943,GII - Ingeniería del Software,F,8.2,2022-11-15,304,219,Aceptado
+1944,GII - Ingeniería de Computadores,F,7.6,2022-11-03,257,257,Aceptado
+1945,GII - Tecnologías Informáticas,M,9.5,2022-11-29,347,347,Aceptado
+1946,GII - Ingeniería de Computadores,F,5.0,2022-11-17,22,22,Aceptado
+1947,GII - Tecnologías Informáticas,F,5.5,2022-11-02,290,,No asignado
+1948,GII - Ingeniería del Software,F,7.4,2022-11-28,276,276,Aceptado
+1949,GII - Ingeniería del Software,M,8.7,2022-11-12,190,115,Aceptado
+1950,GII - Ingeniería del Software,F,9.8,2022-11-03,126,126,Aceptado
+1951,GII - Ingeniería de la Salud,F,9.7,2022-11-02,306,306,Aceptado
+1952,GII - Ingeniería de la Salud,M,7.7,2022-11-02,290,22,Aceptado
+1953,GII - Tecnologías Informáticas,M,5.8,2022-11-03,44,44,Renuncia
+1954,GII - Ingeniería de Computadores,M,5.3,2022-11-11,308,117,Aceptado
+1955,GII - Ingeniería del Software,M,9.5,2022-11-27,4,4,Aceptado
+1956,GII - Ingeniería de la Salud,F,8.2,2022-11-13,156,156,Aceptado
+1957,GII - Ingeniería del Software,F,6.2,2022-11-14,65,65,Aceptado
+1958,GII - Ingeniería del Software,F,8.4,2022-11-16,223,223,Aceptado
+1959,GII - Tecnologías Informáticas,M,5.2,2022-11-29,216,216,Aceptado
+1960,GII - Ingeniería de Computadores,F,5.4,2022-11-03,295,255,Aceptado
+1961,GII - Ingeniería del Software,F,6.2,2022-11-08,80,80,Aceptado
+1962,GII - Tecnologías Informáticas,F,5.5,2022-11-29,188,188,Aceptado
+1963,GII - Ingeniería del Software,F,7.2,2022-11-24,23,244,Renuncia
+1964,GII - Ingeniería del Software,M,6.2,2022-11-11,184,184,Renuncia
+1965,GII - Ingeniería de Computadores,M,6.9,2022-11-29,99,99,Aceptado
+1966,GII - Tecnologías Informáticas,F,9.9,2022-11-13,184,184,Aceptado
+1967,GII - Ingeniería del Software,M,9.7,2022-11-27,260,260,Aceptado
+1968,GII - Ingeniería de la Salud,F,7.8,2022-11-07,278,278,Aceptado
+1969,GII - Tecnologías Informáticas,F,7.8,2022-11-20,282,282,Aceptado
+1970,GII - Ingeniería de Computadores,M,9.3,2022-11-03,212,212,Aceptado
+1971,GII - Ingeniería del Software,F,7.2,2022-11-23,92,,No asignado
+1972,GII - Ingeniería de Computadores,F,5.0,2022-11-29,64,164,Renuncia
+1973,GII - Tecnologías Informáticas,M,5.1,2022-11-16,111,,No asignado
+1974,GII - Ingeniería de Computadores,M,7.9,2022-11-05,74,74,Aceptado
+1975,GII - Ingeniería del Software,F,6.8,2022-11-25,74,,No asignado
+1976,GII - Ingeniería de la Salud,M,7.6,2022-11-03,318,318,Aceptado
+1977,GII - Ingeniería de Computadores,M,5.2,2022-11-03,108,108,Renuncia
+1978,GII - Ingeniería del Software,M,7.8,2022-11-25,135,109,Aceptado
+1979,GII - Tecnologías Informáticas,M,7.0,2022-11-30,45,45,Aceptado
+1980,GII - Ingeniería de la Salud,F,7.0,2022-11-29,260,18,Aceptado
+1981,GII - Ingeniería de Computadores,F,5.2,2022-11-16,26,26,Aceptado
+1982,GII - Ingeniería del Software,F,5.9,2022-11-28,252,252,Aceptado
+1983,GII - Ingeniería de la Salud,M,8.2,2022-11-28,71,71,Aceptado
+1984,GII - Tecnologías Informáticas,F,7.6,2022-11-30,316,,No asignado
+1985,GII - Ingeniería de Computadores,M,8.2,2022-11-03,122,122,Aceptado
+1986,GII - Ingeniería del Software,F,7.6,2022-11-21,89,89,Aceptado
+1987,GII - Ingeniería de Computadores,F,8.9,2022-11-08,220,220,Aceptado
+1988,GII - Tecnologías Informáticas,M,8.7,2022-11-02,350,350,Aceptado
+1989,GII - Ingeniería de Computadores,F,5.7,2022-11-05,124,,No asignado
+1990,GII - Tecnologías Informáticas,M,9.2,2022-11-24,337,337,Aceptado
+1991,GII - Ingeniería del Software,M,7.1,2022-11-19,246,246,Aceptado
+1992,GII - Ingeniería del Software,F,5.0,2022-11-17,129,129,Aceptado
+1993,GII - Ingeniería de la Salud,F,5.3,2022-11-02,25,25,Aceptado
+1994,GII - Ingeniería de Computadores,M,8.5,2022-11-29,247,247,Aceptado
+1995,GII - Ingeniería de la Salud,F,6.4,2022-11-25,269,240,Aceptado
+1996,GII - Ingeniería del Software,F,5.9,2022-11-14,332,332,Renuncia
+1997,GII - Ingeniería de la Salud,F,9.0,2022-11-30,299,299,Aceptado
+1998,GII - Ingeniería del Software,F,8.7,2022-11-07,289,348,Aceptado
+1999,GII - Ingeniería de la Salud,M,7.7,2022-11-12,10,10,Aceptado
+2000,GII - Ingeniería de Computadores,M,6.7,2022-11-21,5,5,Aceptado
+2001,GII - Ingeniería de la Salud,M,9.6,2022-11-10,12,12,Aceptado
+2002,GII - Ingeniería del Software,M,6.2,2022-11-17,333,333,Aceptado
+2003,GII - Ingeniería del Software,M,8.3,2022-11-30,326,326,Aceptado
+2004,GII - Ingeniería del Software,F,7.1,2022-11-02,278,278,Renuncia
+2005,GII - Tecnologías Informáticas,F,8.0,2022-11-28,29,29,Renuncia
+2006,GII - Ingeniería de Computadores,M,7.8,2022-11-02,57,57,Aceptado
+2007,GII - Ingeniería del Software,F,7.8,2022-11-08,282,282,Aceptado
+2008,GII - Ingeniería de Computadores,F,8.2,2022-11-29,71,71,Aceptado
+2009,GII - Ingeniería del Software,M,6.7,2022-11-15,6,6,Aceptado
+2010,GII - Ingeniería de Computadores,M,6.8,2022-11-20,167,167,Aceptado
+2011,GII - Ingeniería del Software,M,9.1,2022-11-02,349,169,Renuncia
+2012,GII - Tecnologías Informáticas,M,6.0,2022-11-06,43,43,Aceptado
+2013,GII - Ingeniería del Software,F,6.7,2022-11-06,222,222,Aceptado
+2014,GII - Tecnologías Informáticas,M,7.2,2022-11-16,322,147,Aceptado
+2015,GII - Ingeniería de Computadores,M,7.9,2022-11-29,175,175,Aceptado
+2016,GII - Tecnologías Informáticas,M,6.4,2022-11-02,351,351,Aceptado
+2017,GII - Tecnologías Informáticas,M,7.6,2022-11-30,68,,No asignado
+2018,GII - Ingeniería de la Salud,F,5.0,2022-11-02,147,308,Aceptado
+2019,GII - Ingeniería de la Salud,F,5.1,2022-11-29,152,152,Aceptado
+2020,GII - Ingeniería del Software,M,6.6,2022-11-06,257,257,Renuncia
+2021,GII - Tecnologías Informáticas,M,6.5,2022-11-02,274,274,Renuncia
+2022,GII - Ingeniería del Software,M,6.3,2022-11-04,69,69,Aceptado
+2023,GII - Ingeniería del Software,F,9.4,2022-11-15,104,104,Renuncia
+2024,GII - Ingeniería de Computadores,M,7.7,2022-11-29,158,158,Renuncia
+2025,GII - Ingeniería de Computadores,F,5.5,2022-11-03,96,96,Aceptado
+2026,GII - Ingeniería del Software,F,6.6,2022-11-24,217,153,Aceptado
+2027,GII - Ingeniería de Computadores,M,5.6,2022-11-08,236,236,Renuncia
+2028,GII - Ingeniería del Software,F,9.7,2022-11-02,142,142,Aceptado
+2029,GII - Tecnologías Informáticas,F,8.5,2022-11-18,320,143,Aceptado
+2030,GII - Ingeniería de Computadores,F,5.5,2022-11-17,178,178,Aceptado
+2031,GII - Ingeniería del Software,M,7.9,2022-11-17,162,,No asignado
+2032,GII - Ingeniería del Software,F,6.2,2022-11-30,98,98,Aceptado
+2033,GII - Tecnologías Informáticas,M,8.8,2022-11-23,307,307,Aceptado
+2034,GII - Ingeniería del Software,M,5.5,2022-11-03,105,105,Aceptado
+2035,GII - Ingeniería de Computadores,M,5.1,2022-11-22,107,,Excluido
+2036,GII - Ingeniería de Computadores,F,7.6,2022-11-30,182,182,Aceptado
+2037,GII - Tecnologías Informáticas,M,9.3,2022-11-07,307,307,Aceptado
+2038,GII - Ingeniería del Software,M,7.8,2022-11-15,126,126,Aceptado
+2039,GII - Ingeniería de la Salud,M,8.3,2022-11-15,241,107,Renuncia
+2040,GII - Ingeniería de la Salud,F,8.3,2022-11-18,296,181,Aceptado
+2041,GII - Ingeniería del Software,M,8.5,2022-11-29,264,240,Aceptado
+2042,GII - Ingeniería del Software,M,6.0,2022-11-29,241,302,Aceptado
+2043,GII - Ingeniería de Computadores,F,6.2,2022-11-07,44,155,Aceptado
+2044,GII - Ingeniería del Software,M,5.9,2022-11-29,220,220,Renuncia
+2045,GII - Ingeniería del Software,F,5.7,2022-11-11,117,117,Renuncia
+2046,GII - Ingeniería del Software,F,6.7,2022-11-02,3,3,Aceptado
+2047,GII - Ingeniería de Computadores,F,5.3,2022-11-02,19,19,Aceptado
+2048,GII - Ingeniería de la Salud,M,9.1,2022-11-30,124,83,Aceptado
+2049,GII - Tecnologías Informáticas,M,6.6,2022-11-20,285,285,Aceptado
+2050,GII - Ingeniería del Software,F,5.4,2022-11-29,31,31,Aceptado
+2051,GII - Ingeniería del Software,F,5.9,2022-11-08,163,,No asignado
+2052,GII - Tecnologías Informáticas,F,5.8,2022-11-15,5,5,Renuncia
+2053,GII - Tecnologías Informáticas,F,6.4,2022-11-29,3,122,Aceptado
+2054,GII - Ingeniería de Computadores,F,6.8,2022-11-03,95,,No asignado
+2055,GII - Ingeniería del Software,F,7.4,2022-11-02,43,226,Aceptado
+2056,GII - Ingeniería del Software,M,7.6,2022-11-13,79,314,Aceptado
+2057,GII - Ingeniería del Software,M,8.1,2022-11-13,344,344,Aceptado
+2058,GII - Ingeniería del Software,F,5.2,2022-11-23,262,262,Aceptado
+2059,GII - Ingeniería de Computadores,M,6.1,2022-11-05,246,246,Aceptado
+2060,GII - Ingeniería de la Salud,F,5.7,2022-11-23,294,294,Aceptado
+2061,GII - Tecnologías Informáticas,M,6.1,2022-11-29,236,236,Aceptado
+2062,GII - Ingeniería de Computadores,M,6.9,2022-11-18,222,233,Renuncia
+2063,GII - Ingeniería del Software,M,7.4,2022-11-19,123,123,Aceptado
+2064,GII - Tecnologías Informáticas,F,6.1,2022-11-02,213,213,Aceptado
+2065,GII - Ingeniería de Computadores,M,6.7,2022-11-29,251,251,Aceptado
+2066,GII - Ingeniería del Software,M,6.9,2022-11-03,69,69,Aceptado
+2067,GII - Ingeniería del Software,M,9.4,2022-11-10,143,306,Aceptado
+2068,GII - Ingeniería de Computadores,M,5.4,2022-11-24,232,232,Aceptado
+2069,GII - Ingeniería del Software,F,7.6,2022-11-25,238,,No asignado
+2070,GII - Tecnologías Informáticas,M,5.2,2022-11-20,12,,No asignado
+2071,GII - Ingeniería del Software,M,6.8,2022-11-04,105,105,Aceptado
+2072,GII - Ingeniería de Computadores,F,9.0,2022-11-30,123,123,Aceptado
+2073,GII - Ingeniería del Software,M,6.9,2022-11-03,22,78,Renuncia
+2074,GII - Ingeniería del Software,M,7.8,2022-11-12,332,332,Aceptado
+2075,GII - Ingeniería de la Salud,M,7.3,2022-11-07,277,37,Renuncia
+2076,GII - Ingeniería de Computadores,F,7.7,2022-11-03,96,96,Aceptado
+2077,GII - Ingeniería del Software,F,9.0,2022-11-02,94,94,Aceptado
+2078,GII - Ingeniería de Computadores,F,7.1,2022-11-28,47,,Excluido
+2079,GII - Tecnologías Informáticas,F,7.7,2022-11-09,152,323,Aceptado
+2080,GII - Ingeniería del Software,M,9.8,2022-11-21,301,135,Renuncia
+2081,GII - Ingeniería del Software,M,8.1,2022-11-03,184,342,Renuncia
+2082,GII - Ingeniería de la Salud,M,7.3,2022-11-26,121,121,Renuncia
+2083,GII - Tecnologías Informáticas,M,9.8,2022-11-30,101,101,Renuncia
+2084,GII - Ingeniería del Software,M,6.6,2022-11-02,272,272,Aceptado
+2085,GII - Ingeniería de Computadores,M,6.1,2022-11-29,7,7,Aceptado
+2086,GII - Ingeniería de la Salud,M,7.0,2022-11-27,95,40,Aceptado
+2087,GII - Ingeniería del Software,M,7.8,2022-11-04,147,147,Aceptado
+2088,GII - Tecnologías Informáticas,M,8.2,2022-11-19,117,,No asignado
+2089,GII - Ingeniería de Computadores,M,5.6,2022-11-02,107,107,Aceptado
+2090,GII - Ingeniería de la Salud,M,9.6,2022-11-29,151,151,Renuncia
+2091,GII - Ingeniería del Software,M,7.6,2022-11-12,49,49,Aceptado
+2092,GII - Ingeniería del Software,M,7.3,2022-11-03,227,227,Renuncia
+2093,GII - Ingeniería del Software,F,9.8,2022-11-30,78,78,Aceptado
+2094,GII - Ingeniería del Software,F,5.9,2022-11-09,325,325,Aceptado
+2095,GII - Ingeniería del Software,M,8.6,2022-11-03,330,84,Aceptado
+2096,GII - Ingeniería del Software,F,8.5,2022-11-06,185,,Excluido
+2097,GII - Tecnologías Informáticas,M,9.0,2022-11-02,87,140,Aceptado
+2098,GII - Ingeniería de Computadores,F,10.0,2022-11-30,7,7,Aceptado
+2099,GII - Ingeniería de la Salud,F,7.4,2022-11-20,171,171,Aceptado
+2100,GII - Ingeniería de Computadores,F,6.3,2022-11-05,106,106,Aceptado
+2101,GII - Ingeniería del Software,F,6.4,2022-11-08,169,169,Aceptado
+2102,GII - Ingeniería del Software,F,6.3,2022-11-23,47,47,Aceptado
+2103,GII - Ingeniería de Computadores,M,9.2,2022-11-23,260,,Excluido
+2104,GII - Ingeniería de Computadores,M,5.8,2022-11-09,139,139,Aceptado
+2105,GII - Tecnologías Informáticas,F,7.0,2022-11-17,152,,Excluido
+2106,GII - Ingeniería de Computadores,F,8.0,2022-11-15,344,344,Aceptado
+2107,GII - Ingeniería del Software,M,7.0,2022-11-07,155,155,Renuncia

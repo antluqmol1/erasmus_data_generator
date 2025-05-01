@@ -1,19 +1,35 @@
 ActividadID,NombreActividad,Fase,TipoActividad,ActorDefecto,OrdenSecuencial
-1,Solicitud presentada,Fase inicial,Manual,Estudiante,1
-2,Envío de documentación,Fase inicial,Manual,Estudiante,2
-3,Revisión de documentación,Fase inicial,Automática,Administración,3
-4,Solicitud validada,Fase inicial,Automática,Administración,4
-5,Adjudicación provisional,Fase de adjudicación,Automática,Administración,5
-6,Notificación de plaza asignada,Fase de adjudicación,Automática,Administración,6
-7,Aceptación de plaza,Fase de aceptación,Manual,Estudiante,7
-8,Confirmación de aceptación,Fase de aceptación,Manual,Estudiante,8
-9,Renuncia a plaza,Fase de renuncia,Manual,Estudiante,9
-10,Cancelación por baja voluntaria,Fase de renuncia,Manual,Estudiante,10
-11,Cancelación de destino,Fase de reubicación,Automática,Administración,11
-12,Reasignación de destino,Fase de reubicación,Automática,Administración,12
-13,Alegación presentada,Fase de alegaciones,Manual,Estudiante,13
-14,Resolución de alegación,Fase de alegaciones,Automática,Administración,14
-15,Solicitud de modificación de destino,Fase de alegaciones,Manual,Estudiante,15
-16,Resolución modificación de destino,Fase de alegaciones,Automática,Administración,16
-17,Firma de compromiso Erasmus,Fase final,Manual,Estudiante,17
-18,Emisión de certificado de movilidad,Fase final,Automática,Administración,18
+1,Solicitud Convalidación Idioma Presentada,Fase Inicial,Manual,Estudiante,1
+2,Solicitud Convalidación Idioma Recibida,Fase Inicial,Automática,Instituto de Idiomas,2
+3,Resolución Convalidación Idioma (Rechazada),Fase Inicial,Automática,Instituto de Idiomas,3
+4,Resolución Convalidación Idioma (Aceptada),Fase Inicial,Automática,Instituto de Idiomas,3
+5,Inscripción Programa Erasmus Registrada,Inscripción,Manual,Estudiante,4
+6,Cálculo Notas Participantes Realizado,Adjudicación Provisional,Automática,SEVIUS,5
+7,Publicación Listado Provisional,Adjudicación Provisional,Automática,SEVIUS,6
+8,Alegación Presentada,Alegaciones,Manual,Estudiante,7
+9,Alegación Recibida,Alegaciones,Automática,SEVIUS,8
+10,Resolución Alegación Emitida,Alegaciones,Automática,SEVIUS,9
+11,Publicación 1ª Adjudicación,Adjudicaciones,Automática,SEVIUS,10
+12,Respuesta Recibida (Aceptación/Reserva 1ª Adj.),Adjudicaciones,Manual,Estudiante,11
+13,Respuesta Recibida (Renuncia 1ª Adj.),Adjudicaciones,Manual,Estudiante,11
+14,Actualización Orden Preferencias (Post-1ª Adj.),Adjudicaciones,Automática,SEVIUS,12
+15,Publicación 2ª Adjudicación,Adjudicaciones,Automática,SEVIUS,13
+16,Respuesta Recibida (Aceptación/Reserva 2ª Adj.),Adjudicaciones,Manual,Estudiante,14
+17,Respuesta Recibida (Renuncia 2ª Adj.),Adjudicaciones,Manual,Estudiante,14
+18,Actualización Orden Preferencias (Post-2ª Adj.),Adjudicaciones,Automática,SEVIUS,15
+19,Publicación 3ª Adjudicación,Adjudicaciones,Automática,SEVIUS,16
+20,Respuesta Recibida (Aceptación/Reserva 3ª Adj.),Adjudicaciones,Manual,Estudiante,17
+21,Respuesta Recibida (Renuncia 3ª Adj.),Adjudicaciones,Manual,Estudiante,17
+22,Actualización Orden Preferencias (Post-3ª Adj.),Adjudicaciones,Automática,SEVIUS,18
+23,Publicación Listado Definitivo,Adjudicación Final,Automática,SEVIUS,19
+24,Envío LA a Responsable Destino,Learning Agreement,Manual,Estudiante,20
+25,LA Recibido por Responsable,Learning Agreement,Automática,Responsable Destino,21
+26,LA Validado por Responsable,Learning Agreement,Manual,Responsable Destino,22
+27,LA Rechazado por Responsable,Learning Agreement,Manual,Responsable Destino,22
+28,Envío LA a Subdirectora RRII,Learning Agreement,Manual,Estudiante,23
+29,LA Recibido por Subdirectora,Learning Agreement,Automática,Subdirectora RRII,24
+30,LA Validado por Subdirectora,Learning Agreement,Manual,Subdirectora RRII,25
+31,LA Rechazado por Subdirectora,Learning Agreement,Manual,Subdirectora RRII,25
+32,Formalización Acuerdo SEVIUS,Formalización,Manual,Estudiante,26
+33,Proceso Erasmus Finalizado,Finalizado,Automática,Sistema,27
+34,Cancelación Plaza (Admin),Cancelación,Automática,SEVIUS,10

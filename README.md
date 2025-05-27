@@ -1,127 +1,265 @@
 # Generador de Datos Sintéticos Erasmus para Process Mining
 
-Este proyecto genera un conjunto de datos sintéticos que simulan el proceso de solicitud y gestión de plazas Erasmus en la Universidad de Sevilla, basándose en el flujo y plazos reales observados. Los datos están diseñados para ser utilizados con herramientas de Process Mining como Celonis, permitiendo analizar y visualizar los flujos del proceso.
-
-El sistema utiliza opcionalmente un Modelo de Lenguaje Grande (LLM) a través de la API de OpenAI (GPT-4) para generar datos más realistas y variados (nombres de universidades, motivos de alegación, patrones de proceso).
+Este proyecto genera un conjunto de datos sintéticos que simulan el proceso completo de solicitud y gestión de plazas Erasmus en la Universidad de Sevilla. Los datos están diseñados específicamente para análisis de Process Mining con herramientas como Celonis, garantizando coherencia total entre todas las fuentes de datos.
 
 ## 🎯 Características Principales
 
-- **Coordinación Total**: EventLog como fuente de verdad única
-- **Gestión Realista de Plazas**: Control de plazas disponibles por destino y ronda
-- **Sincronización Automática**: Fechas coherentes entre todas las fuentes
-- **Validación Integral**: Detección automática de inconsistencias
-- **Datos Realistas**: Uso opcional de LLM para mayor variabilidad
+- **✅ Coherencia Total**: EventLog como fuente de verdad única con sincronización automática
+- **🎯 Gestión Realista de Plazas**: Control estricto del número de plazas por destino y ronda
+- **🌍 Diversidad Geográfica**: Universidades de todos los países de la UE (excepto España)
+- **🔄 Learning Agreement Avanzado**: Bucles de reintento realistas (90% resueltos, 10% rechazados definitivamente)
+- **📊 Escalabilidad**: 3,231 estudiantes, 400 destinos, ~2,000 plazas disponibles
+- **🤖 Integración LLM**: Generación inteligente de universidades, motivos de alegación y patrones de proceso
+- **🔍 Validación Automática**: Sistema completo de verificación de coherencia
 
-## 📁 Componentes del Sistema
+## 📈 Resultados del Sistema (Última Ejecución)
 
-- `generate_data.py`: Script principal con lógica de coordinación y simulación
-- `llm_helpers.py`: Funciones para interactuar con OpenAI GPT-4 (con fallbacks)
-- `requirements.txt`: Dependencias de Python necesarias
-- `.env` (crear manualmente): Clave de API de OpenAI (`OPENAI_API_KEY`)
-- `data/`: Directorio donde se guardan los CSV generados
+### 📊 **Estadísticas Generales**
 
-## 🔄 Flujo de Generación Coordinado
+- **Estudiantes Totales**: 3,231
+- **Destinos Disponibles**: 400 (380 activos, 20 cancelados)
+- **Plazas Totales**: 2,007
+- **Estudiantes Aceptados**: 1,999 (99.6% ocupación)
+- **Tasa de Participación**: 61.9% (1,999/3,231)
 
-### 1. **Datos Maestros**
+### 🎯 **Distribución de Estados Finales**
 
-- **Destinos**: Universidades europeas (priorizando Italia, Francia, Polonia, Alemania) con plazas limitadas, cancelaciones (~5%) y requisitos de idioma (~65%)
-- **Estudiantes**: 2107 estudiantes con grados ponderados, expedientes realistas y destinos solicitados
-- **Actividades**: 33 actividades del proceso Erasmus (IDs renumerados 1-33)
+- **Aceptados**: 1,999 estudiantes (61.9%)
+- **No Asignados**: 808 estudiantes (25.0%)
+- **Renuncias**: 259 estudiantes (8.0%)
+- **Excluidos**: 165 estudiantes (5.1%)
 
-### 2. **Simulación de Adjudicación con Plazas**
+### 🌍 **Diversidad Geográfica Lograda**
 
-- **Control de Plazas**: Gestión realista del número limitado de plazas por destino
-- **Rondas de Adjudicación**: 1ª, 2ª, 3ª y Final con promoción de suplentes
-- **Estados por Ronda**: Titular, Suplente, con seguimiento de renuncias
-- **Liberación de Plazas**: Las renuncias liberan plazas para siguientes rondas
+- **26 países de la UE** representados (todos excepto España)
+- **Distribución equilibrada** con énfasis en destinos principales
+- **Universidades realistas** generadas por LLM (GPT-4)
 
-### 3. **EventLog como Fuente de Verdad**
+### ✅ **Coherencia del Sistema**
 
-- **Rutas Inteligentes**: Selección basada en estado final, requisitos de idioma y alegaciones
-- **Timestamps Realistas**: Fechas fijas para publicaciones, plazos para respuestas
-- **Cancelaciones Tempranas**: Gestión de destinos cancelados antes de adjudicaciones
-- **Patrones LLM**: Integración opcional de patrones generados por GPT-4
+- **100% coherencia** entre estudiantes aceptados y destinos asignados
+- **0 inconsistencias** en gestión de plazas
+- **Sincronización perfecta** entre EventLog, Histórico y Alegaciones
+- **Validación temporal exitosa** (solicitudes vs cancelaciones)
 
-### 4. **Extracción y Sincronización**
+## 🔄 Proceso de Generación
 
-- **Histórico Coherente**: Extraído directamente desde eventos de publicación del EventLog
-- **Estados Actualizados**: Calculados desde la gestión real de plazas
-- **Fechas Sincronizadas**: Alineación automática entre EventLog, Histórico y Alegaciones
-- **Validación Automática**: Detección y reporte de inconsistencias
+### **Fase 1: Generación Base**
 
-## 📊 Archivos CSV Generados
+1. **Destinos**: 400 universidades europeas con distribución realista de plazas (1-10 por destino)
+2. **Estudiantes**: 3,231 perfiles con expedientes académicos variados
+3. **Actividades**: 33 actividades del proceso Erasmus con orden secuencial
 
-| Archivo                       | Descripción                                          | Registros Aprox. |
-| ----------------------------- | ---------------------------------------------------- | ---------------- |
-| `Destinos.csv`                | Universidades con plazas, cancelaciones y requisitos | 372              |
-| `Estudiantes.csv`             | Datos académicos y estados finales coordinados       | 2,107            |
-| `Actividades.csv`             | Diccionario de actividades del proceso               | 33               |
-| `EventLog.csv`                | Log de eventos con timestamps realistas              | ~35,000          |
-| `Alegaciones.csv`             | Alegaciones con fechas sincronizadas                 | ~370             |
-| `HistoricoAdjudicaciones.csv` | Estados por ronda extraídos del EventLog             | ~8,000           |
-| `ReporteGestionPlazas.csv`    | Análisis detallado de ocupación por destino          | ~1,500           |
+### **Fase 2: Simulación de Adjudicación**
 
-## 🚀 Uso
+1. **Control de Plazas**: Gestión estricta por destino y ronda
+2. **Filtros de Elegibilidad**: Requisitos de idioma y académicos
+3. **Reasignación Inteligente**: 15% de estudiantes aceptan destinos alternativos
+4. **Gestión de Renuncias**: Liberación automática de plazas
 
-### Instalación
+### **Fase 3: Learning Agreement Avanzado**
 
-```bash
-git clone [repositorio]
-cd erasmus_data_generator
-pip install -r requirements.txt
+1. **Bucles de Reintento**: 2-4 intentos por estudiante
+2. **Doble Validación**: Responsable Destino + Subdirectora RRII
+3. **Probabilidades Realistas**: 90% resueltos, 10% rechazados definitivamente
+4. **Patrones Complejos**: Hasta 15 actividades por bucle de LA
+
+### **Fase 4: Coordinación y Validación**
+
+1. **EventLog como Fuente de Verdad**: Todas las fechas se sincronizan desde aquí
+2. **Actualización de Estados**: Basada en gestión real de plazas
+3. **Validación Automática**: 7 tipos de verificaciones de coherencia
+4. **Reportes Detallados**: Gestión de plazas y inconsistencias
+
+## 📁 Archivos Generados
+
+| Archivo                       | Registros | Descripción                                       |
+| ----------------------------- | --------- | ------------------------------------------------- |
+| `Destinos.csv`                | 400       | Universidades europeas con plazas y requisitos    |
+| `Estudiantes.csv`             | 3,231     | Perfiles académicos y estados finales             |
+| `Actividades.csv`             | 33        | Catálogo de actividades del proceso               |
+| `EventLog.csv`                | ~45,000   | Eventos temporales del proceso (fuente de verdad) |
+| `Alegaciones.csv`             | ~565      | Alegaciones con motivos generados por LLM         |
+| `HistoricoAdjudicaciones.csv` | ~8,000    | Asignaciones por ronda sincronizadas              |
+| `ReporteGestionPlazas.csv`    | 1,600     | Estadísticas detalladas por destino/ronda         |
+
+## 🔍 Validaciones Implementadas
+
+### ✅ **Coherencia Estructural**
+
+- Estados finales vs destinos asignados
+- Estudiantes aceptados = Estudiantes con destino
+- Asignaciones reales = Estados en CSV
+
+### ✅ **Gestión de Plazas**
+
+- Respeto estricto de límites por destino
+- Control de sobreasignaciones automático
+- Liberación de plazas por renuncias
+
+### ✅ **Coherencia Temporal**
+
+- Solicitudes posteriores a cancelaciones
+- Sincronización EventLog ↔ Histórico ↔ Alegaciones
+- Secuencias lógicas de actividades
+
+### ✅ **Requisitos Académicos**
+
+- Filtros de idioma en adjudicaciones
+- Validación de expedientes académicos
+- Compatibilidad destino-estudiante
+
+## 🚀 Mejoras Implementadas
+
+### **Incoherencias Corregidas**
+
+- ✅ Destinos cancelados vs solicitudes temporales
+- ✅ Renuncias manteniendo destino asignado
+- ✅ Sobreasignación de plazas por destino
+- ✅ Reasignación irealista (85% → 15%)
+- ✅ Requisitos de idioma no validados
+- ✅ Fechas desincronizadas entre fuentes
+
+### **Código Optimizado**
+
+- ✅ ~150 líneas de código redundante eliminadas
+- ✅ Constantes globales organizadas
+- ✅ Funciones duplicadas consolidadas
+- ✅ Lógica de timestamps simplificada
+- ✅ Validaciones mejoradas con reportes específicos
+
+### **Funcionalidades Avanzadas**
+
+- ✅ Learning Agreement con bucles de reintento realistas
+- ✅ Gestión inteligente de plazas por ronda
+- ✅ Reasignación geográficamente compatible
+- ✅ Diversidad completa de países UE
+- ✅ Integración LLM para datos realistas
+
+## 📊 Casos de Uso para Process Mining
+
+### **Análisis de Rendimiento**
+
+- Tiempo promedio de procesamiento por estudiante
+- Cuellos de botella en Learning Agreement
+- Eficiencia de rondas de adjudicación
+
+### **Análisis de Conformidad**
+
+- Cumplimiento de plazos por actividad
+- Secuencias de proceso estándar vs variantes
+- Detección de patrones anómalos
+
+### **Análisis de Recursos**
+
+- Carga de trabajo por actor (Responsables, Subdirectora)
+- Distribución temporal de actividades
+- Optimización de capacidades
+
+### **Análisis Predictivo**
+
+- Predicción de renuncias por perfil
+- Estimación de demanda por destino
+- Optimización de oferta de plazas
+
+## 🏗️ Arquitectura del Sistema
+
+```
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   LLM (GPT-4)   │    │  Gestión Plazas  │    │   Validación    │
+│                 │    │                  │    │   Automática    │
+│ • Universidades │    │ • Control límites│    │ • 7 tipos checks│
+│ • Motivos       │ ──▶│ • Reasignaciones │ ──▶│ • Reportes      │
+│ • Patrones      │    │ • Renuncias      │    │ • Coherencia    │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │                       │                       │
+         ▼                       ▼                       ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    EventLog (Fuente de Verdad)                  │
+│                                                                 │
+│ • 45,000+ eventos temporales                                    │
+│ • Sincronización automática de fechas                          │
+│ • Bucles complejos de Learning Agreement                       │
+└─────────────────────────────────────────────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                     Archivos CSV Finales                       │
+│                                                                 │
+│ Destinos │ Estudiantes │ Actividades │ Alegaciones │ Histórico  │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### Configuración (Opcional)
+## ⚙️ Instalación y Uso
+
+### **Requisitos**
 
 ```bash
-# Para usar LLM (recomendado para mayor realismo)
-echo "OPENAI_API_KEY='tu_clave_aqui'" > .env
+pip install pandas numpy python-dotenv openai
 ```
 
-### Ejecución
+### **Configuración**
+
+1. Crear archivo `.env` con tu API key de OpenAI:
+
+```
+OPENAI_API_KEY=tu_api_key_aqui
+```
+
+2. Ejecutar el generador:
 
 ```bash
 python generate_data.py
 ```
 
-### Configuración Avanzada
+### **Personalización**
 
-En `generate_data.py` puedes ajustar:
+- `NUM_ESTUDIANTES`: Número de estudiantes (actual: 3,231)
+- `NUM_DESTINOS`: Número de destinos (actual: 400)
+- `PCT_ESTUDIANTES_CON_ALEGACIONES`: Porcentaje con alegaciones (actual: 17.5%)
+- `USE_LLM`: Activar/desactivar integración con LLM
 
-- `NUM_ESTUDIANTES`: Número de estudiantes (default: 2107)
-- `NUM_DESTINOS`: Número de destinos (default: 372)
-- `PCT_ESTUDIANTES_CON_ALEGACIONES`: Porcentaje con alegaciones (default: 17.5%)
-- `USE_LLM`: Usar OpenAI GPT-4 (default: True)
-- `PLAZOS`: Fechas específicas de la convocatoria
+## 📈 Resultados de Validación
 
-## 🔍 Validación y Calidad
+```
+✅ Generación de CSVs Erasmus COMPLETADA con coordinación mejorada.
+📈 Resumen: 0 inconsistencias detectadas y reportadas.
 
-El sistema incluye validación automática que verifica:
+🔍 Verificando coherencia final entre plazas y estudiantes...
+   📊 PLAZAS DISPONIBLES:
+      • Total plazas: 2,007
+      • Destinos activos: 380
+      • Destinos cancelados: 20
 
-- ✅ Coherencia entre estados finales y destinos asignados
-- ✅ Sincronización de fechas entre fuentes
-- ✅ Consistencia de adjudicaciones con plazas disponibles
-- ✅ Correspondencia entre EventLog e Histórico
-- ✅ Lógica de cancelaciones y renuncias
+   📊 ESTUDIANTES FINALES:
+      • Total estudiantes: 3,231
+      • Aceptados: 1,999
+      • Con destino asignado: 1,999
+      • Renuncias: 259
+      • No asignados: 808
+      • Excluidos: 165
 
-Si se detectan inconsistencias, se genera automáticamente `reporte_inconsistencias.txt`.
+   📊 COHERENCIA:
+      • Tasa de ocupación: 99.6% (1,999/2,007)
+      • Tasa de participación: 61.9% (1,999/3,231)
+      • Asignaciones reales (gestión): 1,999
 
-## 📈 Casos de Uso para Process Mining
+   📋 VERIFICACIONES:
+      ✅ Estudiantes aceptados = Con destino asignado
+      ✅ Estudiantes aceptados = Asignaciones reales
+      ✅ Estudiantes aceptados ≤ Plazas disponibles
+      ✅ Tasa de ocupación realista (99.6%)
+```
 
-Los datos generados permiten analizar:
+## 🎯 Estado del Proyecto
 
-- **Flujos de Proceso**: Rutas más comunes, cuellos de botella, variaciones
-- **Tiempos de Respuesta**: Análisis de plazos y cumplimiento
-- **Gestión de Plazas**: Eficiencia en adjudicaciones, tasas de ocupación
-- **Alegaciones**: Patrones, motivos frecuentes, resoluciones
-- **Cancelaciones**: Impacto en el proceso, gestión de incidencias
+**✅ COMPLETADO** - El sistema genera datos sintéticos completamente coherentes y realistas para análisis de Process Mining del proceso Erasmus, con:
 
-## 🛠️ Arquitectura Técnica
+- **Coherencia total** entre todas las fuentes de datos
+- **Gestión realista** de plazas con control estricto
+- **Learning Agreement avanzado** con bucles de reintento
+- **Diversidad geográfica** completa (26 países UE)
+- **Validación automática** sin inconsistencias detectadas
+- **Escalabilidad** demostrada (3,231 estudiantes, 400 destinos)
 
-- **Coordinación**: EventLog como única fuente de verdad
-- **Gestión de Estado**: Estados calculados desde adjudicaciones reales
-- **Sincronización**: Fechas extraídas y alineadas automáticamente
-- **Validación**: Verificación cruzada entre todas las fuentes
-- **Escalabilidad**: Diseño modular para fácil extensión
-
-Los datos generados están listos para importar directamente en Celonis u otras herramientas de Process Mining.
+El generador está listo para uso en producción y análisis de Process Mining con herramientas como Celonis.

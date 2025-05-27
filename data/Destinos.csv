@@ -1,373 +1,401 @@
 DestinoID,NombreDestino,País,NúmeroPlazas,Cancelado,FechaCancelación,RequiereIdioma
-1,Università degli Studi di Roma La Sapienza,Italia,0,Sí,2022-11-25,True
-2,Université Paris-Sorbonne,Francia,1,No,,False
-3,Uniwersytet Warszawski,Polonia,3,No,,True
-4,Freie Universität Berlin,Alemania,4,No,,False
-5,Università degli Studi di Milano,Italia,4,No,,False
-6,Université de Strasbourg,Francia,4,No,,True
-7,Uniwersytet Jagielloński,Polonia,3,No,,False
-8,Technische Universität München,Alemania,2,No,,False
-9,Università degli Studi di Napoli Federico II,Italia,2,No,,False
-10,Université Paris Diderot,Francia,2,No,,False
-11,Uniwersytet Wrocławski,Polonia,2,No,,False
-12,Humboldt-Universität zu Berlin,Alemania,4,No,,False
-13,Università degli Studi di Torino,Italia,3,No,,True
-14,Université de Bordeaux,Francia,5,No,,True
-15,Uniwersytet Gdański,Polonia,3,No,,True
-16,Rheinische Friedrich-Wilhelms-Universität Bonn,Alemania,3,No,,False
-17,Università degli Studi di Padova,Italia,5,No,,True
-18,Université de Montpellier,Francia,4,No,,True
-19,Uniwersytet Mikołaja Kopernika,Polonia,4,No,,True
-20,Ludwig-Maximilians-Universität München,Alemania,5,No,,True
-21,Università degli Studi di Firenze,Italia,3,No,,False
-22,Université de Nice Sophia Antipolis,Francia,5,No,,True
-23,Uniwersytet Łódzki,Polonia,5,No,,False
-24,Ruprecht-Karls-Universität Heidelberg,Alemania,5,No,,True
-25,Università degli Studi di Pisa,Italia,1,No,,True
-26,Université de Lille,Francia,1,No,,True
-27,Uniwersytet Poznański,Polonia,2,No,,True
-28,Technische Universität Berlin,Alemania,0,Sí,2022-12-09,True
-29,Università degli Studi di Palermo,Italia,1,No,,False
-30,Université de Nantes,Francia,2,No,,True
-31,Uniwersytet Śląski,Polonia,5,No,,False
-32,Universität Hamburg,Alemania,3,No,,True
-33,Università degli Studi di Bologna,Italia,3,No,,False
-34,Université de Rennes 1,Francia,2,No,,True
-35,Uniwersytet Marii Curie-Skłodowskiej,Polonia,2,No,,False
-36,Universität Köln,Alemania,2,No,,True
-37,Università degli Studi di Cagliari,Italia,3,No,,True
-38,Université de Toulouse,Francia,3,No,,True
-39,Uniwersytet Adama Mickiewicza,Polonia,2,No,,False
-40,Universität Frankfurt am Main,Alemania,3,No,,True
-41,Università degli Studi di Catania,Italia,5,No,,True
-42,Université de Rouen,Francia,0,Sí,2022-11-19,True
-43,Uniwersytet Pedagogiczny w Krakowie,Polonia,2,No,,False
-44,Universität Stuttgart,Alemania,1,No,,True
-45,Università degli Studi di Salerno,Italia,4,No,,True
-46,Université de Reims Champagne-Ardenne,Francia,5,No,,False
-47,Uniwersytet Szczeciński,Polonia,2,No,,True
-48,Universität Tübingen,Alemania,1,No,,True
-49,Università degli Studi di Trieste,Italia,5,No,,True
-50,Université de Caen Normandie,Francia,3,No,,False
-51,Uniwersytet Warmińsko-Mazurski,Polonia,4,No,,False
-52,Universität Leipzig,Alemania,2,No,,True
-53,Università degli Studi di Verona,Italia,2,No,,True
-54,Université de Picardie Jules Verne,Francia,5,No,,True
-55,Uniwersytet Medyczny w Łodzi,Polonia,0,Sí,2022-12-02,False
-56,Universität Mannheim,Alemania,3,No,,True
-57,Università degli Studi di Siena,Italia,3,No,,False
-58,Université de Savoie,Francia,1,No,,True
-59,Uniwersytet Przyrodniczy we Wrocławiu,Polonia,1,No,,False
-60,Universität Bremen,Alemania,1,No,,True
-61,Università degli Studi di Perugia,Italia,0,Sí,2022-11-22,False
-62,Université de Franche-Comté,Francia,2,No,,True
-63,Uniwersytet Technologiczno-Przyrodniczy,Polonia,2,No,,False
-64,Universität Duisburg-Essen,Alemania,4,No,,False
-65,Università degli Studi di Parma,Italia,4,No,,False
-66,Université de Lorraine,Francia,5,No,,True
-67,Uniwersytet Rzeszowski,Polonia,2,No,,False
-68,Universität Regensburg,Alemania,3,No,,False
-69,Università degli Studi di Genova,Italia,1,No,,True
-70,Université de Bretagne Occidentale,Francia,2,No,,True
-71,Uniwersytet Opolski,Polonia,2,No,,True
-72,Universität Ulm,Alemania,1,No,,False
-73,Università degli Studi di Trento,Italia,4,No,,True
-74,Université de Poitiers,Francia,2,No,,True
-75,Uniwersytet Ekonomiczny we Wrocławiu,Polonia,4,No,,False
-76,Universität Bayreuth,Alemania,1,No,,False
-77,Università degli Studi di Bari,Italia,5,No,,False
-78,Université de La Rochelle,Francia,5,No,,True
-79,Uniwersytet Humanistyczno-Przyrodniczy,Polonia,4,No,,True
-80,Universität Würzburg,Alemania,4,No,,False
-81,Università degli Studi di Ferrara,Italia,2,No,,True
-82,Université de Tours,Francia,3,No,,True
-83,Uniwersytet Artystyczny w Poznaniu,Polonia,2,No,,False
-84,Universität Konstanz,Alemania,1,No,,True
-85,Università degli Studi di Lecce,Italia,2,No,,False
-86,Université de Limoges,Francia,0,Sí,2022-12-06,False
-87,Uniwersytet Ekonomiczny w Poznaniu,Polonia,3,No,,True
-88,Universität Jena,Alemania,2,No,,False
-89,Università degli Studi di Ancona,Italia,0,Sí,2022-12-04,True
-90,Université de Bourgogne,Francia,2,No,,True
-91,Uniwersytet Rolniczy w Krakowie,Polonia,4,No,,False
-92,Universität Düsseldorf,Alemania,1,No,,True
-93,Università degli Studi di Udine,Italia,4,No,,False
-94,Université de Corse Pascal Paoli,Francia,1,No,,False
-95,Uniwersytet Zielonogórski,Polonia,2,No,,True
-96,Universität Kiel,Alemania,1,No,,False
-97,Università degli Studi di Pavia,Italia,4,No,,False
-98,Université de la Polynésie Française,Francia,5,No,,False
-99,Uniwersytet Medyczny w Białymstoku,Polonia,5,No,,True
-100,Universität Erlangen-Nürnberg,Alemania,4,No,,True
-101,Università degli Studi di Modena,Italia,5,No,,False
-102,Université de la Réunion,Francia,2,No,,False
-103,Uniwersytet Medyczny w Lublinie,Polonia,5,No,,False
-104,Universität Göttingen,Alemania,5,No,,False
-105,Università degli Studi di Camerino,Italia,3,No,,True
-106,Université de Versailles Saint-Quentin-en-Yvelines,Francia,3,No,,False
-107,Uniwersytet Medyczny w Gdańsku,Polonia,1,No,,False
-108,Universität Münster,Alemania,4,No,,False
-109,Università degli Studi di Urbino,Italia,1,No,,True
-110,Université de l'Île de la Réunion,Francia,5,No,,True
-111,Uniwersytet Medyczny w Warszawie,Polonia,2,No,,False
-112,Universität Potsdam,Alemania,5,No,,False
-113,Università degli Studi di Cassino,Italia,0,Sí,2022-11-19,True
-114,Université de l'Île de la Martinique,Francia,2,No,,True
-115,Uniwersytet Medyczny w Poznaniu,Polonia,2,No,,True
-116,Universität Hohenheim,Alemania,2,No,,True
-117,Università degli Studi di Viterbo,Italia,1,No,,True
-118,Université de l'Île de Guadeloupe,Francia,0,Sí,2022-12-10,True
-119,Uniwersytet Medyczny w Silesia,Polonia,4,No,,True
-120,Universität Passau,Alemania,4,No,,True
-121,Università degli Studi di Basilicata,Italia,3,No,,True
-122,Université de l'Île de la Guyane,Francia,1,No,,False
-123,Uniwersytet Medyczny w Gliwice,Polonia,5,No,,True
-124,Universität Hildesheim,Alemania,3,No,,True
-125,Università degli Studi dell'Insubria,Italia,1,No,,False
-126,Université de l'Île de Mayotte,Francia,5,No,,True
-127,Uniwersytet Medyczny w Katowicach,Polonia,3,No,,False
-128,Universität Siegen,Alemania,5,No,,True
-129,Università degli Studi di Salento,Italia,5,No,,True
-130,Université de l'Île de Saint Pierre et Miquelon,Francia,2,No,,True
-131,Uniwersytet Medyczny w Radom,Polonia,2,No,,True
-132,Universität Vechta,Alemania,5,No,,True
-133,Università degli Studi Magna Graecia,Italia,3,No,,False
-134,Université de l'Île de Nouvelle-Calédonie,Francia,5,No,,True
-135,Uniwersytet Medyczny w Częstochowa,Polonia,4,No,,True
-136,Universität Lüneburg,Alemania,4,No,,False
-137,Università degli Studi di Enna Kore,Italia,1,No,,False
-138,Université de l'Île de Saint Barthélemy,Francia,5,No,,False
-139,Uniwersytet Medyczny w Olsztyn,Polonia,1,No,,False
-140,Universität Bielefeld,Alemania,4,No,,False
-141,Università degli Studi del Molise,Italia,0,Sí,2022-11-30,True
-142,Université de l'Île de Saint Martin,Francia,5,No,,True
-143,Uniwersytet Medyczny w Bydgoszcz,Polonia,1,No,,True
-144,Universität Koblenz-Landau,Alemania,2,No,,True
-145,Università degli Studi di Bergamo,Italia,4,No,,False
-146,Université de l'Île de Wallis et Futuna,Francia,1,No,,True
-147,Uniwersytet Medyczny w Toruniu,Polonia,3,No,,True
-148,Universität Oldenburg,Alemania,4,No,,True
-149,Università degli Studi di Foggia,Italia,3,No,,False
-150,Université de l'Île de Saint-Pierre,Francia,5,No,,True
-151,Uniwersytet Medyczny w Elbląg,Polonia,1,No,,True
-152,Universität Osnabrück,Alemania,4,No,,False
-153,Università degli Studi della Tuscia,Italia,4,No,,True
-154,Université de l'Île de Miquelon,Francia,3,No,,False
-155,Uniwersytet Medyczny w Zamość,Polonia,4,No,,True
-156,Universität Lübeck,Alemania,4,No,,True
-157,Università degli Studi di Chieti,Italia,5,No,,False
-158,Université de l'Île de Clipperton,Francia,5,No,,True
-159,Uniwersytet Medyczny w Płock,Polonia,4,No,,True
-160,Universität Witten/Herdecke,Alemania,2,No,,True
-161,Università degli Studi di Teramo,Italia,5,No,,True
-162,Université de l'Île de Sainte Marie,Francia,0,Sí,2022-11-25,False
-163,Uniwersytet Medyczny w Słupsk,Polonia,5,No,,False
-164,Universität Flensburg,Alemania,2,No,,True
-165,Università degli Studi di Udine,Italia,3,No,,True
-166,Université de l'Île de French Guiana,Francia,4,No,,False
-167,Uniwersytet Medyczny w Suwałki,Polonia,5,No,,True
-168,Universität Rostock,Alemania,1,No,,False
-169,Università degli Studi del Piemonte Orientale,Italia,2,No,,True
-170,Université de l'Île de Saint-Denis,Francia,2,No,,True
-171,Uniwersytet Medyczny w Gorzów Wielkopolski,Polonia,2,No,,False
-172,Universität der Bundeswehr München,Alemania,3,No,,False
-173,Università degli Studi di Sassari,Italia,3,No,,True
-174,Université de l'Île de Easter Island,Francia,2,No,,True
-175,Uniwersytet Medyczny w Kielce,Polonia,3,No,,True
-176,Universität der Künste Berlin,Alemania,2,No,,True
-177,Università degli Studi di Brescia,Italia,3,No,,False
-178,Université de l'Île de Saint Helena,Francia,5,No,,True
-179,Uniwersytet Medyczny w Konin,Polonia,5,No,,True
-180,Universität der Bundeswehr Hamburg,Alemania,3,No,,True
-181,Università degli Studi del Sannio,Italia,3,No,,True
-182,Université de l'Île de Saint Kitts and Nevis,Francia,3,No,,True
-183,Uniwersytet Medyczny w Tarnów,Polonia,4,No,,True
-184,Universität für Musik und darstellende Kunst Wien,Austria,2,No,,True
-185,Università degli Studi del Salento,Italia,1,No,,True
-186,Université de l'Île de Saint Lucia,Francia,1,No,,True
-187,Uniwersytet Medyczny w Grudziądz,Polonia,3,No,,True
-188,Universität für Musik und darstellende Kunst Graz,Austria,2,No,,True
-189,Università degli Studi della Basilicata,Italia,1,No,,False
-190,Université de l'Île de Saint Vincent and the Grenadines,Francia,5,No,,True
-191,Uniwersytet Medyczny w Ostrołęka,Polonia,0,Sí,2022-11-25,True
-192,Universität für Musik und darstellende Kunst Mozarteum Salzburg,Austria,2,No,,False
-193,Università degli Studi Guglielmo Marconi,Italia,4,No,,True
-194,Université de l'Île de Samoa,Francia,3,No,,True
-195,Uniwersytet Medyczny w Radom,Polonia,1,No,,True
-196,Universität für Musik und darstellende Kunst Stuttgart,Alemania,4,No,,False
-197,Università degli Studi di Scienze Gastronomiche,Italia,5,No,,True
-198,Université de l'Île de Cook Islands,Francia,2,No,,True
-199,Uniwersytet Medyczny w Siedlce,Polonia,4,No,,True
-200,Universität für Musik und darstellende Kunst Frankfurt am Main,Alemania,4,No,,True
-201,Università degli Studi di Urbino Carlo Bo,Italia,4,No,,False
-202,Université de l'Île de Niue,Francia,0,Sí,2022-12-09,True
-203,Uniwersytet Medyczny w Nowy Sącz,Polonia,5,No,,False
-204,Universität für Musik und darstellende Kunst Mannheim,Alemania,1,No,,False
-205,Università degli Studi di Pavia,Italia,4,No,,True
-206,Université de l'Île de Tokelau,Francia,2,No,,True
-207,Uniwersytet Medyczny w Biała Podlaska,Polonia,1,No,,False
-208,Universität für Musik und darstellende Kunst Leipzig,Alemania,3,No,,True
-209,Università degli Studi della Campania Luigi Vanvitelli,Italia,1,No,,True
-210,Université de l'Île de Tonga,Francia,1,No,,True
-211,Uniwersytet Medyczny w Zgierz,Polonia,2,No,,True
-212,Universität für Musik und darstellende Kunst Dresden,Alemania,2,No,,False
-213,Università degli Studi di Foggia,Italia,3,No,,False
-214,Université de l'Île de Tuvalu,Francia,4,No,,False
-215,Uniwersytet Medyczny w Jelenia Góra,Polonia,2,No,,True
-216,Universität für Musik und darstellende Kunst München,Alemania,4,No,,True
-217,Università degli Studi di Bergamo,Italia,2,No,,True
-218,Université de l'Île de Kiribati,Francia,1,No,,True
-219,Uniwersytet Medyczny w Bielsko-Biała,Polonia,2,No,,True
-220,Universität für Musik und darstellende Kunst Berlin,Alemania,4,No,,True
-221,Università degli Studi di Bari Aldo Moro,Italia,3,No,,False
-222,Université de l'Île de Nauru,Francia,2,No,,True
-223,Uniwersytet Medyczny w Legionowo,Polonia,3,No,,False
-224,Universität für Musik und darstellende Kunst Hannover,Alemania,1,No,,False
-225,Università degli Studi di Brescia,Italia,4,No,,False
-226,Université de l'Île de Palau,Francia,1,No,,True
-227,Uniwersytet Medyczny w Otwock,Polonia,5,No,,True
-228,Universität für Musik und darstellende Kunst Hamburg,Alemania,4,No,,False
-229,Università degli Studi di Catania,Italia,4,No,,False
-230,Université de l'Île de Micronesia,Francia,4,No,,False
-231,Uniwersytet Medyczny w Świdnik,Polonia,2,No,,False
-232,Universität für Musik und darstellende Kunst Stuttgart,Alemania,4,No,,True
-233,Università degli Studi Mediterranea di Reggio Calabria,Italia,1,No,,False
-234,Université de l'Île de Marshall Islands,Francia,4,No,,True
-235,Uniwersytet Medyczny w Świebodzin,Polonia,1,No,,True
-236,Universität für Musik und darstellende Kunst Frankfurt,Alemania,5,No,,False
-237,Università degli Studi di Scienze Gastronomiche,Italia,1,No,,True
-238,Université de l'Île de Northern Mariana Islands,Francia,2,No,,True
-239,Uniwersytet Medyczny w Piotrków Trybunalski,Polonia,5,No,,True
-240,Universität für Musik und darstellende Kunst Mannheim,Alemania,4,No,,False
-241,Università Telematica Pegaso,Italia,1,No,,True
-242,Université de l'Île de Guam,Francia,2,No,,False
-243,Uniwersytet Medyczny w Płock,Polonia,3,No,,True
-244,Universität für Musik und darstellende Kunst Leipzig,Alemania,5,No,,True
-245,Università degli Studi eCampus,Italia,2,No,,False
-246,Université de l'Île de American Samoa,Francia,0,Sí,2022-12-07,True
-247,Uniwersytet Medyczny w Ostrołęka,Polonia,4,No,,True
-248,Universität für Musik und darstellende Kunst Dresden,Alemania,1,No,,True
-249,Università Telematica Internazionale UNINETTUNO,Italia,2,No,,True
-250,Université de l'Île de Wake Island,Francia,2,No,,True
-251,Uniwersytet Medyczny w Nowy Sącz,Polonia,4,No,,False
-252,Universität für Musik und darstellende Kunst München,Alemania,2,No,,False
-253,Università degli studi Roma Tre,Italia,1,No,,True
-254,Université de l'Île de Johnston Atoll,Francia,5,No,,False
-255,Uniwersytet Medyczny w Biała Podlaska,Polonia,3,No,,False
-256,Universität für Musik und darstellende Kunst Berlin,Alemania,5,No,,False
-257,Università degli Studi di Modena e Reggio Emilia,Italia,1,No,,False
-258,Université de l'Île de Midway Islands,Francia,2,No,,True
-259,Uniwersytet Medyczny w Zgierz,Polonia,4,No,,True
-260,Universität für Musik und darstellende Kunst Hannover,Alemania,2,No,,False
-261,Università degli Studi di Firenze,Italia,3,No,,False
-262,Université de l'Île de Palmyra Atoll,Francia,1,No,,False
-263,Uniwersytet Medyczny w Jelenia Góra,Polonia,3,No,,True
-264,Universität für Musik und darstellende Kunst Hamburg,Alemania,0,Sí,2022-11-20,False
-265,Università degli Studi di Siena,Italia,5,No,,False
-266,Université de l'Île de Kingman Reef,Francia,1,No,,True
-267,Uniwersytet Medyczny w Bielsko-Biała,Polonia,1,No,,True
-268,Universität für Musik und darstellende Kunst Stuttgart,Alemania,3,No,,False
-269,Università degli Studi di Pisa,Italia,3,No,,True
-270,Université de l'Île de Jarvis Island,Francia,2,No,,False
-271,Uniwersytet Medyczny w Legionowo,Polonia,1,No,,True
-272,Universität für Musik und darstellende Kunst Frankfurt,Alemania,5,No,,True
-273,Università degli Studi di Napoli Federico II,Italia,1,No,,False
-274,Université de l'Île de Howland Island,Francia,4,No,,True
-275,Uniwersytet Medyczny w Otwock,Polonia,5,No,,True
-276,Universität für Musik und darstellende Kunst Mannheim,Alemania,1,No,,True
-277,Università degli Studi di Napoli Parthenope,Italia,1,No,,True
-278,Université de l'Île de Baker Island,Francia,3,No,,True
-279,Uniwersytet Medyczny w Świdnik,Polonia,5,No,,True
-280,Universität für Musik und darstellende Kunst Leipzig,Alemania,2,No,,True
-281,Università degli Studi di Torino,Italia,3,No,,True
-282,Université de l'Île de Navassa Island,Francia,3,No,,False
-283,Uniwersytet Medyczny w Świebodzin,Polonia,5,No,,False
-284,Universität für Musik und darstellende Kunst Dresden,Alemania,4,No,,True
-285,Università degli Studi di Napoli L'Orientale,Italia,4,No,,False
-286,Université de l'Île de Serranilla Bank,Francia,1,No,,False
-287,Uniwersytet Medyczny w Piotrków Trybunalski,Polonia,2,No,,False
-288,Universität für Musik und darstellende Kunst München,Alemania,2,No,,True
-289,Università degli Studi di Milano-Bicocca,Italia,5,No,,True
-290,Université de l'Île de Bajo Nuevo Bank,Francia,0,Sí,2022-12-03,False
-291,Uniwersytet Medyczny w Płock,Polonia,5,No,,False
-292,Universität für Musik und darstellende Kunst Berlin,Alemania,2,No,,True
-293,Università degli Studi di Bologna,Italia,5,No,,True
-294,Université de l'Île de Sint Eustatius,Francia,1,No,,True
-295,Uniwersytet Medyczny w Ostrołęka,Polonia,4,No,,False
-296,Universität für Musik und darstellende Kunst Hannover,Alemania,5,No,,True
-297,Università degli Studi di Milano,Italia,2,No,,True
-298,Université de l'Île de Saba,Francia,5,No,,True
-299,Uniwersytet Medyczny w Nowy Sącz,Polonia,4,No,,False
-300,Universität für Musik und darstellende Kunst Hamburg,Alemania,1,No,,False
-301,Università degli Studi di Padova,Italia,5,No,,False
-302,Université de l'Île de Bonaire,Francia,5,No,,True
-303,Uniwersytet Medyczny w Biała Podlaska,Polonia,5,No,,True
-304,Universität für Musik und darstellende Kunst Stuttgart,Alemania,2,No,,False
-305,Università degli Studi di Roma Tor Vergata,Italia,5,No,,False
-306,Université de l'Île de Sint Maarten,Francia,0,Sí,2022-11-20,True
-307,Uniwersytet Medyczny w Zgierz,Polonia,0,Sí,2022-12-02,True
-308,Universität für Musik und darstellende Kunst Frankfurt,Alemania,2,No,,True
-309,Università degli Studi di Verona,Italia,4,No,,False
-310,Université de l'Île de Saint Martin,Francia,5,No,,True
-311,Uniwersytet Medyczny w Jelenia Góra,Polonia,5,No,,True
-312,Universität für Musik und darstellende Kunst Mannheim,Alemania,2,No,,True
-313,Università degli Studi di Genova,Italia,4,No,,True
-314,Université de l'Île de Curaçao,Francia,2,No,,False
-315,Uniwersytet Medyczny w Bielsko-Biała,Polonia,5,No,,True
-316,Universität für Musik und darstellende Kunst Leipzig,Alemania,5,No,,True
-317,Università degli Studi di Salerno,Italia,1,No,,True
-318,Université de l'Île de Aruba,Francia,4,No,,False
-319,Uniwersytet Medyczny w Legionowo,Polonia,1,No,,True
-320,Universität für Musik und darstellende Kunst Dresden,Alemania,3,No,,False
-321,Università degli Studi di Palermo,Italia,4,No,,True
-322,Université de l'Île de Saint Barthélemy,Francia,2,No,,True
-323,Uniwersytet Medyczny w Otwock,Polonia,4,No,,True
-324,Universität für Musik und darstellende Kunst München,Alemania,4,No,,False
-325,Università degli Studi di Perugia,Italia,2,No,,True
-326,Université de l'Île de Anguilla,Francia,4,No,,True
-327,Uniwersytet Medyczny w Świdnik,Polonia,5,No,,True
-328,Universität für Musik und darstellende Kunst Berlin,Alemania,2,No,,False
-329,Università degli Studi di Trento,Italia,2,No,,True
-330,Université de l'Île de British Virgin Islands,Francia,4,No,,False
-331,Uniwersytet Medyczny w Świebodzin,Polonia,2,No,,True
-332,Universität für Musik und darstellende Kunst Hannover,Alemania,1,No,,False
-333,Università degli Studi di Udine,Italia,4,No,,True
-334,Université de l'Île de U.S. Virgin Islands,Francia,3,No,,False
-335,Uniwersytet Medyczny w Piotrków Trybunalski,Polonia,2,No,,False
-336,Universität für Musik und darstellende Kunst Hamburg,Alemania,5,No,,False
-337,Università degli Studi di Pavia,Italia,4,No,,True
-338,Université de l'Île de Turks and Caicos Islands,Francia,3,No,,False
-339,Uniwersytet Medyczny w Płock,Polonia,5,No,,False
-340,Universität für Musik und darstellende Kunst Stuttgart,Alemania,1,No,,True
-341,Università degli Studi di Trieste,Italia,4,No,,True
-342,Université de l'Île de Cayman Islands,Francia,4,No,,True
-343,Uniwersytet Medyczny w Ostrołęka,Polonia,5,No,,True
-344,Universität für Musik und darstellende Kunst Frankfurt,Alemania,3,No,,True
-345,Università degli Studi di Bari Aldo Moro,Italia,2,No,,False
-346,Université de l'Île de Bermuda,Francia,5,No,,False
-347,Uniwersytet Medyczny w Nowy Sącz,Polonia,5,No,,False
-348,Universität für Musik und darstellende Kunst Mannheim,Alemania,2,No,,False
-349,Università degli Studi di Catanzaro,Italia,5,No,,False
-350,Université de l'Île de Montserrat,Francia,1,No,,True
-351,Uniwersytet Medyczny w Biała Podlaska,Polonia,5,No,,True
-352,Universität für Musik und darstellende Kunst Leipzig,Alemania,4,No,,True
-353,Università degli Studi di Sassari,Italia,4,No,,False
-354,Université de l'Île de Gibraltar,Francia,4,No,,True
-355,Uniwersytet Medyczny w Zgierz,Polonia,5,No,,False
-356,Universität für Musik und darstellende Kunst Dresden,Alemania,5,No,,True
-357,Università degli Studi di Camerino,Italia,3,No,,True
-358,Université de l'Île de Guernsey,Francia,1,No,,False
-359,Uniwersytet Medyczny w Jelenia Góra,Polonia,5,No,,True
-360,Universität für Musik und darstellende Kunst München,Alemania,4,No,,True
-361,Università degli Studi di Lecce,Italia,1,No,,True
-362,Université de l'Île de Jersey,Francia,1,No,,True
-363,Uniwersytet Medyczny w Bielsko-Biała,Polonia,2,No,,True
-364,Universität für Musik und darstellende Kunst Berlin,Alemania,3,No,,True
-365,Università degli Studi di Parma,Italia,4,No,,False
-366,Université de l'Île de Isle of Man,Francia,1,No,,True
-367,Uniwersytet Medyczny w Legionowo,Polonia,3,No,,False
-368,Universität für Musik und darstellende Kunst Hannover,Alemania,1,No,,False
-369,Università degli Studi di Ferrara,Italia,1,No,,True
-370,Université de l'Île de Faroe Islands,Francia,3,No,,False
-371,Uniwersytet Medyczny w Otwock,Polonia,5,No,,False
-372,Universität für Musik und darstellende Kunst Hamburg,Alemania,3,No,,True
+1,1. Universidad de Heidelberg,Alemania,7,No,,False
+2,2. Universidad de Viena,Austria,9,No,,True
+3,3. Universidad Libre de Bruselas,Bélgica,9,No,,True
+4,4. Universidad de Sofía,Bulgaria,3,No,,True
+5,5. Universidad de Zagreb,Croacia,2,No,,True
+6,6. Universidad de Chipre,Chipre,9,No,,True
+7,7. Universidad Carolina,República Checa,4,No,,False
+8,8. Universidad de Copenhague,Dinamarca,3,No,,False
+9,9. Universidad de Tartu,Estonia,8,No,,True
+10,10. Universidad de Helsinki,Finlandia,7,No,,True
+11,11. Universidad de Burdeos,Francia,7,No,,False
+12,12. Universidad de Atenas,Grecia,4,No,,False
+13,13. Universidad de Budapest,Hungría,6,No,,True
+14,14. Universidad de Dublín,Irlanda,1,No,,True
+15,15. Universidad de Roma,Italia,10,No,,True
+16,16. Universidad de Riga,Letonia,3,No,,True
+17,17. Universidad de Vilnius,Lituania,5,No,,True
+18,18. Universidad de Luxemburgo,Luxemburgo,7,No,,True
+19,19. Universidad de Malta,Malta,5,No,,True
+20,20. Universidad de Ámsterdam,Países Bajos,3,No,,False
+21,21. Universidad de Cracovia,Polonia,4,No,,True
+22,22. Universidad de Lisboa,Portugal,0,Sí,2022-11-20,True
+23,23. Universidad de Bucarest,Rumania,7,No,,True
+24,24. Universidad de Bratislava,Eslovaquia,5,No,,True
+25,25. Universidad de Liubliana,Eslovenia,3,No,,True
+26,26. Universidad de Estocolmo,Suecia,1,No,,True
+27,27. Universidad de Leipzig,Alemania,7,No,,False
+28,28. Universidad de Salzburgo,Austria,3,No,,False
+29,29. Universidad de Gante,Bélgica,4,No,,True
+30,30. Universidad de Plovdiv,Bulgaria,7,No,,True
+31,31. Universidad de Split,Croacia,4,No,,True
+32,32. Universidad Tecnológica de Chipre,Chipre,2,No,,False
+33,33. Universidad Masaryk,República Checa,3,No,,False
+34,34. Universidad de Aarhus,Dinamarca,3,No,,True
+35,35. Universidad de Tallin,Estonia,3,No,,True
+36,36. Universidad de Oulu,Finlandia,3,No,,True
+37,37. Universidad de Lyon,Francia,10,No,,False
+38,38. Universidad de Tesalónica,Grecia,5,No,,True
+39,39. Universidad de Pécs,Hungría,1,No,,False
+40,40. Universidad de Galway,Irlanda,5,No,,False
+41,41. Universidad de Milán,Italia,7,No,,True
+42,42. Universidad de Daugavpils,Letonia,3,No,,True
+43,43. Universidad de Kaunas,Lituania,5,No,,False
+44,44. Universidad de Luxemburgo,Luxemburgo,6,No,,True
+45,45. Universidad Mediterránea de Malta,Malta,3,No,,False
+46,46. Universidad de Rotterdam,Países Bajos,4,No,,True
+47,47. Universidad de Varsovia,Polonia,6,No,,True
+48,48. Universidad de Oporto,Portugal,5,No,,True
+49,49. Universidad de Cluj-Napoca,Rumania,3,No,,False
+50,50. Universidad de Kosice,Eslovaquia,2,No,,True
+51,51. Universidad de Maribor,Eslovenia,9,No,,True
+52,52. Universidad de Gotemburgo,Suecia,4,No,,True
+53,53. Universidad de Bonn,Alemania,7,No,,True
+54,54. Universidad de Graz,Austria,3,No,,False
+55,55. Universidad de Amberes,Bélgica,3,No,,True
+56,56. Universidad de Burgas,Bulgaria,3,No,,True
+57,57. Universidad de Rijeka,Croacia,10,No,,True
+58,58. Universidad Abierta de Chipre,Chipre,9,No,,True
+59,59. Universidad de Praga,República Checa,6,No,,True
+60,60. Universidad de Roskilde,Dinamarca,1,No,,True
+61,61. Universidad de Narva,Estonia,4,No,,False
+62,62. Universidad de Turku,Finlandia,3,No,,True
+63,63. Universidad de Toulouse,Francia,5,No,,True
+64,64. Universidad de Patras,Grecia,4,No,,True
+65,65. Universidad de Szeged,Hungría,2,No,,False
+66,66. Universidad de Limerick,Irlanda,7,No,,True
+67,67. Universidad de Nápoles,Italia,9,No,,False
+68,68. Universidad de Jelgava,Letonia,7,No,,True
+69,69. Universidad de Klaipeda,Lituania,10,No,,True
+70,70. Universidad de Luxemburgo,Luxemburgo,6,No,,True
+71,71. Universidad de Gozo,Malta,10,No,,False
+72,72. Universidad de Utrecht,Países Bajos,1,No,,True
+73,73. Universidad de Lodz,Polonia,8,No,,True
+74,74. Universidad de Coimbra,Portugal,4,No,,True
+75,75. Universidad de Iasi,Rumania,6,No,,True
+76,76. Universidad de Trnava,Eslovaquia,6,No,,False
+77,77. Universidad de Koper,Eslovenia,10,No,,True
+78,78. Universidad de Malmö,Suecia,3,No,,True
+79,79. Universidad de Freiburg,Alemania,10,No,,False
+80,80. Universidad de Innsbruck,Austria,4,No,,True
+81,81. Universidad de Lovaina,Bélgica,3,No,,True
+82,82. Universidad de Varna,Bulgaria,6,No,,True
+83,83. Universidad de Osijek,Croacia,7,No,,True
+84,84. Universidad de Nicosia,Chipre,9,No,,True
+85,85. Universidad de Brno,República Checa,6,No,,True
+86,86. Universidad de Odense,Dinamarca,3,No,,False
+87,87. Universidad de Pärnu,Estonia,10,No,,True
+88,88. Universidad de Jyväskylä,Finlandia,4,No,,True
+89,89. Universidad de Niza,Francia,6,No,,False
+90,90. Universidad de Creta,Grecia,3,No,,False
+91,91. Universidad de Debrecen,Hungría,4,No,,True
+92,92. Universidad de Cork,Irlanda,2,No,,True
+93,93. Universidad de Florencia,Italia,5,No,,False
+94,94. Universidad de Liepaja,Letonia,6,No,,False
+95,95. Universidad de Siauliai,Lituania,10,No,,True
+96,96. Universidad de Luxemburgo,Luxemburgo,3,No,,True
+97,97. Universidad de Valletta,Malta,3,No,,False
+98,98. Universidad de Leiden,Países Bajos,6,No,,False
+99,99. Universidad de Gdansk,Polonia,3,No,,False
+100,100. Universidad de Aveiro,Portugal,3,No,,True
+101,101. Universidad de Timisoara,Rumania,3,No,,True
+102,102. Universidad de Nitra,Eslovaquia,3,No,,True
+103,103. Universidad de Nova Gorica,Eslovenia,2,No,,True
+104,104. Universidad de Uppsala,Suecia,3,No,,True
+105,105. Universidad de Düsseldorf,Alemania,4,No,,True
+106,106. Universidad de Klagenfurt,Austria,1,No,,False
+107,107. Universidad de Hasselt,Bélgica,2,No,,True
+108,108. Universidad de Stara Zagora,Bulgaria,6,No,,False
+109,109. Universidad de Zadar,Croacia,7,No,,True
+110,110. Universidad Europea de Chipre,Chipre,3,No,,True
+111,111. Universidad de Pilsen,República Checa,3,No,,True
+112,112. Universidad de Viborg,Dinamarca,1,No,,True
+113,113. Universidad de Haapsalu,Estonia,0,Sí,2022-11-25,False
+114,114. Universidad de Lapland,Finlandia,9,No,,True
+115,115. Universidad de Marsella,Francia,5,No,,False
+116,116. Universidad de Ioannina,Grecia,3,No,,True
+117,117. Universidad de Miskolc,Hungría,0,Sí,2022-11-29,True
+118,118. Universidad de Waterford,Irlanda,3,No,,True
+119,119. Universidad de Turín,Italia,3,No,,False
+120,120. Universidad de Ventspils,Letonia,7,No,,False
+121,121. Universidad de Alytus,Lituania,8,No,,False
+122,122. Universidad de Luxemburgo,Luxemburgo,3,No,,True
+123,123. Universidad de Birkirkara,Malta,7,No,,False
+124,124. Universidad de Groningen,Países Bajos,1,No,,True
+125,125. Universidad de Wroclaw,Polonia,3,No,,True
+126,126. Universidad de Évora,Portugal,1,No,,True
+127,127. Universidad de Brasov,Rumania,6,No,,True
+128,128. Universidad de Banska Bystrica,Eslovaquia,10,No,,True
+129,129. Universidad de Nova Mesto,Eslovenia,8,No,,True
+130,130. Universidad de Lund,Suecia,10,No,,True
+131,131. Universidad de Hamburgo,Alemania,6,No,,False
+132,132. Universidad de Linz,Austria,4,No,,True
+133,133. Universidad de Mons,Bélgica,0,Sí,2022-11-23,True
+134,134. Universidad de Blagoevgrad,Bulgaria,0,Sí,2022-11-26,True
+135,135. Universidad de Dubrovnik,Croacia,7,No,,True
+136,136. Universidad de Limassol,Chipre,7,No,,False
+137,137. Universidad de Olomouc,República Checa,3,No,,True
+138,138. Universidad de Aalborg,Dinamarca,3,No,,False
+139,139. Universidad de Narva,Estonia,3,No,,True
+140,140. Universidad de Vaasa,Finlandia,1,No,,True
+141,141. Universidad de Estrasburgo,Francia,3,No,,True
+142,142. Universidad de Heraklion,Grecia,5,No,,True
+143,143. Universidad de Nyiregyhaza,Hungría,7,No,,True
+144,144. Universidad de Maynooth,Irlanda,1,No,,True
+145,145. Universidad de Palermo,Italia,7,No,,True
+146,146. Universidad de Rezekne,Letonia,3,No,,True
+147,147. Universidad de Telsiai,Lituania,4,No,,True
+148,148. Universidad de Luxemburgo,Luxemburgo,6,No,,True
+149,149. Universidad de Sliema,Malta,4,No,,False
+150,150. Universidad de Eindhoven,Países Bajos,7,No,,True
+151,151. Universidad de Poznan,Polonia,5,No,,True
+152,152. Universidad de Faro,Portugal,3,No,,True
+153,153. Universidad de Sibiu,Rumania,4,No,,True
+154,154. Universidad de Prešov,Eslovaquia,10,No,,False
+155,155. Universidad de Ptuj,Eslovenia,7,No,,True
+156,156. Universidad de Kalmar,Suecia,5,No,,False
+157,157. Universidad de Frankfurt,Alemania,3,No,,True
+158,158. Universidad de Salzburgo,Austria,8,No,,False
+159,159. Universidad de Namur,Bélgica,6,No,,True
+160,160. Universidad de Rousse,Bulgaria,7,No,,True
+161,161. Universidad de Pula,Croacia,3,No,,True
+162,162. Universidad de Paphos,Chipre,3,No,,True
+163,163. Universidad de Liberec,República Checa,5,No,,False
+164,164. Universidad de Esbjerg,Dinamarca,4,No,,True
+165,165. Universidad de Rakvere,Estonia,2,No,,False
+166,166. Universidad de Kuopio,Finlandia,9,No,,False
+167,167. Universidad de Montpellier,Francia,2,No,,True
+168,168. Universidad de Larissa,Grecia,4,No,,False
+169,169. Universidad de Eger,Hungría,0,Sí,2022-12-04,True
+170,170. Universidad de Athlone,Irlanda,8,No,,False
+171,171. Universidad de Génova,Italia,5,No,,True
+172,172. Universidad de Kuldiga,Letonia,4,No,,True
+173,173. Universidad de Marijampole,Lituania,5,No,,True
+174,174. Universidad de Luxemburgo,Luxemburgo,2,No,,False
+175,175. Universidad de Mosta,Malta,5,No,,False
+176,176. Universidad de Maastricht,Países Bajos,9,No,,True
+177,177. Universidad de Lublin,Polonia,6,No,,True
+178,178. Universidad de Braga,Portugal,7,No,,True
+179,179. Universidad de Galati,Rumania,2,No,,True
+180,180. Universidad de Žilina,Eslovaquia,3,No,,True
+181,181. Universidad de Celje,Eslovenia,9,No,,True
+182,182. Universidad de Linköping,Suecia,9,No,,False
+183,183. Universidad de Stuttgart,Alemania,1,No,,False
+184,184. Universidad de Bregenz,Austria,7,No,,False
+185,185. Universidad de Lieja,Bélgica,8,No,,True
+186,186. Universidad de Sliven,Bulgaria,3,No,,True
+187,187. Universidad de Fiume,Croacia,0,Sí,2022-12-01,False
+188,188. Universidad de Famagusta,Chipre,8,No,,True
+189,189. Universidad de Plzen,República Checa,5,No,,True
+190,190. Universidad de Herning,Dinamarca,3,No,,True
+191,191. Universidad de Kohtla-Järve,Estonia,3,No,,False
+192,192. Universidad de Savonlinna,Finlandia,3,No,,True
+193,193. Universidad de Rennes,Francia,7,No,,False
+194,194. Universidad de Volos,Grecia,6,No,,True
+195,195. Universidad de Sopron,Hungría,3,No,,False
+196,196. Universidad de Carlow,Irlanda,6,No,,False
+197,197. Universidad de Verona,Italia,4,No,,True
+198,198. Universidad de Valmiera,Letonia,2,No,,True
+199,199. Universidad de Panevezys,Lituania,3,No,,True
+200,200. Universidad de Luxemburgo,Luxemburgo,6,No,,True
+201,201. Universidad de Rabat,Malta,4,No,,False
+202,202. Universidad de Nijmegen,Países Bajos,5,No,,True
+203,203. Universidad de Bialystok,Polonia,5,No,,True
+204,204. Universidad de Leiria,Portugal,3,No,,False
+205,205. Universidad de Oradea,Rumania,0,Sí,2022-11-26,False
+206,206. Universidad de Trencin,Eslovaquia,7,No,,True
+207,207. Universidad de Velenje,Eslovenia,2,No,,True
+208,208. Universidad de Norrköping,Suecia,7,No,,False
+209,209. Universidad de Tübingen,Alemania,5,No,,True
+210,210. Universidad de Feldkirch,Austria,5,No,,False
+211,211. Universidad de Gante,Bélgica,5,No,,True
+212,212. Universidad de Dobrich,Bulgaria,2,No,,True
+213,213. Universidad de Sibenik,Croacia,3,No,,True
+214,214. Universidad de Larnaca,Chipre,7,No,,False
+215,215. Universidad de Hradec Kralove,República Checa,1,No,,False
+216,216. Universidad de Kolding,Dinamarca,0,Sí,2022-11-26,False
+217,217. Universidad de Jõhvi,Estonia,7,No,,True
+218,218. Universidad de Rovaniemi,Finlandia,3,No,,False
+219,219. Universidad de Lille,Francia,7,No,,False
+220,220. Universidad de Serres,Grecia,4,No,,True
+221,221. Universidad de Kaposvar,Hungría,3,No,,True
+222,222. Universidad de Sligo,Irlanda,7,No,,False
+223,223. Universidad de Bologna,Italia,7,No,,False
+224,224. Universidad de Jekabpils,Letonia,8,No,,False
+225,225. Universidad de Utena,Lituania,5,No,,True
+226,226. Universidad de Luxemburgo,Luxemburgo,5,No,,True
+227,227. Universidad de Qormi,Malta,4,No,,False
+228,228. Universidad de Tilburg,Países Bajos,3,No,,True
+229,229. Universidad de Katowice,Polonia,7,No,,True
+230,230. Universidad de Setúbal,Portugal,3,No,,False
+231,231. Universidad de Arad,Rumania,6,No,,True
+232,232. Universidad de Martin,Eslovaquia,7,No,,False
+233,233. Universidad de Trbovlje,Eslovenia,4,No,,True
+234,234. Universidad de Borås,Suecia,5,No,,True
+235,235. Universidad de Münster,Alemania,6,No,,False
+236,236. Universidad de Dornbirn,Austria,7,No,,True
+237,237. Universidad de Lovaina,Bélgica,2,No,,False
+238,238. Universidad de Gabrovo,Bulgaria,4,No,,True
+239,239. Universidad de Vukovar,Croacia,7,No,,True
+240,240. Universidad de Kyrenia,Chipre,3,No,,False
+241,241. Universidad de Ostrava,República Checa,5,No,,True
+242,242. Universidad de Vejle,Dinamarca,4,No,,True
+243,243. Universidad de Viljandi,Estonia,10,No,,False
+244,244. Universidad de Kajaani,Finlandia,3,No,,False
+245,245. Universidad de Grenoble,Francia,7,No,,True
+246,246. Universidad de Kavala,Grecia,8,No,,True
+247,247. Universidad de Győr,Hungría,7,No,,False
+248,248. Universidad de Dundalk,Irlanda,1,No,,False
+249,249. Universidad de Pisa,Italia,4,No,,False
+250,250. Universidad de Bauska,Letonia,9,No,,True
+251,251. Universidad de Kedainiai,Lituania,3,No,,True
+252,252. Universidad de Luxemburgo,Luxemburgo,5,No,,False
+253,253. Universidad de Zebbug,Malta,3,No,,False
+254,254. Universidad de Twente,Países Bajos,10,No,,True
+255,255. Universidad de Szczecin,Polonia,7,No,,False
+256,256. Universidad de Santarém,Portugal,5,No,,True
+257,257. Universidad de Bacau,Rumania,10,No,,False
+258,258. Universidad de Poprad,Eslovaquia,4,No,,True
+259,259. Universidad de Krsko,Eslovenia,3,No,,False
+260,260. Universidad de Karlstad,Suecia,3,No,,True
+261,261. Universidad de Bielefeld,Alemania,7,No,,True
+262,262. Universidad de Eisenstadt,Austria,10,No,,True
+263,263. Universidad de Malinas,Bélgica,6,No,,False
+264,264. Universidad de Haskovo,Bulgaria,4,No,,True
+265,265. Universidad de Karlovac,Croacia,5,No,,False
+266,266. Universidad de Ayia Napa,Chipre,6,No,,True
+267,267. Universidad de Zlín,República Checa,7,No,,True
+268,268. Universidad de Holstebro,Dinamarca,0,Sí,2022-11-28,True
+269,269. Universidad de Sillamäe,Estonia,4,No,,True
+270,270. Universidad de Seinäjoki,Finlandia,4,No,,True
+271,271. Universidad de Nantes,Francia,7,No,,False
+272,272. Universidad de Komotini,Grecia,3,No,,True
+273,273. Universidad de Zalaegerszeg,Hungría,5,No,,False
+274,274. Universidad de Waterford,Irlanda,10,No,,True
+275,275. Universidad de Padova,Italia,8,No,,True
+276,276. Universidad de Cesis,Letonia,10,No,,True
+277,277. Universidad de Druskininkai,Lituania,10,No,,False
+278,278. Universidad de Luxemburgo,Luxemburgo,4,No,,True
+279,279. Universidad de Dingli,Malta,6,No,,True
+280,280. Universidad de Wageningen,Países Bajos,4,No,,False
+281,281. Universidad de Radom,Polonia,8,No,,True
+282,282. Universidad de Viseu,Portugal,5,No,,True
+283,283. Universidad de Pitesti,Rumania,9,No,,True
+284,284. Universidad de Prievidza,Eslovaquia,3,No,,True
+285,285. Universidad de Murska Sobota,Eslovenia,5,No,,False
+286,286. Universidad de Halmstad,Suecia,3,No,,False
+287,287. Universidad de Wuppertal,Alemania,5,No,,True
+288,288. Universidad de St. Pölten,Austria,10,No,,True
+289,289. Universidad de Tournai,Bélgica,10,No,,False
+290,290. Universidad de Pernik,Bulgaria,6,No,,True
+291,291. Universidad de Bjelovar,Croacia,1,No,,True
+292,292. Universidad de Paphos,Chipre,3,No,,True
+293,293. Universidad de Pardubice,República Checa,5,No,,False
+294,294. Universidad de Randers,Dinamarca,6,No,,True
+295,295. Universidad de Rapla,Estonia,5,No,,False
+296,296. Universidad de Lappeenranta,Finlandia,7,No,,True
+297,297. Universidad de Aviñón,Francia,5,No,,True
+298,298. Universidad de Xanthi,Grecia,10,No,,True
+299,299. Universidad de Mátészalka,Hungría,1,No,,True
+300,300. Universidad de Louth,Irlanda,2,No,,False
+301,301. Universidad de Catania,Italia,2,No,,False
+302,302. Universidad de Tukums,Letonia,9,No,,True
+303,303. Universidad de Silute,Lituania,4,No,,True
+304,304. Universidad de Luxemburgo,Luxemburgo,0,Sí,2022-11-25,False
+305,305. Universidad de Victoria,Malta,0,Sí,2022-11-23,False
+306,306. Universidad de Radboud,Países Bajos,1,No,,True
+307,307. Universidad de Gliwice,Polonia,3,No,,True
+308,308. Universidad de Beja,Portugal,4,No,,False
+309,309. Universidad de Brasov,Rumania,2,No,,True
+310,310. Universidad de Spisska Nova Ves,Eslovaquia,4,No,,True
+311,311. Universidad de Nova Gorica,Eslovenia,6,No,,True
+312,312. Universidad de Örebro,Suecia,5,No,,True
+313,313. Universidad de Würzburg,Alemania,9,No,,True
+314,314. Universidad de Leoben,Austria,9,No,,True
+315,315. Universidad de Namur,Bélgica,9,No,,True
+316,316. Universidad de Smolyan,Bulgaria,2,No,,False
+317,317. Universidad de Zapresic,Croacia,3,No,,False
+318,318. Universidad de Polis,Chipre,5,No,,True
+319,319. Universidad de Jihlava,República Checa,8,No,,False
+320,320. Universidad de Silkeborg,Dinamarca,2,No,,False
+321,321. Universidad de Põlva,Estonia,3,No,,False
+322,322. Universidad de Mikkeli,Finlandia,5,No,,True
+323,323. Universidad de La Rochelle,Francia,6,No,,True
+324,324. Universidad de Karditsa,Grecia,4,No,,True
+325,325. Universidad de Veszprém,Hungría,3,No,,True
+326,326. Universidad de Roscommon,Irlanda,3,No,,True
+327,327. Universidad de Bari,Italia,5,No,,False
+328,328. Universidad de Ogre,Letonia,4,No,,True
+329,329. Universidad de Plunge,Lituania,9,No,,False
+330,330. Universidad de Luxemburgo,Luxemburgo,5,No,,True
+331,331. Universidad de Attard,Malta,5,No,,True
+332,332. Universidad de Delft,Países Bajos,6,No,,False
+333,333. Universidad de Opole,Polonia,2,No,,True
+334,334. Universidad de Portalegre,Portugal,2,No,,False
+335,335. Universidad de Drobeta-Turnu Severin,Rumania,1,No,,True
+336,336. Universidad de Michalovce,Eslovaquia,0,Sí,2022-12-04,True
+337,337. Universidad de Ptuj,Eslovenia,5,No,,True
+338,338. Universidad de Sundsvall,Suecia,10,No,,True
+339,339. Universidad de Koblenz,Alemania,5,No,,True
+340,340. Universidad de Krems,Austria,1,No,,True
+341,341. Universidad de Lieja,Bélgica,3,No,,True
+342,342. Universidad de Montana,Bulgaria,7,No,,False
+343,343. Universidad de Split,Croacia,6,No,,True
+344,344. Universidad de Kyrenia,Chipre,4,No,,True
+345,345. Universidad de Moravia,República Checa,3,No,,True
+346,346. Universidad de Koge,Dinamarca,9,No,,True
+347,347. Universidad de Narva,Estonia,7,No,,True
+348,348. Universidad de Kuopio,Finlandia,0,Sí,2022-11-18,True
+349,349. Universidad de Angers,Francia,3,No,,True
+350,350. Universidad de Ioannina,Grecia,3,No,,True
+351,351. Universidad de Debrecen,Hungría,6,No,,True
+352,352. Universidad de Sligo,Irlanda,7,No,,True
+353,353. Universidad de Verona,Italia,3,No,,True
+354,354. Universidad de Daugavpils,Letonia,5,No,,True
+355,355. Universidad de Marijampole,Lituania,6,No,,True
+356,356. Universidad de Luxemburgo,Luxemburgo,3,No,,False
+357,357. Universidad de Gozo,Malta,3,No,,True
+358,358. Universidad de Utrecht,Países Bajos,5,No,,True
+359,359. Universidad de Szczecin,Polonia,9,No,,True
+360,360. Universidad de Beja,Portugal,5,No,,True
+361,361. Universidad de Bacau,Rumania,5,No,,True
+362,362. Universidad de Zvolen,Eslovaquia,2,No,,True
+363,363. Universidad de Kranj,Eslovenia,3,No,,True
+364,364. Universidad de Linköping,Suecia,0,Sí,2022-11-23,False
+365,365. Universidad de Trier,Alemania,6,No,,False
+366,366. Universidad de Wiener Neustadt,Austria,5,No,,True
+367,367. Universidad de Mons,Bélgica,7,No,,True
+368,368. Universidad de Pazardzhik,Bulgaria,10,No,,False
+369,369. Universidad de Rijeka,Croacia,5,No,,True
+370,370. Universidad de Famagusta,Chipre,1,No,,True
+371,371. Universidad de Liberec,República Checa,4,No,,False
+372,372. Universidad de Aalborg,Dinamarca,3,No,,False
+373,373. Universidad de Rakvere,Estonia,6,No,,False
+374,374. Universidad de Turku,Finlandia,3,No,,False
+375,375. Universidad de Rouen,Francia,5,No,,True
+376,376. Universidad de Komotini,Grecia,6,No,,False
+377,377. Universidad de Miskolc,Hungría,0,Sí,2022-11-18,False
+378,378. Universidad de Carlow,Irlanda,9,No,,True
+379,379. Universidad de Padova,Italia,4,No,,True
+380,380. Universidad de Kuldiga,Letonia,7,No,,True
+381,381. Universidad de Alytus,Lituania,8,No,,False
+382,382. Universidad de Luxemburgo,Luxemburgo,5,No,,False
+383,383. Universidad de Mosta,Malta,0,Sí,2022-11-19,False
+384,384. Universidad de Leiden,Países Bajos,8,No,,True
+385,385. Universidad de Lodz,Polonia,3,No,,True
+386,386. Universidad de Faro,Portugal,9,No,,False
+387,387. Universidad de Brasov,Rumania,4,No,,False
+388,388. Universidad de Prešov,Eslovaquia,1,No,,True
+389,389. Universidad de Celje,Eslovenia,7,No,,True
+390,390. Universidad de Borås,Suecia,9,No,,True
+391,391. Universidad de Bremen,Alemania,10,No,,True
+392,392. Universidad de Graz,Austria,8,No,,True
+393,393. Universidad de Lovaina,Bélgica,1,No,,True
+394,394. Universidad de Gabrovo,Bulgaria,4,No,,True
+395,395. Universidad de Dubrovnik,Croacia,2,No,,True
+396,396. Universidad de Ayia Napa,Chipre,6,No,,False
+397,397. Universidad de Olomouc,República Checa,4,No,,True
+398,398. Universidad de Herning,Dinamarca,3,No,,False
+399,399. Universidad de Sillamäe,Estonia,1,No,,False
+400,400. Universidad de Seinäjoki,Finlandia,6,No,,True

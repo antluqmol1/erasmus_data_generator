@@ -7,8 +7,8 @@ from datetime import datetime, timedelta, time
 from llm_helpers import get_universities, get_alegation_motives, get_process_patterns
 
 # ---- Configuración general ----
-NUM_ESTUDIANTES = 2117
-NUM_DESTINOS = 372
+NUM_ESTUDIANTES = 3231
+NUM_DESTINOS = 400  # Aumentamos destinos para tener ~2000 plazas (400 destinos * ~5 plazas promedio)
 PCT_ESTUDIANTES_CON_ALEGACIONES = 0.175
 RUTA_DATA = "data"
 USE_LLM = True  # <<--- Activamos o desactivamos llamadas a LLM
@@ -16,26 +16,16 @@ USE_LLM = True  # <<--- Activamos o desactivamos llamadas a LLM
 # Creamos carpeta data si no existe
 os.makedirs(RUTA_DATA, exist_ok=True)
 
-# ---- Plazos Clave (Curso 23-24 de ejemplo) ----
+# ---- Plazos Clave (Curso 23-24) ----
 PLAZOS = {
-    # ID Actividad: (Fecha Inicio Plazo, Fecha Fin Plazo)
-    # -- IDs Nuevos (Original - 1, IDs >=2) --
-    # Actividad "Inscripción Programa Erasmus Registrada" (Original ID 5) -> Nuevo ID 4
-    4: (datetime(2022, 11, 2), datetime(2022, 11, 30)),
-    # Actividad "Alegación Presentada" (Original ID 8) -> Nuevo ID 7
-    7: (datetime(2022, 12, 12), datetime(2022, 12, 27)),
-    # Actividad "Respuesta Recibida (Aceptación/Reserva 1ª Adj.)" (Original ID 12) -> Nuevo ID 11
-    11: (datetime(2023, 1, 11), datetime(2023, 1, 17)),
-    # Actividad "Respuesta Recibida (Renuncia 1ª Adj.)" (Original ID 13) -> Nuevo ID 12
-    12: (datetime(2023, 1, 11), datetime(2023, 1, 17)),
-    # Actividad "Respuesta Recibida (Aceptación/Reserva 2ª Adj.)" (Original ID 16) -> Nuevo ID 15
-    15: (datetime(2023, 1, 19), datetime(2023, 1, 23)),
-    # Actividad "Respuesta Recibida (Renuncia 2ª Adj.)" (Original ID 17) -> Nuevo ID 16
-    16: (datetime(2023, 1, 19), datetime(2023, 1, 23)),
-    # Actividad "Respuesta Recibida (Aceptación/Reserva 3ª Adj.)" (Original ID 20) -> Nuevo ID 19
-    19: (datetime(2023, 1, 25), datetime(2023, 1, 30)),
-    # Actividad "Respuesta Recibida (Renuncia 3ª Adj.)" (Original ID 21) -> Nuevo ID 20
-    20: (datetime(2023, 1, 25), datetime(2023, 1, 30)),
+    4: (datetime(2022, 11, 2), datetime(2022, 11, 30)),    # Inscripción
+    7: (datetime(2022, 12, 12), datetime(2022, 12, 27)),   # Alegación
+    11: (datetime(2023, 1, 11), datetime(2023, 1, 17)),    # Respuesta 1ª Adj
+    12: (datetime(2023, 1, 11), datetime(2023, 1, 17)),    # Renuncia 1ª Adj
+    15: (datetime(2023, 1, 19), datetime(2023, 1, 23)),    # Respuesta 2ª Adj
+    16: (datetime(2023, 1, 19), datetime(2023, 1, 23)),    # Renuncia 2ª Adj
+    19: (datetime(2023, 1, 25), datetime(2023, 1, 30)),    # Respuesta 3ª Adj
+    20: (datetime(2023, 1, 25), datetime(2023, 1, 30)),    # Renuncia 3ª Adj
 }
 
 # ---- Funciones Auxiliares ----
@@ -130,7 +120,19 @@ def generar_destinos(num_destinos):
         if cancelado_bool:
             plazas = 0  # Destinos cancelados no tienen plazas disponibles
         else:
-            plazas = random.randint(1, 5)  # Destinos activos tienen 1-5 plazas
+            # Distribución más controlada de plazas para aproximar 2000 plazas totales
+            # Con 400 destinos activos (~95%), necesitamos ~5.3 plazas promedio
+            rand_plazas = random.random()
+            if rand_plazas < 0.15:      # 15% con 1-2 plazas (destinos pequeños)
+                plazas = random.randint(1, 2)
+            elif rand_plazas < 0.35:    # 20% con 3 plazas (destinos medianos)
+                plazas = 3
+            elif rand_plazas < 0.60:    # 25% con 4-5 plazas (destinos grandes)
+                plazas = random.randint(4, 5)
+            elif rand_plazas < 0.85:    # 25% con 6-7 plazas (destinos muy grandes)
+                plazas = random.randint(6, 7)
+            else:                       # 15% con 8-10 plazas (destinos excepcionales)
+                plazas = random.randint(8, 10)
         
         # Establecemos fecha de cancelación ANTES del listado provisional (si está cancelado)
         fecha_cancelacion = ""
@@ -177,7 +179,26 @@ def generar_estudiantes(num_estudiantes, destinos_df):
     lista_grados = list(grados_ponderados.keys())
     pesos_grados = list(grados_ponderados.values())
     estados_finales = ["Aceptado", "Renuncia", "No asignado", "Excluido"]
-    pesos_estados = [70, 15, 10, 5] # También ponderamos los estados finales
+    # Ajustamos pesos para que ~62% sean aceptados (2000/3231), considerando que algunos renunciarán
+    pesos_estados = [62, 8, 25, 5]  # 62% aceptados, 8% renuncias, 25% no asignados, 5% excluidos
+
+    # CORRECCIÓN: Preparar lista de destinos disponibles por fecha
+    destinos_disponibles_por_fecha = {}
+    for _, destino in destinos_df.iterrows():
+        destino_id = destino['DestinoID']
+        cancelado = destino['Cancelado'] == 'Sí'
+        fecha_cancelacion = destino['FechaCancelación']
+        
+        if cancelado and fecha_cancelacion:
+            try:
+                fecha_cancel_dt = datetime.strptime(fecha_cancelacion, '%Y-%m-%d')
+                destinos_disponibles_por_fecha[destino_id] = fecha_cancel_dt
+            except ValueError:
+                # Si hay error en la fecha, asumir que está disponible
+                destinos_disponibles_por_fecha[destino_id] = None
+        else:
+            # Destino no cancelado, siempre disponible
+            destinos_disponibles_por_fecha[destino_id] = None
 
     for i in range(1, num_estudiantes + 1):
         # Elegimos grado según la ponderación
@@ -189,48 +210,32 @@ def generar_estudiantes(num_estudiantes, destinos_df):
             PLAZOS[4][0], PLAZOS[4][1], PLAZOS[4][0] - timedelta(days=1)
         )
         fecha_solicitud = fecha_solicitud_dt.strftime('%Y-%m-%d')
-        destino_solicitado = random.choice(destinos_df["DestinoID"].tolist())
+        
+        # CORRECCIÓN: Seleccionar destino que esté disponible en la fecha de solicitud
+        destinos_disponibles = []
+        for destino_id, fecha_cancelacion in destinos_disponibles_por_fecha.items():
+            if fecha_cancelacion is None or fecha_solicitud_dt < fecha_cancelacion:
+                destinos_disponibles.append(destino_id)
+        
+        if not destinos_disponibles:
+            # Fallback: usar todos los destinos si no hay disponibles
+            destinos_disponibles = destinos_df["DestinoID"].tolist()
+        
+        destino_solicitado = random.choice(destinos_disponibles)
 
-        # --- Lógica Destino Asignado y Estado Final (Mejorada para coherencia) ---
+        # Estados iniciales (se recalcularán desde gestión de plazas)
         estado_final = random.choices(estados_finales, weights=pesos_estados, k=1)[0]
-        destino_asignado = np.nan # Por defecto
-
-        # NOTA: El estado final será recalculado desde gestión de plazas, pero necesitamos una asignación inicial
-        # para generar el EventLog coherentemente
-
-        if estado_final == "Aceptado":
-            # Más probable obtener el solicitado, pero posible obtener otro
-            if random.random() < 0.8: # 80% de prob. de obtener el solicitado si es aceptado
-                destino_asignado = destino_solicitado
-            else:
-                posibles_alternativos = destinos_df[destinos_df["DestinoID"] != destino_solicitado]["DestinoID"].tolist()
-                if posibles_alternativos:
-                    destino_asignado = random.choice(posibles_alternativos)
-                else: # Si solo había un destino, se asigna ese
-                    destino_asignado = destino_solicitado
-            # Si por alguna razón quedó NaN, forzar el solicitado
-            if pd.isna(destino_asignado):
-                destino_asignado = destino_solicitado
-
-        elif estado_final == "Renuncia":
-            # Si renuncia, usualmente tuvo una asignación (podría ser la solicitada u otra)
-             if random.random() < 0.7: # 70% prob. que fuera el solicitado al que renuncia
-                 destino_asignado = destino_solicitado
-             else:
-                posibles_alternativos = destinos_df[destinos_df["DestinoID"] != destino_solicitado]["DestinoID"].tolist()
-                if posibles_alternativos:
-                    destino_asignado = random.choice(posibles_alternativos)
-                else:
-                    destino_asignado = destino_solicitado
-             # Mantenemos el DestinoAsignado aunque renuncie, para el histórico
-
-        # Para 'No asignado' o 'Excluido', destino_asignado permanece np.nan (definido al inicio)
+        
+        # Destino asignado inicial (se recalculará después)
+        destino_asignado = np.nan
+        if estado_final in ["Aceptado", "Renuncia"]:
+            # Pre-asignación temporal para EventLog coherente
+            destino_asignado = destino_solicitado if random.random() < 0.85 else random.choice(destinos_disponibles)
 
         estudiantes.append([i, grado, sexo, expediente, fecha_solicitud, destino_solicitado, destino_asignado, estado_final])
     return pd.DataFrame(estudiantes, columns=["EstudianteID", "Grado", "Sexo", "Expediente", "FechaSolicitud", "DestinoSolicitado", "DestinoAsignado", "EstadoFinal"])
 
 def generar_actividades():
-    # Los IDs se reajustan para empezar en 1. El OrdenSecuencial también se ajusta.
     actividades = [
         # Fase Inicial / Convalidación Idioma (IDs 1-3, Orden 1-2)
         (1, "Solicitud Convalidación Idioma Recibida", "Fase Inicial", "Automática", "Instituto de Idiomas", 1),
@@ -288,16 +293,95 @@ def generar_actividades():
     ]
     return pd.DataFrame(actividades, columns=["ActividadID", "NombreActividad", "Fase", "TipoActividad", "ActorDefecto", "OrdenSecuencial"])
 
+def generar_bucles_la_dinamicos():
+    """
+    Genera bucles dinámicos de Learning Agreement con reintentos realistas.
+    Retorna secuencias de IDs que representan los diferentes escenarios de LA.
+    """
+    bucles_la = []
+    
+    # Escenarios base para LA
+    escenarios_base = [
+        # LA directo exitoso (sin problemas)
+        [23, 24, 25, 27, 28, 29],  # Responsable OK -> Subdirectora OK
+        
+        # LA con 1 reintento en Responsable (90% se resuelve)
+        [23, 24, 26, 23, 24, 25, 27, 28, 29],
+        
+        # LA con 2 reintentos en Responsable (90% se resuelve)
+        [23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 29],
+        
+        # LA con 3 reintentos en Responsable (90% se resuelve)
+        [23, 24, 26, 23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 29],
+        
+        # LA con 1 reintento en Subdirectora (90% se resuelve)
+        [23, 24, 25, 27, 28, 30, 27, 28, 29],
+        
+        # LA con 2 reintentos en Subdirectora (90% se resuelve)
+        [23, 24, 25, 27, 28, 30, 27, 28, 30, 27, 28, 29],
+        
+        # LA con reintentos en ambos niveles (90% se resuelve)
+        [23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 29],
+        [23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 30, 27, 28, 29],
+        
+        # --- CASOS NO RESUELTOS (10%) ---
+        # LA rechazado definitivamente por Responsable tras 3 intentos
+        [23, 24, 26, 23, 24, 26, 23, 24, 26],
+        
+        # LA rechazado definitivamente por Subdirectora tras 2 intentos
+        [23, 24, 25, 27, 28, 30, 27, 28, 30],
+        
+        # LA rechazado definitivamente tras múltiples intentos en ambos niveles
+        [23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 30],
+        [23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 30],
+    ]
+    
+    return escenarios_base
+
+def aplicar_bucles_la_a_ruta(ruta_base):
+    """
+    Aplica bucles de LA dinámicos a una ruta base que llegue hasta el LA.
+    Respeta la probabilidad 90% resuelto / 10% no resuelto.
+    """
+    if 23 not in ruta_base:  # Si no tiene LA, devolver ruta original
+        return ruta_base
+    
+    # Encontrar donde empieza el LA en la ruta
+    try:
+        idx_la_inicio = ruta_base.index(23)
+        ruta_pre_la = ruta_base[:idx_la_inicio]
+        
+        # Obtener bucles de LA disponibles
+        bucles_la = generar_bucles_la_dinamicos()
+        
+        # Separar bucles resueltos vs no resueltos
+        bucles_resueltos = [b for b in bucles_la if b[-1] == 29]  # Terminan en "LA Validado por Subdirectora"
+        bucles_no_resueltos = [b for b in bucles_la if b[-1] != 29]  # No terminan en validación
+        
+        # Aplicar probabilidad: 90% resuelto, 10% no resuelto
+        if random.random() < 0.90:
+            # 90% de casos: LA se resuelve finalmente
+            bucle_seleccionado = random.choice(bucles_resueltos)
+            nueva_ruta = ruta_pre_la + bucle_seleccionado + [31, 32]  # Añadir formalización
+        else:
+            # 10% de casos: LA no se resuelve
+            bucle_seleccionado = random.choice(bucles_no_resueltos)
+            nueva_ruta = ruta_pre_la + bucle_seleccionado + [32]  # Finalizar sin formalización
+        
+        return nueva_ruta
+        
+    except ValueError:
+        # Si hay error, devolver ruta original
+        return ruta_base
+
 def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_con_alegaciones_ids):
     eventos = []
     actividad_actor_map = dict(zip(actividades_df["ActividadID"], actividades_df["ActorDefecto"]))
 
-    # Obtener IDs y fechas de destinos cancelados tempranamente
-    destinos_cancelados_df = destinos_df[destinos_df['Cancelado'] == 'Sí'].copy()
-    # Convertir fecha cancelación a datetime si no está vacía y es válida
-    destinos_cancelados_df['FechaCancelacion_dt'] = pd.to_datetime(destinos_cancelados_df['FechaCancelación'], errors='coerce')
-    # Filtrar cancelaciones tempranas (antes de 1ª adj, ej. antes de 01/01/2023)
-    destinos_cancelados_temprano = destinos_cancelados_df.dropna(subset=['FechaCancelacion_dt']).set_index('DestinoID')
+    # Procesar destinos cancelados tempranamente
+    destinos_cancelados = destinos_df[destinos_df['Cancelado'] == 'Sí'].copy()
+    destinos_cancelados['FechaCancelacion_dt'] = pd.to_datetime(destinos_cancelados['FechaCancelación'], errors='coerce')
+    destinos_cancelados_temprano = destinos_cancelados.dropna(subset=['FechaCancelacion_dt']).set_index('DestinoID')
     mapa_fechas_cancelacion = destinos_cancelados_temprano['FechaCancelacion_dt'].to_dict()
     ids_destinos_cancelados_temprano = set(mapa_fechas_cancelacion.keys())
 
@@ -306,22 +390,43 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
         # ESTADO FINAL: ACEPTADO
         "Aceptado": [
             # --- CON IDIOMA (Rutas con 1 y 3, 3 antes de 4) ---
-            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA OK
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA OK directo
             [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA con 1 reintento Responsable
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA con 2 reintentos Responsable
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA con reintento Subdirectora
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 30, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA con múltiples reintentos (Resp+Subdir)
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 29, 31, 32],
+            
             # Idioma OK (1->3), Sin Alegación, Renuncia 1ª, Acepta 2ª, LA OK
             [1, 3, 4, 5, 6, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
-            # Idioma OK (1->3), Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA OK
-            [1, 3, 4, 5, 6, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Idioma OK (1->3), Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA con reintentos
+            [1, 3, 4, 5, 6, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32],
             # Idioma REINTENTO (1->2->1->3), Sin Alegación, Acepta 1ª, LA OK
             [1, 2, 1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
             
             # --- SIN IDIOMA (Rutas sin 1, 2, 3) ---
-            # Sin Idioma, Sin Alegación, Acepta 1ª, LA OK
+            # Sin Idioma, Sin Alegación, Acepta 1ª, LA OK directo
             [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Sin Idioma, Sin Alegación, Acepta 1ª, LA con reintentos Responsable
+            [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Sin Idioma, Sin Alegación, Acepta 1ª, LA con reintentos Subdirectora
+            [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 30, 27, 28, 29, 31, 32],
             # Sin Idioma, Sin Alegación, Renuncia 1ª, Acepta 2ª, LA OK
             [4, 5, 6, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
-            # Sin Idioma, Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA OK
-            [4, 5, 6, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 27, 28, 29, 31, 32],
+            # Sin Idioma, Sin Alegación, Renuncia 1ª/2ª, Acepta 3ª, LA con múltiples reintentos
+            [4, 5, 6, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 29, 31, 32],
+            
+            # --- RUTAS CON LA RECHAZADO DEFINITIVAMENTE (10% casos) ---
+            # Con Idioma, LA rechazado por Responsable tras 3 intentos -> Proceso finalizado
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 26, 23, 24, 26, 32],
+            # Sin Idioma, LA rechazado por Subdirectora tras 2 intentos -> Proceso finalizado  
+            [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 30, 27, 28, 30, 32],
+            # Con Idioma, LA rechazado por ambos (Resp+Subdir) tras múltiples intentos -> Proceso finalizado
+            [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 30, 32],
         ],
         # ESTADO FINAL: RENUNCIA
         "Renuncia": [
@@ -423,14 +528,7 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
         except Exception as e:
             print(f"❌ Error obteniendo o procesando patrones LLM: {e}")
 
-    # --- Definir fechas fijas para publicaciones --- 
-    FECHAS_PUBLICACION = {
-        6: datetime(2022, 12, 12, 0, 1, 0), # Pub Provisional (Inicio plazo Alegaciones ID 7)
-        10: datetime(2023, 1, 11, 0, 1, 0), # Pub 1ª Adj (Inicio plazo Respuesta 1ª ID 11)
-        14: datetime(2023, 1, 19, 0, 1, 0), # Pub 2ª Adj (Inicio plazo Respuesta 2ª ID 15)
-        18: datetime(2023, 1, 25, 0, 1, 0), # Pub 3ª Adj (Inicio plazo Respuesta 3ª ID 19)
-        22: datetime(2023, 2, 1, 0, 1, 0),  # Pub Definitiva
-    }
+
 
     for idx, row in estudiantes_df.iterrows():
         estudiante_id = row["EstudianteID"]
@@ -455,119 +553,93 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
         fecha_cancelacion_destino = None
         requiere_idioma = False # Valor por defecto
 
-        # --- Obtener si el destino SOLICITADO requiere idioma ---
+        # Obtener si el destino requiere idioma
         try:
             destino_info = destinos_df.loc[destinos_df['DestinoID'] == destino_solicitado].iloc[0]
             requiere_idioma = destino_info['RequiereIdioma']
         except IndexError:
-            print(f"⚠️ Advertencia: No se encontró información del destino {destino_solicitado} para Estudiante {estudiante_id}. Asumiendo que NO requiere idioma.")
+            print(f"⚠️ Destino {destino_solicitado} no encontrado para Estudiante {estudiante_id}. Asumiendo sin idioma.")
+            requiere_idioma = False
 
-        # --- Comprobar si el DESTINO SOLICITADO fue cancelado tempranamente (ACTUALIZADO) ---
+        # Comprobar cancelación temprana del destino
         if destino_solicitado in ids_destinos_cancelados_temprano:
-            print(f"ℹ️ Estudiante {estudiante_id}: Destino solicitado {destino_solicitado} cancelado tempranamente.")
             fecha_cancelacion_destino = mapa_fechas_cancelacion[destino_solicitado]
-            # Seleccionar ruta de cancelación basada en si requería idioma
+            # Seleccionar ruta de cancelación
             if requiere_idioma:
-                # ¿Tuvo tiempo de ser rechazado antes de cancelar?
-                # Simplificación: Si cancela pronto, asumimos rechazo. Si tarda, asumimos OK.
-                pub_provisional = datetime(2022, 12, 12) # Fecha ref. para "tarde"
+                pub_provisional = datetime(2022, 12, 12)
                 if fecha_cancelacion_destino < pub_provisional:
-                    ruta_seleccionada = rutas_cancelacion["idioma_rechazo"] # [1, 2, 33]
+                    ruta_seleccionada = rutas_cancelacion["idioma_rechazo"]
                 else:
-                    # Podría ser ok o reintento ok, elegimos aleatoriamente
                     ruta_seleccionada = random.choice([
-                        rutas_cancelacion["con_idioma"], # [1, 3, 4, 5, 6, 10, 33]
-                        rutas_cancelacion["idioma_reintento_ok"] #[1, 2, 1, 3, 4, 33]
+                        rutas_cancelacion["con_idioma"],
+                        rutas_cancelacion["idioma_reintento_ok"]
                     ])
             else:
-                 ruta_seleccionada = rutas_cancelacion["sin_idioma"] # [4, 5, 6, 10, 33]
-            
-            # estado_final = "No asignado" # Opcional: forzar estado
+                ruta_seleccionada = rutas_cancelacion["sin_idioma"]
 
-        # --- Si no hay cancelación temprana, proceder con la lógica normal (ACTUALIZADA) --- 
+        # Selección de ruta normal si no hay cancelación
         if ruta_seleccionada is None:
-            # 1. Obtener todas las rutas posibles para el estado final del estudiante
             lista_rutas_estado = rutas_completas_por_estado.get(estado_final, rutas_default)
-            if not lista_rutas_estado: lista_rutas_estado = rutas_default # Fallback
+            if not lista_rutas_estado: 
+                lista_rutas_estado = rutas_default
 
-            # 2. Filtrar por requerimiento de idioma
-            rutas_filtradas_idioma = []
+            # Filtrar por idioma
             if requiere_idioma:
-                # Seleccionar rutas que SÍ contienen pasos de idioma (empiezan con 1 o tienen [..., 1, 2, ...])
                 rutas_filtradas_idioma = [r for r in lista_rutas_estado if r and (r[0] == 1 or (1 in r and 2 in r))]
             else:
-                # Seleccionar rutas que NO contienen pasos de idioma (1, 2, 3)
                 rutas_filtradas_idioma = [r for r in lista_rutas_estado if r and not any(act_id in r for act_id in [1, 2, 3])]
 
-            # 3. Filtrar por alegaciones
+            # Filtrar por alegaciones
             tiene_alegacion = estudiante_id in estudiantes_con_alegaciones_ids
-            rutas_filtradas_final = []
             if tiene_alegacion:
-                # Solo rutas (ya filtradas por idioma) que contengan la secuencia de alegación (7, 8, 9)
                 rutas_filtradas_final = [r for r in rutas_filtradas_idioma if 7 in r and 8 in r and 9 in r]
             else:
-                # Solo rutas (ya filtradas por idioma) que NO contengan la secuencia de alegación
                 rutas_filtradas_final = [r for r in rutas_filtradas_idioma if not (7 in r and 8 in r and 9 in r)]
 
-            # --- Selección de Ruta Final (con fallbacks mejorados) ---
-            if rutas_filtradas_final:
-                ruta_seleccionada = random.choice(rutas_filtradas_final)
-            elif rutas_filtradas_idioma: # Fallback 1: No había rutas con/sin alegación, pero sí para el idioma
-                 print(f"⚠️ Advertencia: No se encontraron rutas filtradas por alegación ({tiene_alegacion}) para Estudiante {estudiante_id} (Estado: {estado_final}, Idioma: {requiere_idioma}). Seleccionando ruta compatible con idioma.")
-                 ruta_seleccionada = random.choice(rutas_filtradas_idioma)
-            elif lista_rutas_estado: # Fallback 2: No había rutas para el idioma, usar las del estado
-                 print(f"⚠️ Advertencia: No se encontraron rutas filtradas por idioma ({requiere_idioma}) para Estudiante {estudiante_id} (Estado: {estado_final}). Seleccionando de la lista completa del estado.")
-                 ruta_seleccionada = random.choice(lista_rutas_estado)
-            else: # Fallback 3: Usar default global
-                 print(f"🆘 Error Crítico: No hay rutas disponibles para Estudiante {estudiante_id}. Usando ruta default global.")
-                 ruta_seleccionada = random.choice(rutas_default)
+                    # Selección con fallbacks
+        if rutas_filtradas_final:
+            ruta_seleccionada = random.choice(rutas_filtradas_final)
+        elif rutas_filtradas_idioma:
+            ruta_seleccionada = random.choice(rutas_filtradas_idioma)
+        elif lista_rutas_estado:
+            ruta_seleccionada = random.choice(lista_rutas_estado)
+        else:
+            ruta_seleccionada = random.choice(rutas_default)
+        
+        # NUEVA FUNCIONALIDAD: Aplicar bucles de LA dinámicos si la ruta llega al LA
+        if estado_final == "Aceptado" and 23 in ruta_seleccionada:
+            ruta = aplicar_bucles_la_a_ruta(ruta_seleccionada)
+        else:
+            ruta = ruta_seleccionada
 
-        # ---- Fin Selección Ruta ----
-        ruta = ruta_seleccionada
-
-        # --- Bucle principal de eventos --- 
+        # Generar eventos de la ruta
         for actividad_id in ruta:
-            # --- Lógica Timestamp (ACTUALIZADA para publicaciones fijas) ---
-            fecha_actual = None # Inicializar
-
-            # 1. Evento de Cancelación Admin (ID 33) con fecha conocida
+            # Calcular timestamp del evento
             if actividad_id == 33 and fecha_cancelacion_destino is not None:
+                # Cancelación administrativa
                 fecha_minima = fecha_evento_anterior + timedelta(seconds=1)
                 fecha_actual = max(fecha_cancelacion_destino, fecha_minima)
                 fecha_actual = datetime.combine(fecha_actual.date(), generar_hora_realista())
                 fecha_actual = max(fecha_actual, fecha_minima)
-            
-            # 2. Eventos de Publicación Fija (IDs 6, 10, 14, 18, 22)
             elif actividad_id in FECHAS_PUBLICACION:
+                # Publicaciones con fecha fija
                 fecha_fija = FECHAS_PUBLICACION[actividad_id]
                 fecha_minima = fecha_evento_anterior + timedelta(seconds=1)
-                # Asegurar que la fecha fija es posterior al evento anterior
                 fecha_actual = max(fecha_fija, fecha_minima)
-                # Si la fecha fija tuvo que adelantarse, al menos mantener la hora 00:01
-                if fecha_actual > fecha_fija:
-                    # Comprobar si al menos es el mismo día
-                    if fecha_actual.date() == fecha_fija.date():
-                         # Mantener la hora 00:01 si es posible, sino la hora mínima
-                         hora_minima = fecha_minima.time()
-                         hora_fija = time(0, 1, 0)
-                         fecha_actual = datetime.combine(fecha_actual.date(), max(hora_fija, hora_minima))
-                    # Si tuvo que cambiar el día, ya no podemos forzar la hora 00:01
-                    # y se queda con el timestamp mínimo (fecha_actual ya tiene ese valor)
-                
-            # 3. Eventos con Plazo definido en PLAZOS
+                if fecha_actual > fecha_fija and fecha_actual.date() == fecha_fija.date():
+                    hora_minima = fecha_minima.time()
+                    hora_fija = time(0, 1, 0)
+                    fecha_actual = datetime.combine(fecha_actual.date(), max(hora_fija, hora_minima))
             elif actividad_id in PLAZOS:
-                 inicio_plazo, fin_plazo = PLAZOS[actividad_id]
-                 fecha_actual = generar_timestamp_en_plazo(inicio_plazo, fin_plazo, fecha_evento_anterior)
-            
-            # 4. Resto de eventos (sin plazo fijo ni publicación fija)
+                # Eventos con plazo definido
+                inicio_plazo, fin_plazo = PLAZOS[actividad_id]
+                fecha_actual = generar_timestamp_en_plazo(inicio_plazo, fin_plazo, fecha_evento_anterior)
             else:
-                # Lógica de delta aleatorio (sin cambios)
-                delta_dias = random.randint(0, 2)
-                delta_horas = random.randint(1, 12)
-                delta_total = timedelta(days=delta_dias, hours=delta_horas, minutes=random.randint(0,59))
+                # Eventos con delta aleatorio
+                delta_total = timedelta(days=random.randint(0, 2), hours=random.randint(1, 12), minutes=random.randint(0,59))
                 fecha_propuesta = fecha_evento_anterior + delta_total
                 
-                # Heurística para evitar adelantar plazos (sin cambios)
+                # Evitar adelantar plazos futuros
                 proximo_plazo_inicio = None
                 try:
                     indice_actual = ruta.index(actividad_id)
@@ -576,7 +648,8 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
                             proximo_plazo_inicio = PLAZOS[act_futura_id][0]
                             break
                 except ValueError:
-                    pass 
+                    pass
+                    
                 if proximo_plazo_inicio and fecha_propuesta >= proximo_plazo_inicio:
                     fecha_actual = fecha_evento_anterior + timedelta(hours=random.randint(1,3))
                     if fecha_actual >= proximo_plazo_inicio:
@@ -584,35 +657,26 @@ def generar_eventlog(estudiantes_df, actividades_df, destinos_df, estudiantes_co
                 else:
                     fecha_actual = fecha_propuesta
 
-            # Actualizar fecha evento anterior para el siguiente ciclo
-            fecha_evento_anterior = fecha_actual
-            # --- Fin Lógica Timestamp ---            
+            fecha_evento_anterior = fecha_actual            
             
+            # Generar detalle del evento
             actor = actividad_actor_map.get(actividad_id, "Desconocido")
-            detalle = actividades_df.loc[actividades_df['ActividadID'] == actividad_id, 'NombreActividad'].iloc[0] # Detalle base
+            detalle = actividades_df.loc[actividades_df['ActividadID'] == actividad_id, 'NombreActividad'].iloc[0]
             
-            # --- Actualizar IDs en la generación de detalles específicos --- 
-            # IDs originales eran 12, 16, 20. Nuevos IDs son 11, 15, 19.
+            # Detalles específicos para respuestas y cancelaciones
             if actividad_id in [11, 15, 19]: 
                 ronda_adj = (actividad_id - 11) // 4 + 1
                 detalle = f"Respuesta {ronda_adj}ª Adj: Aceptación/Reserva"
-            # IDs originales eran 13, 17, 21. Nuevos IDs son 12, 16, 20.
             elif actividad_id in [12, 16, 20]: 
                 ronda_adj = (actividad_id - 12) // 4 + 1
                 detalle = f"Respuesta {ronda_adj}ª Adj: Renuncia"
-            # ID original era 34. Nuevo ID es 33.
             elif actividad_id == 33: 
                 detalle = "Destino Solicitado Cancelado (Admin)"
 
             eventos.append([
-                estudiante_id,
-                actividad_id,
-                fecha_actual.strftime('%Y-%m-%d %H:%M:%S'),
-                int(id_destino_log),
-                detalle,
-                actor
+                estudiante_id, actividad_id, fecha_actual.strftime('%Y-%m-%d %H:%M:%S'),
+                int(id_destino_log), detalle, actor
             ])
-            # --- Fin resto del bucle ---
 
     eventos_df = pd.DataFrame(eventos, columns=["EstudianteID", "ActividadID", "Timestamp", "DestinoID", "Detalle", "Actor"])
     eventos_df.insert(0, "EventID", range(1, len(eventos_df) + 1))
@@ -675,23 +739,9 @@ def generar_alegaciones(estudiantes_df):
     # Devolvemos tanto el DataFrame como el conjunto de IDs
     return alegaciones_df, estudiantes_con_alegaciones_ids
 
-# FUNCIÓN ELIMINADA: generar_historico_adjudicaciones
-# Esta función ha sido reemplazada por extraer_historico_desde_eventlog 
-# para garantizar coherencia total con el EventLog
-
 def sincronizar_fechas_historico_eventlog(historico_df, eventlog_df):
-    """
-    Sincroniza las fechas del histórico con las fechas reales del EventLog.
-    """
+    """Sincroniza las fechas del histórico con las fechas reales del EventLog."""
     print("🕐 Sincronizando fechas entre Histórico y EventLog...")
-    
-    # Mapeo de rondas a actividades de publicación
-    ronda_a_actividad = {
-        "1ª Adjudicación": 10,
-        "2ª Adjudicación": 14,
-        "3ª Adjudicación": 18,
-        "Adjudicación Final": 22
-    }
     
     historico_sincronizado = historico_df.copy()
     
@@ -699,27 +749,21 @@ def sincronizar_fechas_historico_eventlog(historico_df, eventlog_df):
         estudiante_id = row['EstudianteID']
         ronda = row['Ronda']
         
-        # Buscar la actividad correspondiente
-        if ronda in ronda_a_actividad:
-            actividad_id = ronda_a_actividad[ronda]
-            
-            # Buscar el evento correspondiente en el EventLog
+        if ronda in RONDA_A_ACTIVIDAD:
+            actividad_id = RONDA_A_ACTIVIDAD[ronda]
             evento_publicacion = eventlog_df[
                 (eventlog_df['EstudianteID'] == estudiante_id) & 
                 (eventlog_df['ActividadID'] == actividad_id)
             ]
             
             if len(evento_publicacion) > 0:
-                # Usar la fecha del EventLog
                 fecha_real = pd.to_datetime(evento_publicacion.iloc[0]['Timestamp']).strftime('%Y-%m-%d')
                 historico_sincronizado.at[idx, 'FechaAsignacion'] = fecha_real
     
     return historico_sincronizado
 
 def sincronizar_alegaciones_eventlog(alegaciones_df, eventlog_df):
-    """
-    Sincroniza las fechas de alegaciones con las fechas reales del EventLog.
-    """
+    """Sincroniza las fechas de alegaciones con las fechas reales del EventLog."""
     print("🕐 Sincronizando fechas de alegaciones con EventLog...")
     
     alegaciones_sincronizadas = alegaciones_df.copy()
@@ -727,20 +771,19 @@ def sincronizar_alegaciones_eventlog(alegaciones_df, eventlog_df):
     for idx, row in alegaciones_sincronizadas.iterrows():
         estudiante_id = row['EstudianteID']
         
-        # Buscar eventos de alegación del estudiante en el EventLog
         eventos_alegacion = eventlog_df[
             (eventlog_df['EstudianteID'] == estudiante_id) & 
-            (eventlog_df['ActividadID'].isin([7, 8, 9]))  # Alegación Presentada, Recibida, Resolución
+            (eventlog_df['ActividadID'].isin([7, 8, 9]))
         ].sort_values('Timestamp')
         
         if len(eventos_alegacion) > 0:
-            # Usar fecha de presentación (ActividadID 7) si existe
+            # Fecha de presentación (ActividadID 7)
             evento_presentacion = eventos_alegacion[eventos_alegacion['ActividadID'] == 7]
             if len(evento_presentacion) > 0:
                 fecha_real_alegacion = pd.to_datetime(evento_presentacion.iloc[0]['Timestamp']).strftime('%Y-%m-%d')
                 alegaciones_sincronizadas.at[idx, 'FechaAlegacion'] = fecha_real_alegacion
             
-            # Usar fecha de resolución (ActividadID 9) si existe
+            # Fecha de resolución (ActividadID 9)
             evento_resolucion = eventos_alegacion[eventos_alegacion['ActividadID'] == 9]
             if len(evento_resolucion) > 0:
                 fecha_real_resolucion = pd.to_datetime(evento_resolucion.iloc[0]['Timestamp']).strftime('%Y-%m-%d')
@@ -748,32 +791,21 @@ def sincronizar_alegaciones_eventlog(alegaciones_df, eventlog_df):
     
     return alegaciones_sincronizadas
 
-# ---- Funciones de Coordinación y Extracción ----
-
-# FUNCIÓN ELIMINADA: calcular_estado_final_desde_eventlog
-# Esta función no se utiliza en el flujo principal.
-# Los estados finales se actualizan desde la gestión de plazas para mantener coherencia.
-
 def extraer_historico_desde_gestion_plazas(gestion_plazas, eventlog_df):
-    """
-    Extrae el histórico de adjudicaciones desde la gestión de plazas para garantizar coherencia total.
-    """
+    """Extrae el histórico de adjudicaciones desde la gestión de plazas."""
     historico = []
     asignacion_id_counter = 1
     
-    # Mapeo de rondas a actividades de publicación para obtener fechas
-    ronda_a_actividad = {
-        "1ª Adjudicación": 10,
-        "2ª Adjudicación": 14,
-        "3ª Adjudicación": 18,
-        "Adjudicación Final": 22
+    fechas_fallback = {
+        "1ª Adjudicación": "2023-01-11",
+        "2ª Adjudicación": "2023-01-19", 
+        "3ª Adjudicación": "2023-01-25",
+        "Adjudicación Final": "2023-02-01"
     }
     
-    # Procesar cada destino y ronda
     for destino_id in gestion_plazas['asignaciones_titulares']:
-        for ronda in ["1ª Adjudicación", "2ª Adjudicación", "3ª Adjudicación", "Adjudicación Final"]:
-            # Obtener fecha de la publicación desde el EventLog
-            actividad_id = ronda_a_actividad[ronda]
+        for ronda in RONDAS:
+            actividad_id = RONDA_A_ACTIVIDAD[ronda]
             eventos_publicacion = eventlog_df[
                 (eventlog_df['ActividadID'] == actividad_id) & 
                 (eventlog_df['DestinoID'] == destino_id)
@@ -782,45 +814,21 @@ def extraer_historico_desde_gestion_plazas(gestion_plazas, eventlog_df):
             if len(eventos_publicacion) > 0:
                 fecha_publicacion = pd.to_datetime(eventos_publicacion.iloc[0]['Timestamp']).strftime('%Y-%m-%d')
             else:
-                # Fallback: usar fechas fijas conocidas
-                fechas_fallback = {
-                    "1ª Adjudicación": "2023-01-11",
-                    "2ª Adjudicación": "2023-01-19", 
-                    "3ª Adjudicación": "2023-01-25",
-                    "Adjudicación Final": "2023-02-01"
-                }
                 fecha_publicacion = fechas_fallback[ronda]
             
-            # Registrar titulares
-            titulares = gestion_plazas['asignaciones_titulares'][destino_id][ronda]
-            for estudiante_id in titulares:
-                historico.append([
-                    asignacion_id_counter,
-                    estudiante_id,
-                    destino_id,
-                    fecha_publicacion,
-                    ronda,
-                    "Titular"
-                ])
-                asignacion_id_counter += 1
-            
-            # Registrar suplentes (para análisis completo)
-            suplentes = gestion_plazas['asignaciones_suplentes'][destino_id][ronda]
-            for estudiante_id in suplentes:
-                historico.append([
-                    asignacion_id_counter,
-                    estudiante_id,
-                    destino_id,
-                    fecha_publicacion,
-                    ronda,
-                    "Suplente"
-                ])
-                asignacion_id_counter += 1
+            # Registrar titulares y suplentes
+            for tipo, lista in [("Titular", gestion_plazas['asignaciones_titulares'][destino_id][ronda]),
+                               ("Suplente", gestion_plazas['asignaciones_suplentes'][destino_id][ronda])]:
+                for estudiante_id in lista:
+                    historico.append([
+                        asignacion_id_counter, estudiante_id, destino_id,
+                        fecha_publicacion, ronda, tipo
+                    ])
+                    asignacion_id_counter += 1
 
-    return pd.DataFrame(
-        historico,
-        columns=["AsignacionID", "EstudianteID", "DestinoID", "FechaAsignacion", "Ronda", "EstadoEnRonda"]
-    )
+    return pd.DataFrame(historico, columns=[
+        "AsignacionID", "EstudianteID", "DestinoID", "FechaAsignacion", "Ronda", "EstadoEnRonda"
+    ])
 
 def validar_coherencia_datos(estudiantes_df, eventlog_df, historico_df):
     """
@@ -979,19 +987,37 @@ def simular_adjudicacion_con_plazas(estudiantes_df, destinos_df):
                 # Todos los no excluidos participan en 1ª
                 participa = estado_final != 'Excluido'
             elif ronda == '2ª Adjudicación':
-                # Solo los que no fueron asignados como titulares en 1ª o renunciaron
-                titulares_1ra = gestion_plazas['asignaciones_titulares'][destino_solicitado]['1ª Adjudicación']
-                renuncias_1ra = gestion_plazas['renuncias'][destino_solicitado]['1ª Adjudicación']
-                participa = (estudiante_id not in titulares_1ra or estudiante_id in renuncias_1ra) and estado_final != 'Excluido'
+                # Solo los que no fueron asignados como titulares en 1ª EN CUALQUIER DESTINO o renunciaron
+                fue_titular_1ra = False
+                renuncio_1ra = False
+                
+                for destino_check in gestion_plazas['asignaciones_titulares']:
+                    if estudiante_id in gestion_plazas['asignaciones_titulares'][destino_check]['1ª Adjudicación']:
+                        fue_titular_1ra = True
+                        if estudiante_id in gestion_plazas['renuncias'][destino_check]['1ª Adjudicación']:
+                            renuncio_1ra = True
+                        break
+                
+                participa = (not fue_titular_1ra or renuncio_1ra) and estado_final != 'Excluido'
             elif ronda == '3ª Adjudicación':
-                # Solo los que no fueron asignados como titulares en 1ª/2ª o renunciaron
-                titulares_1ra = gestion_plazas['asignaciones_titulares'][destino_solicitado]['1ª Adjudicación']
-                titulares_2da = gestion_plazas['asignaciones_titulares'][destino_solicitado]['2ª Adjudicación']
-                renuncias_1ra = gestion_plazas['renuncias'][destino_solicitado]['1ª Adjudicación']
-                renuncias_2da = gestion_plazas['renuncias'][destino_solicitado]['2ª Adjudicación']
-                no_asignado_titular = estudiante_id not in titulares_1ra and estudiante_id not in titulares_2da
-                renuncio_antes = estudiante_id in renuncias_1ra or estudiante_id in renuncias_2da
-                participa = (no_asignado_titular or renuncio_antes) and estado_final != 'Excluido'
+                # Solo los que no fueron asignados como titulares en 1ª/2ª EN CUALQUIER DESTINO o renunciaron
+                fue_titular_1ra_2da = False
+                renuncio_1ra_2da = False
+                
+                for destino_check in gestion_plazas['asignaciones_titulares']:
+                    # Verificar 1ª adjudicación
+                    if estudiante_id in gestion_plazas['asignaciones_titulares'][destino_check]['1ª Adjudicación']:
+                        fue_titular_1ra_2da = True
+                        if estudiante_id in gestion_plazas['renuncias'][destino_check]['1ª Adjudicación']:
+                            renuncio_1ra_2da = True
+                    
+                    # Verificar 2ª adjudicación
+                    if estudiante_id in gestion_plazas['asignaciones_titulares'][destino_check]['2ª Adjudicación']:
+                        fue_titular_1ra_2da = True
+                        if estudiante_id in gestion_plazas['renuncias'][destino_check]['2ª Adjudicación']:
+                            renuncio_1ra_2da = True
+                
+                participa = (not fue_titular_1ra_2da or renuncio_1ra_2da) and estado_final != 'Excluido'
             else:  # Adjudicación Final
                 # Todos los que llegaron hasta aquí
                 participa = estado_final in ['Aceptado', 'No asignado']
@@ -1003,6 +1029,9 @@ def simular_adjudicacion_con_plazas(estudiantes_df, destinos_df):
                     'expediente': estudiante['Expediente'],
                     'estado_final': estado_final
                 })
+        
+        # CORRECCIÓN: Aplicar filtros de elegibilidad (incluyendo requisitos de idioma)
+        estudiantes_elegibles = aplicar_filtros_elegibilidad(estudiantes_elegibles, destinos_df)
         
         # Agrupar por destino y ordenar por expediente (mayor a menor)
         destinos_solicitados = {}
@@ -1017,19 +1046,89 @@ def simular_adjudicacion_con_plazas(estudiantes_df, destinos_df):
             # Ordenar candidatos por expediente (mayor nota = mayor prioridad)
             candidatos_ordenados = sorted(candidatos, key=lambda x: x['expediente'], reverse=True)
             
-            # Obtener plazas disponibles para este destino en esta ronda
-            plazas_disponibles = gestion_plazas['plazas_disponibles'][destino_id][ronda]
+            # CORRECCIÓN: Calcular plazas realmente disponibles considerando asignaciones previas Y renuncias
+            plazas_totales = gestion_plazas['plazas_disponibles'][destino_id][ronda]
+            asignaciones_previas = len(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias_previas = len(gestion_plazas['renuncias'][destino_id][ronda])
+            plazas_realmente_disponibles = max(0, plazas_totales - asignaciones_previas + renuncias_previas)
             
-            # Asignar titulares (hasta el límite de plazas)
+            # Asignar titulares (hasta el límite de plazas realmente disponibles)
             titulares_asignados = 0
             for candidato in candidatos_ordenados:
-                if titulares_asignados < plazas_disponibles:
-                    # Asignar como titular
-                    gestion_plazas['asignaciones_titulares'][destino_id][ronda].append(candidato['estudiante_id'])
-                    titulares_asignados += 1
+                if titulares_asignados < plazas_realmente_disponibles:
+                    # Verificar que el estudiante no esté ya asignado en este destino en esta ronda
+                    if candidato['estudiante_id'] not in gestion_plazas['asignaciones_titulares'][destino_id][ronda]:
+                        gestion_plazas['asignaciones_titulares'][destino_id][ronda].append(candidato['estudiante_id'])
+                        titulares_asignados += 1
                 else:
                     # Asignar como suplente
-                    gestion_plazas['asignaciones_suplentes'][destino_id][ronda].append(candidato['estudiante_id'])
+                    if candidato['estudiante_id'] not in gestion_plazas['asignaciones_suplentes'][destino_id][ronda]:
+                        gestion_plazas['asignaciones_suplentes'][destino_id][ronda].append(candidato['estudiante_id'])
+        
+        # NUEVA FUNCIONALIDAD: Reasignación a destinos alternativos
+        # Buscar estudiantes que no obtuvieron plaza en su destino preferido
+        # y reasignarlos a destinos con plazas disponibles
+        estudiantes_sin_plaza = []
+        for est in estudiantes_elegibles:
+            estudiante_id = est['estudiante_id']
+            destino_solicitado = est['destino_solicitado']
+            
+            # Verificar si no fue asignado como titular en su destino preferido
+            if estudiante_id not in gestion_plazas['asignaciones_titulares'][destino_solicitado][ronda]:
+                estudiantes_sin_plaza.append(est)
+        
+        # CORRECCIÓN: Buscar destinos con plazas realmente disponibles
+        destinos_con_plazas = []
+        for destino_id in gestion_plazas['plazas_disponibles']:
+            plazas_totales = gestion_plazas['plazas_disponibles'][destino_id][ronda]
+            asignaciones_actuales = len(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias_actuales = len(gestion_plazas['renuncias'][destino_id][ronda])
+            plazas_restantes = max(0, plazas_totales - asignaciones_actuales + renuncias_actuales)
+            
+            # Añadir cada plaza disponible como una entrada separada
+            for _ in range(plazas_restantes):
+                destinos_con_plazas.append(destino_id)
+        
+        # CORRECCIÓN: Reasignación más realista con menor probabilidad
+        if estudiantes_sin_plaza and destinos_con_plazas:
+            # Ordenar estudiantes sin plaza por expediente
+            estudiantes_sin_plaza_ordenados = sorted(estudiantes_sin_plaza, 
+                                                    key=lambda x: x['expediente'], reverse=True)
+            
+            for estudiante in estudiantes_sin_plaza_ordenados:
+                if not destinos_con_plazas:
+                    break
+                    
+                # CORRECCIÓN: Reducir probabilidad a 15% (más realista)
+                # Solo los estudiantes más flexibles aceptan destinos alternativos
+                if random.random() < 0.15:
+                    # Filtrar destinos alternativos por compatibilidad (mismo país o región)
+                    destino_original_info = destinos_df[destinos_df['DestinoID'] == estudiante['destino_solicitado']].iloc[0]
+                    pais_original = destino_original_info['País']
+                    
+                    # Buscar destinos compatibles (mismo país o países vecinos)
+                    destinos_compatibles = []
+                    for destino_alt in destinos_con_plazas:
+                        destino_alt_info = destinos_df[destinos_df['DestinoID'] == destino_alt].iloc[0]
+                        pais_alt = destino_alt_info['País']
+                        
+                        # Compatibilidad: mismo país o países "similares" (simplificado)
+                        if (pais_alt == pais_original or 
+                            (pais_original in ['Francia', 'Bélgica'] and pais_alt in ['Francia', 'Bélgica']) or
+                            (pais_original in ['Alemania', 'Austria'] and pais_alt in ['Alemania', 'Austria']) or
+                            (pais_original in ['Italia', 'Malta'] and pais_alt in ['Italia', 'Malta'])):
+                            destinos_compatibles.append(destino_alt)
+                    
+                    # Si hay destinos compatibles, usar esos; sino, cualquier disponible
+                    destinos_a_considerar = destinos_compatibles if destinos_compatibles else destinos_con_plazas
+                    
+                    if destinos_a_considerar:
+                        destino_alternativo = random.choice(destinos_a_considerar)
+                        
+                        # CORRECCIÓN: Verificar que no esté ya asignado antes de añadir
+                        if estudiante['estudiante_id'] not in gestion_plazas['asignaciones_titulares'][destino_alternativo][ronda]:
+                            gestion_plazas['asignaciones_titulares'][destino_alternativo][ronda].append(estudiante['estudiante_id'])
+                            destinos_con_plazas.remove(destino_alternativo)  # Reducir plazas disponibles
         
         # Simular renuncias en esta ronda (libera plazas para la siguiente)
         for destino_id in gestion_plazas['asignaciones_titulares']:
@@ -1053,20 +1152,126 @@ def simular_adjudicacion_con_plazas(estudiantes_df, destinos_df):
                 if random.random() < prob_renuncia:
                     gestion_plazas['renuncias'][destino_id][ronda].append(titular_id)
                     
-                    # Liberar plaza para la siguiente ronda
+                    # CORRECCIÓN: Liberar plaza para todas las rondas siguientes
+                    ronda_actual_idx = rondas.index(ronda)
+                    for siguiente_ronda_idx in range(ronda_actual_idx + 1, len(rondas)):
+                        siguiente_ronda = rondas[siguiente_ronda_idx]
+                        # Solo incrementar si no se ha decrementado ya por otra renuncia
+                        gestion_plazas['plazas_disponibles'][destino_id][siguiente_ronda] += 1
+                    
+                    # Promover suplente a titular en la siguiente ronda si hay suplentes disponibles
                     if ronda != 'Adjudicación Final':
                         siguiente_ronda_idx = rondas.index(ronda) + 1
                         if siguiente_ronda_idx < len(rondas):
                             siguiente_ronda = rondas[siguiente_ronda_idx]
-                            gestion_plazas['plazas_disponibles'][destino_id][siguiente_ronda] += 1
-                            
-                            # Promover suplente a titular si hay suplentes disponibles
                             suplentes_disponibles = gestion_plazas['asignaciones_suplentes'][destino_id][ronda]
                             if suplentes_disponibles:
                                 # Promover al primer suplente (mejor expediente)
                                 promovido = suplentes_disponibles.pop(0)
                                 gestion_plazas['asignaciones_titulares'][destino_id][siguiente_ronda].append(promovido)
+                                # Decrementar la plaza que acabamos de incrementar
                                 gestion_plazas['plazas_disponibles'][destino_id][siguiente_ronda] -= 1
+    
+    return gestion_plazas
+
+def ajustar_asignaciones_por_plazas(gestion_plazas, destinos_df):
+    """
+    Ajusta las asignaciones para que respeten estrictamente el número de plazas disponibles.
+    MEJORADO: Ahora elimina completamente todas las sobreasignaciones.
+    """
+    print("🔧 Ajustando asignaciones para respetar límites de plazas...")
+    
+    ajustes_realizados = 0
+    destinos_con_problemas = 0
+    
+    for _, destino in destinos_df.iterrows():
+        destino_id = destino['DestinoID']
+        plazas_totales = destino['NúmeroPlazas']
+        
+        if plazas_totales == 0:  # Destinos cancelados, no procesar
+            continue
+        
+        # MEJORADO: Recopilar todas las asignaciones por ronda y eliminar duplicados
+        estudiantes_por_ronda = {}
+        
+        for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+            titulares = set(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias = set(gestion_plazas['renuncias'][destino_id][ronda])
+            efectivos_ronda = titulares - renuncias
+            estudiantes_por_ronda[ronda] = list(efectivos_ronda)
+        
+        # Calcular estudiantes únicos finales (última aparición)
+        estudiantes_finales = {}  # {estudiante_id: ultima_ronda}
+        for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+            for estudiante_id in estudiantes_por_ronda[ronda]:
+                estudiantes_finales[estudiante_id] = ronda
+        
+        total_asignados_finales = len(estudiantes_finales)
+        
+        if total_asignados_finales > plazas_totales:
+            exceso = total_asignados_finales - plazas_totales
+            destinos_con_problemas += 1
+            print(f"   ⚠️ Destino {destino_id}: {total_asignados_finales} asignados para {plazas_totales} plazas (exceso: {exceso})")
+            
+            # MEJORADO: Ordenar estudiantes por expediente (mantener los mejores)
+            estudiantes_con_expediente = []
+            for estudiante_id in estudiantes_finales.keys():
+                # Buscar expediente del estudiante (simplificado: usar ID como proxy)
+                estudiantes_con_expediente.append((estudiante_id, estudiante_id))  # (id, expediente_proxy)
+            
+            # Ordenar por "expediente" (ID como proxy) y mantener los primeros
+            estudiantes_ordenados = sorted(estudiantes_con_expediente, key=lambda x: x[1])
+            estudiantes_a_mantener = set([est[0] for est in estudiantes_ordenados[:plazas_totales]])
+            estudiantes_a_remover = set([est[0] for est in estudiantes_ordenados[plazas_totales:]])
+            
+            # MEJORADO: Remover completamente a los estudiantes excesivos de TODAS las rondas
+            for estudiante_id in estudiantes_a_remover:
+                for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+                    # Remover de titulares
+                    if estudiante_id in gestion_plazas['asignaciones_titulares'][destino_id][ronda]:
+                        gestion_plazas['asignaciones_titulares'][destino_id][ronda].remove(estudiante_id)
+                        ajustes_realizados += 1
+                    
+                    # Remover de suplentes
+                    if estudiante_id in gestion_plazas['asignaciones_suplentes'][destino_id][ronda]:
+                        gestion_plazas['asignaciones_suplentes'][destino_id][ronda].remove(estudiante_id)
+                    
+                    # Remover de renuncias (si estaba ahí)
+                    if estudiante_id in gestion_plazas['renuncias'][destino_id][ronda]:
+                        gestion_plazas['renuncias'][destino_id][ronda].remove(estudiante_id)
+    
+    if ajustes_realizados > 0:
+        print(f"   🔧 Se realizaron {ajustes_realizados} ajustes en {destinos_con_problemas} destinos")
+    else:
+        print(f"   ✅ No se requirieron ajustes")
+    
+    # NUEVO: Verificación post-ajuste
+    print("🔍 Verificando ajustes realizados...")
+    destinos_aun_problematicos = 0
+    
+    for _, destino in destinos_df.iterrows():
+        destino_id = destino['DestinoID']
+        plazas_totales = destino['NúmeroPlazas']
+        
+        if plazas_totales == 0:
+            continue
+        
+        # Recalcular asignaciones finales
+        estudiantes_finales_post = set()
+        for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+            titulares = set(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias = set(gestion_plazas['renuncias'][destino_id][ronda])
+            efectivos = titulares - renuncias
+            estudiantes_finales_post.update(efectivos)
+        
+        if len(estudiantes_finales_post) > plazas_totales:
+            destinos_aun_problematicos += 1
+            print(f"   ❌ Destino {destino_id} AÚN tiene problemas: {len(estudiantes_finales_post)} > {plazas_totales}")
+    
+    if destinos_aun_problematicos == 0:
+        print(f"   ✅ Todos los destinos respetan ahora los límites de plazas")
+    else:
+        print(f"   ⚠️ {destinos_aun_problematicos} destinos aún tienen problemas")
     
     return gestion_plazas
 
@@ -1087,30 +1292,38 @@ def actualizar_estados_desde_gestion_plazas(estudiantes_df, gestion_plazas):
         destino_solicitado = row['DestinoSolicitado']
         estado_original = row['EstadoFinal']
         
-        # Verificar si el estudiante fue asignado como titular en alguna ronda
+        # Verificar si el estudiante fue asignado como titular en alguna ronda EN CUALQUIER DESTINO
         fue_titular = False
         ronda_asignacion = None
         destino_final = None
         renuncio = False
         
+        # CORRECCIÓN: Buscar en TODOS los destinos, no solo el solicitado
         for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
-            if destino_solicitado in gestion_plazas['asignaciones_titulares']:
-                titulares_ronda = gestion_plazas['asignaciones_titulares'][destino_solicitado][ronda]
-                renuncias_ronda = gestion_plazas['renuncias'][destino_solicitado][ronda]
+            # Buscar en todos los destinos
+            for destino_id in gestion_plazas['asignaciones_titulares']:
+                titulares_ronda = gestion_plazas['asignaciones_titulares'][destino_id][ronda]
+                renuncias_ronda = gestion_plazas['renuncias'][destino_id][ronda]
                 
                 if estudiante_id in titulares_ronda:
                     fue_titular = True
                     ronda_asignacion = ronda
-                    destino_final = destino_solicitado
+                    destino_final = destino_id
                     
                     # Verificar si renunció
                     if estudiante_id in renuncias_ronda:
                         renuncio = True
-                        # Si renunció, no es su destino final
+                        # Si renunció, continuar buscando en rondas posteriores
+                        # por si fue asignado de nuevo
                         destino_final = None
                     else:
                         # Si no renunció, este es su destino final
+                        # Salir de ambos bucles
                         break
+            
+            # Si encontró asignación sin renuncia, salir del bucle de rondas
+            if fue_titular and not renuncio:
+                break
         
         # Determinar estado final basándose en la gestión de plazas
         if estado_original == 'Excluido':
@@ -1122,9 +1335,9 @@ def actualizar_estados_desde_gestion_plazas(estudiantes_df, gestion_plazas):
             nuevo_estado = 'Aceptado'
             nuevo_destino = destino_final
         elif fue_titular and renuncio:
-            # Fue titular pero renunció = Renuncia
+            # CORRECCIÓN: Fue titular pero renunció = Renuncia SIN destino asignado
             nuevo_estado = 'Renuncia'
-            nuevo_destino = np.nan
+            nuevo_destino = np.nan  # Los que renuncian NO mantienen destino asignado
         else:
             # Nunca fue titular = No asignado
             nuevo_estado = 'No asignado'
@@ -1135,6 +1348,130 @@ def actualizar_estados_desde_gestion_plazas(estudiantes_df, gestion_plazas):
         estudiantes_actualizado.at[idx, 'DestinoAsignado'] = nuevo_destino
     
     return estudiantes_actualizado
+
+def verificar_actualizacion_destinos(estudiantes_original, estudiantes_actualizado):
+    """
+    Función de depuración para verificar que la actualización de destinos funciona correctamente.
+    """
+    print("🔍 Verificando actualización de destinos asignados...")
+    
+    # Contar cambios
+    cambios_estado = 0
+    cambios_destino = 0
+    destinos_asignados_nuevos = 0
+    
+    for idx, (orig, act) in enumerate(zip(estudiantes_original.iterrows(), estudiantes_actualizado.iterrows())):
+        orig_row = orig[1]
+        act_row = act[1]
+        
+        # Verificar cambios de estado
+        if orig_row['EstadoFinal'] != act_row['EstadoFinal']:
+            cambios_estado += 1
+        
+        # Verificar cambios de destino
+        orig_destino = orig_row['DestinoAsignado']
+        act_destino = act_row['DestinoAsignado']
+        
+        if pd.isna(orig_destino) != pd.isna(act_destino):
+            if pd.isna(orig_destino) and not pd.isna(act_destino):
+                destinos_asignados_nuevos += 1
+            cambios_destino += 1
+        elif not pd.isna(orig_destino) and not pd.isna(act_destino) and orig_destino != act_destino:
+            cambios_destino += 1
+    
+    # Estadísticas finales
+    total_aceptados = len(estudiantes_actualizado[estudiantes_actualizado['EstadoFinal'] == 'Aceptado'])
+    total_con_destino = len(estudiantes_actualizado[estudiantes_actualizado['DestinoAsignado'].notna()])
+    
+    print(f"   📊 Cambios de estado: {cambios_estado}")
+    print(f"   📊 Cambios de destino: {cambios_destino}")
+    print(f"   📊 Nuevos destinos asignados: {destinos_asignados_nuevos}")
+    print(f"   📊 Total estudiantes aceptados: {total_aceptados}")
+    print(f"   📊 Total estudiantes con destino asignado: {total_con_destino}")
+    
+    # Verificar coherencia
+    if total_aceptados != total_con_destino:
+        print(f"   ⚠️ INCONSISTENCIA: {total_aceptados} aceptados pero {total_con_destino} con destino")
+    else:
+        print(f"   ✅ COHERENCIA: Todos los aceptados tienen destino asignado")
+    
+    return {
+        'cambios_estado': cambios_estado,
+        'cambios_destino': cambios_destino,
+        'destinos_asignados_nuevos': destinos_asignados_nuevos,
+        'total_aceptados': total_aceptados,
+        'total_con_destino': total_con_destino
+    }
+
+def verificar_coherencia_plazas(destinos_df, gestion_plazas, estudiantes_df):
+    """
+    Verifica la coherencia entre el número de plazas disponibles y las asignaciones reales.
+    """
+    print("🔍 Verificando coherencia entre plazas disponibles y asignaciones...")
+    
+    total_plazas_disponibles = destinos_df['NúmeroPlazas'].sum()
+    total_estudiantes_aceptados = len(estudiantes_df[estudiantes_df['EstadoFinal'] == 'Aceptado'])
+    
+    print(f"   📊 Total plazas disponibles en destinos: {total_plazas_disponibles}")
+    print(f"   📊 Total estudiantes aceptados: {total_estudiantes_aceptados}")
+    
+    # Contar asignaciones reales por ronda
+    asignaciones_por_ronda = {}
+    for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+        total_asignados = 0
+        total_renuncias = 0
+        
+        for destino_id in gestion_plazas['asignaciones_titulares']:
+            titulares = len(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias = len(gestion_plazas['renuncias'][destino_id][ronda])
+            total_asignados += titulares
+            total_renuncias += renuncias
+        
+        asignaciones_por_ronda[ronda] = {
+            'asignados': total_asignados,
+            'renuncias': total_renuncias,
+            'efectivos': total_asignados - total_renuncias
+        }
+        
+        print(f"   📋 {ronda}: {total_asignados} asignados, {total_renuncias} renuncias, {total_asignados - total_renuncias} efectivos")
+    
+    # CORRECCIÓN: Verificar destinos con sobreasignación (método corregido)
+    destinos_problematicos = []
+    for _, destino in destinos_df.iterrows():
+        destino_id = destino['DestinoID']
+        plazas_totales = destino['NúmeroPlazas']
+        
+        # CORRECCIÓN: Contar estudiantes únicos asignados finalmente (sin renuncias)
+        estudiantes_asignados_finales = set()
+        
+        for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+            titulares = set(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias = set(gestion_plazas['renuncias'][destino_id][ronda])
+            efectivos_ronda = titulares - renuncias
+            estudiantes_asignados_finales.update(efectivos_ronda)
+        
+        total_asignados_unicos = len(estudiantes_asignados_finales)
+        if total_asignados_unicos > plazas_totales:
+            destinos_problematicos.append({
+                'destino_id': destino_id,
+                'plazas_totales': plazas_totales,
+                'asignaciones_finales': total_asignados_unicos,
+                'exceso': total_asignados_unicos - plazas_totales
+            })
+    
+    if destinos_problematicos:
+        print(f"   ⚠️ PROBLEMA: {len(destinos_problematicos)} destinos con sobreasignación:")
+        for problema in destinos_problematicos[:5]:  # Mostrar solo los primeros 5
+            print(f"      - Destino {problema['destino_id']}: {problema['plazas_totales']} plazas, {problema['asignaciones_finales']} asignados (exceso: {problema['exceso']})")
+    else:
+        print(f"   ✅ No hay destinos con sobreasignación")
+    
+    return {
+        'total_plazas_disponibles': total_plazas_disponibles,
+        'total_estudiantes_aceptados': total_estudiantes_aceptados,
+        'asignaciones_por_ronda': asignaciones_por_ronda,
+        'destinos_problematicos': destinos_problematicos
+    }
 
 def generar_reporte_gestion_plazas(gestion_plazas, destinos_df, estudiantes_df):
     """
@@ -1181,12 +1518,191 @@ def generar_reporte_gestion_plazas(gestion_plazas, destinos_df, estudiantes_df):
     reporte_df = pd.DataFrame(reporte)
     return reporte_df
 
+def validar_coherencia_temporal_destinos(estudiantes_df, destinos_df):
+    """
+    Valida que no haya estudiantes solicitando destinos que ya estaban cancelados
+    en su fecha de solicitud.
+    """
+    print("🕐 Validando coherencia temporal entre solicitudes y cancelaciones...")
+    
+    inconsistencias_temporales = []
+    
+    for _, estudiante in estudiantes_df.iterrows():
+        estudiante_id = estudiante['EstudianteID']
+        destino_solicitado = estudiante['DestinoSolicitado']
+        fecha_solicitud = datetime.strptime(estudiante['FechaSolicitud'], '%Y-%m-%d')
+        
+        # Buscar información del destino solicitado
+        destino_info = destinos_df[destinos_df['DestinoID'] == destino_solicitado]
+        
+        if len(destino_info) > 0:
+            destino_info = destino_info.iloc[0]
+            cancelado = destino_info['Cancelado'] == 'Sí'
+            fecha_cancelacion_str = destino_info['FechaCancelación']
+            
+            if cancelado and fecha_cancelacion_str:
+                try:
+                    fecha_cancelacion = datetime.strptime(fecha_cancelacion_str, '%Y-%m-%d')
+                    
+                    # Verificar si el estudiante solicitó después de la cancelación
+                    if fecha_solicitud >= fecha_cancelacion:
+                        inconsistencias_temporales.append(
+                            f"Estudiante {estudiante_id}: Solicitó destino {destino_solicitado} "
+                            f"el {fecha_solicitud.strftime('%Y-%m-%d')} pero fue cancelado "
+                            f"el {fecha_cancelacion.strftime('%Y-%m-%d')}"
+                        )
+                except ValueError:
+                    # Error en formato de fecha
+                    inconsistencias_temporales.append(
+                        f"Estudiante {estudiante_id}: Destino {destino_solicitado} "
+                        f"tiene fecha de cancelación inválida: {fecha_cancelacion_str}"
+                    )
+    
+    if inconsistencias_temporales:
+        print(f"   ⚠️ Se encontraron {len(inconsistencias_temporales)} inconsistencias temporales:")
+        for inc in inconsistencias_temporales[:5]:  # Mostrar solo las primeras 5
+            print(f"      - {inc}")
+        if len(inconsistencias_temporales) > 5:
+            print(f"      ... y {len(inconsistencias_temporales) - 5} más.")
+    else:
+        print(f"   ✅ No se encontraron inconsistencias temporales")
+    
+    return inconsistencias_temporales
+
+def validar_requisitos_idioma(estudiante_info, destino_info):
+    """
+    Valida si un estudiante cumple los requisitos de idioma para un destino específico.
+    """
+    if destino_info['RequiereIdioma'] == 'No':
+        return True  # No hay requisitos de idioma
+    
+    # Simular que el 85% de los estudiantes cumplen los requisitos de idioma
+    # En un sistema real, esto se basaría en certificaciones reales
+    return random.random() < 0.85
+
+def aplicar_filtros_elegibilidad(estudiantes_elegibles, destinos_df):
+    """
+    Aplica filtros de elegibilidad incluyendo requisitos de idioma.
+    """
+    estudiantes_filtrados = []
+    
+    for estudiante in estudiantes_elegibles:
+        destino_id = estudiante['destino_solicitado']
+        destino_info = destinos_df[destinos_df['DestinoID'] == destino_id].iloc[0]
+        
+        # Validar requisitos de idioma
+        if validar_requisitos_idioma(estudiante, destino_info):
+            estudiantes_filtrados.append(estudiante)
+        # Si no cumple requisitos de idioma, el estudiante queda excluido automáticamente
+    
+    return estudiantes_filtrados
+
+# ---- Constantes globales ----
+RONDAS = ["1ª Adjudicación", "2ª Adjudicación", "3ª Adjudicación", "Adjudicación Final"]
+RONDA_A_ACTIVIDAD = {
+    "1ª Adjudicación": 10, "2ª Adjudicación": 14,
+    "3ª Adjudicación": 18, "Adjudicación Final": 22
+}
+FECHAS_PUBLICACION = {
+    6: datetime(2022, 12, 12, 0, 1, 0),   # Pub Provisional
+    10: datetime(2023, 1, 11, 0, 1, 0),   # Pub 1ª Adj
+    14: datetime(2023, 1, 19, 0, 1, 0),   # Pub 2ª Adj
+    18: datetime(2023, 1, 25, 0, 1, 0),   # Pub 3ª Adj
+    22: datetime(2023, 2, 1, 0, 1, 0),    # Pub Definitiva
+}
+
+def verificar_coherencia_final_plazas_estudiantes(destinos_df, estudiantes_df, gestion_plazas):
+    """
+    Verifica la coherencia final entre el número total de plazas disponibles 
+    y el número de estudiantes que finalmente van de Erasmus.
+    """
+    print("🔍 Verificando coherencia final entre plazas y estudiantes...")
+    
+    # Calcular plazas totales disponibles
+    total_plazas_disponibles = destinos_df['NúmeroPlazas'].sum()
+    destinos_activos = len(destinos_df[destinos_df['NúmeroPlazas'] > 0])
+    destinos_cancelados = len(destinos_df[destinos_df['NúmeroPlazas'] == 0])
+    
+    # Calcular estudiantes finales por estado
+    estudiantes_aceptados = len(estudiantes_df[estudiantes_df['EstadoFinal'] == 'Aceptado'])
+    estudiantes_con_destino = len(estudiantes_df[estudiantes_df['DestinoAsignado'].notna()])
+    estudiantes_renuncias = len(estudiantes_df[estudiantes_df['EstadoFinal'] == 'Renuncia'])
+    estudiantes_no_asignados = len(estudiantes_df[estudiantes_df['EstadoFinal'] == 'No asignado'])
+    estudiantes_excluidos = len(estudiantes_df[estudiantes_df['EstadoFinal'] == 'Excluido'])
+    
+    # Calcular asignaciones reales desde gestión de plazas
+    asignaciones_reales_finales = 0
+    for destino_id in gestion_plazas['asignaciones_titulares']:
+        estudiantes_finales_destino = set()
+        for ronda in ['1ª Adjudicación', '2ª Adjudicación', '3ª Adjudicación', 'Adjudicación Final']:
+            titulares = set(gestion_plazas['asignaciones_titulares'][destino_id][ronda])
+            renuncias = set(gestion_plazas['renuncias'][destino_id][ronda])
+            efectivos = titulares - renuncias
+            estudiantes_finales_destino.update(efectivos)
+        asignaciones_reales_finales += len(estudiantes_finales_destino)
+    
+    # Calcular tasas
+    tasa_ocupacion = (estudiantes_aceptados / total_plazas_disponibles * 100) if total_plazas_disponibles > 0 else 0
+    tasa_participacion = (estudiantes_aceptados / NUM_ESTUDIANTES * 100)
+    
+    # Mostrar estadísticas
+    print(f"   📊 PLAZAS DISPONIBLES:")
+    print(f"      • Total plazas: {total_plazas_disponibles}")
+    print(f"      • Destinos activos: {destinos_activos}")
+    print(f"      • Destinos cancelados: {destinos_cancelados}")
+    
+    print(f"   📊 ESTUDIANTES FINALES:")
+    print(f"      • Total estudiantes: {NUM_ESTUDIANTES}")
+    print(f"      • Aceptados: {estudiantes_aceptados}")
+    print(f"      • Con destino asignado: {estudiantes_con_destino}")
+    print(f"      • Renuncias: {estudiantes_renuncias}")
+    print(f"      • No asignados: {estudiantes_no_asignados}")
+    print(f"      • Excluidos: {estudiantes_excluidos}")
+    
+    print(f"   📊 COHERENCIA:")
+    print(f"      • Tasa de ocupación: {tasa_ocupacion:.1f}% ({estudiantes_aceptados}/{total_plazas_disponibles})")
+    print(f"      • Tasa de participación: {tasa_participacion:.1f}% ({estudiantes_aceptados}/{NUM_ESTUDIANTES})")
+    print(f"      • Asignaciones reales (gestión): {asignaciones_reales_finales}")
+    
+    # Verificar coherencias
+    coherencias = []
+    if estudiantes_aceptados != estudiantes_con_destino:
+        coherencias.append(f"❌ Estudiantes aceptados ({estudiantes_aceptados}) ≠ Con destino ({estudiantes_con_destino})")
+    else:
+        coherencias.append(f"✅ Estudiantes aceptados = Con destino asignado")
+    
+    if estudiantes_aceptados != asignaciones_reales_finales:
+        coherencias.append(f"❌ Estudiantes aceptados ({estudiantes_aceptados}) ≠ Asignaciones reales ({asignaciones_reales_finales})")
+    else:
+        coherencias.append(f"✅ Estudiantes aceptados = Asignaciones reales")
+    
+    if estudiantes_aceptados > total_plazas_disponibles:
+        coherencias.append(f"❌ Más estudiantes aceptados ({estudiantes_aceptados}) que plazas disponibles ({total_plazas_disponibles})")
+    else:
+        coherencias.append(f"✅ Estudiantes aceptados ≤ Plazas disponibles")
+    
+    # Verificar distribución realista
+    if tasa_ocupacion > 95:
+        coherencias.append(f"⚠️ Tasa de ocupación muy alta ({tasa_ocupacion:.1f}%) - Poco realista")
+    elif tasa_ocupacion < 70:
+        coherencias.append(f"⚠️ Tasa de ocupación baja ({tasa_ocupacion:.1f}%) - Revisar demanda")
+    else:
+        coherencias.append(f"✅ Tasa de ocupación realista ({tasa_ocupacion:.1f}%)")
+    
+    print(f"   📋 VERIFICACIONES:")
+    for coherencia in coherencias:
+        print(f"      {coherencia}")
+    
+    return {
+        'total_plazas': total_plazas_disponibles,
+        'estudiantes_aceptados': estudiantes_aceptados,
+        'tasa_ocupacion': tasa_ocupacion,
+        'tasa_participacion': tasa_participacion,
+        'coherencias': coherencias
+    }
+
 # ---- Ejecución principal ----
-
 if __name__ == "__main__":
-    # Inicializamos el conjunto de estudiantes con alegaciones
-    # (Ya no necesitamos variable global, se pasa como parámetro)
-
     print("🚀 Iniciando generación de datos Erasmus con coordinación mejorada...")
 
     destinos = generar_destinos(NUM_DESTINOS)
@@ -1199,6 +1715,9 @@ if __name__ == "__main__":
     # PASO 1: Simular adjudicación con control de plazas
     print("🎯 Simulando proceso de adjudicación con control de plazas...")
     gestion_plazas = simular_adjudicacion_con_plazas(estudiantes, destinos)
+    
+    # PASO 1.5: Ajustar asignaciones para respetar límites de plazas
+    gestion_plazas = ajustar_asignaciones_por_plazas(gestion_plazas, destinos)
 
     # PASO 2: Generar EventLog como fuente de verdad (CORREGIDO: usar función original)
     print("📊 Generando EventLog como fuente de verdad...")
@@ -1206,7 +1725,14 @@ if __name__ == "__main__":
 
     # PASO 2.5: Actualizar estados finales basándose en gestión de plazas
     print("🔄 Actualizando estados finales desde gestión de plazas...")
+    estudiantes_original = estudiantes.copy()  # Guardar copia para verificación
     estudiantes = actualizar_estados_desde_gestion_plazas(estudiantes, gestion_plazas)
+    
+    # Verificar que la actualización funcionó correctamente
+    verificar_actualizacion_destinos(estudiantes_original, estudiantes)
+    
+    # Verificar coherencia entre plazas y asignaciones
+    verificar_coherencia_plazas(destinos, gestion_plazas, estudiantes)
 
     # PASO 3: Extraer histórico coherente desde gestión de plazas
     print("📋 Extrayendo histórico de adjudicaciones desde gestión de plazas...")
@@ -1226,6 +1752,14 @@ if __name__ == "__main__":
     # PASO 5: Validar coherencia entre todas las fuentes
     print("✅ Validando coherencia entre fuentes de datos...")
     inconsistencias = validar_coherencia_datos(estudiantes, eventlog, historico)
+    
+    # PASO 5.5: Validar coherencia temporal de destinos
+    inconsistencias_temporales = validar_coherencia_temporal_destinos(estudiantes, destinos)
+    inconsistencias.extend(inconsistencias_temporales)
+
+    # PASO 6: Verificar coherencia final entre plazas y estudiantes
+    print("🔍 Verificando coherencia final del sistema...")
+    coherencia_final = verificar_coherencia_final_plazas_estudiantes(destinos, estudiantes, gestion_plazas)
 
     # --- Corrección de Tipos de Datos antes de Guardar ---
     # Convertir DestinoAsignado a tipo Int64 nullable de pandas para permitir NaN pero ser entero

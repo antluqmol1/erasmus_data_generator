@@ -1,371 +1,566 @@
 AlegacionID,EstudianteID,FechaAlegacion,MotivoAlegacion,ResultadoAlegacion,FechaResolucion,AccionTrasResolucion
-1850,1850,2022-12-21,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-24,Reasignación
-1967,1967,2022-12-18,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2023-01-05,No cambio
-538,538,2022-12-26,Retraso en la entrega de la beca Erasmus.,Rechazada,2022-12-27,No cambio
-62,62,2022-12-18,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-22,Reasignación
-1960,1960,2022-12-27,Destino cancelado sin alternativa viable,Aceptada,2022-12-31,Confirmación destino inicial
-1106,1106,2022-12-24,Documentación traspapelada en la administración,Rechazada,2022-12-27,No cambio
-43,43,2022-12-12,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-15,Reasignación
-1705,1705,2022-12-26,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-28,Confirmación destino inicial
-549,549,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-16,Reasignación
-1188,1188,2022-12-26,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-27,Reasignación
-802,802,2022-12-19,Situación familiar grave inesperada,Aceptada,2022-12-21,Reasignación
-1017,1017,2022-12-25,Error en baremación por idioma,Rechazada,2022-12-30,No cambio
-629,629,2022-12-14,Error en baremación por idioma,Rechazada,2022-12-19,No cambio
-1414,1414,2022-12-22,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-25,No cambio
-392,392,2022-12-13,Denegación de la visa de estudiante,Rechazada,2022-12-15,No cambio
-1539,1539,2022-12-12,No reconocimiento de créditos específicos,Aceptada,2022-12-16,Reasignación
-164,164,2022-12-27,Situación familiar grave inesperada,Rechazada,2022-12-31,No cambio
-619,619,2022-12-12,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-14,No cambio
-1756,1756,2023-01-09,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2023-01-27,No cambio
-1067,1067,2022-12-27,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Aceptada,2023-01-01,Reasignación
-685,685,2022-12-23,Enfermedad sobrevenida documentada,Rechazada,2022-12-25,No cambio
-1711,1711,2022-12-25,Situación familiar grave inesperada,Aceptada,2022-12-28,Confirmación destino inicial
-1748,1748,2022-12-26,Retraso en la entrega de la beca Erasmus.,Rechazada,2022-12-30,No cambio
-1305,1305,2022-12-23,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-25,No cambio
-1038,1038,2022-12-12,Retraso en la entrega de la beca Erasmus.,Rechazada,2022-12-16,No cambio
-1944,1944,2022-12-27,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-30,Reasignación
-1099,1099,2022-12-26,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-27,No cambio
-1798,1798,2022-12-21,Enfermedad sobrevenida documentada,Rechazada,2022-12-22,No cambio
-1126,1126,2022-12-24,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-27,No cambio
-1919,1919,2022-12-26,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-31,Confirmación destino inicial
-1579,1579,2022-12-11,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-30,Reasignación
-1677,1677,2022-12-26,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-30,No cambio
-1840,1840,2022-12-12,Error en baremación por idioma,Rechazada,2022-12-17,No cambio
-1891,1891,2022-12-18,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-21,Reasignación
-1901,1901,2022-12-26,Situación familiar grave inesperada,Rechazada,2022-12-28,No cambio
-566,566,2022-12-27,Destino cancelado sin alternativa viable,Aceptada,2022-12-29,Reasignación
-8,8,2022-12-24,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Aceptada,2022-12-27,Confirmación destino inicial
-1202,1202,2022-12-12,Enfermedad sobrevenida documentada,Aceptada,2022-12-16,Reasignación
-1189,1189,2022-12-21,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-24,No cambio
-944,944,2022-12-16,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-19,No cambio
-1317,1317,2022-12-12,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-16,No cambio
-1736,1736,2022-12-18,Error en la elección de la universidad de destino,Aceptada,2022-12-21,Confirmación destino inicial
-731,731,2022-12-24,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-28,Confirmación destino inicial
-521,521,2022-12-27,Enfermedad sobrevenida documentada,Rechazada,2022-12-28,No cambio
-2105,2105,2022-12-15,Error en la elección de la universidad de destino,Rechazada,2022-12-16,No cambio
-107,107,2022-12-15,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-18,No cambio
-1228,1228,2022-12-12,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Aceptada,2022-12-16,Reasignación
-1479,1479,2023-01-13,Error en la elección de la universidad de destino,Rechazada,2023-02-01,No cambio
-1139,1139,2022-12-13,Denegación de la visa de estudiante,Rechazada,2022-12-16,No cambio
-604,604,2022-12-26,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-30,Confirmación destino inicial
-1924,1924,2022-12-19,No reconocimiento de créditos específicos,Rechazada,2023-01-01,No cambio
-457,457,2022-12-26,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-28,No cambio
-1164,1164,2022-12-07,Enfermedad sobrevenida documentada,Rechazada,2022-12-18,No cambio
-2028,2028,2022-12-27,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2023-01-01,Confirmación destino inicial
-1284,1284,2022-12-13,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-14,No cambio
-1079,1079,2022-12-16,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-17,Reasignación
-104,104,2022-12-15,Enfermedad sobrevenida documentada,Aceptada,2022-12-17,Confirmación destino inicial
-478,478,2022-12-26,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-27,No cambio
-1484,1484,2022-12-27,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-29,Confirmación destino inicial
-1041,1041,2022-12-27,Documentación traspapelada en la administración,Rechazada,2023-01-01,No cambio
-2024,2024,2022-12-27,Documentación traspapelada en la administración,Aceptada,2022-12-31,Confirmación destino inicial
-687,687,2022-12-21,Error en baremación por idioma,Rechazada,2022-12-23,No cambio
-1915,1915,2022-12-26,Denegación de la visa de estudiante,Aceptada,2022-12-28,Confirmación destino inicial
-1438,1438,2022-12-17,Error en cálculo de nota media,Rechazada,2022-12-17,No cambio
-650,650,2022-12-19,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-23,Reasignación
-2011,2011,2022-12-18,Error en la elección de la universidad de destino,Aceptada,2022-12-21,Confirmación destino inicial
-1985,1985,2022-12-12,Situación familiar grave inesperada,Aceptada,2022-12-16,Reasignación
-66,66,2022-12-13,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-16,No cambio
-80,80,2022-12-13,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-18,No cambio
-418,418,2022-12-27,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-31,No cambio
-1109,1109,2022-12-21,Documentación traspapelada en la administración,Rechazada,2022-12-24,No cambio
-2059,2059,2022-12-16,No reconocimiento de créditos específicos,Aceptada,2022-12-19,Reasignación
-983,983,2022-12-27,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-28,No cambio
-327,327,2022-12-15,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-19,No cambio
-1165,1165,2022-12-27,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-29,Confirmación destino inicial
-1209,1209,2022-12-26,No reconocimiento de créditos específicos,Rechazada,2022-12-28,No cambio
-2023,2023,2022-12-27,Enfermedad sobrevenida documentada,Aceptada,2022-12-28,Reasignación
-490,490,2022-12-13,Enfermedad sobrevenida documentada,Rechazada,2022-12-30,No cambio
-1702,1702,2022-12-27,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-30,No cambio
-427,427,2022-12-13,Error en la elección de la universidad de destino,Rechazada,2022-12-17,No cambio
-863,863,2022-12-25,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-28,Confirmación destino inicial
-1236,1236,2022-12-14,Error en cálculo de nota media,Rechazada,2022-12-16,No cambio
-1424,1424,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-18,No cambio
-450,450,2022-12-15,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-17,Reasignación
-797,797,2022-12-16,No reconocimiento de créditos específicos,Aceptada,2022-12-17,Confirmación destino inicial
-1982,1982,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-14,No cambio
-1031,1031,2022-12-18,Situación familiar grave inesperada,Aceptada,2022-12-23,Confirmación destino inicial
-128,128,2022-12-26,Documentación traspapelada en la administración,Aceptada,2022-12-29,Reasignación
-1814,1814,2022-12-14,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-16,No cambio
-574,574,2022-12-26,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-28,No cambio
-780,780,2022-12-14,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-17,No cambio
-2052,2052,2022-12-26,Enfermedad sobrevenida documentada,Aceptada,2022-12-30,Confirmación destino inicial
-1760,1760,2022-12-09,Documentación traspapelada en la administración,Aceptada,2022-12-29,Confirmación destino inicial
-584,584,2022-12-19,Destino cancelado sin alternativa viable,Rechazada,2022-12-22,No cambio
-1240,1240,2022-12-19,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-23,Confirmación destino inicial
-715,715,2022-12-13,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-15,Confirmación destino inicial
-36,36,2022-12-13,Denegación de la visa de estudiante,Aceptada,2022-12-17,Confirmación destino inicial
-2027,2027,2022-12-12,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-13,No cambio
-1326,1326,2022-12-27,Denegación de la visa de estudiante,Aceptada,2022-12-29,Reasignación
-430,430,2022-12-23,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-24,No cambio
-494,494,2022-12-24,No reconocimiento de créditos específicos,Rechazada,2022-12-27,No cambio
-202,202,2022-12-12,Denegación de la visa de estudiante,Rechazada,2022-12-15,No cambio
-1916,1916,2022-12-25,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-28,Reasignación
-719,719,2022-12-25,Error en la elección de la universidad de destino,Aceptada,2022-12-30,Confirmación destino inicial
-1402,1402,2022-11-22,Destino cancelado sin alternativa viable,Aceptada,2022-12-08,Reasignación
-2007,2007,2022-12-16,Destino cancelado sin alternativa viable,Aceptada,2022-12-19,Confirmación destino inicial
-1647,1647,2022-12-12,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-15,Confirmación destino inicial
-2056,2056,2022-12-18,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-23,Confirmación destino inicial
-440,440,2022-12-13,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-14,No cambio
-338,338,2022-12-12,Información errónea sobre asignaturas en destino X,Aceptada,2022-12-15,Reasignación
-1047,1047,2022-12-23,Destino cancelado sin alternativa viable,Aceptada,2022-12-26,Reasignación
-1369,1369,2022-12-12,Situación familiar grave inesperada,Rechazada,2022-12-14,No cambio
-2106,2106,2022-12-14,Documentación traspapelada en la administración,Aceptada,2022-12-16,Confirmación destino inicial
-127,127,2022-12-23,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-26,No cambio
-1757,1757,2022-12-23,Documentación traspapelada en la administración,Rechazada,2022-12-27,No cambio
-1776,1776,2023-01-06,Retraso en el procesamiento de la solicitud,Aceptada,2023-01-24,Reasignación
-600,600,2022-12-21,Enfermedad sobrevenida documentada,Rechazada,2022-12-25,No cambio
-1875,1875,2022-12-27,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-28,No cambio
-199,199,2022-12-13,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-17,No cambio
-1825,1825,2022-12-20,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-21,No cambio
-1441,1441,2022-12-12,Denegación de la visa de estudiante,Rechazada,2022-12-13,No cambio
-254,254,2022-12-12,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-14,Confirmación destino inicial
-567,567,2022-12-12,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-14,Reasignación
-394,394,2022-12-21,Retraso en el procesamiento de la solicitud,Rechazada,2022-12-25,No cambio
-1372,1372,2022-12-26,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-27,No cambio
-505,505,2022-12-27,Error en la elección de la universidad de destino,Rechazada,2022-12-29,No cambio
-150,150,2022-12-13,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-17,No cambio
-293,293,2022-12-12,Documentación traspapelada en la administración,Rechazada,2022-12-15,No cambio
-1214,1214,2022-12-21,Error en la elección de la universidad de destino,Rechazada,2022-12-25,No cambio
-1724,1724,2022-12-13,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-15,Confirmación destino inicial
-421,421,2022-12-16,Retraso en el procesamiento de la solicitud,Rechazada,2022-12-18,No cambio
-1045,1045,2022-12-16,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-20,No cambio
-1584,1584,2022-12-27,Situación familiar grave inesperada,Aceptada,2022-12-30,Reasignación
-1728,1728,2022-12-26,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-29,No cambio
-1991,1991,2022-12-25,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-27,No cambio
-990,990,2022-12-23,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-26,Reasignación
-477,477,2022-12-17,Situación familiar grave inesperada,Aceptada,2022-12-19,Reasignación
-94,94,2022-12-26,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-30,No cambio
-1180,1180,2022-12-23,No reconocimiento de créditos específicos,Aceptada,2022-12-31,Reasignación
-52,52,2022-12-13,Error en cálculo de nota media,Rechazada,2022-12-15,No cambio
-968,968,2022-12-18,No reconocimiento de créditos específicos,Rechazada,2022-12-22,No cambio
-895,895,2022-12-22,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-25,No cambio
-1535,1535,2022-12-26,Error en baremación por idioma,Rechazada,2022-12-28,No cambio
-1474,1474,2022-12-16,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-27,Confirmación destino inicial
-1570,1570,2022-12-26,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-28,Confirmación destino inicial
-1594,1594,2022-12-26,Documentación traspapelada en la administración,Aceptada,2022-12-27,Reasignación
-89,89,2022-12-26,Información errónea sobre asignaturas en destino X,Aceptada,2023-01-15,Reasignación
-1378,1378,2022-12-26,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-28,Confirmación destino inicial
-501,501,2022-12-20,Error en la elección de la universidad de destino,Rechazada,2022-12-24,No cambio
-1141,1141,2022-12-25,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-28,No cambio
-1860,1860,2022-12-25,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-29,Confirmación destino inicial
-796,796,2022-12-12,Error en baremación por idioma,Aceptada,2022-12-16,Reasignación
-984,984,2023-01-12,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Aceptada,2023-01-30,Reasignación
-2006,2006,2022-12-26,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-27,Confirmación destino inicial
-354,354,2022-12-13,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-17,Reasignación
-1558,1558,2022-12-16,No reconocimiento de créditos específicos,Aceptada,2022-12-28,Confirmación destino inicial
-945,945,2022-12-25,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-28,Confirmación destino inicial
-366,366,2022-12-13,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-15,Confirmación destino inicial
-1078,1078,2022-12-26,Error en la elección de la universidad de destino,Aceptada,2022-12-28,Reasignación
-83,83,2022-12-13,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-16,No cambio
-56,56,2022-12-26,Enfermedad sobrevenida documentada,Rechazada,2022-12-29,No cambio
-1121,1121,2022-12-16,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-19,No cambio
-1983,1983,2022-12-13,No reconocimiento de créditos específicos,Rechazada,2022-12-16,No cambio
-500,500,2022-12-20,Información errónea sobre asignaturas en destino X,Aceptada,2022-12-23,Reasignación
-2002,2002,2022-12-26,Error en cálculo de nota media,Rechazada,2022-12-28,No cambio
-1334,1334,2022-12-13,Situación familiar grave inesperada,Rechazada,2022-12-15,No cambio
-703,703,2022-12-13,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-16,Reasignación
-360,360,2022-12-26,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-29,Confirmación destino inicial
-160,160,2022-12-12,Denegación de la visa de estudiante,Aceptada,2022-12-14,Reasignación
-1496,1496,2022-12-15,No reconocimiento de créditos específicos,Rechazada,2022-12-17,No cambio
-581,581,2022-12-26,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-29,No cambio
-543,543,2022-12-20,Documentación traspapelada en la administración,Aceptada,2022-12-22,Reasignación
-340,340,2022-12-20,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-22,Confirmación destino inicial
-838,838,2022-12-27,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-30,No cambio
-2053,2053,2022-12-13,Error en cálculo de nota media,Aceptada,2022-12-18,Confirmación destino inicial
-1906,1906,2022-12-12,Denegación de la visa de estudiante,Rechazada,2022-12-13,No cambio
-1779,1779,2022-12-12,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-16,Reasignación
-453,453,2022-12-12,Documentación traspapelada en la administración,Aceptada,2022-12-13,Confirmación destino inicial
-2015,2015,2022-12-27,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2023-01-01,Reasignación
-593,593,2022-12-26,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-28,No cambio
-1856,1856,2022-12-27,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-31,No cambio
-1662,1662,2022-12-21,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-26,Confirmación destino inicial
-890,890,2022-12-26,Documentación traspapelada en la administración,Aceptada,2022-12-27,Reasignación
-667,667,2023-01-10,Enfermedad sobrevenida documentada,Rechazada,2023-01-17,No cambio
-1706,1706,2022-12-26,Situación familiar grave inesperada,Aceptada,2022-12-31,Confirmación destino inicial
-1020,1020,2022-12-14,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-17,Reasignación
-1262,1262,2022-12-27,Denegación de la visa de estudiante,Aceptada,2022-12-30,Confirmación destino inicial
-1784,1784,2022-12-16,Documentación traspapelada en la administración,Rechazada,2022-12-31,No cambio
-368,368,2022-12-12,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-13,No cambio
-483,483,2022-12-11,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-22,Confirmación destino inicial
-1835,1835,2022-12-13,Situación familiar grave inesperada,Rechazada,2022-12-15,No cambio
-298,298,2022-12-27,Situación familiar grave inesperada,Rechazada,2023-01-01,No cambio
-55,55,2022-12-26,No reconocimiento de créditos específicos,Rechazada,2022-12-27,No cambio
-406,406,2022-12-26,Enfermedad sobrevenida documentada,Aceptada,2022-12-29,Confirmación destino inicial
-553,553,2022-12-12,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Aceptada,2022-12-17,Confirmación destino inicial
-2103,2103,2022-12-15,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-16,Reasignación
-302,302,2022-12-12,Denegación de la visa de estudiante,Rechazada,2022-12-14,No cambio
-1498,1498,2022-12-12,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-15,No cambio
-1419,1419,2022-12-27,Error en la elección de la universidad de destino,Rechazada,2022-12-31,No cambio
-1606,1606,2022-12-26,Error en baremación por idioma,Aceptada,2022-12-30,Reasignación
-375,375,2022-12-21,Denegación de la visa de estudiante,Rechazada,2022-12-26,No cambio
-551,551,2022-12-25,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-28,No cambio
-332,332,2022-12-13,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-16,No cambio
-608,608,2022-12-26,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Aceptada,2022-12-29,Reasignación
-988,988,2022-12-12,Documentación traspapelada en la administración,Rechazada,2022-12-15,No cambio
-922,922,2022-12-19,Error en cálculo de nota media,Aceptada,2022-12-22,Confirmación destino inicial
-1538,1538,2022-12-13,Error en baremación por idioma,Aceptada,2022-12-15,Reasignación
-31,31,2022-12-13,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-16,Confirmación destino inicial
-69,69,2022-12-27,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-29,No cambio
-1939,1939,2022-12-26,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-30,No cambio
-1545,1545,2022-12-26,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-29,No cambio
-416,416,2022-12-01,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-09,Confirmación destino inicial
-2020,2020,2022-12-21,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-26,No cambio
-842,842,2022-12-13,Enfermedad sobrevenida documentada,Rechazada,2022-12-16,No cambio
-273,273,2022-12-26,Información errónea sobre asignaturas en destino X,Aceptada,2022-12-27,Confirmación destino inicial
-765,765,2022-12-21,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-23,No cambio
-2088,2088,2022-12-26,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-28,Reasignación
-1725,1725,2022-12-12,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-14,No cambio
-1998,1998,2022-12-13,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-18,Reasignación
-1393,1393,2022-12-18,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-22,No cambio
-185,185,2022-12-21,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-23,No cambio
-1650,1650,2022-12-27,No reconocimiento de créditos específicos,Aceptada,2022-12-29,Reasignación
-1824,1824,2022-12-27,Situación familiar grave inesperada,Aceptada,2022-12-30,Reasignación
-385,385,2022-12-27,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-28,Reasignación
-2008,2008,2022-12-13,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-16,No cambio
-770,770,2022-12-27,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-29,No cambio
-744,744,2022-12-27,Documentación traspapelada en la administración,Rechazada,2022-12-29,No cambio
-1327,1327,2022-12-27,Destino cancelado sin alternativa viable,Aceptada,2022-12-28,Confirmación destino inicial
-401,401,2022-12-21,Situación familiar grave inesperada,Aceptada,2022-12-24,Reasignación
-1656,1656,2022-12-27,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-29,No cambio
-237,237,2022-12-13,Documentación traspapelada en la administración,Aceptada,2022-12-14,Confirmación destino inicial
-1685,1685,2022-12-14,Error en la elección de la universidad de destino,Rechazada,2022-12-17,No cambio
-362,362,2022-12-12,Error en cálculo de nota media,Aceptada,2022-12-14,Reasignación
-1135,1135,2022-12-27,No reconocimiento de créditos específicos,Rechazada,2022-12-30,No cambio
-876,876,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-16,No cambio
-171,171,2022-12-26,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-26,No cambio
-2108,2108,2022-12-15,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-17,No cambio
-1176,1176,2022-12-22,Error en baremación por idioma,Rechazada,2023-01-11,No cambio
-1791,1791,2022-12-13,Destino cancelado sin alternativa viable,Aceptada,2022-12-15,Confirmación destino inicial
-942,942,2022-12-15,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-20,No cambio
-716,716,2022-12-27,Documentación traspapelada en la administración,Rechazada,2022-12-30,No cambio
-524,524,2022-12-24,Enfermedad sobrevenida documentada,Rechazada,2022-12-27,No cambio
-1568,1568,2022-12-26,Retraso en la entrega de la beca Erasmus.,Rechazada,2022-12-29,No cambio
-1303,1303,2022-12-13,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-14,Confirmación destino inicial
-431,431,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-17,No cambio
-1084,1084,2022-12-20,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-23,Confirmación destino inicial
-1256,1256,2022-12-22,Destino cancelado sin alternativa viable,Rechazada,2022-12-23,No cambio
-893,893,2022-12-12,No reconocimiento de créditos específicos,Rechazada,2022-12-14,No cambio
-1057,1057,2022-12-13,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-17,No cambio
-1261,1261,2022-12-22,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-25,No cambio
-1805,1805,2022-12-18,Error en la elección de la universidad de destino,Rechazada,2022-12-20,No cambio
-734,734,2022-12-27,Situación familiar grave inesperada,Aceptada,2022-12-30,Reasignación
-276,276,2022-12-23,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-24,No cambio
-1418,1418,2022-12-20,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-22,No cambio
-1371,1371,2022-12-13,Enfermedad sobrevenida documentada,Aceptada,2022-12-16,Reasignación
-1360,1360,2022-12-16,Error en baremación por idioma,Rechazada,2022-12-19,No cambio
-851,851,2022-12-12,Información errónea sobre asignaturas en destino X,Aceptada,2022-12-13,Confirmación destino inicial
-522,522,2022-12-22,Error en baremación por idioma,Aceptada,2022-12-25,Confirmación destino inicial
-173,173,2022-12-26,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-29,Reasignación
-903,903,2022-12-21,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-24,No cambio
-827,827,2022-12-19,No reconocimiento de créditos específicos,Rechazada,2022-12-22,No cambio
-1623,1623,2022-12-13,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-16,No cambio
-925,925,2022-12-27,Error en la elección de la universidad de destino,Rechazada,2022-12-29,No cambio
-224,224,2022-12-12,Situación familiar grave inesperada,Rechazada,2022-12-15,No cambio
-1673,1673,2022-12-16,Denegación de la visa de estudiante,Aceptada,2022-12-18,Confirmación destino inicial
-40,40,2023-01-11,Información errónea sobre asignaturas en destino X,Rechazada,2023-01-24,No cambio
-1794,1794,2022-12-12,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-16,Confirmación destino inicial
-1406,1406,2022-12-14,Error en la elección de la universidad de destino,Aceptada,2022-12-16,Reasignación
-1373,1373,2022-12-21,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-25,Confirmación destino inicial
-986,986,2022-12-16,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-18,No cambio
-46,46,2022-12-19,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-21,Reasignación
-1313,1313,2022-12-26,Error en baremación por idioma,Aceptada,2022-12-28,Reasignación
-1933,1933,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-16,No cambio
-314,314,2022-12-26,Error en la elección de la universidad de destino,Rechazada,2022-12-29,No cambio
-1343,1343,2022-12-13,Enfermedad sobrevenida documentada,Rechazada,2022-12-15,No cambio
-1379,1379,2022-12-27,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-29,No cambio
-1932,1932,2022-12-17,Destino cancelado sin alternativa viable,Rechazada,2022-12-18,No cambio
-508,508,2022-12-14,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-16,No cambio
-72,72,2022-12-13,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-16,Reasignación
-1826,1826,2022-12-26,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-28,Reasignación
-634,634,2022-12-12,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-15,Reasignación
-673,673,2022-12-27,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-28,Confirmación destino inicial
-741,741,2022-12-26,Error en baremación por idioma,Aceptada,2022-12-30,Confirmación destino inicial
-1030,1030,2022-12-22,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-26,Confirmación destino inicial
-1083,1083,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-17,No cambio
-934,934,2022-12-24,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-26,Confirmación destino inicial
-2068,2068,2022-12-13,Error en cálculo de nota media,Aceptada,2022-12-16,Confirmación destino inicial
-631,631,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Rechazada,2022-12-18,No cambio
-790,790,2022-12-13,Destino cancelado sin alternativa viable,Aceptada,2022-12-17,Confirmación destino inicial
-223,223,2022-12-23,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-27,Reasignación
-1931,1931,2022-12-12,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-16,Reasignación
-485,485,2022-12-13,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-15,No cambio
-1218,1218,2022-12-13,Enfermedad sobrevenida documentada,Rechazada,2022-12-17,No cambio
-125,125,2022-12-12,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-15,Reasignación
-2003,2003,2022-12-17,Información errónea sobre asignaturas en destino X,Aceptada,2022-12-22,Reasignación
-1807,1807,2022-12-24,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-27,Confirmación destino inicial
-1713,1713,2022-12-13,Error en baremación por idioma,Aceptada,2022-12-15,Confirmación destino inicial
-1405,1405,2022-12-22,Destino cancelado sin alternativa viable,Rechazada,2022-12-25,No cambio
-1846,1846,2022-12-21,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-23,No cambio
-34,34,2022-12-27,Enfermedad sobrevenida documentada,Aceptada,2023-01-01,Reasignación
-1834,1834,2022-12-27,Error en baremación por idioma,Aceptada,2022-12-31,Confirmación destino inicial
-1618,1618,2022-12-19,Enfermedad sobrevenida documentada,Aceptada,2022-12-23,Reasignación
-920,920,2022-12-24,Fallos en la comunicación con la universidad de destino,Aceptada,2023-01-07,Reasignación
-512,512,2022-12-27,Incompatibilidad de horarios en la universidad de destino,Rechazada,2022-12-29,No cambio
-230,230,2022-12-26,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-27,No cambio
-1390,1390,2022-12-12,Destino cancelado sin alternativa viable,Rechazada,2022-12-15,No cambio
-2029,2029,2022-12-27,Incompatibilidad de horarios en la universidad de destino,Aceptada,2022-12-28,Reasignación
-39,39,2022-12-20,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-24,Confirmación destino inicial
-2031,2031,2022-12-13,Error en cálculo de nota media,Rechazada,2022-12-15,No cambio
-1310,1310,2022-12-14,Error en cálculo de nota media,Rechazada,2022-12-19,No cambio
-1808,1808,2022-12-21,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-23,No cambio
-1289,1289,2022-12-24,Situación familiar grave inesperada,Aceptada,2022-12-27,Confirmación destino inicial
-833,833,2022-12-26,Documentación traspapelada en la administración,Rechazada,2022-12-29,No cambio
-720,720,2022-12-27,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-29,No cambio
-1495,1495,2022-12-24,Destino cancelado sin alternativa viable,Aceptada,2022-12-27,Confirmación destino inicial
-774,774,2022-12-18,Alojamiento no disponible o inadecuado en la universidad de destino,Rechazada,2022-12-21,No cambio
-906,906,2022-12-23,Error en baremación por idioma,Rechazada,2022-12-25,No cambio
-519,519,2022-12-23,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-27,Confirmación destino inicial
-435,435,2022-12-15,Enfermedad sobrevenida documentada,Rechazada,2022-12-19,No cambio
-309,309,2022-12-22,Situación familiar grave inesperada,Rechazada,2022-12-23,No cambio
-848,848,2022-12-21,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2023-01-05,No cambio
-1023,1023,2022-12-24,Error en baremación por idioma,Aceptada,2022-12-29,Reasignación
-2045,2045,2022-12-15,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-18,Reasignación
-1348,1348,2022-12-20,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-22,No cambio
-1098,1098,2022-12-27,No reconocimiento de créditos específicos,Rechazada,2022-12-30,No cambio
-693,693,2022-12-17,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-20,Confirmación destino inicial
-1864,1864,2022-12-23,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-26,No cambio
-1957,1957,2022-12-13,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-15,Confirmación destino inicial
-1460,1460,2022-12-26,Alojamiento no disponible o inadecuado en la universidad de destino,Aceptada,2022-12-27,Reasignación
-1551,1551,2022-12-26,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-29,Reasignación
-1675,1675,2022-12-26,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-28,Confirmación destino inicial
-1842,1842,2022-12-13,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-16,Confirmación destino inicial
-73,73,2022-12-08,No reconocimiento de créditos específicos,Aceptada,2022-12-25,Confirmación destino inicial
-2040,2040,2022-12-12,Documentación traspapelada en la administración,Rechazada,2022-12-16,No cambio
-1635,1635,2022-12-13,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Rechazada,2022-12-17,No cambio
-1531,1531,2023-01-09,Error en la elección de la universidad de destino,Aceptada,2023-01-19,Confirmación destino inicial
-1422,1422,2022-12-26,Error en baremación por idioma,Rechazada,2022-12-31,No cambio
-1040,1040,2022-12-12,Fallos en la comunicación con la universidad de destino,Rechazada,2022-12-17,No cambio
-1601,1601,2022-12-18,Destino cancelado sin alternativa viable,Aceptada,2022-12-20,Reasignación
-255,255,2022-12-13,Denegación de la visa de estudiante,Aceptada,2022-12-15,Confirmación destino inicial
-297,297,2022-12-26,No reconocimiento de créditos específicos,Rechazada,2022-12-27,No cambio
-1331,1331,2022-12-12,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-14,No cambio
-325,325,2022-12-20,No reconocimiento de créditos específicos,Rechazada,2022-12-22,No cambio
-576,576,2022-12-26,Error en baremación por idioma,Rechazada,2022-12-29,No cambio
-873,873,2022-12-12,Situación familiar grave inesperada,Rechazada,2022-12-16,No cambio
-755,755,2022-12-15,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Rechazada,2022-12-19,No cambio
-203,203,2022-12-26,Documentación traspapelada en la administración,Aceptada,2022-12-28,Reasignación
-389,389,2022-12-27,Retraso en el procesamiento de la solicitud,Aceptada,2022-12-29,Confirmación destino inicial
-399,399,2023-01-05,Incompatibilidad de horarios en la universidad de destino,Aceptada,2023-01-20,Reasignación
-971,971,2022-12-25,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-26,Reasignación
-2054,2054,2022-12-14,Destino cancelado sin alternativa viable,Rechazada,2022-12-17,No cambio
-1574,1574,2022-12-17,Situación familiar grave inesperada,Rechazada,2022-12-20,No cambio
-684,684,2022-12-19,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Aceptada,2022-12-21,Reasignación
-1744,1744,2022-12-12,Información errónea sobre asignaturas en destino X,Rechazada,2022-12-15,No cambio
-2083,2083,2022-12-26,Documentación traspapelada en la administración,Aceptada,2022-12-31,Reasignación
-2009,2009,2022-12-13,No reconocimiento de la experiencia laboral o de voluntariado para la obtención de créditos,Aceptada,2022-12-17,Reasignación
-1909,1909,2022-12-18,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-30,No cambio
-60,60,2022-12-26,Documentación traspapelada en la administración,Aceptada,2022-12-29,Confirmación destino inicial
-776,776,2022-12-11,Situación familiar grave inesperada,Rechazada,2022-12-29,No cambio
-404,404,2022-12-26,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-27,Confirmación destino inicial
-1201,1201,2022-12-21,Cambio en la situación económica que impide afrontar los costos de la movilidad,Aceptada,2022-12-25,Confirmación destino inicial
-1874,1874,2022-12-27,Denegación de la visa de estudiante,Aceptada,2022-12-27,Reasignación
-381,381,2022-12-23,Fallos en la comunicación con la universidad de destino,Aceptada,2022-12-26,Reasignación
-748,748,2022-12-16,Cambios repentinos en la oferta de asignaturas en la universidad de destino,Rechazada,2022-12-19,No cambio
-1478,1478,2022-12-17,Denegación de la visa de estudiante,Rechazada,2022-12-19,No cambio
-955,955,2022-12-15,Error en cálculo de nota media,Aceptada,2022-12-18,Reasignación
-1994,1994,2022-12-15,Información incorrecta sobre los requisitos de idioma en la universidad de destino,Rechazada,2022-12-16,No cambio
-238,238,2022-12-27,Destino cancelado sin alternativa viable,Rechazada,2022-12-30,No cambio
-1146,1146,2022-12-26,Retraso en la entrega de la beca Erasmus.,Aceptada,2022-12-29,Confirmación destino inicial
-1799,1799,2022-12-16,Cambio en la política de la universidad de destino que afecta a los estudiantes Erasmus,Aceptada,2022-12-21,Reasignación
+1750,1750,2022-12-27,Error en la asignación de destino.,Rechazada,2022-12-31,No cambio
+1679,1679,2022-12-26,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-31,Confirmación destino inicial
+1053,1053,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-28,Reasignación
+644,644,2022-12-13,Error en cálculo de nota media.,Rechazada,2022-12-14,No cambio
+2753,2753,2022-12-26,Error en la asignación de destino.,Rechazada,2023-01-02,No cambio
+1361,1361,2022-12-21,No reconocimiento de créditos específicos.,Aceptada,2022-12-24,Confirmación destino inicial
+1493,1493,2022-12-12,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-17,No cambio
+587,587,2022-12-26,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-30,Confirmación destino inicial
+1376,1376,2022-12-27,Situación familiar grave inesperada.,Rechazada,2022-12-29,No cambio
+129,129,2022-12-20,Destino cancelado sin alternativa viable.,Aceptada,2022-12-22,Reasignación
+225,225,2022-12-23,Documentación traspapelada.,Rechazada,2022-12-25,No cambio
+2549,2549,2022-12-19,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-20,No cambio
+1198,1198,2022-12-13,Enfermedad sobrevenida documentada.,Rechazada,2022-12-17,No cambio
+3216,3216,2022-12-26,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-30,Reasignación
+2394,2394,2022-12-13,Dificultades financieras imprevistas.,Aceptada,2022-12-15,Reasignación
+2688,2688,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-15,No cambio
+1274,1274,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-30,Confirmación destino inicial
+220,220,2022-12-09,Error en la asignación de destino.,Aceptada,2022-12-25,Reasignación
+1195,1195,2022-12-12,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-15,Reasignación
+948,948,2022-12-13,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-17,Confirmación destino inicial
+1292,1292,2022-12-25,Error en la asignación de destino.,Rechazada,2022-12-28,No cambio
+585,585,2022-12-13,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-17,Confirmación destino inicial
+474,474,2022-12-12,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-14,Confirmación destino inicial
+258,258,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2023-01-01,Confirmación destino inicial
+29,29,2022-12-13,Dificultades financieras imprevistas.,Aceptada,2022-12-15,Reasignación
+1046,1046,2022-12-12,Destino cancelado sin alternativa viable.,Aceptada,2022-12-14,Reasignación
+1783,1783,2022-12-26,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-30,Confirmación destino inicial
+3037,3037,2022-12-16,Error en baremación por idioma.,Rechazada,2022-12-19,No cambio
+1896,1896,2022-12-17,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-20,Reasignación
+1115,1115,2022-12-17,Situación familiar grave inesperada.,Rechazada,2022-12-20,No cambio
+3097,3097,2022-12-17,Error en la asignación de destino.,Aceptada,2022-12-20,Confirmación destino inicial
+2174,2174,2022-12-13,Problemas con la renovación de beca.,Rechazada,2022-12-18,No cambio
+2786,2786,2022-12-13,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-17,Confirmación destino inicial
+109,109,2022-12-17,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-19,No cambio
+114,114,2022-12-13,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-17,Reasignación
+1747,1747,2022-12-21,Destino cancelado sin alternativa viable.,Aceptada,2022-12-23,Confirmación destino inicial
+1870,1870,2022-12-26,Enfermedad sobrevenida documentada.,Rechazada,2022-12-27,No cambio
+2932,2932,2022-12-12,Problemas con la renovación de beca.,Aceptada,2022-12-13,Reasignación
+2569,2569,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-16,Confirmación destino inicial
+2838,2838,2022-12-18,Documentación traspapelada.,Aceptada,2022-12-20,Confirmación destino inicial
+3206,3206,2022-12-23,Situación familiar grave inesperada.,Rechazada,2022-12-27,No cambio
+1667,1667,2022-12-12,Problemas con la renovación de beca.,Aceptada,2022-12-14,Reasignación
+1351,1351,2022-12-18,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-21,Confirmación destino inicial
+563,563,2022-12-26,Situación familiar grave inesperada.,Rechazada,2022-12-30,No cambio
+2153,2153,2022-12-27,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+2650,2650,2022-12-21,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-23,No cambio
+2789,2789,2022-12-17,Error en la asignación de destino.,Aceptada,2022-12-22,Reasignación
+679,679,2022-12-13,Problemas con la renovación de beca.,Rechazada,2022-12-15,No cambio
+162,162,2022-12-15,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-16,Reasignación
+862,862,2022-12-14,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-16,Confirmación destino inicial
+2482,2482,2022-12-12,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-15,Confirmación destino inicial
+991,991,2022-12-13,Problemas con la renovación de beca.,Rechazada,2022-12-13,No cambio
+1406,1406,2022-12-26,Error en la asignación de destino.,Aceptada,2022-12-30,Reasignación
+2399,2399,2022-12-25,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-27,Confirmación destino inicial
+2030,2030,2022-12-26,Error en baremación por idioma.,Rechazada,2022-12-28,No cambio
+2406,2406,2022-12-16,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-18,Confirmación destino inicial
+355,355,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-28,Confirmación destino inicial
+1038,1038,2022-12-20,Error en la asignación de destino.,Rechazada,2022-12-22,No cambio
+749,749,2022-12-26,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-28,No cambio
+2168,2168,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-17,Reasignación
+2527,2527,2022-12-21,Error en baremación por idioma.,Rechazada,2022-12-23,No cambio
+1795,1795,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-15,No cambio
+2272,2272,2023-01-02,Problemas con la renovación de beca.,Aceptada,2023-01-12,Reasignación
+2556,2556,2022-12-13,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-16,Reasignación
+711,711,2022-12-12,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-15,No cambio
+1285,1285,2022-12-13,Problemas con la renovación de beca.,Rechazada,2022-12-17,No cambio
+2217,2217,2022-12-14,Dificultades financieras imprevistas.,Aceptada,2022-12-17,Confirmación destino inicial
+2049,2049,2022-12-14,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-18,Reasignación
+841,841,2022-12-22,Error en la asignación de destino.,Aceptada,2022-12-26,Confirmación destino inicial
+2794,2794,2022-12-15,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-19,Reasignación
+1993,1993,2022-12-27,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-29,Confirmación destino inicial
+321,321,2022-12-13,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-14,No cambio
+2758,2758,2022-12-13,Destino cancelado sin alternativa viable.,Rechazada,2022-12-16,No cambio
+2645,2645,2022-12-12,Error en la asignación de destino.,Rechazada,2022-12-14,No cambio
+3113,3113,2022-12-13,Error en baremación por idioma.,Aceptada,2022-12-16,Confirmación destino inicial
+2552,2552,2022-12-27,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-30,Reasignación
+2726,2726,2022-12-23,Destino cancelado sin alternativa viable.,Rechazada,2022-12-26,No cambio
+1561,1561,2022-12-27,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-30,Reasignación
+3069,3069,2022-12-21,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-24,Reasignación
+1989,1989,2022-12-13,No reconocimiento de créditos específicos.,Rechazada,2022-12-16,No cambio
+2975,2975,2022-12-27,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-29,No cambio
+3224,3224,2022-12-20,Situación familiar grave inesperada.,Rechazada,2022-12-25,No cambio
+2478,2478,2022-12-13,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-14,No cambio
+1094,1094,2022-12-23,Documentación traspapelada.,Aceptada,2022-12-24,Reasignación
+2538,2538,2022-12-12,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-15,No cambio
+1152,1152,2022-12-27,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-31,Confirmación destino inicial
+128,128,2022-12-20,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-22,Reasignación
+1516,1516,2022-12-27,Documentación traspapelada.,Aceptada,2022-12-28,Reasignación
+2281,2281,2022-12-27,Cambios inesperados en los requisitos de idioma.,Rechazada,2023-01-03,No cambio
+590,590,2022-12-26,Situación familiar grave inesperada.,Rechazada,2022-12-28,No cambio
+2734,2734,2022-12-22,Dificultades financieras imprevistas.,Aceptada,2022-12-31,Reasignación
+1791,1791,2022-12-12,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-16,No cambio
+1635,1635,2022-12-27,No reconocimiento de créditos específicos.,Rechazada,2022-12-29,No cambio
+2623,2623,2022-12-16,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-18,No cambio
+2475,2475,2022-12-17,Dificultades financieras imprevistas.,Aceptada,2022-12-20,Reasignación
+1144,1144,2022-12-22,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-25,Reasignación
+690,690,2022-12-13,Problemas con la renovación de beca.,Rechazada,2022-12-18,No cambio
+3052,3052,2022-12-22,Error en la asignación de destino.,Aceptada,2022-12-25,Confirmación destino inicial
+2337,2337,2023-01-03,No reconocimiento de créditos específicos.,Rechazada,2023-01-12,No cambio
+1088,1088,2022-12-27,Situación familiar grave inesperada.,Rechazada,2023-01-01,No cambio
+2317,2317,2022-12-18,Documentación traspapelada.,Aceptada,2022-12-23,Confirmación destino inicial
+501,501,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-14,No cambio
+2578,2578,2022-12-13,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-16,No cambio
+826,826,2022-12-27,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-31,No cambio
+3100,3100,2022-12-27,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-29,Confirmación destino inicial
+1634,1634,2022-12-27,Enfermedad sobrevenida documentada.,Aceptada,2022-12-31,Reasignación
+894,894,2022-12-19,Problemas con la renovación de beca.,Rechazada,2022-12-22,No cambio
+1374,1374,2022-12-12,Destino cancelado sin alternativa viable.,Rechazada,2022-12-15,No cambio
+2674,2674,2022-12-25,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-26,No cambio
+2871,2871,2022-12-21,Situación familiar grave inesperada.,Aceptada,2022-12-22,Confirmación destino inicial
+861,861,2022-12-23,No reconocimiento de créditos específicos.,Rechazada,2022-12-27,No cambio
+2464,2464,2022-12-15,Destino cancelado sin alternativa viable.,Rechazada,2022-12-18,No cambio
+234,234,2022-12-27,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-27,No cambio
+2661,2661,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-29,Reasignación
+762,762,2022-12-20,Error en cálculo de nota media.,Aceptada,2022-12-23,Reasignación
+2403,2403,2022-12-26,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-28,No cambio
+1048,1048,2022-12-17,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-19,Reasignación
+2184,2184,2022-12-20,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-23,Confirmación destino inicial
+1876,1876,2022-12-12,Dificultades financieras imprevistas.,Aceptada,2022-12-16,Confirmación destino inicial
+1671,1671,2022-12-15,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-20,No cambio
+2251,2251,2022-12-07,Destino cancelado sin alternativa viable.,Aceptada,2022-12-18,Confirmación destino inicial
+506,506,2022-12-18,Situación familiar grave inesperada.,Aceptada,2022-12-22,Confirmación destino inicial
+366,366,2022-12-18,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-19,Reasignación
+775,775,2022-12-26,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-30,Confirmación destino inicial
+360,360,2022-12-25,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-28,Reasignación
+1760,1760,2022-12-12,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-16,Confirmación destino inicial
+2405,2405,2022-12-26,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-31,Confirmación destino inicial
+12,12,2022-12-27,Error en la asignación de destino.,Aceptada,2022-12-31,Confirmación destino inicial
+2560,2560,2022-12-12,Destino cancelado sin alternativa viable.,Rechazada,2022-12-14,No cambio
+2389,2389,2022-12-12,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-13,No cambio
+853,853,2022-12-20,Error en la asignación de destino.,Rechazada,2022-12-23,No cambio
+1492,1492,2022-12-22,Problemas con la renovación de beca.,Rechazada,2022-12-27,No cambio
+1130,1130,2022-12-15,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-16,No cambio
+2133,2133,2022-12-26,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-28,Reasignación
+401,401,2022-12-13,Dificultades financieras imprevistas.,Rechazada,2022-12-14,No cambio
+2219,2219,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-16,No cambio
+131,131,2022-12-13,Error en cálculo de nota media.,Rechazada,2022-12-14,No cambio
+249,249,2022-12-26,Enfermedad sobrevenida documentada.,Rechazada,2022-12-27,No cambio
+1622,1622,2022-12-13,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-17,Reasignación
+1598,1598,2022-12-13,Error en baremación por idioma.,Aceptada,2022-12-18,Confirmación destino inicial
+2016,2016,2022-12-27,No reconocimiento de créditos específicos.,Rechazada,2022-12-30,No cambio
+3182,3182,2022-12-22,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2023-01-05,Reasignación
+1824,1824,2022-12-14,Dificultades financieras imprevistas.,Aceptada,2022-12-17,Confirmación destino inicial
+1620,1620,2022-12-18,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-19,No cambio
+1658,1658,2022-12-18,Error en baremación por idioma.,Rechazada,2022-12-21,No cambio
+883,883,2022-12-13,No reconocimiento de créditos específicos.,Aceptada,2022-12-15,Reasignación
+1322,1322,2022-12-22,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-26,No cambio
+2936,2936,2022-12-26,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-29,Confirmación destino inicial
+1055,1055,2022-12-19,Enfermedad sobrevenida documentada.,Aceptada,2022-12-22,Reasignación
+472,472,2022-12-13,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-14,Confirmación destino inicial
+789,789,2022-12-26,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-30,No cambio
+1408,1408,2022-12-27,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-29,No cambio
+2515,2515,2022-12-19,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-23,Confirmación destino inicial
+407,407,2022-12-12,Error en baremación por idioma.,Rechazada,2022-12-17,No cambio
+1728,1728,2022-12-27,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-29,Reasignación
+508,508,2022-12-12,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-14,Confirmación destino inicial
+851,851,2022-12-12,Error en baremación por idioma.,Aceptada,2022-12-16,Confirmación destino inicial
+2814,2814,2022-12-23,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-25,No cambio
+2396,2396,2022-12-26,Dificultades financieras imprevistas.,Aceptada,2022-12-28,Reasignación
+2824,2824,2022-12-27,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-31,No cambio
+2346,2346,2022-12-13,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-15,Reasignación
+2435,2435,2022-12-19,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-23,No cambio
+1323,1323,2022-12-27,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-29,Reasignación
+916,916,2022-12-13,Error en cálculo de nota media.,Aceptada,2022-12-14,Confirmación destino inicial
+906,906,2022-12-12,Error en la asignación de destino.,Rechazada,2022-12-15,No cambio
+159,159,2022-12-12,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-15,Reasignación
+2054,2054,2022-12-26,Error en la asignación de destino.,Aceptada,2022-12-29,Confirmación destino inicial
+2765,2765,2022-12-12,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-13,No cambio
+1905,1905,2022-12-27,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-29,No cambio
+2283,2283,2022-12-26,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-30,Reasignación
+3126,3126,2022-12-26,Enfermedad sobrevenida documentada.,Aceptada,2022-12-29,Confirmación destino inicial
+1160,1160,2022-12-12,No reconocimiento de créditos específicos.,Rechazada,2022-12-16,No cambio
+1535,1535,2022-12-26,Dificultades financieras imprevistas.,Rechazada,2022-12-28,No cambio
+1405,1405,2022-12-13,Error en cálculo de nota media.,Rechazada,2022-12-15,No cambio
+2818,2818,2022-12-16,Destino cancelado sin alternativa viable.,Rechazada,2022-12-18,No cambio
+256,256,2022-12-15,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-20,Reasignación
+1186,1186,2022-12-21,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2023-01-01,Reasignación
+2840,2840,2022-12-18,Enfermedad sobrevenida documentada.,Aceptada,2022-12-20,Reasignación
+1346,1346,2022-12-27,Error en la asignación de destino.,Rechazada,2022-12-29,No cambio
+1889,1889,2022-12-14,No reconocimiento de créditos específicos.,Aceptada,2022-12-16,Confirmación destino inicial
+1462,1462,2022-12-18,Problemas con la renovación de beca.,Rechazada,2022-12-22,No cambio
+1529,1529,2022-12-12,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-17,Confirmación destino inicial
+479,479,2022-12-15,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-18,Reasignación
+1092,1092,2022-12-18,Dificultades financieras imprevistas.,Rechazada,2022-12-20,No cambio
+857,857,2022-12-14,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-16,Confirmación destino inicial
+2261,2261,2022-12-23,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-28,No cambio
+2608,2608,2022-11-24,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-03,No cambio
+2898,2898,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-15,Reasignación
+233,233,2022-12-27,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-29,Reasignación
+1803,1803,2022-12-24,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-28,No cambio
+1299,1299,2022-12-20,Problemas con la renovación de beca.,Rechazada,2022-12-21,No cambio
+428,428,2022-12-27,Destino cancelado sin alternativa viable.,Aceptada,2022-12-31,Reasignación
+1698,1698,2022-12-24,Problemas con la renovación de beca.,Rechazada,2022-12-27,No cambio
+2823,2823,2022-12-14,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-17,No cambio
+2450,2450,2022-12-13,Documentación traspapelada.,Aceptada,2022-12-15,Reasignación
+2544,2544,2022-12-12,Situación familiar grave inesperada.,Aceptada,2022-12-14,Confirmación destino inicial
+1986,1986,2022-12-27,Error en baremación por idioma.,Aceptada,2022-12-27,Confirmación destino inicial
+1192,1192,2022-12-13,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-14,No cambio
+2298,2298,2022-12-26,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-28,Reasignación
+591,591,2022-12-27,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-31,No cambio
+1549,1549,2022-12-23,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-25,No cambio
+14,14,2022-12-12,Situación familiar grave inesperada.,Rechazada,2022-12-13,No cambio
+1058,1058,2022-12-13,Error en cálculo de nota media.,Rechazada,2022-12-13,No cambio
+2865,2865,2022-12-26,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-28,Reasignación
+889,889,2022-12-19,No reconocimiento de créditos específicos.,Rechazada,2022-12-21,No cambio
+1971,1971,2022-12-22,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-25,No cambio
+1808,1808,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-15,No cambio
+1009,1009,2022-12-12,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-16,No cambio
+616,616,2023-01-02,Error en cálculo de nota media.,Aceptada,2023-01-21,Reasignación
+24,24,2022-12-26,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-27,No cambio
+808,808,2022-12-26,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-30,No cambio
+257,257,2022-12-24,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-27,Confirmación destino inicial
+2893,2893,2022-12-13,Situación familiar grave inesperada.,Rechazada,2022-12-14,No cambio
+1517,1517,2022-12-13,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-15,No cambio
+1168,1168,2022-12-18,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-22,No cambio
+1314,1314,2022-12-22,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-25,Reasignación
+1523,1523,2022-12-13,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-17,No cambio
+1874,1874,2022-12-13,Error en la asignación de destino.,Rechazada,2022-12-14,No cambio
+2853,2853,2022-12-26,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-27,Reasignación
+1469,1469,2022-12-25,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-28,Reasignación
+189,189,2022-12-13,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-18,No cambio
+191,191,2022-12-21,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-24,No cambio
+911,911,2022-12-26,Enfermedad sobrevenida documentada.,Rechazada,2022-12-29,No cambio
+1158,1158,2022-12-26,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-30,Confirmación destino inicial
+375,375,2022-12-12,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-15,Reasignación
+735,735,2022-12-18,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-20,Confirmación destino inicial
+444,444,2022-12-17,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-19,No cambio
+1494,1494,2022-12-12,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-16,Reasignación
+583,583,2022-12-27,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-31,No cambio
+2915,2915,2022-12-21,Enfermedad sobrevenida documentada.,Rechazada,2022-12-24,No cambio
+1239,1239,2022-12-15,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-16,No cambio
+2884,2884,2022-12-12,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-15,No cambio
+1119,1119,2022-12-27,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+1722,1722,2022-12-27,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-29,No cambio
+229,229,2022-12-27,Problemas con la renovación de beca.,Rechazada,2022-12-29,No cambio
+1834,1834,2022-12-27,No reconocimiento de créditos específicos.,Rechazada,2022-12-31,No cambio
+1726,1726,2022-12-24,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-26,No cambio
+4,4,2022-12-26,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-27,No cambio
+748,748,2022-12-26,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-28,Reasignación
+2109,2109,2022-12-22,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-25,No cambio
+1939,1939,2022-12-12,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-17,Reasignación
+701,701,2022-12-27,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-30,Confirmación destino inicial
+1713,1713,2022-12-26,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-28,Reasignación
+1443,1443,2022-12-15,Situación familiar grave inesperada.,Aceptada,2022-12-19,Confirmación destino inicial
+536,536,2022-12-12,Documentación traspapelada.,Aceptada,2022-12-15,Confirmación destino inicial
+1793,1793,2022-12-22,Documentación traspapelada.,Aceptada,2022-12-25,Confirmación destino inicial
+2939,2939,2022-12-24,Destino cancelado sin alternativa viable.,Aceptada,2022-12-27,Confirmación destino inicial
+1072,1072,2022-12-26,Destino cancelado sin alternativa viable.,Rechazada,2022-12-29,No cambio
+2000,2000,2022-12-12,Enfermedad sobrevenida documentada.,Aceptada,2022-12-16,Reasignación
+598,598,2022-12-27,Situación familiar grave inesperada.,Aceptada,2022-12-31,Confirmación destino inicial
+2253,2253,2022-12-19,Documentación traspapelada.,Rechazada,2022-12-22,No cambio
+1821,1821,2022-12-26,Error en la asignación de destino.,Rechazada,2022-12-29,No cambio
+884,884,2022-12-12,Situación familiar grave inesperada.,Aceptada,2022-12-14,Reasignación
+2878,2878,2022-12-12,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-15,Reasignación
+2594,2594,2022-12-14,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-17,Confirmación destino inicial
+2433,2433,2022-12-13,Error en cálculo de nota media.,Aceptada,2022-12-16,Reasignación
+832,832,2022-12-14,Dificultades financieras imprevistas.,Rechazada,2022-12-16,No cambio
+2412,2412,2022-12-17,No reconocimiento de créditos específicos.,Aceptada,2022-12-20,Reasignación
+1231,1231,2022-12-16,Situación familiar grave inesperada.,Rechazada,2022-12-16,No cambio
+2212,2212,2022-12-20,Situación familiar grave inesperada.,Rechazada,2022-12-25,No cambio
+1283,1283,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-28,Confirmación destino inicial
+830,830,2022-11-30,Situación familiar grave inesperada.,Aceptada,2022-12-20,Confirmación destino inicial
+1099,1099,2022-12-26,Error en cálculo de nota media.,Rechazada,2022-12-28,No cambio
+2307,2307,2022-12-12,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-15,No cambio
+2342,2342,2022-12-13,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-15,Reasignación
+2603,2603,2022-12-26,Enfermedad sobrevenida documentada.,Rechazada,2022-12-27,No cambio
+2216,2216,2022-12-13,Dificultades financieras imprevistas.,Rechazada,2023-01-02,No cambio
+605,605,2023-01-10,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2023-01-21,Reasignación
+2677,2677,2022-12-27,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-31,Reasignación
+149,149,2022-12-26,Error en baremación por idioma.,Rechazada,2022-12-28,No cambio
+3165,3165,2022-12-16,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-21,No cambio
+34,34,2022-12-27,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+1668,1668,2022-12-12,Problemas con la renovación de beca.,Rechazada,2022-12-13,No cambio
+2870,2870,2022-12-26,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-30,Reasignación
+1879,1879,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-27,Confirmación destino inicial
+2205,2205,2022-12-14,Error en la asignación de destino.,Rechazada,2022-12-18,No cambio
+1427,1427,2022-12-15,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-15,Reasignación
+1600,1600,2022-12-26,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-29,Confirmación destino inicial
+62,62,2022-12-27,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-31,No cambio
+1217,1217,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-27,Confirmación destino inicial
+3144,3144,2022-12-25,Error en la asignación de destino.,Rechazada,2022-12-27,No cambio
+1042,1042,2022-12-23,Dificultades financieras imprevistas.,Aceptada,2022-12-23,Confirmación destino inicial
+2522,2522,2022-12-13,Enfermedad sobrevenida documentada.,Rechazada,2022-12-18,No cambio
+773,773,2022-12-12,Situación familiar grave inesperada.,Aceptada,2022-12-12,Confirmación destino inicial
+1317,1317,2022-12-27,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-29,Confirmación destino inicial
+2746,2746,2022-12-27,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-30,No cambio
+1360,1360,2022-12-23,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-25,Reasignación
+845,845,2022-12-20,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-24,Reasignación
+755,755,2022-12-26,Documentación traspapelada.,Rechazada,2022-12-29,No cambio
+2755,2755,2022-12-27,Enfermedad sobrevenida documentada.,Rechazada,2022-12-31,No cambio
+268,268,2022-12-24,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-28,Reasignación
+720,720,2022-12-27,Destino cancelado sin alternativa viable.,Rechazada,2022-12-30,No cambio
+353,353,2022-12-23,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-25,Confirmación destino inicial
+1707,1707,2022-12-27,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-31,No cambio
+414,414,2022-12-27,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-30,No cambio
+2156,2156,2022-12-12,Error en la asignación de destino.,Rechazada,2022-12-16,No cambio
+467,467,2022-12-13,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-17,Reasignación
+3191,3191,2022-12-25,Error en cálculo de nota media.,Aceptada,2022-12-27,Reasignación
+972,972,2022-12-26,Destino cancelado sin alternativa viable.,Aceptada,2022-12-29,Confirmación destino inicial
+2304,2304,2022-12-26,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-29,Confirmación destino inicial
+1363,1363,2022-12-18,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-19,Confirmación destino inicial
+458,458,2022-12-17,Error en la asignación de destino.,Aceptada,2022-12-19,Reasignación
+1553,1553,2022-12-12,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-15,No cambio
+1511,1511,2022-12-17,Situación familiar grave inesperada.,Aceptada,2022-12-19,Reasignación
+2589,2589,2022-12-12,Destino cancelado sin alternativa viable.,Rechazada,2022-12-13,No cambio
+2097,2097,2022-12-27,Enfermedad sobrevenida documentada.,Rechazada,2022-12-30,No cambio
+1643,1643,2022-12-24,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-29,No cambio
+1967,1967,2022-12-26,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-28,No cambio
+1420,1420,2023-01-01,Problemas con la renovación de beca.,Aceptada,2023-01-19,Reasignación
+1512,1512,2022-12-27,Problemas con la renovación de beca.,Aceptada,2022-12-29,Confirmación destino inicial
+379,379,2022-12-27,Error en la asignación de destino.,Rechazada,2022-12-31,No cambio
+2456,2456,2022-12-12,Dificultades financieras imprevistas.,Aceptada,2022-12-15,Confirmación destino inicial
+2820,2820,2022-12-26,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-30,Confirmación destino inicial
+2470,2470,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-30,Confirmación destino inicial
+3149,3149,2022-12-23,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-27,Reasignación
+386,386,2022-12-27,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-31,Reasignación
+1162,1162,2022-12-26,Error en la asignación de destino.,Aceptada,2022-12-29,Reasignación
+932,932,2022-12-19,Situación familiar grave inesperada.,Aceptada,2022-12-22,Confirmación destino inicial
+2147,2147,2022-12-18,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-22,Reasignación
+1691,1691,2022-12-15,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-19,No cambio
+3162,3162,2022-12-26,Error en la asignación de destino.,Rechazada,2022-12-28,No cambio
+1565,1565,2022-12-12,No reconocimiento de créditos específicos.,Aceptada,2022-12-12,Reasignación
+350,350,2022-12-22,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-23,Confirmación destino inicial
+2048,2048,2022-12-04,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-11,No cambio
+1073,1073,2022-12-13,Error en baremación por idioma.,Rechazada,2022-12-15,No cambio
+485,485,2022-12-12,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-17,Reasignación
+2906,2906,2022-12-12,Destino cancelado sin alternativa viable.,Rechazada,2022-12-15,No cambio
+633,633,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-28,No cambio
+1159,1159,2022-12-19,Dificultades financieras imprevistas.,Rechazada,2022-12-21,No cambio
+1341,1341,2022-12-22,Enfermedad sobrevenida documentada.,Aceptada,2022-12-27,Reasignación
+279,279,2022-12-14,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-18,No cambio
+2339,2339,2022-12-26,Error en baremación por idioma.,Rechazada,2022-12-29,No cambio
+2582,2582,2022-12-25,Error en la asignación de destino.,Rechazada,2022-12-28,No cambio
+2992,2992,2022-12-13,Problemas con la renovación de beca.,Rechazada,2022-12-15,No cambio
+1143,1143,2022-12-24,Error en la asignación de destino.,Aceptada,2022-12-25,Confirmación destino inicial
+204,204,2022-12-15,Dificultades financieras imprevistas.,Rechazada,2022-12-15,No cambio
+685,685,2022-12-26,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-28,No cambio
+1032,1032,2022-12-20,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-22,Confirmación destino inicial
+1880,1880,2022-12-17,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-19,Confirmación destino inicial
+2124,2124,2022-12-21,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-24,Reasignación
+494,494,2022-12-23,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-24,No cambio
+1528,1528,2022-12-15,Error en la asignación de destino.,Rechazada,2022-12-20,No cambio
+1031,1031,2022-12-25,Error en la asignación de destino.,Aceptada,2022-12-27,Reasignación
+2881,2881,2022-12-17,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-22,No cambio
+1616,1616,2022-12-12,Dificultades financieras imprevistas.,Rechazada,2022-12-15,No cambio
+46,46,2022-12-13,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-15,No cambio
+394,394,2022-12-17,Error en cálculo de nota media.,Rechazada,2022-12-19,No cambio
+2572,2572,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-30,No cambio
+2236,2236,2022-12-12,Enfermedad sobrevenida documentada.,Rechazada,2022-12-13,No cambio
+838,838,2022-12-10,Enfermedad sobrevenida documentada.,Aceptada,2022-12-25,Confirmación destino inicial
+3220,3220,2022-12-27,Error en baremación por idioma.,Rechazada,2022-12-31,No cambio
+2895,2895,2022-12-24,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-27,No cambio
+2883,2883,2022-12-21,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-24,Reasignación
+3073,3073,2022-12-12,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-15,Confirmación destino inicial
+2929,2929,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-16,Confirmación destino inicial
+25,25,2022-12-18,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-22,Confirmación destino inicial
+997,997,2022-12-26,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+1937,1937,2022-12-23,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-28,No cambio
+813,813,2022-12-13,Situación familiar grave inesperada.,Rechazada,2022-12-17,No cambio
+1464,1464,2022-12-13,Error en baremación por idioma.,Rechazada,2022-12-15,No cambio
+1458,1458,2022-12-26,Situación familiar grave inesperada.,Rechazada,2022-12-27,No cambio
+2443,2443,2022-12-24,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-27,Confirmación destino inicial
+2427,2427,2022-12-16,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-18,No cambio
+2343,2343,2022-12-22,Error en baremación por idioma.,Rechazada,2022-12-25,No cambio
+2486,2486,2022-12-25,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-28,Confirmación destino inicial
+1637,1637,2022-12-12,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-17,Reasignación
+288,288,2022-12-18,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-23,No cambio
+359,359,2022-12-14,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-18,No cambio
+3142,3142,2022-12-27,Denegación injustificada de beca de movilidad.,Rechazada,2023-01-01,No cambio
+1075,1075,2022-12-13,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-16,No cambio
+1558,1558,2022-12-26,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-29,Reasignación
+2946,2946,2022-12-16,Error en baremación por idioma.,Aceptada,2022-12-21,Reasignación
+1250,1250,2022-12-23,Problemas con la renovación de beca.,Rechazada,2022-12-27,No cambio
+588,588,2022-12-16,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-18,Reasignación
+161,161,2022-12-26,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-29,Confirmación destino inicial
+2757,2757,2022-12-18,Destino cancelado sin alternativa viable.,Aceptada,2022-12-19,Reasignación
+814,814,2022-12-17,Dificultades financieras imprevistas.,Rechazada,2022-12-20,No cambio
+1318,1318,2022-12-27,Documentación traspapelada.,Aceptada,2022-12-30,Reasignación
+2203,2203,2022-12-27,Destino cancelado sin alternativa viable.,Aceptada,2022-12-30,Confirmación destino inicial
+2596,2596,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-16,No cambio
+2420,2420,2022-12-27,Documentación traspapelada.,Rechazada,2023-01-01,No cambio
+1002,1002,2022-12-20,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-22,Reasignación
+2115,2115,2022-12-19,Problemas con la renovación de beca.,Rechazada,2022-12-21,No cambio
+1367,1367,2022-12-27,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-30,Reasignación
+2633,2633,2022-12-12,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-15,Reasignación
+577,577,2022-12-15,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-20,No cambio
+1907,1907,2022-12-15,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-19,No cambio
+1448,1448,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-28,Reasignación
+1867,1867,2022-12-25,Situación familiar grave inesperada.,Aceptada,2022-12-28,Confirmación destino inicial
+369,369,2022-12-26,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+1587,1587,2022-12-12,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-13,Reasignación
+744,744,2022-12-17,Situación familiar grave inesperada.,Aceptada,2022-12-19,Confirmación destino inicial
+2204,2204,2022-12-27,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-29,No cambio
+3001,3001,2022-12-26,Error en la asignación de destino.,Aceptada,2022-12-31,Confirmación destino inicial
+779,779,2022-12-06,No reconocimiento de créditos específicos.,Aceptada,2022-12-26,Confirmación destino inicial
+2411,2411,2022-12-17,Documentación traspapelada.,Aceptada,2022-12-20,Confirmación destino inicial
+1875,1875,2022-12-12,No reconocimiento de créditos específicos.,Aceptada,2022-12-16,Confirmación destino inicial
+881,881,2022-12-27,Situación familiar grave inesperada.,Aceptada,2022-12-29,Confirmación destino inicial
+2537,2537,2022-12-26,Error en la asignación de destino.,Aceptada,2022-12-30,Reasignación
+803,803,2022-12-18,Dificultades financieras imprevistas.,Rechazada,2022-12-21,No cambio
+343,343,2022-12-27,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-30,Reasignación
+869,869,2022-12-13,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-17,Confirmación destino inicial
+2116,2116,2022-12-05,Documentación traspapelada.,Aceptada,2022-12-19,Confirmación destino inicial
+1525,1525,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-15,Reasignación
+879,879,2022-12-12,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-14,Confirmación destino inicial
+3139,3139,2022-12-19,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-21,Confirmación destino inicial
+31,31,2023-01-07,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2023-01-21,Reasignación
+2859,2859,2022-12-26,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-29,No cambio
+1134,1134,2022-12-26,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-27,No cambio
+1074,1074,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-13,No cambio
+2602,2602,2022-12-27,Error en baremación por idioma.,Aceptada,2022-12-31,Reasignación
+2513,2513,2022-12-27,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-31,No cambio
+2356,2356,2022-12-24,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-26,No cambio
+2641,2641,2022-12-19,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-22,No cambio
+533,533,2022-12-13,Error en la asignación de destino.,Rechazada,2022-12-13,No cambio
+2639,2639,2022-12-13,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-16,Reasignación
+408,408,2022-12-26,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-30,Confirmación destino inicial
+698,698,2022-12-26,Error en baremación por idioma.,Aceptada,2022-12-29,Confirmación destino inicial
+2819,2819,2022-12-26,Error en la asignación de destino.,Rechazada,2022-12-26,No cambio
+2854,2854,2022-12-26,No reconocimiento de créditos específicos.,Aceptada,2022-12-29,Reasignación
+2195,2195,2022-12-24,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-27,Reasignación
+1148,1148,2022-12-04,Problemas con la renovación de beca.,Rechazada,2022-12-11,No cambio
+2970,2970,2022-12-12,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-14,No cambio
+2735,2735,2022-12-21,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-24,No cambio
+2206,2206,2022-12-21,Error en baremación por idioma.,Aceptada,2022-12-22,Reasignación
+945,945,2022-12-14,Documentación traspapelada.,Aceptada,2022-12-18,Confirmación destino inicial
+2978,2978,2022-12-27,Dificultades financieras imprevistas.,Rechazada,2022-12-29,No cambio
+2200,2200,2023-01-01,Información incorrecta sobre alojamiento en destino.,Rechazada,2023-01-19,No cambio
+1342,1342,2022-12-26,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+2948,2948,2022-12-22,Problemas con la renovación de beca.,Aceptada,2022-12-24,Reasignación
+1218,1218,2022-12-27,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-29,No cambio
+1212,1212,2022-12-18,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-20,No cambio
+2844,2844,2022-12-27,Error en la asignación de destino.,Aceptada,2022-12-29,Reasignación
+1920,1920,2022-12-27,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-30,No cambio
+2426,2426,2022-12-12,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-14,No cambio
+2327,2327,2022-12-27,Documentación traspapelada.,Rechazada,2022-12-30,No cambio
+940,940,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-27,Confirmación destino inicial
+60,60,2022-12-08,Error en la asignación de destino.,Aceptada,2022-12-25,Reasignación
+443,443,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-31,Confirmación destino inicial
+391,391,2022-12-19,Destino cancelado sin alternativa viable.,Rechazada,2022-12-22,No cambio
+221,221,2022-12-25,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-27,No cambio
+1063,1063,2022-12-13,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-14,No cambio
+1499,1499,2022-12-12,Error en cálculo de nota media.,Rechazada,2022-12-16,No cambio
+684,684,2022-12-21,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-28,Reasignación
+2349,2349,2022-12-15,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-15,No cambio
+2013,2013,2022-12-13,Problemas con la renovación de beca.,Aceptada,2022-12-16,Confirmación destino inicial
+1202,1202,2022-12-12,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-15,No cambio
+2351,2351,2022-12-27,Situación familiar grave inesperada.,Aceptada,2022-12-29,Confirmación destino inicial
+1078,1078,2022-12-27,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-30,No cambio
+1051,1051,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-31,Reasignación
+2083,2083,2022-12-26,Error en la asignación de destino.,Rechazada,2022-12-28,No cambio
+1988,1988,2022-12-26,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-29,No cambio
+1914,1914,2022-12-19,Enfermedad sobrevenida documentada.,Rechazada,2022-12-21,No cambio
+1498,1498,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-16,Confirmación destino inicial
+2424,2424,2022-12-12,Información errónea sobre asignaturas en destino X.,Rechazada,2022-12-12,No cambio
+2506,2506,2022-12-15,Denegación injustificada de beca de movilidad.,Aceptada,2022-12-18,Confirmación destino inicial
+2959,2959,2022-12-27,Destino cancelado sin alternativa viable.,Aceptada,2022-12-30,Confirmación destino inicial
+259,259,2022-12-26,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-28,Confirmación destino inicial
+2107,2107,2022-12-24,Error en la asignación de destino.,Rechazada,2022-12-27,No cambio
+736,736,2022-12-26,Error en baremación por idioma.,Rechazada,2022-12-29,No cambio
+358,358,2022-12-13,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-16,No cambio
+647,647,2022-12-12,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-13,Reasignación
+2571,2571,2022-12-12,Destino cancelado sin alternativa viable.,Rechazada,2022-12-17,No cambio
+1206,1206,2022-12-12,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-14,No cambio
+1613,1613,2022-12-13,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-16,Confirmación destino inicial
+3136,3136,2022-12-16,Error en cálculo de nota media.,Aceptada,2022-12-18,Reasignación
+3148,3148,2022-12-12,Error en la asignación de destino.,Aceptada,2022-12-14,Reasignación
+1266,1266,2022-12-25,Destino cancelado sin alternativa viable.,Rechazada,2022-12-29,No cambio
+1997,1997,2022-12-01,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-16,Reasignación
+238,238,2022-12-25,Situación familiar grave inesperada.,Aceptada,2022-12-25,Confirmación destino inicial
+326,326,2022-12-27,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-28,No cambio
+786,786,2022-12-25,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-29,Reasignación
+776,776,2022-12-16,Enfermedad sobrevenida documentada.,Aceptada,2022-12-20,Reasignación
+546,546,2022-12-19,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-20,No cambio
+1954,1954,2022-12-27,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-31,Confirmación destino inicial
+1227,1227,2022-12-12,Enfermedad sobrevenida documentada.,Rechazada,2022-12-15,No cambio
+2243,2243,2022-12-12,Enfermedad sobrevenida documentada.,Aceptada,2022-12-15,Confirmación destino inicial
+2224,2224,2022-12-13,Dificultades financieras imprevistas.,Aceptada,2022-12-17,Reasignación
+1704,1704,2022-12-17,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-19,Reasignación
+1366,1366,2022-12-27,Información incorrecta sobre alojamiento en destino.,Rechazada,2022-12-30,No cambio
+3163,3163,2022-12-13,Situación familiar grave inesperada.,Aceptada,2022-12-17,Reasignación
+2440,2440,2022-12-22,Error en la asignación de destino.,Aceptada,2022-12-22,Reasignación
+486,486,2022-12-27,Error en la asignación de destino.,Aceptada,2022-12-29,Confirmación destino inicial
+969,969,2022-12-19,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-23,Confirmación destino inicial
+1763,1763,2022-12-23,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-25,Reasignación
+2642,2642,2022-12-12,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-14,Reasignación
+602,602,2022-12-23,Retrasos en la comunicación de la decisión de la beca.,Aceptada,2022-12-26,Reasignación
+49,49,2022-12-13,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-16,No cambio
+2517,2517,2023-01-06,Enfermedad sobrevenida documentada.,Aceptada,2023-01-20,Reasignación
+898,898,2022-12-16,No reconocimiento de créditos específicos.,Rechazada,2023-01-05,No cambio
+1666,1666,2022-12-27,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-30,No cambio
+1554,1554,2023-01-10,Enfermedad sobrevenida documentada.,Aceptada,2023-01-28,Reasignación
+1518,1518,2022-12-17,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-20,No cambio
+3053,3053,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-15,Confirmación destino inicial
+2624,2624,2022-12-27,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-28,Reasignación
+727,727,2022-12-12,Error en baremación por idioma.,Aceptada,2022-12-14,Reasignación
+1836,1836,2022-12-12,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-13,No cambio
+737,737,2022-12-24,Situación familiar grave inesperada.,Aceptada,2022-12-26,Confirmación destino inicial
+2225,2225,2022-12-23,Denegación injustificada de beca de movilidad.,Rechazada,2022-12-26,No cambio
+2062,2062,2022-12-27,Situación familiar grave inesperada.,Rechazada,2022-12-29,No cambio
+473,473,2022-12-13,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-17,No cambio
+990,990,2022-12-27,Error en baremación por idioma.,Aceptada,2022-12-29,Reasignación
+1695,1695,2022-12-13,Error en cálculo de nota media.,Rechazada,2022-12-17,No cambio
+1210,1210,2022-12-13,Discriminación o trato injusto durante el proceso de selección.,Rechazada,2022-12-16,No cambio
+1410,1410,2022-12-27,Destino cancelado sin alternativa viable.,Aceptada,2022-12-31,Reasignación
+2826,2826,2022-12-12,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-15,No cambio
+2091,2091,2022-12-20,Error en cálculo de nota media.,Aceptada,2022-12-23,Confirmación destino inicial
+1611,1611,2022-12-27,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-31,Confirmación destino inicial
+2770,2770,2022-12-12,Error en la asignación de destino.,Rechazada,2022-12-17,No cambio
+3050,3050,2022-12-16,Situación familiar grave inesperada.,Rechazada,2022-12-20,No cambio
+1409,1409,2022-12-26,Error en cálculo de nota media.,Aceptada,2022-12-30,Confirmación destino inicial
+51,51,2022-11-26,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-07,No cambio
+3058,3058,2022-12-27,Cambios inesperados en los requisitos de idioma.,Aceptada,2022-12-28,Reasignación
+1557,1557,2022-12-26,Error en cálculo de nota media.,Rechazada,2022-12-28,No cambio
+992,992,2022-12-26,Error en baremación por idioma.,Rechazada,2022-12-28,No cambio
+465,465,2022-12-26,Error en cálculo de nota media.,Rechazada,2022-12-28,No cambio
+1203,1203,2022-12-22,Error en cálculo de nota media.,Rechazada,2022-12-26,No cambio
+676,676,2022-12-27,Error en baremación por idioma.,Aceptada,2023-01-01,Reasignación
+2900,2900,2022-12-27,Error en cálculo de nota media.,Rechazada,2022-12-31,No cambio
+614,614,2022-12-13,Error en cálculo de nota media.,Aceptada,2022-12-15,Confirmación destino inicial
+349,349,2022-12-26,Error en la asignación de destino.,Aceptada,2022-12-28,Confirmación destino inicial
+2675,2675,2022-12-12,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-16,No cambio
+2178,2178,2022-12-12,Requisitos de visa no comunicados de manera adecuada.,Rechazada,2022-12-13,No cambio
+2361,2361,2022-12-24,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-28,Confirmación destino inicial
+873,873,2022-12-26,Información incorrecta sobre alojamiento en destino.,Aceptada,2022-12-30,Reasignación
+1798,1798,2022-12-24,Error en cálculo de nota media.,Rechazada,2022-12-27,No cambio
+45,45,2022-12-27,Cambio en la situación personal que afecta la capacidad para viajar.,Aceptada,2022-12-30,Confirmación destino inicial
+900,900,2022-12-17,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-19,No cambio
+3020,3020,2022-12-12,Situación familiar grave inesperada.,Rechazada,2022-12-14,No cambio
+652,652,2022-12-06,No reconocimiento de créditos específicos.,Rechazada,2022-12-24,No cambio
+2202,2202,2022-12-12,Dificultades financieras imprevistas.,Rechazada,2022-12-14,No cambio
+549,549,2022-12-27,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-29,No cambio
+1765,1765,2022-12-27,Incompatibilidad de horarios en asignaturas clave.,Rechazada,2022-12-29,No cambio
+687,687,2022-12-23,Documentación traspapelada.,Rechazada,2022-12-24,No cambio
+1951,1951,2022-12-26,Problemas con la renovación de beca.,Aceptada,2022-12-28,Confirmación destino inicial
+174,174,2022-12-26,Cambio en la situación personal que afecta la capacidad para viajar.,Rechazada,2022-12-29,No cambio
+1496,1496,2022-12-27,Situación familiar grave inesperada.,Aceptada,2022-12-30,Confirmación destino inicial
+39,39,2022-12-12,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-15,No cambio
+1424,1424,2022-12-12,Cambios inesperados en los requisitos de idioma.,Rechazada,2022-12-14,No cambio
+1117,1117,2022-12-13,Error en baremación por idioma.,Aceptada,2022-12-14,Confirmación destino inicial
+1066,1066,2022-12-26,Error en baremación por idioma.,Rechazada,2022-12-30,No cambio
+2654,2654,2022-12-22,Documentación traspapelada.,Rechazada,2022-12-23,No cambio
+1396,1396,2022-12-23,Dificultades financieras imprevistas.,Aceptada,2022-12-26,Confirmación destino inicial
+505,505,2022-12-18,Destino cancelado sin alternativa viable.,Rechazada,2022-12-19,No cambio
+488,488,2022-12-20,Enfermedad sobrevenida documentada.,Aceptada,2022-12-23,Reasignación
+569,569,2022-12-23,Error en baremación por idioma.,Rechazada,2022-12-26,No cambio
+294,294,2022-12-13,Error en la asignación de destino.,Aceptada,2022-12-18,Reasignación
+2254,2254,2022-12-12,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-14,Reasignación
+1796,1796,2022-12-12,Dificultades financieras imprevistas.,Rechazada,2022-12-17,No cambio
+1412,1412,2022-12-13,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-16,Reasignación
+1265,1265,2022-12-13,Destino cancelado sin alternativa viable.,Rechazada,2022-12-17,No cambio
+1118,1118,2022-12-24,Dificultades financieras imprevistas.,Rechazada,2022-12-29,No cambio
+2170,2170,2022-12-03,Discriminación o trato injusto durante el proceso de selección.,Aceptada,2022-12-22,Reasignación
+2944,2944,2022-12-12,Documentación traspapelada.,Aceptada,2022-12-12,Confirmación destino inicial
+236,236,2022-12-13,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-16,Reasignación
+1599,1599,2022-12-13,Dificultades financieras imprevistas.,Aceptada,2022-12-15,Confirmación destino inicial
+2189,2189,2022-12-12,Incompatibilidad de horarios en asignaturas clave.,Aceptada,2022-12-13,Confirmación destino inicial
+1098,1098,2022-12-15,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-18,No cambio
+2376,2376,2022-12-14,Error en cálculo de nota media.,Rechazada,2022-12-18,No cambio
+270,270,2022-12-13,Requisitos de visa no comunicados de manera adecuada.,Aceptada,2022-12-17,Confirmación destino inicial
+147,147,2022-12-12,Error en baremación por idioma.,Aceptada,2022-12-15,Reasignación
+1397,1397,2022-12-21,Información errónea sobre asignaturas en destino X.,Aceptada,2022-12-24,Reasignación
+509,509,2022-12-26,Falta de asesoramiento previo a la partida.,Rechazada,2022-12-26,No cambio
+1404,1404,2022-12-26,Falta de asesoramiento previo a la partida.,Aceptada,2022-12-31,Confirmación destino inicial
+2805,2805,2022-12-19,Retrasos en la comunicación de la decisión de la beca.,Rechazada,2022-12-21,No cambio

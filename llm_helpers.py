@@ -23,17 +23,30 @@ except Exception as e:
 def get_universities(n=300):
     """
     Llama a GPT para generar nombres de universidades europeas plausibles y su país,
-    priorizando países como Italia, Francia, Polonia y Alemania.
+    incluyendo prácticamente todos los países de la Unión Europea excepto España.
     Devuelve una lista de tuplas: [(nombre, pais), ...]
     """
     if not client:
         print("Cliente OpenAI no inicializado. Usando fallback para universidades.")
         return fallback_universities(n)
 
+    # Lista completa de países de la UE (excepto España) para el prompt
+    paises_ue = [
+        "Alemania", "Austria", "Bélgica", "Bulgaria", "Croacia", "Chipre", "República Checa", 
+        "Dinamarca", "Estonia", "Finlandia", "Francia", "Grecia", "Hungría", "Irlanda", 
+        "Italia", "Letonia", "Lituania", "Luxemburgo", "Malta", "Países Bajos", "Polonia", 
+        "Portugal", "Rumania", "Eslovaquia", "Eslovenia", "Suecia"
+    ]
+
     prompt = (
         f"Genera una lista de {n} nombres plausibles de universidades europeas y su país. "
-        f"Prioriza instituciones de Italia, Francia, Polonia y Alemania, pero incluye otras europeas también. "
-        f"Formatea cada entrada como: Nombre Universidad - País. Ejemplo: Sorbonne Université - France\n"
+        f"INCLUYE UNIVERSIDADES DE TODOS ESTOS PAÍSES DE LA UNIÓN EUROPEA: {', '.join(paises_ue)}. "
+        f"Distribuye las universidades de manera equilibrada entre todos estos países, "
+        f"priorizando ligeramente Alemania, Francia, Italia y Polonia, pero asegurándote de incluir "
+        f"universidades de TODOS los países mencionados. "
+        f"Usa nombres realistas de universidades existentes o plausibles. "
+        f"Formatea cada entrada como: Nombre Universidad - País. Ejemplo: Sorbonne Université - Francia\n"
+        f"IMPORTANTE: NO incluyas universidades de España. "
         f"Devuelve SOLO la lista, una entrada por línea."
     )
     try:
@@ -70,9 +83,39 @@ def get_universities(n=300):
         return fallback_universities(n)
 
 def fallback_universities(n):
-    """Función helper para el fallback de universidades."""
-    paises_fallback = ["Italia", "Alemania", "Francia", "Polonia", "Portugal", "Países Bajos", "Suecia"]
-    return [(f"Universidad Genérica {i}", random.choice(paises_fallback)) for i in range(1, n + 1)]
+    """Función helper para el fallback de universidades con todos los países de la UE excepto España."""
+    paises_fallback = [
+        "Alemania", "Austria", "Bélgica", "Bulgaria", "Croacia", "Chipre", "República Checa", 
+        "Dinamarca", "Estonia", "Finlandia", "Francia", "Grecia", "Hungría", "Irlanda", 
+        "Italia", "Letonia", "Lituania", "Luxemburgo", "Malta", "Países Bajos", "Polonia", 
+        "Portugal", "Rumania", "Eslovaquia", "Eslovenia", "Suecia"
+    ]
+    
+    # Crear una distribución más equilibrada
+    universidades = []
+    paises_por_usar = paises_fallback.copy()
+    
+    for i in range(1, n + 1):
+        # Si hemos usado todos los países, reiniciar la lista
+        if not paises_por_usar:
+            paises_por_usar = paises_fallback.copy()
+        
+        # Seleccionar país y removerlo temporalmente para equilibrar
+        pais = random.choice(paises_por_usar)
+        paises_por_usar.remove(pais)
+        
+        # Generar nombre de universidad más realista
+        prefijos = ["Universidad de", "Universidad Técnica de", "Universidad Politécnica de", 
+                   "Instituto Tecnológico de", "Universidad Nacional de", "Universidad Europea de"]
+        sufijos = ["", " del Norte", " del Sur", " Central", " Metropolitana", " de Ciencias"]
+        
+        prefijo = random.choice(prefijos)
+        sufijo = random.choice(sufijos)
+        nombre = f"{prefijo} {pais.split()[0]}{sufijo}"  # Usar primera palabra del país
+        
+        universidades.append((nombre, pais))
+    
+    return universidades
 
 def get_alegation_motives(n=20):
     """
@@ -198,10 +241,17 @@ TEN EN CUENTA LO SIGUIENTE:
 - SI OCURREN los pasos de idioma, la actividad 4 (Inscripción) DEBE ser POSTERIOR a la 3 (Aceptación Idioma).
 - SI OCURRE la actividad 2 (Rechazo Idioma), puede haber un REINTENTO (añadir otra secuencia 1 -> 2 ó 1 -> 3) o el proceso puede terminar ahí (exclusión).
 - Los pasos de alegaciones (7, 8, 9) son OPCIONALES (~15-20%). Van DESPUÉS de la publicación provisional (ID 6).
+- IMPORTANTE: Learning Agreement (LA) con BUCLES DE REINTENTO:
+  * Responsable Destino: 23->24->25 (aceptado) ó 23->24->26 (rechazado)
+  * Subdirectora RRII: 27->28->29 (aceptado) ó 27->28->30 (rechazado)
+  * Si LA es rechazado (26 ó 30), el estudiante puede reintentarlo 2-4 veces
+  * 90% de casos se resuelven finalmente (terminan en 25 ó 29 + 31 + 32)
+  * 10% de casos NO se resuelven (terminan en 26 ó 30 + 32, sin formalización 31)
+  * Ejemplos de reintentos: [23,24,26,23,24,25] ó [27,28,30,27,28,29] ó [23,24,26,23,24,26,23,24,25]
 - Incluye variaciones comunes como aceptación/reserva/renuncia en adjudicaciones (1ª: 10-13, 2ª: 14-17, 3ª: 18-21), finalización con LA (23-30) y formalización (31-32), o finales abruptos (exclusión [ej. 1,2 o 1,2,1,2], renuncia [ej. 1,3,4,...,10,12], no asignación [ej. 1,3,4,...,21,22], cancelación admin [ej. ..., 33]).
 
 Asegúrate de que el orden de las actividades en cada patrón sea lógicamente correcto. 
-Formatea CADA patrón como una lista de Python de enteros. Ejemplo: [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32]
+Formatea CADA patrón como una lista de Python de enteros. Ejemplo: [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32]
 Devuelve SOLO las listas, una por línea.
 """
 
@@ -247,14 +297,24 @@ def fallback_process_patterns():
     """Función helper para el fallback de patrones de proceso."""
     return [
         # --- Aceptados --- 
-        # Con Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA OK
+        # Con Idioma OK (1->3), Sin Alegación, Acepta 1ª, LA OK directo
         [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
-        # Sin Idioma, Sin Alegación, Acepta 2ª, LA OK
+        # Sin Idioma, Sin Alegación, Acepta 2ª, LA OK directo
         [4, 5, 6, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 27, 28, 29, 31, 32],
-        # Con Idioma REINTENTO OK (1->2->1->3), Con Alegación, Acepta 3ª, LA OK
-        [1, 2, 1, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 25, 27, 28, 29, 31, 32],
-        # Sin Idioma, Con Alegación, Acepta 1ª, LA con problemas resueltos
-        [4, 5, 6, 7, 8, 9, 10, 11, 14, 18, 22, 23, 24, 26, 27, 28, 30, 27, 28, 29, 31, 32], # LA Rechazado->Reintentado
+        # Con Idioma REINTENTO OK (1->2->1->3), Con Alegación, Acepta 3ª, LA con reintentos
+        [1, 2, 1, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 18, 19, 22, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32],
+        # Sin Idioma, Con Alegación, Acepta 1ª, LA con múltiples reintentos (Resp+Subdir)
+        [4, 5, 6, 7, 8, 9, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 25, 27, 28, 30, 27, 28, 29, 31, 32],
+        # Con Idioma OK, Sin Alegación, Acepta 1ª, LA con 2 reintentos Responsable
+        [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 26, 23, 24, 25, 27, 28, 29, 31, 32],
+        # Sin Idioma, Sin Alegación, Acepta 1ª, LA con reintento Subdirectora
+        [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 30, 27, 28, 29, 31, 32],
+        
+        # --- Aceptados con LA rechazado definitivamente (10% casos) ---
+        # Con Idioma, LA rechazado por Responsable tras 3 intentos -> Finalizado sin formalización
+        [1, 3, 4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 26, 23, 24, 26, 23, 24, 26, 32],
+        # Sin Idioma, LA rechazado por Subdirectora tras 2 intentos -> Finalizado sin formalización
+        [4, 5, 6, 10, 11, 14, 18, 22, 23, 24, 25, 27, 28, 30, 27, 28, 30, 32],
 
         # --- Renuncias --- 
         # Con Idioma OK (1->3), Sin Alegación, Renuncia en 1ª

@@ -1,0 +1,1489 @@
+DestinoID,NombreDestino,Ronda,PlazasTotales,PlazasDisponibles,NumTitulares,NumSuplentes,NumRenuncias,TotalCandidatos,TasaOcupacion,TasaRenuncia,Competitividad
+1,Università degli Studi di Roma La Sapienza,1ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+1,Università degli Studi di Roma La Sapienza,2ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+1,Università degli Studi di Roma La Sapienza,3ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+1,Università degli Studi di Roma La Sapienza,Adjudicación Final,0,0,0,5,0,5,0.0,0.0,Alta
+2,Université Paris-Sorbonne,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+2,Université Paris-Sorbonne,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+2,Université Paris-Sorbonne,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+2,Université Paris-Sorbonne,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+3,Uniwersytet Warszawski,1ª Adjudicación,3,3,3,6,0,9,100.0,0.0,Alta
+3,Uniwersytet Warszawski,2ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+3,Uniwersytet Warszawski,3ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+3,Uniwersytet Warszawski,Adjudicación Final,3,3,3,6,0,9,100.0,0.0,Alta
+4,Freie Universität Berlin,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+4,Freie Universität Berlin,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+4,Freie Universität Berlin,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+4,Freie Universität Berlin,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+5,Università degli Studi di Milano,1ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+5,Università degli Studi di Milano,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+5,Università degli Studi di Milano,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+5,Università degli Studi di Milano,Adjudicación Final,4,4,2,0,0,2,50.0,0.0,Baja
+6,Université de Strasbourg,1ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+6,Université de Strasbourg,2ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+6,Université de Strasbourg,3ª Adjudicación,4,4,1,0,1,1,25.0,100.0,Baja
+6,Université de Strasbourg,Adjudicación Final,4,5,3,0,0,3,75.0,0.0,Baja
+7,Uniwersytet Jagielloński,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+7,Uniwersytet Jagielloński,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+7,Uniwersytet Jagielloński,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+7,Uniwersytet Jagielloński,Adjudicación Final,3,3,3,3,0,6,100.0,0.0,Media
+8,Technische Universität München,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+8,Technische Universität München,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+8,Technische Universität München,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+8,Technische Universität München,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+9,Università degli Studi di Napoli Federico II,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+9,Università degli Studi di Napoli Federico II,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+9,Università degli Studi di Napoli Federico II,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+9,Università degli Studi di Napoli Federico II,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+10,Université Paris Diderot,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+10,Université Paris Diderot,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+10,Université Paris Diderot,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+10,Université Paris Diderot,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+11,Uniwersytet Wrocławski,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+11,Uniwersytet Wrocławski,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+11,Uniwersytet Wrocławski,3ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+11,Uniwersytet Wrocławski,Adjudicación Final,2,3,3,2,0,5,150.0,0.0,Alta
+12,Humboldt-Universität zu Berlin,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+12,Humboldt-Universität zu Berlin,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+12,Humboldt-Universität zu Berlin,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+12,Humboldt-Universität zu Berlin,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+13,Università degli Studi di Torino,1ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+13,Università degli Studi di Torino,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+13,Università degli Studi di Torino,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+13,Università degli Studi di Torino,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+14,Université de Bordeaux,1ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+14,Université de Bordeaux,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+14,Université de Bordeaux,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+14,Université de Bordeaux,Adjudicación Final,5,5,1,0,0,1,20.0,0.0,Baja
+15,Uniwersytet Gdański,1ª Adjudicación,3,3,3,7,1,10,100.0,33.33,Alta
+15,Uniwersytet Gdański,2ª Adjudicación,3,3,4,6,0,10,133.33,0.0,Alta
+15,Uniwersytet Gdański,3ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+15,Uniwersytet Gdański,Adjudicación Final,3,3,3,6,0,9,100.0,0.0,Alta
+16,Rheinische Friedrich-Wilhelms-Universität Bonn,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+16,Rheinische Friedrich-Wilhelms-Universität Bonn,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+16,Rheinische Friedrich-Wilhelms-Universität Bonn,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+16,Rheinische Friedrich-Wilhelms-Universität Bonn,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+17,Università degli Studi di Padova,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+17,Università degli Studi di Padova,2ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+17,Università degli Studi di Padova,3ª Adjudicación,5,5,1,0,1,1,20.0,100.0,Baja
+17,Università degli Studi di Padova,Adjudicación Final,5,6,4,0,0,4,80.0,0.0,Baja
+18,Université de Montpellier,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+18,Université de Montpellier,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+18,Université de Montpellier,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+18,Université de Montpellier,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+19,Uniwersytet Mikołaja Kopernika,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+19,Uniwersytet Mikołaja Kopernika,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+19,Uniwersytet Mikołaja Kopernika,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+19,Uniwersytet Mikołaja Kopernika,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+20,Ludwig-Maximilians-Universität München,1ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+20,Ludwig-Maximilians-Universität München,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+20,Ludwig-Maximilians-Universität München,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+20,Ludwig-Maximilians-Universität München,Adjudicación Final,5,5,2,0,0,2,40.0,0.0,Baja
+21,Università degli Studi di Firenze,1ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+21,Università degli Studi di Firenze,2ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+21,Università degli Studi di Firenze,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+21,Università degli Studi di Firenze,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+22,Université de Nice Sophia Antipolis,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+22,Université de Nice Sophia Antipolis,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+22,Université de Nice Sophia Antipolis,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+22,Université de Nice Sophia Antipolis,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+23,Uniwersytet Łódzki,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+23,Uniwersytet Łódzki,2ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+23,Uniwersytet Łódzki,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+23,Uniwersytet Łódzki,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+24,Ruprecht-Karls-Universität Heidelberg,1ª Adjudicación,5,5,2,0,1,2,40.0,50.0,Baja
+24,Ruprecht-Karls-Universität Heidelberg,2ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+24,Ruprecht-Karls-Universität Heidelberg,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+24,Ruprecht-Karls-Universität Heidelberg,Adjudicación Final,5,5,1,0,0,1,20.0,0.0,Baja
+25,Università degli Studi di Pisa,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+25,Università degli Studi di Pisa,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+25,Università degli Studi di Pisa,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+25,Università degli Studi di Pisa,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+26,Université de Lille,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+26,Université de Lille,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+26,Université de Lille,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+26,Université de Lille,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+27,Uniwersytet Poznański,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+27,Uniwersytet Poznański,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+27,Uniwersytet Poznański,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+27,Uniwersytet Poznański,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+28,Technische Universität Berlin,1ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+28,Technische Universität Berlin,2ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+28,Technische Universität Berlin,3ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+28,Technische Universität Berlin,Adjudicación Final,0,0,0,3,0,3,0.0,0.0,Alta
+29,Università degli Studi di Palermo,1ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+29,Università degli Studi di Palermo,2ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+29,Università degli Studi di Palermo,3ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+29,Università degli Studi di Palermo,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+30,Université de Nantes,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+30,Université de Nantes,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+30,Université de Nantes,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+30,Université de Nantes,Adjudicación Final,2,2,1,0,0,1,50.0,0.0,Baja
+31,Uniwersytet Śląski,1ª Adjudicación,5,5,5,1,1,6,100.0,20.0,Media
+31,Uniwersytet Śląski,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+31,Uniwersytet Śląski,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+31,Uniwersytet Śląski,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+32,Universität Hamburg,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+32,Universität Hamburg,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+32,Universität Hamburg,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+32,Universität Hamburg,Adjudicación Final,3,3,3,3,0,6,100.0,0.0,Media
+33,Università degli Studi di Bologna,1ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+33,Università degli Studi di Bologna,2ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+33,Università degli Studi di Bologna,3ª Adjudicación,3,4,1,0,0,1,33.33,0.0,Baja
+33,Università degli Studi di Bologna,Adjudicación Final,3,3,2,0,0,2,66.67,0.0,Baja
+34,Université de Rennes 1,1ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+34,Université de Rennes 1,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+34,Université de Rennes 1,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+34,Université de Rennes 1,Adjudicación Final,2,2,0,0,0,0,0.0,0.0,Baja
+35,Uniwersytet Marii Curie-Skłodowskiej,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+35,Uniwersytet Marii Curie-Skłodowskiej,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+35,Uniwersytet Marii Curie-Skłodowskiej,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+35,Uniwersytet Marii Curie-Skłodowskiej,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+36,Universität Köln,1ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+36,Universität Köln,2ª Adjudicación,2,2,2,3,1,5,100.0,50.0,Alta
+36,Universität Köln,3ª Adjudicación,2,2,3,3,0,6,150.0,0.0,Alta
+36,Universität Köln,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+37,Università degli Studi di Cagliari,1ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+37,Università degli Studi di Cagliari,2ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+37,Università degli Studi di Cagliari,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+37,Università degli Studi di Cagliari,Adjudicación Final,3,3,3,0,0,3,100.0,0.0,Baja
+38,Université de Toulouse,1ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+38,Université de Toulouse,2ª Adjudicación,3,4,1,0,0,1,33.33,0.0,Baja
+38,Université de Toulouse,3ª Adjudicación,3,3,1,0,1,1,33.33,100.0,Baja
+38,Université de Toulouse,Adjudicación Final,3,4,2,0,0,2,66.67,0.0,Baja
+39,Uniwersytet Adama Mickiewicza,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+39,Uniwersytet Adama Mickiewicza,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+39,Uniwersytet Adama Mickiewicza,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+39,Uniwersytet Adama Mickiewicza,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+40,Universität Frankfurt am Main,1ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+40,Universität Frankfurt am Main,2ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+40,Universität Frankfurt am Main,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+40,Universität Frankfurt am Main,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+41,Università degli Studi di Catania,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+41,Università degli Studi di Catania,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+41,Università degli Studi di Catania,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+41,Università degli Studi di Catania,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+42,Université de Rouen,1ª Adjudicación,0,0,0,6,0,6,0.0,0.0,Alta
+42,Université de Rouen,2ª Adjudicación,0,0,0,6,0,6,0.0,0.0,Alta
+42,Université de Rouen,3ª Adjudicación,0,0,0,6,0,6,0.0,0.0,Alta
+42,Université de Rouen,Adjudicación Final,0,0,0,6,0,6,0.0,0.0,Alta
+43,Uniwersytet Pedagogiczny w Krakowie,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+43,Uniwersytet Pedagogiczny w Krakowie,2ª Adjudicación,2,2,2,1,1,3,100.0,50.0,Media
+43,Uniwersytet Pedagogiczny w Krakowie,3ª Adjudicación,2,2,3,1,0,4,150.0,0.0,Media
+43,Uniwersytet Pedagogiczny w Krakowie,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+44,Universität Stuttgart,1ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+44,Universität Stuttgart,2ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+44,Universität Stuttgart,3ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+44,Universität Stuttgart,Adjudicación Final,1,1,1,7,0,8,100.0,0.0,Alta
+45,Università degli Studi di Salerno,1ª Adjudicación,4,4,4,4,0,8,100.0,0.0,Media
+45,Università degli Studi di Salerno,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+45,Università degli Studi di Salerno,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+45,Università degli Studi di Salerno,Adjudicación Final,4,4,4,4,0,8,100.0,0.0,Media
+46,Université de Reims Champagne-Ardenne,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+46,Université de Reims Champagne-Ardenne,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+46,Université de Reims Champagne-Ardenne,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+46,Université de Reims Champagne-Ardenne,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+47,Uniwersytet Szczeciński,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+47,Uniwersytet Szczeciński,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+47,Uniwersytet Szczeciński,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+47,Uniwersytet Szczeciński,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+48,Universität Tübingen,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+48,Universität Tübingen,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+48,Universität Tübingen,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+48,Universität Tübingen,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+49,Università degli Studi di Trieste,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+49,Università degli Studi di Trieste,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+49,Università degli Studi di Trieste,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+49,Università degli Studi di Trieste,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+50,Université de Caen Normandie,1ª Adjudicación,3,3,3,5,0,8,100.0,0.0,Alta
+50,Université de Caen Normandie,2ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+50,Université de Caen Normandie,3ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+50,Université de Caen Normandie,Adjudicación Final,3,3,3,5,0,8,100.0,0.0,Alta
+51,Uniwersytet Warmińsko-Mazurski,1ª Adjudicación,4,4,4,1,1,5,100.0,25.0,Media
+51,Uniwersytet Warmińsko-Mazurski,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+51,Uniwersytet Warmińsko-Mazurski,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+51,Uniwersytet Warmińsko-Mazurski,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+52,Universität Leipzig,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+52,Universität Leipzig,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+52,Universität Leipzig,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+52,Universität Leipzig,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+53,Università degli Studi di Verona,1ª Adjudicación,2,2,2,4,1,6,100.0,50.0,Alta
+53,Università degli Studi di Verona,2ª Adjudicación,2,2,3,4,0,7,150.0,0.0,Alta
+53,Università degli Studi di Verona,3ª Adjudicación,2,2,2,2,1,4,100.0,50.0,Media
+53,Università degli Studi di Verona,Adjudicación Final,2,2,3,2,0,5,150.0,0.0,Alta
+54,Université de Picardie Jules Verne,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+54,Université de Picardie Jules Verne,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+54,Université de Picardie Jules Verne,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+54,Université de Picardie Jules Verne,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+55,Uniwersytet Medyczny w Łodzi,1ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+55,Uniwersytet Medyczny w Łodzi,2ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+55,Uniwersytet Medyczny w Łodzi,3ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+55,Uniwersytet Medyczny w Łodzi,Adjudicación Final,0,0,0,5,0,5,0.0,0.0,Alta
+56,Universität Mannheim,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+56,Universität Mannheim,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+56,Universität Mannheim,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+56,Universität Mannheim,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+57,Università degli Studi di Siena,1ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+57,Università degli Studi di Siena,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+57,Università degli Studi di Siena,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+57,Università degli Studi di Siena,Adjudicación Final,3,3,3,0,0,3,100.0,0.0,Baja
+58,Université de Savoie,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+58,Université de Savoie,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+58,Université de Savoie,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+58,Université de Savoie,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+59,Uniwersytet Przyrodniczy we Wrocławiu,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+59,Uniwersytet Przyrodniczy we Wrocławiu,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+59,Uniwersytet Przyrodniczy we Wrocławiu,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+59,Uniwersytet Przyrodniczy we Wrocławiu,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+60,Universität Bremen,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+60,Universität Bremen,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+60,Universität Bremen,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+60,Universität Bremen,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+61,Università degli Studi di Perugia,1ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+61,Università degli Studi di Perugia,2ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+61,Università degli Studi di Perugia,3ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+61,Università degli Studi di Perugia,Adjudicación Final,0,0,0,2,0,2,0.0,0.0,Alta
+62,Université de Franche-Comté,1ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+62,Université de Franche-Comté,2ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+62,Université de Franche-Comté,3ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+62,Université de Franche-Comté,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+63,Uniwersytet Technologiczno-Przyrodniczy,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+63,Uniwersytet Technologiczno-Przyrodniczy,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+63,Uniwersytet Technologiczno-Przyrodniczy,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+63,Uniwersytet Technologiczno-Przyrodniczy,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+64,Universität Duisburg-Essen,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+64,Universität Duisburg-Essen,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+64,Universität Duisburg-Essen,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+64,Universität Duisburg-Essen,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+65,Università degli Studi di Parma,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+65,Università degli Studi di Parma,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+65,Università degli Studi di Parma,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+65,Università degli Studi di Parma,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+66,Université de Lorraine,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+66,Université de Lorraine,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+66,Université de Lorraine,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+66,Université de Lorraine,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+67,Uniwersytet Rzeszowski,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+67,Uniwersytet Rzeszowski,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+67,Uniwersytet Rzeszowski,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+67,Uniwersytet Rzeszowski,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+68,Universität Regensburg,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+68,Universität Regensburg,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+68,Universität Regensburg,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+68,Universität Regensburg,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+69,Università degli Studi di Genova,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+69,Università degli Studi di Genova,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+69,Università degli Studi di Genova,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+69,Università degli Studi di Genova,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+70,Université de Bretagne Occidentale,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+70,Université de Bretagne Occidentale,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+70,Université de Bretagne Occidentale,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+70,Université de Bretagne Occidentale,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+71,Uniwersytet Opolski,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+71,Uniwersytet Opolski,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+71,Uniwersytet Opolski,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+71,Uniwersytet Opolski,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+72,Universität Ulm,1ª Adjudicación,1,1,1,9,0,10,100.0,0.0,Alta
+72,Universität Ulm,2ª Adjudicación,1,1,1,8,0,9,100.0,0.0,Alta
+72,Universität Ulm,3ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+72,Universität Ulm,Adjudicación Final,1,1,1,7,0,8,100.0,0.0,Alta
+73,Università degli Studi di Trento,1ª Adjudicación,4,4,4,3,0,7,100.0,0.0,Media
+73,Università degli Studi di Trento,2ª Adjudicación,4,4,3,0,1,3,75.0,33.33,Baja
+73,Università degli Studi di Trento,3ª Adjudicación,4,5,1,0,1,1,25.0,100.0,Baja
+73,Università degli Studi di Trento,Adjudicación Final,4,5,5,0,0,5,125.0,0.0,Media
+74,Université de Poitiers,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+74,Université de Poitiers,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+74,Université de Poitiers,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+74,Université de Poitiers,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+75,Uniwersytet Ekonomiczny we Wrocławiu,1ª Adjudicación,4,4,3,0,1,3,75.0,33.33,Baja
+75,Uniwersytet Ekonomiczny we Wrocławiu,2ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+75,Uniwersytet Ekonomiczny we Wrocławiu,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+75,Uniwersytet Ekonomiczny we Wrocławiu,Adjudicación Final,4,4,2,0,0,2,50.0,0.0,Baja
+76,Universität Bayreuth,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+76,Universität Bayreuth,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+76,Universität Bayreuth,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+76,Universität Bayreuth,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+77,Università degli Studi di Bari,1ª Adjudicación,5,5,5,1,1,6,100.0,20.0,Media
+77,Università degli Studi di Bari,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+77,Università degli Studi di Bari,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+77,Università degli Studi di Bari,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+78,Université de La Rochelle,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+78,Université de La Rochelle,2ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+78,Université de La Rochelle,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+78,Université de La Rochelle,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+79,Uniwersytet Humanistyczno-Przyrodniczy,1ª Adjudicación,4,4,3,0,1,3,75.0,33.33,Baja
+79,Uniwersytet Humanistyczno-Przyrodniczy,2ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+79,Uniwersytet Humanistyczno-Przyrodniczy,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+79,Uniwersytet Humanistyczno-Przyrodniczy,Adjudicación Final,4,4,1,0,0,1,25.0,0.0,Baja
+80,Universität Würzburg,1ª Adjudicación,4,4,4,4,0,8,100.0,0.0,Media
+80,Universität Würzburg,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+80,Universität Würzburg,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+80,Universität Würzburg,Adjudicación Final,4,4,4,4,0,8,100.0,0.0,Media
+81,Università degli Studi di Ferrara,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+81,Università degli Studi di Ferrara,2ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+81,Università degli Studi di Ferrara,3ª Adjudicación,2,3,1,0,1,1,50.0,100.0,Baja
+81,Università degli Studi di Ferrara,Adjudicación Final,2,3,3,0,0,3,150.0,0.0,Media
+82,Université de Tours,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+82,Université de Tours,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+82,Université de Tours,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+82,Université de Tours,Adjudicación Final,3,3,3,4,0,7,100.0,0.0,Alta
+83,Uniwersytet Artystyczny w Poznaniu,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+83,Uniwersytet Artystyczny w Poznaniu,2ª Adjudicación,2,2,2,0,2,2,100.0,100.0,Baja
+83,Uniwersytet Artystyczny w Poznaniu,3ª Adjudicación,2,4,2,0,1,2,100.0,50.0,Baja
+83,Uniwersytet Artystyczny w Poznaniu,Adjudicación Final,2,3,1,0,0,1,50.0,0.0,Baja
+84,Universität Konstanz,1ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+84,Universität Konstanz,2ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+84,Universität Konstanz,3ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+84,Universität Konstanz,Adjudicación Final,1,1,1,7,0,8,100.0,0.0,Alta
+85,Università degli Studi di Lecce,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+85,Università degli Studi di Lecce,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+85,Università degli Studi di Lecce,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+85,Università degli Studi di Lecce,Adjudicación Final,2,2,2,2,0,4,100.0,0.0,Media
+86,Université de Limoges,1ª Adjudicación,0,0,0,8,0,8,0.0,0.0,Alta
+86,Université de Limoges,2ª Adjudicación,0,0,0,8,0,8,0.0,0.0,Alta
+86,Université de Limoges,3ª Adjudicación,0,0,0,8,0,8,0.0,0.0,Alta
+86,Université de Limoges,Adjudicación Final,0,0,0,7,0,7,0.0,0.0,Alta
+87,Uniwersytet Ekonomiczny w Poznaniu,1ª Adjudicación,3,3,3,6,0,9,100.0,0.0,Alta
+87,Uniwersytet Ekonomiczny w Poznaniu,2ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+87,Uniwersytet Ekonomiczny w Poznaniu,3ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+87,Uniwersytet Ekonomiczny w Poznaniu,Adjudicación Final,3,3,3,5,0,8,100.0,0.0,Alta
+88,Universität Jena,1ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+88,Universität Jena,2ª Adjudicación,2,3,1,0,0,1,50.0,0.0,Baja
+88,Universität Jena,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+88,Universität Jena,Adjudicación Final,2,2,0,0,0,0,0.0,0.0,Baja
+89,Università degli Studi di Ancona,1ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+89,Università degli Studi di Ancona,2ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+89,Università degli Studi di Ancona,3ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+89,Università degli Studi di Ancona,Adjudicación Final,0,0,0,4,0,4,0.0,0.0,Alta
+90,Université de Bourgogne,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+90,Université de Bourgogne,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+90,Université de Bourgogne,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+90,Université de Bourgogne,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+91,Uniwersytet Rolniczy w Krakowie,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+91,Uniwersytet Rolniczy w Krakowie,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+91,Uniwersytet Rolniczy w Krakowie,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+91,Uniwersytet Rolniczy w Krakowie,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+92,Universität Düsseldorf,1ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+92,Universität Düsseldorf,2ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+92,Universität Düsseldorf,3ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+92,Universität Düsseldorf,Adjudicación Final,1,1,1,5,0,6,100.0,0.0,Alta
+93,Università degli Studi di Udine,1ª Adjudicación,4,4,4,2,1,6,100.0,25.0,Media
+93,Università degli Studi di Udine,2ª Adjudicación,4,4,5,0,0,5,125.0,0.0,Media
+93,Università degli Studi di Udine,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+93,Università degli Studi di Udine,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+94,Université de Corse Pascal Paoli,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+94,Université de Corse Pascal Paoli,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+94,Université de Corse Pascal Paoli,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+94,Université de Corse Pascal Paoli,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+95,Uniwersytet Zielonogórski,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+95,Uniwersytet Zielonogórski,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+95,Uniwersytet Zielonogórski,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+95,Uniwersytet Zielonogórski,Adjudicación Final,2,2,2,2,0,4,100.0,0.0,Media
+96,Universität Kiel,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+96,Universität Kiel,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+96,Universität Kiel,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+96,Universität Kiel,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+97,Università degli Studi di Pavia,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+97,Università degli Studi di Pavia,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+97,Università degli Studi di Pavia,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+97,Università degli Studi di Pavia,Adjudicación Final,4,4,2,0,0,2,50.0,0.0,Baja
+98,Université de la Polynésie Française,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+98,Université de la Polynésie Française,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+98,Université de la Polynésie Française,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+98,Université de la Polynésie Française,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+99,Uniwersytet Medyczny w Białymstoku,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+99,Uniwersytet Medyczny w Białymstoku,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+99,Uniwersytet Medyczny w Białymstoku,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+99,Uniwersytet Medyczny w Białymstoku,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+100,Universität Erlangen-Nürnberg,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+100,Universität Erlangen-Nürnberg,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+100,Universität Erlangen-Nürnberg,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+100,Universität Erlangen-Nürnberg,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+101,Università degli Studi di Modena,1ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+101,Università degli Studi di Modena,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+101,Università degli Studi di Modena,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+101,Università degli Studi di Modena,Adjudicación Final,5,5,1,0,0,1,20.0,0.0,Baja
+102,Université de la Réunion,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+102,Université de la Réunion,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+102,Université de la Réunion,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+102,Université de la Réunion,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+103,Uniwersytet Medyczny w Lublinie,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+103,Uniwersytet Medyczny w Lublinie,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+103,Uniwersytet Medyczny w Lublinie,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+103,Uniwersytet Medyczny w Lublinie,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+104,Universität Göttingen,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+104,Universität Göttingen,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+104,Universität Göttingen,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+104,Universität Göttingen,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+105,Università degli Studi di Camerino,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+105,Università degli Studi di Camerino,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+105,Università degli Studi di Camerino,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+105,Università degli Studi di Camerino,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+106,Université de Versailles Saint-Quentin-en-Yvelines,1ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+106,Université de Versailles Saint-Quentin-en-Yvelines,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+106,Université de Versailles Saint-Quentin-en-Yvelines,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+106,Université de Versailles Saint-Quentin-en-Yvelines,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+107,Uniwersytet Medyczny w Gdańsku,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+107,Uniwersytet Medyczny w Gdańsku,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+107,Uniwersytet Medyczny w Gdańsku,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+107,Uniwersytet Medyczny w Gdańsku,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+108,Universität Münster,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+108,Universität Münster,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+108,Universität Münster,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+108,Universität Münster,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+109,Università degli Studi di Urbino,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+109,Università degli Studi di Urbino,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+109,Università degli Studi di Urbino,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+109,Università degli Studi di Urbino,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+110,Université de l'Île de la Réunion,1ª Adjudicación,5,5,5,3,0,8,100.0,0.0,Media
+110,Université de l'Île de la Réunion,2ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+110,Université de l'Île de la Réunion,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+110,Université de l'Île de la Réunion,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+111,Uniwersytet Medyczny w Warszawie,1ª Adjudicación,2,2,2,9,0,11,100.0,0.0,Alta
+111,Uniwersytet Medyczny w Warszawie,2ª Adjudicación,2,2,2,7,0,9,100.0,0.0,Alta
+111,Uniwersytet Medyczny w Warszawie,3ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+111,Uniwersytet Medyczny w Warszawie,Adjudicación Final,2,2,2,7,0,9,100.0,0.0,Alta
+112,Universität Potsdam,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+112,Universität Potsdam,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+112,Universität Potsdam,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+112,Universität Potsdam,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+113,Università degli Studi di Cassino,1ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+113,Università degli Studi di Cassino,2ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+113,Università degli Studi di Cassino,3ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+113,Università degli Studi di Cassino,Adjudicación Final,0,0,0,2,0,2,0.0,0.0,Alta
+114,Université de l'Île de la Martinique,1ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+114,Université de l'Île de la Martinique,2ª Adjudicación,2,3,1,0,0,1,50.0,0.0,Baja
+114,Université de l'Île de la Martinique,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+114,Université de l'Île de la Martinique,Adjudicación Final,2,2,1,0,0,1,50.0,0.0,Baja
+115,Uniwersytet Medyczny w Poznaniu,1ª Adjudicación,2,2,2,7,0,9,100.0,0.0,Alta
+115,Uniwersytet Medyczny w Poznaniu,2ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+115,Uniwersytet Medyczny w Poznaniu,3ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+115,Uniwersytet Medyczny w Poznaniu,Adjudicación Final,2,2,2,6,0,8,100.0,0.0,Alta
+116,Universität Hohenheim,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+116,Universität Hohenheim,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+116,Universität Hohenheim,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+116,Universität Hohenheim,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+117,Università degli Studi di Viterbo,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+117,Università degli Studi di Viterbo,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+117,Università degli Studi di Viterbo,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+117,Università degli Studi di Viterbo,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+118,Université de l'Île de Guadeloupe,1ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+118,Université de l'Île de Guadeloupe,2ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+118,Université de l'Île de Guadeloupe,3ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+118,Université de l'Île de Guadeloupe,Adjudicación Final,0,0,0,5,0,5,0.0,0.0,Alta
+119,Uniwersytet Medyczny w Silesia,1ª Adjudicación,4,4,4,4,1,8,100.0,25.0,Media
+119,Uniwersytet Medyczny w Silesia,2ª Adjudicación,4,4,5,0,2,5,125.0,40.0,Media
+119,Uniwersytet Medyczny w Silesia,3ª Adjudicación,4,4,6,0,0,6,150.0,0.0,Media
+119,Uniwersytet Medyczny w Silesia,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+120,Universität Passau,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+120,Universität Passau,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+120,Universität Passau,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+120,Universität Passau,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+121,Università degli Studi di Basilicata,1ª Adjudicación,3,3,3,9,0,12,100.0,0.0,Alta
+121,Università degli Studi di Basilicata,2ª Adjudicación,3,3,3,6,0,9,100.0,0.0,Alta
+121,Università degli Studi di Basilicata,3ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+121,Università degli Studi di Basilicata,Adjudicación Final,3,3,3,8,0,11,100.0,0.0,Alta
+122,Université de l'Île de la Guyane,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+122,Université de l'Île de la Guyane,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+122,Université de l'Île de la Guyane,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+122,Université de l'Île de la Guyane,Adjudicación Final,1,1,1,5,0,6,100.0,0.0,Alta
+123,Uniwersytet Medyczny w Gliwice,1ª Adjudicación,5,5,3,0,1,3,60.0,33.33,Baja
+123,Uniwersytet Medyczny w Gliwice,2ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+123,Uniwersytet Medyczny w Gliwice,3ª Adjudicación,5,5,1,0,1,1,20.0,100.0,Baja
+123,Uniwersytet Medyczny w Gliwice,Adjudicación Final,5,6,2,0,0,2,40.0,0.0,Baja
+124,Universität Hildesheim,1ª Adjudicación,3,3,3,4,1,7,100.0,33.33,Alta
+124,Universität Hildesheim,2ª Adjudicación,3,3,4,2,1,6,133.33,25.0,Media
+124,Universität Hildesheim,3ª Adjudicación,3,3,4,1,0,5,133.33,0.0,Media
+124,Universität Hildesheim,Adjudicación Final,3,3,3,3,0,6,100.0,0.0,Media
+125,Università degli Studi dell'Insubria,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+125,Università degli Studi dell'Insubria,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+125,Università degli Studi dell'Insubria,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+125,Università degli Studi dell'Insubria,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+126,Université de l'Île de Mayotte,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+126,Université de l'Île de Mayotte,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+126,Université de l'Île de Mayotte,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+126,Université de l'Île de Mayotte,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+127,Uniwersytet Medyczny w Katowicach,1ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+127,Uniwersytet Medyczny w Katowicach,2ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+127,Uniwersytet Medyczny w Katowicach,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+127,Uniwersytet Medyczny w Katowicach,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+128,Universität Siegen,1ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+128,Universität Siegen,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+128,Universität Siegen,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+128,Universität Siegen,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+129,Università degli Studi di Salento,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+129,Università degli Studi di Salento,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+129,Università degli Studi di Salento,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+129,Università degli Studi di Salento,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+130,Université de l'Île de Saint Pierre et Miquelon,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+130,Université de l'Île de Saint Pierre et Miquelon,2ª Adjudicación,2,2,2,2,1,4,100.0,50.0,Media
+130,Université de l'Île de Saint Pierre et Miquelon,3ª Adjudicación,2,2,3,2,0,5,150.0,0.0,Alta
+130,Université de l'Île de Saint Pierre et Miquelon,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+131,Uniwersytet Medyczny w Radom,1ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+131,Uniwersytet Medyczny w Radom,2ª Adjudicación,2,2,3,0,0,3,150.0,0.0,Media
+131,Uniwersytet Medyczny w Radom,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+131,Uniwersytet Medyczny w Radom,Adjudicación Final,2,2,1,0,0,1,50.0,0.0,Baja
+132,Universität Vechta,1ª Adjudicación,5,5,4,0,1,4,80.0,25.0,Baja
+132,Universität Vechta,2ª Adjudicación,5,6,1,0,1,1,20.0,100.0,Baja
+132,Universität Vechta,3ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+132,Universität Vechta,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+133,Università degli Studi Magna Graecia,1ª Adjudicación,3,3,3,5,0,8,100.0,0.0,Alta
+133,Università degli Studi Magna Graecia,2ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+133,Università degli Studi Magna Graecia,3ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+133,Università degli Studi Magna Graecia,Adjudicación Final,3,3,3,4,0,7,100.0,0.0,Alta
+134,Université de l'Île de Nouvelle-Calédonie,1ª Adjudicación,5,5,5,6,0,11,100.0,0.0,Alta
+134,Université de l'Île de Nouvelle-Calédonie,2ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+134,Université de l'Île de Nouvelle-Calédonie,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+134,Université de l'Île de Nouvelle-Calédonie,Adjudicación Final,5,5,5,6,0,11,100.0,0.0,Alta
+135,Uniwersytet Medyczny w Częstochowa,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+135,Uniwersytet Medyczny w Częstochowa,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+135,Uniwersytet Medyczny w Częstochowa,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+135,Uniwersytet Medyczny w Częstochowa,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+136,Universität Lüneburg,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+136,Universität Lüneburg,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+136,Universität Lüneburg,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+136,Universität Lüneburg,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+137,Università degli Studi di Enna Kore,1ª Adjudicación,1,1,1,9,0,10,100.0,0.0,Alta
+137,Università degli Studi di Enna Kore,2ª Adjudicación,1,1,1,8,0,9,100.0,0.0,Alta
+137,Università degli Studi di Enna Kore,3ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+137,Università degli Studi di Enna Kore,Adjudicación Final,1,1,1,8,0,9,100.0,0.0,Alta
+138,Université de l'Île de Saint Barthélemy,1ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+138,Université de l'Île de Saint Barthélemy,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+138,Université de l'Île de Saint Barthélemy,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+138,Université de l'Île de Saint Barthélemy,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+139,Uniwersytet Medyczny w Olsztyn,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+139,Uniwersytet Medyczny w Olsztyn,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+139,Uniwersytet Medyczny w Olsztyn,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+139,Uniwersytet Medyczny w Olsztyn,Adjudicación Final,1,1,1,1,0,2,100.0,0.0,Media
+140,Universität Bielefeld,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+140,Universität Bielefeld,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+140,Universität Bielefeld,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+140,Universität Bielefeld,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+141,Università degli Studi del Molise,1ª Adjudicación,0,0,0,11,0,11,0.0,0.0,Alta
+141,Università degli Studi del Molise,2ª Adjudicación,0,0,0,11,0,11,0.0,0.0,Alta
+141,Università degli Studi del Molise,3ª Adjudicación,0,0,0,11,0,11,0.0,0.0,Alta
+141,Università degli Studi del Molise,Adjudicación Final,0,0,0,9,0,9,0.0,0.0,Alta
+142,Université de l'Île de Saint Martin,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+142,Université de l'Île de Saint Martin,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+142,Université de l'Île de Saint Martin,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+142,Université de l'Île de Saint Martin,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+143,Uniwersytet Medyczny w Bydgoszcz,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+143,Uniwersytet Medyczny w Bydgoszcz,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+143,Uniwersytet Medyczny w Bydgoszcz,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+143,Uniwersytet Medyczny w Bydgoszcz,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+144,Universität Koblenz-Landau,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+144,Universität Koblenz-Landau,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+144,Universität Koblenz-Landau,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+144,Universität Koblenz-Landau,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+145,Università degli Studi di Bergamo,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+145,Università degli Studi di Bergamo,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+145,Università degli Studi di Bergamo,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+145,Università degli Studi di Bergamo,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+146,Université de l'Île de Wallis et Futuna,1ª Adjudicación,1,1,1,8,0,9,100.0,0.0,Alta
+146,Université de l'Île de Wallis et Futuna,2ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+146,Université de l'Île de Wallis et Futuna,3ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+146,Université de l'Île de Wallis et Futuna,Adjudicación Final,1,1,1,8,0,9,100.0,0.0,Alta
+147,Uniwersytet Medyczny w Toruniu,1ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+147,Uniwersytet Medyczny w Toruniu,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+147,Uniwersytet Medyczny w Toruniu,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+147,Uniwersytet Medyczny w Toruniu,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+148,Universität Oldenburg,1ª Adjudicación,4,4,4,4,0,8,100.0,0.0,Media
+148,Universität Oldenburg,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+148,Universität Oldenburg,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+148,Universität Oldenburg,Adjudicación Final,4,4,4,4,0,8,100.0,0.0,Media
+149,Università degli Studi di Foggia,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+149,Università degli Studi di Foggia,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+149,Università degli Studi di Foggia,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+149,Università degli Studi di Foggia,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+150,Université de l'Île de Saint-Pierre,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+150,Université de l'Île de Saint-Pierre,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+150,Université de l'Île de Saint-Pierre,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+150,Université de l'Île de Saint-Pierre,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+151,Uniwersytet Medyczny w Elbląg,1ª Adjudicación,1,1,1,8,0,9,100.0,0.0,Alta
+151,Uniwersytet Medyczny w Elbląg,2ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+151,Uniwersytet Medyczny w Elbląg,3ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+151,Uniwersytet Medyczny w Elbląg,Adjudicación Final,1,1,1,6,0,7,100.0,0.0,Alta
+152,Universität Osnabrück,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+152,Universität Osnabrück,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+152,Universität Osnabrück,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+152,Universität Osnabrück,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+153,Università degli Studi della Tuscia,1ª Adjudicación,4,4,2,0,1,2,50.0,50.0,Baja
+153,Università degli Studi della Tuscia,2ª Adjudicación,4,5,1,0,1,1,25.0,100.0,Baja
+153,Università degli Studi della Tuscia,3ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+153,Università degli Studi della Tuscia,Adjudicación Final,4,4,1,0,0,1,25.0,0.0,Baja
+154,Université de l'Île de Miquelon,1ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+154,Université de l'Île de Miquelon,2ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+154,Université de l'Île de Miquelon,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+154,Université de l'Île de Miquelon,Adjudicación Final,3,3,1,0,0,1,33.33,0.0,Baja
+155,Uniwersytet Medyczny w Zamość,1ª Adjudicación,4,4,4,2,1,6,100.0,25.0,Media
+155,Uniwersytet Medyczny w Zamość,2ª Adjudicación,4,4,5,0,0,5,125.0,0.0,Media
+155,Uniwersytet Medyczny w Zamość,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+155,Uniwersytet Medyczny w Zamość,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+156,Universität Lübeck,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+156,Universität Lübeck,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+156,Universität Lübeck,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+156,Universität Lübeck,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+157,Università degli Studi di Chieti,1ª Adjudicación,5,5,5,2,3,7,100.0,60.0,Media
+157,Università degli Studi di Chieti,2ª Adjudicación,5,5,8,2,1,10,160.0,12.5,Media
+157,Università degli Studi di Chieti,3ª Adjudicación,5,5,6,0,3,6,120.0,50.0,Media
+157,Università degli Studi di Chieti,Adjudicación Final,5,8,5,0,0,5,100.0,0.0,Baja
+158,Université de l'Île de Clipperton,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+158,Université de l'Île de Clipperton,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+158,Université de l'Île de Clipperton,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+158,Université de l'Île de Clipperton,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+159,Uniwersytet Medyczny w Płock,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+159,Uniwersytet Medyczny w Płock,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+159,Uniwersytet Medyczny w Płock,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+159,Uniwersytet Medyczny w Płock,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+160,Universität Witten/Herdecke,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+160,Universität Witten/Herdecke,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+160,Universität Witten/Herdecke,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+160,Universität Witten/Herdecke,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+161,Università degli Studi di Teramo,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+161,Università degli Studi di Teramo,2ª Adjudicación,5,5,2,0,1,2,40.0,50.0,Baja
+161,Università degli Studi di Teramo,3ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+161,Università degli Studi di Teramo,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+162,Université de l'Île de Sainte Marie,1ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+162,Université de l'Île de Sainte Marie,2ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+162,Université de l'Île de Sainte Marie,3ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+162,Université de l'Île de Sainte Marie,Adjudicación Final,0,0,0,3,0,3,0.0,0.0,Alta
+163,Uniwersytet Medyczny w Słupsk,1ª Adjudicación,5,5,5,4,0,9,100.0,0.0,Media
+163,Uniwersytet Medyczny w Słupsk,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+163,Uniwersytet Medyczny w Słupsk,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+163,Uniwersytet Medyczny w Słupsk,Adjudicación Final,5,5,5,4,0,9,100.0,0.0,Media
+164,Universität Flensburg,1ª Adjudicación,2,2,2,2,1,4,100.0,50.0,Media
+164,Universität Flensburg,2ª Adjudicación,2,2,3,1,1,4,150.0,33.33,Media
+164,Universität Flensburg,3ª Adjudicación,2,2,3,0,1,3,150.0,33.33,Media
+164,Universität Flensburg,Adjudicación Final,2,2,3,2,0,5,150.0,0.0,Alta
+165,Università degli Studi di Udine,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+165,Università degli Studi di Udine,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+165,Università degli Studi di Udine,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+165,Università degli Studi di Udine,Adjudicación Final,3,3,3,0,0,3,100.0,0.0,Baja
+166,Université de l'Île de French Guiana,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+166,Université de l'Île de French Guiana,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+166,Université de l'Île de French Guiana,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+166,Université de l'Île de French Guiana,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+167,Uniwersytet Medyczny w Suwałki,1ª Adjudicación,5,5,5,4,0,9,100.0,0.0,Media
+167,Uniwersytet Medyczny w Suwałki,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+167,Uniwersytet Medyczny w Suwałki,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+167,Uniwersytet Medyczny w Suwałki,Adjudicación Final,5,5,5,4,0,9,100.0,0.0,Media
+168,Universität Rostock,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+168,Universität Rostock,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+168,Universität Rostock,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+168,Universität Rostock,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+169,Università degli Studi del Piemonte Orientale,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+169,Università degli Studi del Piemonte Orientale,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+169,Università degli Studi del Piemonte Orientale,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+169,Università degli Studi del Piemonte Orientale,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+170,Université de l'Île de Saint-Denis,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+170,Université de l'Île de Saint-Denis,2ª Adjudicación,2,2,2,2,1,4,100.0,50.0,Media
+170,Université de l'Île de Saint-Denis,3ª Adjudicación,2,2,3,2,0,5,150.0,0.0,Alta
+170,Université de l'Île de Saint-Denis,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+171,Uniwersytet Medyczny w Gorzów Wielkopolski,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+171,Uniwersytet Medyczny w Gorzów Wielkopolski,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+171,Uniwersytet Medyczny w Gorzów Wielkopolski,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+171,Uniwersytet Medyczny w Gorzów Wielkopolski,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+172,Universität der Bundeswehr München,1ª Adjudicación,3,3,3,5,0,8,100.0,0.0,Alta
+172,Universität der Bundeswehr München,2ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+172,Universität der Bundeswehr München,3ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+172,Universität der Bundeswehr München,Adjudicación Final,3,3,3,4,0,7,100.0,0.0,Alta
+173,Università degli Studi di Sassari,1ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+173,Università degli Studi di Sassari,2ª Adjudicación,3,3,1,0,1,1,33.33,100.0,Baja
+173,Università degli Studi di Sassari,3ª Adjudicación,3,4,1,0,1,1,33.33,100.0,Baja
+173,Università degli Studi di Sassari,Adjudicación Final,3,4,3,0,0,3,100.0,0.0,Baja
+174,Université de l'Île de Easter Island,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+174,Université de l'Île de Easter Island,2ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+174,Université de l'Île de Easter Island,3ª Adjudicación,2,3,1,0,0,1,50.0,0.0,Baja
+174,Université de l'Île de Easter Island,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+175,Uniwersytet Medyczny w Kielce,1ª Adjudicación,3,3,3,5,0,8,100.0,0.0,Alta
+175,Uniwersytet Medyczny w Kielce,2ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+175,Uniwersytet Medyczny w Kielce,3ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+175,Uniwersytet Medyczny w Kielce,Adjudicación Final,3,3,3,4,0,7,100.0,0.0,Alta
+176,Universität der Künste Berlin,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+176,Universität der Künste Berlin,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+176,Universität der Künste Berlin,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+176,Universität der Künste Berlin,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+177,Università degli Studi di Brescia,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+177,Università degli Studi di Brescia,2ª Adjudicación,3,3,3,0,2,3,100.0,66.67,Baja
+177,Università degli Studi di Brescia,3ª Adjudicación,3,4,4,0,2,4,133.33,50.0,Media
+177,Università degli Studi di Brescia,Adjudicación Final,3,5,5,0,0,5,166.67,0.0,Media
+178,Université de l'Île de Saint Helena,1ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+178,Université de l'Île de Saint Helena,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+178,Université de l'Île de Saint Helena,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+178,Université de l'Île de Saint Helena,Adjudicación Final,5,5,1,0,0,1,20.0,0.0,Baja
+179,Uniwersytet Medyczny w Konin,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+179,Uniwersytet Medyczny w Konin,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+179,Uniwersytet Medyczny w Konin,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+179,Uniwersytet Medyczny w Konin,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+180,Universität der Bundeswehr Hamburg,1ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+180,Universität der Bundeswehr Hamburg,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+180,Universität der Bundeswehr Hamburg,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+180,Universität der Bundeswehr Hamburg,Adjudicación Final,3,3,3,0,0,3,100.0,0.0,Baja
+181,Università degli Studi del Sannio,1ª Adjudicación,3,3,3,5,1,8,100.0,33.33,Alta
+181,Università degli Studi del Sannio,2ª Adjudicación,3,3,4,4,0,8,133.33,0.0,Alta
+181,Università degli Studi del Sannio,3ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+181,Università degli Studi del Sannio,Adjudicación Final,3,3,3,4,0,7,100.0,0.0,Alta
+182,Université de l'Île de Saint Kitts and Nevis,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+182,Université de l'Île de Saint Kitts and Nevis,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+182,Université de l'Île de Saint Kitts and Nevis,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+182,Université de l'Île de Saint Kitts and Nevis,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+183,Uniwersytet Medyczny w Tarnów,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+183,Uniwersytet Medyczny w Tarnów,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+183,Uniwersytet Medyczny w Tarnów,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+183,Uniwersytet Medyczny w Tarnów,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+184,Universität für Musik und darstellende Kunst Wien,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+184,Universität für Musik und darstellende Kunst Wien,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+184,Universität für Musik und darstellende Kunst Wien,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+184,Universität für Musik und darstellende Kunst Wien,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+185,Università degli Studi del Salento,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+185,Università degli Studi del Salento,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+185,Università degli Studi del Salento,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+185,Università degli Studi del Salento,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+186,Université de l'Île de Saint Lucia,1ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+186,Université de l'Île de Saint Lucia,2ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+186,Université de l'Île de Saint Lucia,3ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+186,Université de l'Île de Saint Lucia,Adjudicación Final,1,1,1,6,0,7,100.0,0.0,Alta
+187,Uniwersytet Medyczny w Grudziądz,1ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+187,Uniwersytet Medyczny w Grudziądz,2ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+187,Uniwersytet Medyczny w Grudziądz,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+187,Uniwersytet Medyczny w Grudziądz,Adjudicación Final,3,3,3,0,0,3,100.0,0.0,Baja
+188,Universität für Musik und darstellende Kunst Graz,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+188,Universität für Musik und darstellende Kunst Graz,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+188,Universität für Musik und darstellende Kunst Graz,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+188,Universität für Musik und darstellende Kunst Graz,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+189,Università degli Studi della Basilicata,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+189,Università degli Studi della Basilicata,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+189,Università degli Studi della Basilicata,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+189,Università degli Studi della Basilicata,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+190,Université de l'Île de Saint Vincent and the Grenadines,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+190,Université de l'Île de Saint Vincent and the Grenadines,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+190,Université de l'Île de Saint Vincent and the Grenadines,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+190,Université de l'Île de Saint Vincent and the Grenadines,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+191,Uniwersytet Medyczny w Ostrołęka,1ª Adjudicación,0,0,0,6,0,6,0.0,0.0,Alta
+191,Uniwersytet Medyczny w Ostrołęka,2ª Adjudicación,0,0,0,6,0,6,0.0,0.0,Alta
+191,Uniwersytet Medyczny w Ostrołęka,3ª Adjudicación,0,0,0,6,0,6,0.0,0.0,Alta
+191,Uniwersytet Medyczny w Ostrołęka,Adjudicación Final,0,0,0,6,0,6,0.0,0.0,Alta
+192,Universität für Musik und darstellende Kunst Mozarteum Salzburg,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+192,Universität für Musik und darstellende Kunst Mozarteum Salzburg,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+192,Universität für Musik und darstellende Kunst Mozarteum Salzburg,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+192,Universität für Musik und darstellende Kunst Mozarteum Salzburg,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+193,Università degli Studi Guglielmo Marconi,1ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+193,Università degli Studi Guglielmo Marconi,2ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+193,Università degli Studi Guglielmo Marconi,3ª Adjudicación,4,4,1,0,1,1,25.0,100.0,Baja
+193,Università degli Studi Guglielmo Marconi,Adjudicación Final,4,5,4,0,0,4,100.0,0.0,Baja
+194,Université de l'Île de Samoa,1ª Adjudicación,3,3,3,6,0,9,100.0,0.0,Alta
+194,Université de l'Île de Samoa,2ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+194,Université de l'Île de Samoa,3ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+194,Université de l'Île de Samoa,Adjudicación Final,3,3,3,6,0,9,100.0,0.0,Alta
+195,Uniwersytet Medyczny w Radom,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+195,Uniwersytet Medyczny w Radom,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+195,Uniwersytet Medyczny w Radom,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+195,Uniwersytet Medyczny w Radom,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+196,Universität für Musik und darstellende Kunst Stuttgart,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+196,Universität für Musik und darstellende Kunst Stuttgart,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+196,Universität für Musik und darstellende Kunst Stuttgart,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+196,Universität für Musik und darstellende Kunst Stuttgart,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+197,Università degli Studi di Scienze Gastronomiche,1ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+197,Università degli Studi di Scienze Gastronomiche,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+197,Università degli Studi di Scienze Gastronomiche,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+197,Università degli Studi di Scienze Gastronomiche,Adjudicación Final,5,5,1,0,0,1,20.0,0.0,Baja
+198,Université de l'Île de Cook Islands,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+198,Université de l'Île de Cook Islands,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+198,Université de l'Île de Cook Islands,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+198,Université de l'Île de Cook Islands,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+199,Uniwersytet Medyczny w Siedlce,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+199,Uniwersytet Medyczny w Siedlce,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+199,Uniwersytet Medyczny w Siedlce,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+199,Uniwersytet Medyczny w Siedlce,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+200,Universität für Musik und darstellende Kunst Frankfurt am Main,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+200,Universität für Musik und darstellende Kunst Frankfurt am Main,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+200,Universität für Musik und darstellende Kunst Frankfurt am Main,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+200,Universität für Musik und darstellende Kunst Frankfurt am Main,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+201,Università degli Studi di Urbino Carlo Bo,1ª Adjudicación,4,4,4,2,1,6,100.0,25.0,Media
+201,Università degli Studi di Urbino Carlo Bo,2ª Adjudicación,4,4,5,0,1,5,125.0,20.0,Media
+201,Università degli Studi di Urbino Carlo Bo,3ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+201,Università degli Studi di Urbino Carlo Bo,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+202,Université de l'Île de Niue,1ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+202,Université de l'Île de Niue,2ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+202,Université de l'Île de Niue,3ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+202,Université de l'Île de Niue,Adjudicación Final,0,0,0,5,0,5,0.0,0.0,Alta
+203,Uniwersytet Medyczny w Nowy Sącz,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+203,Uniwersytet Medyczny w Nowy Sącz,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+203,Uniwersytet Medyczny w Nowy Sącz,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+203,Uniwersytet Medyczny w Nowy Sącz,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+204,Universität für Musik und darstellende Kunst Mannheim,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+204,Universität für Musik und darstellende Kunst Mannheim,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+204,Universität für Musik und darstellende Kunst Mannheim,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+204,Universität für Musik und darstellende Kunst Mannheim,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+205,Università degli Studi di Pavia,1ª Adjudicación,4,4,4,1,1,5,100.0,25.0,Media
+205,Università degli Studi di Pavia,2ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+205,Università degli Studi di Pavia,3ª Adjudicación,4,5,1,0,1,1,25.0,100.0,Baja
+205,Università degli Studi di Pavia,Adjudicación Final,4,5,5,0,0,5,125.0,0.0,Media
+206,Université de l'Île de Tokelau,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+206,Université de l'Île de Tokelau,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+206,Université de l'Île de Tokelau,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+206,Université de l'Île de Tokelau,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+207,Uniwersytet Medyczny w Biała Podlaska,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+207,Uniwersytet Medyczny w Biała Podlaska,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+207,Uniwersytet Medyczny w Biała Podlaska,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+207,Uniwersytet Medyczny w Biała Podlaska,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+208,Universität für Musik und darstellende Kunst Leipzig,1ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+208,Universität für Musik und darstellende Kunst Leipzig,2ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+208,Universität für Musik und darstellende Kunst Leipzig,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+208,Universität für Musik und darstellende Kunst Leipzig,Adjudicación Final,3,3,2,0,0,2,66.67,0.0,Baja
+209,Università degli Studi della Campania Luigi Vanvitelli,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+209,Università degli Studi della Campania Luigi Vanvitelli,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+209,Università degli Studi della Campania Luigi Vanvitelli,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+209,Università degli Studi della Campania Luigi Vanvitelli,Adjudicación Final,1,1,1,5,0,6,100.0,0.0,Alta
+210,Université de l'Île de Tonga,1ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+210,Université de l'Île de Tonga,2ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+210,Université de l'Île de Tonga,3ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+210,Université de l'Île de Tonga,Adjudicación Final,1,1,1,5,0,6,100.0,0.0,Alta
+211,Uniwersytet Medyczny w Zgierz,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+211,Uniwersytet Medyczny w Zgierz,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+211,Uniwersytet Medyczny w Zgierz,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+211,Uniwersytet Medyczny w Zgierz,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+212,Universität für Musik und darstellende Kunst Dresden,1ª Adjudicación,2,2,2,8,0,10,100.0,0.0,Alta
+212,Universität für Musik und darstellende Kunst Dresden,2ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+212,Universität für Musik und darstellende Kunst Dresden,3ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+212,Universität für Musik und darstellende Kunst Dresden,Adjudicación Final,2,2,2,7,0,9,100.0,0.0,Alta
+213,Università degli Studi di Foggia,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+213,Università degli Studi di Foggia,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+213,Università degli Studi di Foggia,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+213,Università degli Studi di Foggia,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+214,Université de l'Île de Tuvalu,1ª Adjudicación,4,4,4,4,0,8,100.0,0.0,Media
+214,Université de l'Île de Tuvalu,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+214,Université de l'Île de Tuvalu,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+214,Université de l'Île de Tuvalu,Adjudicación Final,4,4,4,3,0,7,100.0,0.0,Media
+215,Uniwersytet Medyczny w Jelenia Góra,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+215,Uniwersytet Medyczny w Jelenia Góra,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+215,Uniwersytet Medyczny w Jelenia Góra,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+215,Uniwersytet Medyczny w Jelenia Góra,Adjudicación Final,2,2,2,2,0,4,100.0,0.0,Media
+216,Universität für Musik und darstellende Kunst München,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+216,Universität für Musik und darstellende Kunst München,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+216,Universität für Musik und darstellende Kunst München,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+216,Universität für Musik und darstellende Kunst München,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+217,Università degli Studi di Bergamo,1ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+217,Università degli Studi di Bergamo,2ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+217,Università degli Studi di Bergamo,3ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+217,Università degli Studi di Bergamo,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+218,Université de l'Île de Kiribati,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+218,Université de l'Île de Kiribati,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+218,Université de l'Île de Kiribati,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+218,Université de l'Île de Kiribati,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+219,Uniwersytet Medyczny w Bielsko-Biała,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+219,Uniwersytet Medyczny w Bielsko-Biała,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+219,Uniwersytet Medyczny w Bielsko-Biała,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+219,Uniwersytet Medyczny w Bielsko-Biała,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+220,Universität für Musik und darstellende Kunst Berlin,1ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+220,Universität für Musik und darstellende Kunst Berlin,2ª Adjudicación,4,5,1,0,1,1,25.0,100.0,Baja
+220,Universität für Musik und darstellende Kunst Berlin,3ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+220,Universität für Musik und darstellende Kunst Berlin,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+221,Università degli Studi di Bari Aldo Moro,1ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+221,Università degli Studi di Bari Aldo Moro,2ª Adjudicación,3,4,1,0,0,1,33.33,0.0,Baja
+221,Università degli Studi di Bari Aldo Moro,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+221,Università degli Studi di Bari Aldo Moro,Adjudicación Final,3,3,2,0,0,2,66.67,0.0,Baja
+222,Université de l'Île de Nauru,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+222,Université de l'Île de Nauru,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+222,Université de l'Île de Nauru,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+222,Université de l'Île de Nauru,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+223,Uniwersytet Medyczny w Legionowo,1ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+223,Uniwersytet Medyczny w Legionowo,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+223,Uniwersytet Medyczny w Legionowo,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+223,Uniwersytet Medyczny w Legionowo,Adjudicación Final,3,3,3,3,0,6,100.0,0.0,Media
+224,Universität für Musik und darstellende Kunst Hannover,1ª Adjudicación,1,1,1,8,0,9,100.0,0.0,Alta
+224,Universität für Musik und darstellende Kunst Hannover,2ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+224,Universität für Musik und darstellende Kunst Hannover,3ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+224,Universität für Musik und darstellende Kunst Hannover,Adjudicación Final,1,1,1,7,0,8,100.0,0.0,Alta
+225,Università degli Studi di Brescia,1ª Adjudicación,4,4,4,5,0,9,100.0,0.0,Alta
+225,Università degli Studi di Brescia,2ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+225,Università degli Studi di Brescia,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+225,Università degli Studi di Brescia,Adjudicación Final,4,4,4,5,0,9,100.0,0.0,Alta
+226,Université de l'Île de Palau,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+226,Université de l'Île de Palau,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+226,Université de l'Île de Palau,3ª Adjudicación,1,1,1,1,1,2,100.0,100.0,Media
+226,Université de l'Île de Palau,Adjudicación Final,1,1,2,3,0,5,200.0,0.0,Alta
+227,Uniwersytet Medyczny w Otwock,1ª Adjudicación,5,5,5,2,1,7,100.0,20.0,Media
+227,Uniwersytet Medyczny w Otwock,2ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+227,Uniwersytet Medyczny w Otwock,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+227,Uniwersytet Medyczny w Otwock,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+228,Universität für Musik und darstellende Kunst Hamburg,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+228,Universität für Musik und darstellende Kunst Hamburg,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+228,Universität für Musik und darstellende Kunst Hamburg,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+228,Universität für Musik und darstellende Kunst Hamburg,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+229,Università degli Studi di Catania,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+229,Università degli Studi di Catania,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+229,Università degli Studi di Catania,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+229,Università degli Studi di Catania,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+230,Université de l'Île de Micronesia,1ª Adjudicación,4,4,4,5,0,9,100.0,0.0,Alta
+230,Université de l'Île de Micronesia,2ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+230,Université de l'Île de Micronesia,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+230,Université de l'Île de Micronesia,Adjudicación Final,4,4,4,4,0,8,100.0,0.0,Media
+231,Uniwersytet Medyczny w Świdnik,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+231,Uniwersytet Medyczny w Świdnik,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+231,Uniwersytet Medyczny w Świdnik,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+231,Uniwersytet Medyczny w Świdnik,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+232,Universität für Musik und darstellende Kunst Stuttgart,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+232,Universität für Musik und darstellende Kunst Stuttgart,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+232,Universität für Musik und darstellende Kunst Stuttgart,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+232,Universität für Musik und darstellende Kunst Stuttgart,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+233,Università degli Studi Mediterranea di Reggio Calabria,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+233,Università degli Studi Mediterranea di Reggio Calabria,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+233,Università degli Studi Mediterranea di Reggio Calabria,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+233,Università degli Studi Mediterranea di Reggio Calabria,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+234,Université de l'Île de Marshall Islands,1ª Adjudicación,4,4,4,5,1,9,100.0,25.0,Alta
+234,Université de l'Île de Marshall Islands,2ª Adjudicación,4,4,5,2,1,7,125.0,20.0,Media
+234,Université de l'Île de Marshall Islands,3ª Adjudicación,4,4,5,0,1,5,125.0,20.0,Media
+234,Université de l'Île de Marshall Islands,Adjudicación Final,4,5,5,1,0,6,125.0,0.0,Media
+235,Uniwersytet Medyczny w Świebodzin,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+235,Uniwersytet Medyczny w Świebodzin,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+235,Uniwersytet Medyczny w Świebodzin,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+235,Uniwersytet Medyczny w Świebodzin,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+236,Universität für Musik und darstellende Kunst Frankfurt,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+236,Universität für Musik und darstellende Kunst Frankfurt,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+236,Universität für Musik und darstellende Kunst Frankfurt,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+236,Universität für Musik und darstellende Kunst Frankfurt,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+237,Università degli Studi di Scienze Gastronomiche,1ª Adjudicación,1,1,1,3,1,4,100.0,100.0,Alta
+237,Università degli Studi di Scienze Gastronomiche,2ª Adjudicación,1,1,2,3,1,5,200.0,50.0,Alta
+237,Università degli Studi di Scienze Gastronomiche,3ª Adjudicación,1,1,2,3,0,5,200.0,0.0,Alta
+237,Università degli Studi di Scienze Gastronomiche,Adjudicación Final,1,1,1,1,0,2,100.0,0.0,Media
+238,Université de l'Île de Northern Mariana Islands,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+238,Université de l'Île de Northern Mariana Islands,2ª Adjudicación,2,2,2,0,1,2,100.0,50.0,Baja
+238,Université de l'Île de Northern Mariana Islands,3ª Adjudicación,2,3,1,0,0,1,50.0,0.0,Baja
+238,Université de l'Île de Northern Mariana Islands,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+239,Uniwersytet Medyczny w Piotrków Trybunalski,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+239,Uniwersytet Medyczny w Piotrków Trybunalski,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+239,Uniwersytet Medyczny w Piotrków Trybunalski,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+239,Uniwersytet Medyczny w Piotrków Trybunalski,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+240,Universität für Musik und darstellende Kunst Mannheim,1ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+240,Universität für Musik und darstellende Kunst Mannheim,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+240,Universität für Musik und darstellende Kunst Mannheim,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+240,Universität für Musik und darstellende Kunst Mannheim,Adjudicación Final,4,4,1,0,0,1,25.0,0.0,Baja
+241,Università Telematica Pegaso,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+241,Università Telematica Pegaso,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+241,Università Telematica Pegaso,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+241,Università Telematica Pegaso,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+242,Université de l'Île de Guam,1ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+242,Université de l'Île de Guam,2ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+242,Université de l'Île de Guam,3ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+242,Université de l'Île de Guam,Adjudicación Final,2,2,2,6,0,8,100.0,0.0,Alta
+243,Uniwersytet Medyczny w Płock,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+243,Uniwersytet Medyczny w Płock,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+243,Uniwersytet Medyczny w Płock,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+243,Uniwersytet Medyczny w Płock,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+244,Universität für Musik und darstellende Kunst Leipzig,1ª Adjudicación,5,5,5,3,0,8,100.0,0.0,Media
+244,Universität für Musik und darstellende Kunst Leipzig,2ª Adjudicación,5,5,3,0,1,3,60.0,33.33,Baja
+244,Universität für Musik und darstellende Kunst Leipzig,3ª Adjudicación,5,6,1,0,1,1,20.0,100.0,Baja
+244,Universität für Musik und darstellende Kunst Leipzig,Adjudicación Final,5,6,6,0,0,6,120.0,0.0,Media
+245,Università degli Studi eCampus,1ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+245,Università degli Studi eCampus,2ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+245,Università degli Studi eCampus,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+245,Università degli Studi eCampus,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+246,Université de l'Île de American Samoa,1ª Adjudicación,0,0,0,10,0,10,0.0,0.0,Alta
+246,Université de l'Île de American Samoa,2ª Adjudicación,0,0,0,10,0,10,0.0,0.0,Alta
+246,Université de l'Île de American Samoa,3ª Adjudicación,0,0,0,10,0,10,0.0,0.0,Alta
+246,Université de l'Île de American Samoa,Adjudicación Final,0,0,0,10,0,10,0.0,0.0,Alta
+247,Uniwersytet Medyczny w Ostrołęka,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+247,Uniwersytet Medyczny w Ostrołęka,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+247,Uniwersytet Medyczny w Ostrołęka,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+247,Uniwersytet Medyczny w Ostrołęka,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+248,Universität für Musik und darstellende Kunst Dresden,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+248,Universität für Musik und darstellende Kunst Dresden,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+248,Universität für Musik und darstellende Kunst Dresden,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+248,Universität für Musik und darstellende Kunst Dresden,Adjudicación Final,1,1,1,1,0,2,100.0,0.0,Media
+249,Università Telematica Internazionale UNINETTUNO,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+249,Università Telematica Internazionale UNINETTUNO,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+249,Università Telematica Internazionale UNINETTUNO,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+249,Università Telematica Internazionale UNINETTUNO,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+250,Université de l'Île de Wake Island,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+250,Université de l'Île de Wake Island,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+250,Université de l'Île de Wake Island,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+250,Université de l'Île de Wake Island,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+251,Uniwersytet Medyczny w Nowy Sącz,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+251,Uniwersytet Medyczny w Nowy Sącz,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+251,Uniwersytet Medyczny w Nowy Sącz,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+251,Uniwersytet Medyczny w Nowy Sącz,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+252,Universität für Musik und darstellende Kunst München,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+252,Universität für Musik und darstellende Kunst München,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+252,Universität für Musik und darstellende Kunst München,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+252,Universität für Musik und darstellende Kunst München,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+253,Università degli studi Roma Tre,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+253,Università degli studi Roma Tre,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+253,Università degli studi Roma Tre,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+253,Università degli studi Roma Tre,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+254,Université de l'Île de Johnston Atoll,1ª Adjudicación,5,5,5,1,1,6,100.0,20.0,Media
+254,Université de l'Île de Johnston Atoll,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+254,Université de l'Île de Johnston Atoll,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+254,Université de l'Île de Johnston Atoll,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+255,Uniwersytet Medyczny w Biała Podlaska,1ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+255,Uniwersytet Medyczny w Biała Podlaska,2ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+255,Uniwersytet Medyczny w Biała Podlaska,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+255,Uniwersytet Medyczny w Biała Podlaska,Adjudicación Final,3,3,2,0,0,2,66.67,0.0,Baja
+256,Universität für Musik und darstellende Kunst Berlin,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+256,Universität für Musik und darstellende Kunst Berlin,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+256,Universität für Musik und darstellende Kunst Berlin,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+256,Universität für Musik und darstellende Kunst Berlin,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+257,Università degli Studi di Modena e Reggio Emilia,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+257,Università degli Studi di Modena e Reggio Emilia,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+257,Università degli Studi di Modena e Reggio Emilia,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+257,Università degli Studi di Modena e Reggio Emilia,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+258,Université de l'Île de Midway Islands,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+258,Université de l'Île de Midway Islands,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+258,Université de l'Île de Midway Islands,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+258,Université de l'Île de Midway Islands,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+259,Uniwersytet Medyczny w Zgierz,1ª Adjudicación,4,4,4,6,0,10,100.0,0.0,Alta
+259,Uniwersytet Medyczny w Zgierz,2ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+259,Uniwersytet Medyczny w Zgierz,3ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+259,Uniwersytet Medyczny w Zgierz,Adjudicación Final,4,4,4,5,0,9,100.0,0.0,Alta
+260,Universität für Musik und darstellende Kunst Hannover,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+260,Universität für Musik und darstellende Kunst Hannover,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+260,Universität für Musik und darstellende Kunst Hannover,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+260,Universität für Musik und darstellende Kunst Hannover,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+261,Università degli Studi di Firenze,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+261,Università degli Studi di Firenze,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+261,Università degli Studi di Firenze,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+261,Università degli Studi di Firenze,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+262,Université de l'Île de Palmyra Atoll,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+262,Université de l'Île de Palmyra Atoll,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+262,Université de l'Île de Palmyra Atoll,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+262,Université de l'Île de Palmyra Atoll,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+263,Uniwersytet Medyczny w Jelenia Góra,1ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+263,Uniwersytet Medyczny w Jelenia Góra,2ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+263,Uniwersytet Medyczny w Jelenia Góra,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+263,Uniwersytet Medyczny w Jelenia Góra,Adjudicación Final,3,3,3,3,0,6,100.0,0.0,Media
+264,Universität für Musik und darstellende Kunst Hamburg,1ª Adjudicación,0,0,0,2,0,2,0.0,0.0,Alta
+264,Universität für Musik und darstellende Kunst Hamburg,2ª Adjudicación,0,0,0,2,0,2,0.0,0.0,Alta
+264,Universität für Musik und darstellende Kunst Hamburg,3ª Adjudicación,0,0,0,2,0,2,0.0,0.0,Alta
+264,Universität für Musik und darstellende Kunst Hamburg,Adjudicación Final,0,0,0,2,0,2,0.0,0.0,Alta
+265,Università degli Studi di Siena,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+265,Università degli Studi di Siena,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+265,Università degli Studi di Siena,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+265,Università degli Studi di Siena,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+266,Université de l'Île de Kingman Reef,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+266,Université de l'Île de Kingman Reef,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+266,Université de l'Île de Kingman Reef,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+266,Université de l'Île de Kingman Reef,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+267,Uniwersytet Medyczny w Bielsko-Biała,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+267,Uniwersytet Medyczny w Bielsko-Biała,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+267,Uniwersytet Medyczny w Bielsko-Biała,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+267,Uniwersytet Medyczny w Bielsko-Biała,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+268,Universität für Musik und darstellende Kunst Stuttgart,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+268,Universität für Musik und darstellende Kunst Stuttgart,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+268,Universität für Musik und darstellende Kunst Stuttgart,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+268,Universität für Musik und darstellende Kunst Stuttgart,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+269,Università degli Studi di Pisa,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+269,Università degli Studi di Pisa,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+269,Università degli Studi di Pisa,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+269,Università degli Studi di Pisa,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+270,Université de l'Île de Jarvis Island,1ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+270,Université de l'Île de Jarvis Island,2ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+270,Université de l'Île de Jarvis Island,3ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+270,Université de l'Île de Jarvis Island,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+271,Uniwersytet Medyczny w Legionowo,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+271,Uniwersytet Medyczny w Legionowo,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+271,Uniwersytet Medyczny w Legionowo,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+271,Uniwersytet Medyczny w Legionowo,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+272,Universität für Musik und darstellende Kunst Frankfurt,1ª Adjudicación,5,5,5,5,0,10,100.0,0.0,Media
+272,Universität für Musik und darstellende Kunst Frankfurt,2ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+272,Universität für Musik und darstellende Kunst Frankfurt,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+272,Universität für Musik und darstellende Kunst Frankfurt,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+273,Università degli Studi di Napoli Federico II,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+273,Università degli Studi di Napoli Federico II,2ª Adjudicación,1,1,1,0,1,1,100.0,100.0,Baja
+273,Università degli Studi di Napoli Federico II,3ª Adjudicación,1,1,2,1,0,3,200.0,0.0,Alta
+273,Università degli Studi di Napoli Federico II,Adjudicación Final,1,1,1,1,0,2,100.0,0.0,Media
+274,Université de l'Île de Howland Island,1ª Adjudicación,4,4,4,1,1,5,100.0,25.0,Media
+274,Université de l'Île de Howland Island,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+274,Université de l'Île de Howland Island,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+274,Université de l'Île de Howland Island,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+275,Uniwersytet Medyczny w Otwock,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+275,Uniwersytet Medyczny w Otwock,2ª Adjudicación,5,5,3,0,1,3,60.0,33.33,Baja
+275,Uniwersytet Medyczny w Otwock,3ª Adjudicación,5,6,1,0,1,1,20.0,100.0,Baja
+275,Uniwersytet Medyczny w Otwock,Adjudicación Final,5,6,4,0,0,4,80.0,0.0,Baja
+276,Universität für Musik und darstellende Kunst Mannheim,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+276,Universität für Musik und darstellende Kunst Mannheim,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+276,Universität für Musik und darstellende Kunst Mannheim,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+276,Universität für Musik und darstellende Kunst Mannheim,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+277,Università degli Studi di Napoli Parthenope,1ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+277,Università degli Studi di Napoli Parthenope,2ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+277,Università degli Studi di Napoli Parthenope,3ª Adjudicación,1,1,0,0,0,0,0.0,0.0,Baja
+277,Università degli Studi di Napoli Parthenope,Adjudicación Final,1,1,1,1,0,2,100.0,0.0,Media
+278,Université de l'Île de Baker Island,1ª Adjudicación,3,3,3,4,0,7,100.0,0.0,Alta
+278,Université de l'Île de Baker Island,2ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+278,Université de l'Île de Baker Island,3ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+278,Université de l'Île de Baker Island,Adjudicación Final,3,3,3,4,0,7,100.0,0.0,Alta
+279,Uniwersytet Medyczny w Świdnik,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+279,Uniwersytet Medyczny w Świdnik,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+279,Uniwersytet Medyczny w Świdnik,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+279,Uniwersytet Medyczny w Świdnik,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+280,Universität für Musik und darstellende Kunst Leipzig,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+280,Universität für Musik und darstellende Kunst Leipzig,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+280,Universität für Musik und darstellende Kunst Leipzig,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+280,Universität für Musik und darstellende Kunst Leipzig,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+281,Università degli Studi di Torino,1ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+281,Università degli Studi di Torino,2ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+281,Università degli Studi di Torino,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+281,Università degli Studi di Torino,Adjudicación Final,3,3,1,0,0,1,33.33,0.0,Baja
+282,Université de l'Île de Navassa Island,1ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+282,Université de l'Île de Navassa Island,2ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+282,Université de l'Île de Navassa Island,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+282,Université de l'Île de Navassa Island,Adjudicación Final,3,3,3,1,0,4,100.0,0.0,Media
+283,Uniwersytet Medyczny w Świebodzin,1ª Adjudicación,5,5,2,0,1,2,40.0,50.0,Baja
+283,Uniwersytet Medyczny w Świebodzin,2ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+283,Uniwersytet Medyczny w Świebodzin,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+283,Uniwersytet Medyczny w Świebodzin,Adjudicación Final,5,5,1,0,0,1,20.0,0.0,Baja
+284,Universität für Musik und darstellende Kunst Dresden,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+284,Universität für Musik und darstellende Kunst Dresden,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+284,Universität für Musik und darstellende Kunst Dresden,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+284,Universität für Musik und darstellende Kunst Dresden,Adjudicación Final,4,4,4,1,0,5,100.0,0.0,Media
+285,Università degli Studi di Napoli L'Orientale,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+285,Università degli Studi di Napoli L'Orientale,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+285,Università degli Studi di Napoli L'Orientale,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+285,Università degli Studi di Napoli L'Orientale,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+286,Université de l'Île de Serranilla Bank,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+286,Université de l'Île de Serranilla Bank,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+286,Université de l'Île de Serranilla Bank,3ª Adjudicación,1,1,1,0,1,1,100.0,100.0,Baja
+286,Université de l'Île de Serranilla Bank,Adjudicación Final,1,1,2,2,0,4,200.0,0.0,Alta
+287,Uniwersytet Medyczny w Piotrków Trybunalski,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+287,Uniwersytet Medyczny w Piotrków Trybunalski,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+287,Uniwersytet Medyczny w Piotrków Trybunalski,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+287,Uniwersytet Medyczny w Piotrków Trybunalski,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+288,Universität für Musik und darstellende Kunst München,1ª Adjudicación,2,2,2,6,1,8,100.0,50.0,Alta
+288,Universität für Musik und darstellende Kunst München,2ª Adjudicación,2,2,3,5,1,8,150.0,33.33,Alta
+288,Universität für Musik und darstellende Kunst München,3ª Adjudicación,2,2,3,4,1,7,150.0,33.33,Alta
+288,Universität für Musik und darstellende Kunst München,Adjudicación Final,2,2,3,6,0,9,150.0,0.0,Alta
+289,Università degli Studi di Milano-Bicocca,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+289,Università degli Studi di Milano-Bicocca,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+289,Università degli Studi di Milano-Bicocca,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+289,Università degli Studi di Milano-Bicocca,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+290,Université de l'Île de Bajo Nuevo Bank,1ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+290,Université de l'Île de Bajo Nuevo Bank,2ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+290,Université de l'Île de Bajo Nuevo Bank,3ª Adjudicación,0,0,0,5,0,5,0.0,0.0,Alta
+290,Université de l'Île de Bajo Nuevo Bank,Adjudicación Final,0,0,0,3,0,3,0.0,0.0,Alta
+291,Uniwersytet Medyczny w Płock,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+291,Uniwersytet Medyczny w Płock,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+291,Uniwersytet Medyczny w Płock,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+291,Uniwersytet Medyczny w Płock,Adjudicación Final,5,5,2,0,0,2,40.0,0.0,Baja
+292,Universität für Musik und darstellende Kunst Berlin,1ª Adjudicación,2,2,2,6,0,8,100.0,0.0,Alta
+292,Universität für Musik und darstellende Kunst Berlin,2ª Adjudicación,2,2,2,3,1,5,100.0,50.0,Alta
+292,Universität für Musik und darstellende Kunst Berlin,3ª Adjudicación,2,2,3,3,0,6,150.0,0.0,Alta
+292,Universität für Musik und darstellende Kunst Berlin,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+293,Università degli Studi di Bologna,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+293,Università degli Studi di Bologna,2ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+293,Università degli Studi di Bologna,3ª Adjudicación,5,5,1,0,1,1,20.0,100.0,Baja
+293,Università degli Studi di Bologna,Adjudicación Final,5,6,5,0,0,5,100.0,0.0,Baja
+294,Université de l'Île de Sint Eustatius,1ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+294,Université de l'Île de Sint Eustatius,2ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+294,Université de l'Île de Sint Eustatius,3ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+294,Université de l'Île de Sint Eustatius,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+295,Uniwersytet Medyczny w Ostrołęka,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+295,Uniwersytet Medyczny w Ostrołęka,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+295,Uniwersytet Medyczny w Ostrołęka,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+295,Uniwersytet Medyczny w Ostrołęka,Adjudicación Final,4,4,2,0,0,2,50.0,0.0,Baja
+296,Universität für Musik und darstellende Kunst Hannover,1ª Adjudicación,5,5,5,0,2,5,100.0,40.0,Baja
+296,Universität für Musik und darstellende Kunst Hannover,2ª Adjudicación,5,6,4,0,2,4,80.0,50.0,Baja
+296,Universität für Musik und darstellende Kunst Hannover,3ª Adjudicación,5,7,3,0,1,3,60.0,33.33,Baja
+296,Universität für Musik und darstellende Kunst Hannover,Adjudicación Final,5,6,3,0,0,3,60.0,0.0,Baja
+297,Università degli Studi di Milano,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+297,Università degli Studi di Milano,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+297,Università degli Studi di Milano,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+297,Università degli Studi di Milano,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+298,Université de l'Île de Saba,1ª Adjudicación,5,5,5,1,0,6,100.0,0.0,Media
+298,Université de l'Île de Saba,2ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+298,Université de l'Île de Saba,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+298,Université de l'Île de Saba,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+299,Uniwersytet Medyczny w Nowy Sącz,1ª Adjudicación,4,4,4,4,1,8,100.0,25.0,Media
+299,Uniwersytet Medyczny w Nowy Sącz,2ª Adjudicación,4,4,5,1,1,6,125.0,20.0,Media
+299,Uniwersytet Medyczny w Nowy Sącz,3ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+299,Uniwersytet Medyczny w Nowy Sącz,Adjudicación Final,4,5,5,3,0,8,125.0,0.0,Media
+300,Universität für Musik und darstellende Kunst Hamburg,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+300,Universität für Musik und darstellende Kunst Hamburg,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+300,Universität für Musik und darstellende Kunst Hamburg,3ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+300,Universität für Musik und darstellende Kunst Hamburg,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+301,Università degli Studi di Padova,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+301,Università degli Studi di Padova,2ª Adjudicación,5,5,3,0,2,3,60.0,66.67,Baja
+301,Università degli Studi di Padova,3ª Adjudicación,5,7,2,0,2,2,40.0,100.0,Baja
+301,Università degli Studi di Padova,Adjudicación Final,5,7,3,0,0,3,60.0,0.0,Baja
+302,Université de l'Île de Bonaire,1ª Adjudicación,5,5,5,0,2,5,100.0,40.0,Baja
+302,Université de l'Île de Bonaire,2ª Adjudicación,5,5,6,0,0,6,120.0,0.0,Media
+302,Université de l'Île de Bonaire,3ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+302,Université de l'Île de Bonaire,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+303,Uniwersytet Medyczny w Biała Podlaska,1ª Adjudicación,5,5,5,0,2,5,100.0,40.0,Baja
+303,Uniwersytet Medyczny w Biała Podlaska,2ª Adjudicación,5,6,4,0,2,4,80.0,50.0,Baja
+303,Uniwersytet Medyczny w Biała Podlaska,3ª Adjudicación,5,7,2,0,0,2,40.0,0.0,Baja
+303,Uniwersytet Medyczny w Biała Podlaska,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+304,Universität für Musik und darstellende Kunst Stuttgart,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+304,Universität für Musik und darstellende Kunst Stuttgart,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+304,Universität für Musik und darstellende Kunst Stuttgart,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+304,Universität für Musik und darstellende Kunst Stuttgart,Adjudicación Final,2,2,2,2,0,4,100.0,0.0,Media
+305,Università degli Studi di Roma Tor Vergata,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+305,Università degli Studi di Roma Tor Vergata,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+305,Università degli Studi di Roma Tor Vergata,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+305,Università degli Studi di Roma Tor Vergata,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+306,Université de l'Île de Sint Maarten,1ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+306,Université de l'Île de Sint Maarten,2ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+306,Université de l'Île de Sint Maarten,3ª Adjudicación,0,0,0,7,0,7,0.0,0.0,Alta
+306,Université de l'Île de Sint Maarten,Adjudicación Final,0,0,0,7,0,7,0.0,0.0,Alta
+307,Uniwersytet Medyczny w Zgierz,1ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+307,Uniwersytet Medyczny w Zgierz,2ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+307,Uniwersytet Medyczny w Zgierz,3ª Adjudicación,0,0,0,3,0,3,0.0,0.0,Alta
+307,Uniwersytet Medyczny w Zgierz,Adjudicación Final,0,0,0,3,0,3,0.0,0.0,Alta
+308,Universität für Musik und darstellende Kunst Frankfurt,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+308,Universität für Musik und darstellende Kunst Frankfurt,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+308,Universität für Musik und darstellende Kunst Frankfurt,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+308,Universität für Musik und darstellende Kunst Frankfurt,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+309,Università degli Studi di Verona,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+309,Università degli Studi di Verona,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+309,Università degli Studi di Verona,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+309,Università degli Studi di Verona,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+310,Université de l'Île de Saint Martin,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+310,Université de l'Île de Saint Martin,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+310,Université de l'Île de Saint Martin,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+310,Université de l'Île de Saint Martin,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+311,Uniwersytet Medyczny w Jelenia Góra,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+311,Uniwersytet Medyczny w Jelenia Góra,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+311,Uniwersytet Medyczny w Jelenia Góra,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+311,Uniwersytet Medyczny w Jelenia Góra,Adjudicación Final,5,5,2,0,0,2,40.0,0.0,Baja
+312,Universität für Musik und darstellende Kunst Mannheim,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+312,Universität für Musik und darstellende Kunst Mannheim,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+312,Universität für Musik und darstellende Kunst Mannheim,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+312,Universität für Musik und darstellende Kunst Mannheim,Adjudicación Final,2,2,2,2,0,4,100.0,0.0,Media
+313,Università degli Studi di Genova,1ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+313,Università degli Studi di Genova,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+313,Università degli Studi di Genova,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+313,Università degli Studi di Genova,Adjudicación Final,4,4,2,0,0,2,50.0,0.0,Baja
+314,Université de l'Île de Curaçao,1ª Adjudicación,2,2,2,4,0,6,100.0,0.0,Alta
+314,Université de l'Île de Curaçao,2ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+314,Université de l'Île de Curaçao,3ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+314,Université de l'Île de Curaçao,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+315,Uniwersytet Medyczny w Bielsko-Biała,1ª Adjudicación,5,5,5,2,1,7,100.0,20.0,Media
+315,Uniwersytet Medyczny w Bielsko-Biała,2ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+315,Uniwersytet Medyczny w Bielsko-Biała,3ª Adjudicación,5,5,1,0,1,1,20.0,100.0,Baja
+315,Uniwersytet Medyczny w Bielsko-Biała,Adjudicación Final,5,6,6,0,0,6,120.0,0.0,Media
+316,Universität für Musik und darstellende Kunst Leipzig,1ª Adjudicación,5,5,5,2,0,7,100.0,0.0,Media
+316,Universität für Musik und darstellende Kunst Leipzig,2ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+316,Universität für Musik und darstellende Kunst Leipzig,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+316,Universität für Musik und darstellende Kunst Leipzig,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+317,Università degli Studi di Salerno,1ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+317,Università degli Studi di Salerno,2ª Adjudicación,1,1,0,0,0,0,0.0,0.0,Baja
+317,Università degli Studi di Salerno,3ª Adjudicación,1,1,0,0,0,0,0.0,0.0,Baja
+317,Università degli Studi di Salerno,Adjudicación Final,1,1,1,0,0,1,100.0,0.0,Baja
+318,Université de l'Île de Aruba,1ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+318,Université de l'Île de Aruba,2ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+318,Université de l'Île de Aruba,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+318,Université de l'Île de Aruba,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+319,Uniwersytet Medyczny w Legionowo,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+319,Uniwersytet Medyczny w Legionowo,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+319,Uniwersytet Medyczny w Legionowo,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+319,Uniwersytet Medyczny w Legionowo,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+320,Universität für Musik und darstellende Kunst Dresden,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+320,Universität für Musik und darstellende Kunst Dresden,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+320,Universität für Musik und darstellende Kunst Dresden,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+320,Universität für Musik und darstellende Kunst Dresden,Adjudicación Final,3,3,3,2,0,5,100.0,0.0,Media
+321,Università degli Studi di Palermo,1ª Adjudicación,4,4,4,2,1,6,100.0,25.0,Media
+321,Università degli Studi di Palermo,2ª Adjudicación,4,4,5,0,1,5,125.0,20.0,Media
+321,Università degli Studi di Palermo,3ª Adjudicación,4,5,2,0,1,2,50.0,50.0,Baja
+321,Università degli Studi di Palermo,Adjudicación Final,4,5,4,0,0,4,100.0,0.0,Baja
+322,Université de l'Île de Saint Barthélemy,1ª Adjudicación,2,2,2,10,1,12,100.0,50.0,Alta
+322,Université de l'Île de Saint Barthélemy,2ª Adjudicación,2,2,3,9,1,12,150.0,33.33,Alta
+322,Université de l'Île de Saint Barthélemy,3ª Adjudicación,2,2,3,9,0,12,150.0,0.0,Alta
+322,Université de l'Île de Saint Barthélemy,Adjudicación Final,2,2,2,6,0,8,100.0,0.0,Alta
+323,Uniwersytet Medyczny w Otwock,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+323,Uniwersytet Medyczny w Otwock,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+323,Uniwersytet Medyczny w Otwock,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+323,Uniwersytet Medyczny w Otwock,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+324,Universität für Musik und darstellende Kunst München,1ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+324,Universität für Musik und darstellende Kunst München,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+324,Universität für Musik und darstellende Kunst München,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+324,Universität für Musik und darstellende Kunst München,Adjudicación Final,4,4,2,0,0,2,50.0,0.0,Baja
+325,Università degli Studi di Perugia,1ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+325,Università degli Studi di Perugia,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+325,Università degli Studi di Perugia,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+325,Università degli Studi di Perugia,Adjudicación Final,2,2,1,0,0,1,50.0,0.0,Baja
+326,Université de l'Île de Anguilla,1ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+326,Université de l'Île de Anguilla,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+326,Université de l'Île de Anguilla,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+326,Université de l'Île de Anguilla,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+327,Uniwersytet Medyczny w Świdnik,1ª Adjudicación,5,5,5,0,1,5,100.0,20.0,Baja
+327,Uniwersytet Medyczny w Świdnik,2ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+327,Uniwersytet Medyczny w Świdnik,3ª Adjudicación,5,5,1,0,1,1,20.0,100.0,Baja
+327,Uniwersytet Medyczny w Świdnik,Adjudicación Final,5,6,4,0,0,4,80.0,0.0,Baja
+328,Universität für Musik und darstellende Kunst Berlin,1ª Adjudicación,2,2,2,2,0,4,100.0,0.0,Media
+328,Universität für Musik und darstellende Kunst Berlin,2ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+328,Universität für Musik und darstellende Kunst Berlin,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+328,Universität für Musik und darstellende Kunst Berlin,Adjudicación Final,2,2,2,1,0,3,100.0,0.0,Media
+329,Università degli Studi di Trento,1ª Adjudicación,2,2,2,4,1,6,100.0,50.0,Alta
+329,Università degli Studi di Trento,2ª Adjudicación,2,2,3,4,0,7,150.0,0.0,Alta
+329,Università degli Studi di Trento,3ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+329,Università degli Studi di Trento,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+330,Université de l'Île de British Virgin Islands,1ª Adjudicación,4,4,4,1,1,5,100.0,25.0,Media
+330,Université de l'Île de British Virgin Islands,2ª Adjudicación,4,4,4,0,1,4,100.0,25.0,Baja
+330,Université de l'Île de British Virgin Islands,3ª Adjudicación,4,5,1,0,0,1,25.0,0.0,Baja
+330,Université de l'Île de British Virgin Islands,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+331,Uniwersytet Medyczny w Świebodzin,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+331,Uniwersytet Medyczny w Świebodzin,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+331,Uniwersytet Medyczny w Świebodzin,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+331,Uniwersytet Medyczny w Świebodzin,Adjudicación Final,2,2,2,3,0,5,100.0,0.0,Alta
+332,Universität für Musik und darstellende Kunst Hannover,1ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+332,Universität für Musik und darstellende Kunst Hannover,2ª Adjudicación,1,1,1,1,0,2,100.0,0.0,Media
+332,Universität für Musik und darstellende Kunst Hannover,3ª Adjudicación,1,1,1,0,0,1,100.0,0.0,Baja
+332,Universität für Musik und darstellende Kunst Hannover,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+333,Università degli Studi di Udine,1ª Adjudicación,4,4,4,2,0,6,100.0,0.0,Media
+333,Università degli Studi di Udine,2ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+333,Università degli Studi di Udine,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+333,Università degli Studi di Udine,Adjudicación Final,4,4,4,0,0,4,100.0,0.0,Baja
+334,Université de l'Île de U.S. Virgin Islands,1ª Adjudicación,3,3,3,5,0,8,100.0,0.0,Alta
+334,Université de l'Île de U.S. Virgin Islands,2ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+334,Université de l'Île de U.S. Virgin Islands,3ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+334,Université de l'Île de U.S. Virgin Islands,Adjudicación Final,3,3,3,5,0,8,100.0,0.0,Alta
+335,Uniwersytet Medyczny w Piotrków Trybunalski,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+335,Uniwersytet Medyczny w Piotrków Trybunalski,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+335,Uniwersytet Medyczny w Piotrków Trybunalski,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+335,Uniwersytet Medyczny w Piotrków Trybunalski,Adjudicación Final,2,2,2,5,0,7,100.0,0.0,Alta
+336,Universität für Musik und darstellende Kunst Hamburg,1ª Adjudicación,5,5,5,3,1,8,100.0,20.0,Media
+336,Universität für Musik und darstellende Kunst Hamburg,2ª Adjudicación,5,5,6,0,0,6,120.0,0.0,Media
+336,Universität für Musik und darstellende Kunst Hamburg,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+336,Universität für Musik und darstellende Kunst Hamburg,Adjudicación Final,5,5,5,2,0,7,100.0,0.0,Media
+337,Università degli Studi di Pavia,1ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+337,Università degli Studi di Pavia,2ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+337,Università degli Studi di Pavia,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+337,Università degli Studi di Pavia,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+338,Université de l'Île de Turks and Caicos Islands,1ª Adjudicación,3,3,3,2,0,5,100.0,0.0,Media
+338,Université de l'Île de Turks and Caicos Islands,2ª Adjudicación,3,3,2,0,0,2,66.67,0.0,Baja
+338,Université de l'Île de Turks and Caicos Islands,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+338,Université de l'Île de Turks and Caicos Islands,Adjudicación Final,3,3,3,0,0,3,100.0,0.0,Baja
+339,Uniwersytet Medyczny w Płock,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+339,Uniwersytet Medyczny w Płock,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+339,Uniwersytet Medyczny w Płock,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+339,Uniwersytet Medyczny w Płock,Adjudicación Final,5,5,2,0,0,2,40.0,0.0,Baja
+340,Universität für Musik und darstellende Kunst Stuttgart,1ª Adjudicación,1,1,1,8,0,9,100.0,0.0,Alta
+340,Universität für Musik und darstellende Kunst Stuttgart,2ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+340,Universität für Musik und darstellende Kunst Stuttgart,3ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+340,Universität für Musik und darstellende Kunst Stuttgart,Adjudicación Final,1,1,1,7,0,8,100.0,0.0,Alta
+341,Università degli Studi di Trieste,1ª Adjudicación,4,4,4,4,1,8,100.0,25.0,Media
+341,Università degli Studi di Trieste,2ª Adjudicación,4,4,5,1,1,6,125.0,20.0,Media
+341,Università degli Studi di Trieste,3ª Adjudicación,4,4,5,0,0,5,125.0,0.0,Media
+341,Università degli Studi di Trieste,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+342,Université de l'Île de Cayman Islands,1ª Adjudicación,4,4,3,0,0,3,75.0,0.0,Baja
+342,Université de l'Île de Cayman Islands,2ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+342,Université de l'Île de Cayman Islands,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+342,Université de l'Île de Cayman Islands,Adjudicación Final,4,4,3,0,0,3,75.0,0.0,Baja
+343,Uniwersytet Medyczny w Ostrołęka,1ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+343,Uniwersytet Medyczny w Ostrołęka,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+343,Uniwersytet Medyczny w Ostrołęka,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+343,Uniwersytet Medyczny w Ostrołęka,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+344,Universität für Musik und darstellende Kunst Frankfurt,1ª Adjudicación,3,3,3,4,1,7,100.0,33.33,Alta
+344,Universität für Musik und darstellende Kunst Frankfurt,2ª Adjudicación,3,3,4,2,1,6,133.33,25.0,Media
+344,Universität für Musik und darstellende Kunst Frankfurt,3ª Adjudicación,3,3,4,0,1,4,133.33,25.0,Media
+344,Universität für Musik und darstellende Kunst Frankfurt,Adjudicación Final,3,3,4,3,0,7,133.33,0.0,Alta
+345,Università degli Studi di Bari Aldo Moro,1ª Adjudicación,2,2,2,0,0,2,100.0,0.0,Baja
+345,Università degli Studi di Bari Aldo Moro,2ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+345,Università degli Studi di Bari Aldo Moro,3ª Adjudicación,2,2,0,0,0,0,0.0,0.0,Baja
+345,Università degli Studi di Bari Aldo Moro,Adjudicación Final,2,2,2,0,0,2,100.0,0.0,Baja
+346,Université de l'Île de Bermuda,1ª Adjudicación,5,5,5,0,0,5,100.0,0.0,Baja
+346,Université de l'Île de Bermuda,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+346,Université de l'Île de Bermuda,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+346,Université de l'Île de Bermuda,Adjudicación Final,5,5,5,0,0,5,100.0,0.0,Baja
+347,Uniwersytet Medyczny w Nowy Sącz,1ª Adjudicación,5,5,5,1,1,6,100.0,20.0,Media
+347,Uniwersytet Medyczny w Nowy Sącz,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+347,Uniwersytet Medyczny w Nowy Sącz,3ª Adjudicación,5,5,1,0,0,1,20.0,0.0,Baja
+347,Uniwersytet Medyczny w Nowy Sącz,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+348,Universität für Musik und darstellende Kunst Mannheim,1ª Adjudicación,2,2,2,5,0,7,100.0,0.0,Alta
+348,Universität für Musik und darstellende Kunst Mannheim,2ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+348,Universität für Musik und darstellende Kunst Mannheim,3ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+348,Universität für Musik und darstellende Kunst Mannheim,Adjudicación Final,2,2,2,4,0,6,100.0,0.0,Alta
+349,Università degli Studi di Catanzaro,1ª Adjudicación,5,5,5,4,0,9,100.0,0.0,Media
+349,Università degli Studi di Catanzaro,2ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+349,Università degli Studi di Catanzaro,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+349,Università degli Studi di Catanzaro,Adjudicación Final,5,5,5,4,0,9,100.0,0.0,Media
+350,Université de l'Île de Montserrat,1ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+350,Université de l'Île de Montserrat,2ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+350,Université de l'Île de Montserrat,3ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+350,Université de l'Île de Montserrat,Adjudicación Final,1,1,1,3,0,4,100.0,0.0,Alta
+351,Uniwersytet Medyczny w Biała Podlaska,1ª Adjudicación,5,5,2,0,0,2,40.0,0.0,Baja
+351,Uniwersytet Medyczny w Biała Podlaska,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+351,Uniwersytet Medyczny w Biała Podlaska,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+351,Uniwersytet Medyczny w Biała Podlaska,Adjudicación Final,5,5,2,0,0,2,40.0,0.0,Baja
+352,Universität für Musik und darstellende Kunst Leipzig,1ª Adjudicación,4,4,4,2,1,6,100.0,25.0,Media
+352,Universität für Musik und darstellende Kunst Leipzig,2ª Adjudicación,4,4,5,0,0,5,125.0,0.0,Media
+352,Universität für Musik und darstellende Kunst Leipzig,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+352,Universität für Musik und darstellende Kunst Leipzig,Adjudicación Final,4,4,4,2,0,6,100.0,0.0,Media
+353,Università degli Studi di Sassari,1ª Adjudicación,4,4,4,5,0,9,100.0,0.0,Alta
+353,Università degli Studi di Sassari,2ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+353,Università degli Studi di Sassari,3ª Adjudicación,4,4,1,0,1,1,25.0,100.0,Baja
+353,Università degli Studi di Sassari,Adjudicación Final,4,5,5,3,0,8,125.0,0.0,Media
+354,Université de l'Île de Gibraltar,1ª Adjudicación,4,4,4,5,0,9,100.0,0.0,Alta
+354,Université de l'Île de Gibraltar,2ª Adjudicación,4,4,4,1,0,5,100.0,0.0,Media
+354,Université de l'Île de Gibraltar,3ª Adjudicación,4,4,1,0,0,1,25.0,0.0,Baja
+354,Université de l'Île de Gibraltar,Adjudicación Final,4,4,4,5,0,9,100.0,0.0,Alta
+355,Uniwersytet Medyczny w Zgierz,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+355,Uniwersytet Medyczny w Zgierz,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+355,Uniwersytet Medyczny w Zgierz,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+355,Uniwersytet Medyczny w Zgierz,Adjudicación Final,5,5,4,0,0,4,80.0,0.0,Baja
+356,Universität für Musik und darstellende Kunst Dresden,1ª Adjudicación,5,5,4,0,0,4,80.0,0.0,Baja
+356,Universität für Musik und darstellende Kunst Dresden,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+356,Universität für Musik und darstellende Kunst Dresden,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+356,Universität für Musik und darstellende Kunst Dresden,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+357,Università degli Studi di Camerino,1ª Adjudicación,3,3,3,1,0,4,100.0,0.0,Media
+357,Università degli Studi di Camerino,2ª Adjudicación,3,3,1,0,0,1,33.33,0.0,Baja
+357,Università degli Studi di Camerino,3ª Adjudicación,3,3,0,0,0,0,0.0,0.0,Baja
+357,Università degli Studi di Camerino,Adjudicación Final,3,3,2,0,0,2,66.67,0.0,Baja
+358,Université de l'Île de Guernsey,1ª Adjudicación,1,1,1,3,1,4,100.0,100.0,Alta
+358,Université de l'Île de Guernsey,2ª Adjudicación,1,1,2,4,0,6,200.0,0.0,Alta
+358,Université de l'Île de Guernsey,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+358,Université de l'Île de Guernsey,Adjudicación Final,1,1,1,2,0,3,100.0,0.0,Alta
+359,Uniwersytet Medyczny w Jelenia Góra,1ª Adjudicación,5,5,5,3,0,8,100.0,0.0,Media
+359,Uniwersytet Medyczny w Jelenia Góra,2ª Adjudicación,5,5,3,0,1,3,60.0,33.33,Baja
+359,Uniwersytet Medyczny w Jelenia Góra,3ª Adjudicación,5,6,1,0,0,1,20.0,0.0,Baja
+359,Uniwersytet Medyczny w Jelenia Góra,Adjudicación Final,5,5,5,1,0,6,100.0,0.0,Media
+360,Universität für Musik und darstellende Kunst München,1ª Adjudicación,4,4,4,3,1,7,100.0,25.0,Media
+360,Universität für Musik und darstellende Kunst München,2ª Adjudicación,4,4,5,1,0,6,125.0,0.0,Media
+360,Universität für Musik und darstellende Kunst München,3ª Adjudicación,4,4,2,0,0,2,50.0,0.0,Baja
+360,Universität für Musik und darstellende Kunst München,Adjudicación Final,4,4,4,3,0,7,100.0,0.0,Media
+361,Università degli Studi di Lecce,1ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+361,Università degli Studi di Lecce,2ª Adjudicación,1,1,1,4,0,5,100.0,0.0,Alta
+361,Università degli Studi di Lecce,3ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+361,Università degli Studi di Lecce,Adjudicación Final,1,1,1,5,0,6,100.0,0.0,Alta
+362,Université de l'Île de Jersey,1ª Adjudicación,1,1,1,3,0,4,100.0,0.0,Alta
+362,Université de l'Île de Jersey,2ª Adjudicación,1,1,1,2,0,3,100.0,0.0,Alta
+362,Université de l'Île de Jersey,3ª Adjudicación,1,1,1,0,1,1,100.0,100.0,Baja
+362,Université de l'Île de Jersey,Adjudicación Final,1,1,2,1,0,3,200.0,0.0,Alta
+363,Uniwersytet Medyczny w Bielsko-Biała,1ª Adjudicación,2,2,2,3,0,5,100.0,0.0,Alta
+363,Uniwersytet Medyczny w Bielsko-Biała,2ª Adjudicación,2,2,2,1,0,3,100.0,0.0,Media
+363,Uniwersytet Medyczny w Bielsko-Biała,3ª Adjudicación,2,2,1,0,0,1,50.0,0.0,Baja
+363,Uniwersytet Medyczny w Bielsko-Biała,Adjudicación Final,2,2,2,2,0,4,100.0,0.0,Media
+364,Universität für Musik und darstellende Kunst Berlin,1ª Adjudicación,3,3,3,6,0,9,100.0,0.0,Alta
+364,Universität für Musik und darstellende Kunst Berlin,2ª Adjudicación,3,3,3,3,0,6,100.0,0.0,Media
+364,Universität für Musik und darstellende Kunst Berlin,3ª Adjudicación,3,3,3,0,0,3,100.0,0.0,Baja
+364,Universität für Musik und darstellende Kunst Berlin,Adjudicación Final,3,3,3,6,0,9,100.0,0.0,Alta
+365,Università degli Studi di Parma,1ª Adjudicación,4,4,4,4,0,8,100.0,0.0,Media
+365,Università degli Studi di Parma,2ª Adjudicación,4,4,4,0,0,4,100.0,0.0,Baja
+365,Università degli Studi di Parma,3ª Adjudicación,4,4,0,0,0,0,0.0,0.0,Baja
+365,Università degli Studi di Parma,Adjudicación Final,4,4,4,4,0,8,100.0,0.0,Media
+366,Université de l'Île de Isle of Man,1ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+366,Université de l'Île de Isle of Man,2ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+366,Université de l'Île de Isle of Man,3ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+366,Université de l'Île de Isle of Man,Adjudicación Final,1,1,1,5,0,6,100.0,0.0,Alta
+367,Uniwersytet Medyczny w Legionowo,1ª Adjudicación,3,3,3,5,0,8,100.0,0.0,Alta
+367,Uniwersytet Medyczny w Legionowo,2ª Adjudicación,3,3,3,1,1,4,100.0,33.33,Media
+367,Uniwersytet Medyczny w Legionowo,3ª Adjudicación,3,3,4,0,1,4,133.33,25.0,Media
+367,Uniwersytet Medyczny w Legionowo,Adjudicación Final,3,4,4,3,0,7,133.33,0.0,Alta
+368,Universität für Musik und darstellende Kunst Hannover,1ª Adjudicación,1,1,1,1,1,2,100.0,100.0,Media
+368,Universität für Musik und darstellende Kunst Hannover,2ª Adjudicación,1,1,2,1,1,3,200.0,50.0,Alta
+368,Universität für Musik und darstellende Kunst Hannover,3ª Adjudicación,1,1,2,1,0,3,200.0,0.0,Alta
+368,Universität für Musik und darstellende Kunst Hannover,Adjudicación Final,1,1,1,1,0,2,100.0,0.0,Media
+369,Università degli Studi di Ferrara,1ª Adjudicación,1,1,1,7,0,8,100.0,0.0,Alta
+369,Università degli Studi di Ferrara,2ª Adjudicación,1,1,1,6,0,7,100.0,0.0,Alta
+369,Università degli Studi di Ferrara,3ª Adjudicación,1,1,1,5,0,6,100.0,0.0,Alta
+369,Università degli Studi di Ferrara,Adjudicación Final,1,1,1,4,0,5,100.0,0.0,Alta
+370,Université de l'Île de Faroe Islands,1ª Adjudicación,3,3,3,2,1,5,100.0,33.33,Media
+370,Université de l'Île de Faroe Islands,2ª Adjudicación,3,3,4,0,1,4,133.33,25.0,Media
+370,Université de l'Île de Faroe Islands,3ª Adjudicación,3,3,3,0,1,3,100.0,33.33,Baja
+370,Université de l'Île de Faroe Islands,Adjudicación Final,3,4,4,1,0,5,133.33,0.0,Media
+371,Uniwersytet Medyczny w Otwock,1ª Adjudicación,5,5,3,0,0,3,60.0,0.0,Baja
+371,Uniwersytet Medyczny w Otwock,2ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+371,Uniwersytet Medyczny w Otwock,3ª Adjudicación,5,5,0,0,0,0,0.0,0.0,Baja
+371,Uniwersytet Medyczny w Otwock,Adjudicación Final,5,5,3,0,0,3,60.0,0.0,Baja
+372,Universität für Musik und darstellende Kunst Hamburg,1ª Adjudicación,3,3,3,4,1,7,100.0,33.33,Alta
+372,Universität für Musik und darstellende Kunst Hamburg,2ª Adjudicación,3,3,4,2,1,6,133.33,25.0,Media
+372,Universität für Musik und darstellende Kunst Hamburg,3ª Adjudicación,3,3,4,2,0,6,133.33,0.0,Media
+372,Universität für Musik und darstellende Kunst Hamburg,Adjudicación Final,3,3,3,3,0,6,100.0,0.0,Media
